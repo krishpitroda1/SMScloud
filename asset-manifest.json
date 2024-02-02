@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/SMScloud/static/css/main.6eb4e9d4.css",
-    "main.js": "/SMScloud/static/js/main.68da9b97.js",
+    "main.js": "/SMScloud/static/js/main.dd65000b.js",
     "static/js/787.fda24d20.chunk.js": "/SMScloud/static/js/787.fda24d20.chunk.js",
     "static/media/bgvideo.mp4": "/SMScloud/static/media/bgvideo.eaa84a1e7c19d6295351.mp4",
     "static/media/managehubs.jpg": "/SMScloud/static/media/managehubs.258f2dfdc5ef3d832bdb.jpg",
@@ -52,11 +52,11 @@
     "static/media/slick.woff": "/SMScloud/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/SMScloud/index.html",
     "main.6eb4e9d4.css.map": "/SMScloud/static/css/main.6eb4e9d4.css.map",
-    "main.68da9b97.js.map": "/SMScloud/static/js/main.68da9b97.js.map",
+    "main.dd65000b.js.map": "/SMScloud/static/js/main.dd65000b.js.map",
     "787.fda24d20.chunk.js.map": "/SMScloud/static/js/787.fda24d20.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6eb4e9d4.css",
-    "static/js/main.68da9b97.js"
+    "static/js/main.dd65000b.js"
   ]
 }
