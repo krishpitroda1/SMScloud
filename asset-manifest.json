@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/SMScloud/static/css/main.96a4cb79.css",
-    "main.js": "/SMScloud/static/js/main.a1bc2608.js",
+    "main.css": "/SMScloud/static/css/main.71829f17.css",
+    "main.js": "/SMScloud/static/js/main.c7d6422a.js",
     "static/js/787.fda24d20.chunk.js": "/SMScloud/static/js/787.fda24d20.chunk.js",
     "static/media/bgvideo.mp4": "/SMScloud/static/media/bgvideo.eaa84a1e7c19d6295351.mp4",
     "static/media/managehubs.jpg": "/SMScloud/static/media/managehubs.258f2dfdc5ef3d832bdb.jpg",
@@ -57,12 +57,12 @@
     "static/media/slick.ttf": "/SMScloud/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "index.html": "/SMScloud/index.html",
     "static/media/slick.woff": "/SMScloud/static/media/slick.295183786cd8a1389865.woff",
-    "main.96a4cb79.css.map": "/SMScloud/static/css/main.96a4cb79.css.map",
-    "main.a1bc2608.js.map": "/SMScloud/static/js/main.a1bc2608.js.map",
+    "main.71829f17.css.map": "/SMScloud/static/css/main.71829f17.css.map",
+    "main.c7d6422a.js.map": "/SMScloud/static/js/main.c7d6422a.js.map",
     "787.fda24d20.chunk.js.map": "/SMScloud/static/js/787.fda24d20.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.96a4cb79.css",
-    "static/js/main.a1bc2608.js"
+    "static/css/main.71829f17.css",
+    "static/js/main.c7d6422a.js"
   ]
 }
