@@ -88,7 +88,7 @@ function App() {
    <ParticleBackground/>
     <div className="container mt-20">
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/SMScloud" element={<Home />} />
         <Route path="/About" element={<About />} />
         <Route path="/Contacts" element={<Contacts />} />
         {/* <Route path="/Products" element={<Products/>}></Route> */}

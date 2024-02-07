@@ -145,7 +145,7 @@ function Navbar() {
         </div>
         <div className="logo p-5">
           {/* Your logo component or image goes here */}
-          <Link to="/">
+          <Link to="/SMScloud">
             <img src={Logo} alt="Logo" />
           </Link>
         </div>
@@ -210,7 +210,7 @@ function Navbar() {
         }
       >
         <div className="flex flex-row justify-between items-center pe-5">
-          <Link to="/" onClick={() => setNav(true)}>
+          <Link to="/SMScloud" onClick={() => setNav(true)}>
             <img
               src={Logo}
               alt="SMSCloud Hub"
