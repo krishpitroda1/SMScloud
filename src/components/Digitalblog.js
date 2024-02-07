@@ -3,8 +3,8 @@ import img from '../assets/msme.webp'
 
 function Digitalblog() {
   return (
-    <div>
-    <div className=" w-screen relative pt-7 p-10" >
+    <div className=' relative pt-10 p-4 pb-10 w-screen'>
+    <div className=" " >
           <img
             src={img}
             className="w-[50%] h-96 mx-auto my-4 rounded-2xl flex"
@@ -20,7 +20,7 @@ function Digitalblog() {
           As per ibef.org as of the 27th of March 2022, India had more than 7.9 million micro, small, and medium-sized enterprises (MSMEs). The Indian government is working very hard to prepare its citizens for the digital transformation through a number of initiatives. </p>
           <p className="p-4  pb-0  text-lg font-sans">
           These businesses are gearing up for digital revolution. Getting ready for Digital Transformation. However they get tangled in the issues like...  </p>
-          <pre className="p-4 ml-4 font-bold pb-0  text-lg font-sans">
+          <p className="p-4 ml-4 font-bold pb-0  text-lg font-sans">
           – What to transform?
           <br/>
           – From where to start?
@@ -37,10 +37,10 @@ function Digitalblog() {
        
           – What would be impact on the business?
  
-          </pre>
+          </p>
           <p className="p-4  pb-0  text-lg font-sans">
           Let’s put some of the benefits of digital transformation for any business..  </p>
-           <pre className="p-4 pb-0 ml-4 text-xl font-sans font-bold">
+           <p className="p-4 pb-0 ml-4 text-xl font-sans font-bold">
           – Digital transformation closes the gap between customer expectation and way of delivery by business
           <br/>
           – With Digital Business it is easy to get access to Global Consumers
@@ -54,10 +54,10 @@ function Digitalblog() {
           – Lower Administration Cost
          <br/>
           – Improved Customer Support
-          </pre> 
+          </p> 
           <p className="p-4 pb-0 text-xl font-sans">
           How to make Digital Transformation a success for any business?</p>
-          <pre className="p-4 ml-4 font-bold pb-0 text-xl font-sans">
+          <p className="p-4 ml-4 font-bold pb-0 text-xl font-sans">
           – It all starts from acceptance from Leadership
           <br/>
         
@@ -80,10 +80,10 @@ function Digitalblog() {
         
         – Implementing Changes And keep Evaluating
         <br/>
-        – Consider Transformation as long term process and keep optimizing   </pre>
+        – Consider Transformation as long term process and keep optimizing   </p>
           <p className="p-4 pb-0 text-xl font-sans">
           Few Essential Tools to Support Your Digital Transformation </p>
-          <pre className="p-4 font-bold ml-4 pb-0 text-xl font-sans">
+          <p className="p-4 font-bold ml-4 pb-0 text-xl font-sans">
           – Beautiful Website with Click to Call, Contact Form and Product Deck Downloads with Data Collection
           <br/>
       
@@ -119,7 +119,7 @@ function Digitalblog() {
           <br/>
       
           – Video conferencing Tools
-       </pre>
+       </p>
           <p className="p-4 pb-0 text-xl font-sans">
           With 1.15 Billion Mobile Subscribers, 103 unicorns, 73000 DAIIPT Registered startups, 159,170 apps from Indian publishers on Google Play store, 7.9 Million MSMEs who did 71 billion digital payments (in FY 2022) in India are reshaping the Business Processes with digital Transformation.  </p>
           <p className="p-4 font-bold pb-0 text-xl font-sans">

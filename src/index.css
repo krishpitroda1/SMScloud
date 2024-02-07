@@ -26,7 +26,7 @@
       background-size: cover;
       background-size: 100% 100%; */
       /* background-color: skyblue; */
-      background: linear-gradient(to right, rgb(134, 239, 172), rgb(59, 130, 246), rgb(147, 51, 234));
+      /* background: linear-gradient(to right, rgb(134, 239, 172), rgb(59, 130, 246), rgb(147, 51, 234)); */
       overflow-x: hidden; 
       /* font-family: sans-serif; */
       /* font-family: 'Exo 2', sans-serif; */
@@ -39,7 +39,7 @@
         /* font-family: 'Merriweather', serif; */
         /* font-family: 'Montserrat', sans-serif; */
         /* font-family: 'Noto Sans', sans-serif; */
-        /* font-family: 'Open Sans', sans-serif; */
+        font-family: 'Open Sans', sans-serif;
         /* font-family: 'Playfair Display', serif; */
         /* font-family: 'Playpen Sans', cursive; */
         /* font-family: 'Raleway', sans-serif; */
@@ -76,12 +76,12 @@ video{
 html {
   scroll-behavior: smooth;
 }
-body {
+/* body {
   canvas {
     display: block;
     cursor: crosshair;
   }
-}
+} */
 .navbar {
   display: flex;
   align-items: center;
@@ -96,7 +96,6 @@ body {
 }
 .dropdown-link:hover .dropdown, .dropdown:hover {
   display: block;
-  top: 150%;
 }
 .dropdown {
   width: max-content;

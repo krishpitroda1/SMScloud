@@ -1,11 +1,8 @@
 import React from "react";
-
-import img from "C:/Users/krish/OneDrive/Desktop/sms2 - Copy/smsloud/src/assets/services.png";
 import { Link } from "react-router-dom";
-
-import img1 from "C:/Users/krish/OneDrive/Desktop/sms2 - Copy/smsloud/src/assets/wa.jpeg";
+import img1 from "C:/Users/krish/OneDrive/Desktop/sms3/smsloud/src/assets/wa.jpeg";
 import { AiOutlineClose } from "react-icons/ai";
-import img3 from "C:/Users/krish/OneDrive/Desktop/sms2 - Copy/smsloud/src/assets/circle.png";
+import img3 from "C:/Users/krish/OneDrive/Desktop/sms3/smsloud/src/assets/circle.png";
 
 function Wap(props) {
   const handleClose = () => {

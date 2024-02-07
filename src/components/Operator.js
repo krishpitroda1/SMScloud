@@ -6,7 +6,10 @@ import Cr from './Cr'
 import A2P from './A2P'
 function Operator() {
   return (
-    <div>
+    <div className='pt-16'>
+        <h1 className="relative w-screen  text-gray-600 text-center  font-bold text-3xl ">
+       Our Operator Services
+        </h1>
       <A2P/>
       <Manageit/>
       <Managehubs/>

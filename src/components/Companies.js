@@ -1,6 +1,6 @@
 import React from "react";
 import styled, { keyframes, css } from "styled-components";
-import monty from "../assets/monty.png"
+
 function Companies() {
   const row1 = [
     "https://upload.wikimedia.org/wikipedia/commons/f/fb/Bharti_Airtel_Logo.svg",
@@ -9,31 +9,40 @@ function Companies() {
     "https://upload.wikimedia.org/wikipedia/en/9/9a/Telin_company_logo.png",
     "https://www.mrmessaging.net/wp-content/uploads/2023/03/colour-landscape-for-white-background.svg",
     "https://www.gsma.com/get-involved/gsma-membership/wp-content/uploads/2020/10/Logo_DecisionTelecom_new_on_white-1.jpg",
-  ];
-
-  const row2 = [
     "https://www.nobelglobe.com/images/logoNobelGlobe.png",
     "https://www.zeroandone.me/svg/monty.svg",
     "https://www.thefastmode.com/media/k2/items/cache/dee28ad62abf908f66075848714e4dd5_XL.jpg?t=20200808_042815",
-    "https://ml-eu.globenewswire.com/Resource/Download/288a0ed2-2895-4f1a-8107-0a4b8ce69c73",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMtd-5kMVr9UL-6Vt06fVoU9Thn_2QcXc5PxuTHDp8oQ&s", 
-    "https://www.paasoo.com/assets/images/logo.svg?v=3.15.2",
-    "https://techalphagroup.com/wp-content/uploads/2023/05/logo_tag-e1702022019436.png",
+  ];
+
+  const row2 = [ 
+     "https://upload.wikimedia.org/wikipedia/commons/a/a0/Videocon_Telocom_Logo.png",
+     "https://th.bing.com/th/id/OIP.cdjdH02NeaqaDSbenQo5LAAAAA?rs=1&pid=ImgDetMain",
+     "https://th.bing.com/th/id/OIP.PXgLeawbUW0_rDG8eYAzTQHaCC?rs=1&pid=ImgDetMain",
+     "https://th.bing.com/th/id/OIP.8Y-1Y_Z5HHC9zrOmNs-YfAHaFj?w=235&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+     "https://www.tubelightcommunications.com/static/media/tubelightLogo.719a8cd1a76eb3892b99.png",
+     "https://i.vimeocdn.com/portrait/20170818_640x640",
+     "https://media.licdn.com/dms/image/C510BAQGJz4lO--fDMw/company-logo_200_200/0/1545648884048?e=2147483647&v=beta&t=WCv3lA_ga7K1zYAjyUupaCdyMB-nbJYuubcv8BM6Bag",
+     "https://virtuosonetsoft.com/assets/images/logos/logo.png"
+  
+    
   ];
   const row3=[
     "https://www.modicagroup.com/hubfs/Modica%20Logo%20-%20no%20copyright%20sv%20(1).svg",
     "https://www.cm.com/build/assets/cm-f4ffa018.svg",
     "https://assets-global.website-files.com/647ce2d8d3cfe3869a4e099e/647e00e214ff98f71af17ecc_SixFive_logo_S.png",
-    "https://upload.wikimedia.org/wikipedia/commons/a/a0/Videocon_Telocom_Logo.png",
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkCtno5ncHLFueqKu6z-3saRQdaSpJ_a5wsnaWC4FqtQ&s",
     "https://www2.lexico-voip.com/wp-content/uploads/2017/08/Lexico_logo11_1.svg",
+    "https://ml-eu.globenewswire.com/Resource/Download/288a0ed2-2895-4f1a-8107-0a4b8ce69c73",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMtd-5kMVr9UL-6Vt06fVoU9Thn_2QcXc5PxuTHDp8oQ&s", 
+    "https://www.paasoo.com/assets/images/logo.svg?v=3.15.2",
+    "https://techalphagroup.com/wp-content/uploads/2023/05/logo_tag-e1702022019436.png",
   
   ];
 
   return (
-    <AppContainer className="">
-      <Wrapper>
-        <h1 className="text-5xl p-5 text-sky-400 text-center font-bold">Our Trusted Partners</h1>
+    // <AppContainer className="pt-0 mt-0">
+      <Wrapper className="pt-5">
+        <h1 className="text-4xl p-5 text-sky-400 text-center font-bold">Our Trusted Partners</h1>
         {/* <Text className="p-7 text-3xl  w-screen text-center ">Our Partners</Text> */}
         <div className="pt-5">
 
@@ -41,14 +50,14 @@ function Companies() {
           <MarqueeGroup>
             {row1.map((el) => (
               <ImageGroup> 
-                <Image className="w-4"  src={el}/>
+                <Image className="w-4" alt=""  src={el}/>
               </ImageGroup>
             ))}
           </MarqueeGroup>
           <MarqueeGroup>
             {row1.map((el) => (
               <ImageGroup>
-                <Image src={el}/>
+                <Image src={el} alt=''/>
               </ImageGroup>
             ))}
           </MarqueeGroup>
@@ -57,14 +66,14 @@ function Companies() {
           <MarqueeGroup2>
             {row2.map((el) => (
               <ImageGroup>
-                <Image src={el}/>
+                <Image src={el} alt=''/>
               </ImageGroup>
             ))}
           </MarqueeGroup2>
           <MarqueeGroup2>
             {row2.map((el) => (
               <ImageGroup>
-                <Image src={el}/>
+                <Image src={el} alt=" "/>
               </ImageGroup>
             ))}
           </MarqueeGroup2>
@@ -73,22 +82,21 @@ function Companies() {
           <MarqueeGroup>
             {row3.map((el) => (
               <ImageGroup> 
-                <Image  src={el}/>
+                <Image  src={el} alt=" "/>
               </ImageGroup>
             ))}
           </MarqueeGroup>
           <MarqueeGroup>
             {row3.map((el) => (
               <ImageGroup>
-                <Image src={el}/>
+                <Image src={el} alt=" "/>
               </ImageGroup>
             ))}
           </MarqueeGroup>
         </Marquee>
-       
         </div>
       </Wrapper> 
-    </AppContainer>
+    // </AppContainer>
   );
 }
 
@@ -113,19 +121,20 @@ const Wrapper = styled.div`
   flex-direction: column;
 `;
 
-const Text = styled.div`
-  font-size: 35px;
-  font-weight: 500;
-  margin-bottom: 10px;
-  color: #02203c;
-`;
+// const Text = styled.div`
+//   font-size: 35px;
+//   font-weight: 500;
+//   background-color:red;
+//   margin-bottom: 10px;
+//   color: #02203c;
+// `;
 
-const Note = styled.div`
-  font-size: 18px;
-  font-weight: 200;
-  margin-bottom: 40px;
-  color: #7c8e9a;
-`;
+// const Note = styled.div`
+//   font-size: 18px;
+//   font-weight: 200;
+//   margin-bottom: 40px;
+//   color: #7c8e9a;
+// `;
 
 const Marquee = styled.div`
   display: flex;
@@ -158,6 +167,7 @@ const common = css`
   justify-content: space-around;
   white-space: nowrap;
   width: 100%;
+  
   animation: ${scrollX} 30s linear infinite;
 `;
 
@@ -173,17 +183,16 @@ const MarqueeGroup2 = styled.div`
 const ImageGroup = styled.div`
   display: grid;
   place-items: center;
-  width: clamp(10rem, 1rem + 40vmin, 30rem);
-  padding: calc(clamp(10rem, 1rem + 30vmin, 30rem) / 10);
+  width: 500px;
+  padding: 10px;
 `;
 
 const Image = styled.img`
   object-fit: contain;
-  width: 100%;
-  height: 100%;
-  /* border: 1px solid black; */
+  width: 300px;
+  height: 80px;
   border-radius: 0.5rem;
-  aspect-ratio: 16/9;
+  aspect-ratio: 21/9;
   padding: 5px 20px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 `;

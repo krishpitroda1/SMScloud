@@ -28,7 +28,7 @@ function Analytics() {
   const setPopup = (popupName) => {
     switch (popupName) {
       case "Wap":
-        setCurrentPopup(<Wap  getClick={getCloseClick} />);
+        setCurrentPopup(<Wap getClick={getCloseClick} />);
         break;
       case "A2p":
         setCurrentPopup(<A2p getClick={getCloseClick} />);
@@ -83,231 +83,261 @@ function Analytics() {
 
   return (
     <div>
+      <div className="w-screen mb-24 pt-14 overflow-x-hidden grid gap-6 ">
+        <h1 className="w-screen text-center text-sky-500 p-5 font-bold text-3xl">
+          Our Services
+        </h1>
 
-    <div className="w-screen mb-24 pt-14 overflow-x-hidden grid gap-6 ">
-      <h1 className="text-white w-screen text-center bg-sky-400 p-5 font-bold text-3xl">
-        Our Services
-      </h1>
-
-      <div className="justify-between lg:pl-32 md:pl-0  md:flex mx-auto gap-6">
-        <div className="flex-col gap-5 ">
-          <ul className="list-disc text-red-400 text-lg p-5">
-            <p className="text-sky-700 font-bold text-xl">EnterPrise</p>
-            <div className="pl-9 lg:pl-9 md:pl-0 ">
-              {/* className={`dropdown-link hover text-sky-400 hover:${()=>setshowWa(!show)}`} */}
-              <li className=" hover:text-sky-400 hover:scale-110" onClick={() => setPopup("Wap")}>
-                WA for Buisness
-              </li>
-              <li className="  hover:text-sky-400 hover:scale-110" onClick={() => setPopup("A2p")}>
-                A2P SMS
-              </li>
-              <li className="  hover:text-sky-400 hover:scale-110" onClick={() => setPopup("Voicep")}>
-                Voice
-              </li>
-              <li className=" hover:text-sky-400 hover:scale-110" onClick={() => setPopup("Cpaasp")}>
-                CPaas
-              </li>
-              {currentPopup}
-            </div>
-          </ul>
-          <ul className="list-disc text-red-400 text-lg p-5">
-            <p className="text-sky-700 font-bold text-xl">Carrier</p>
-            <div className="pl-9">
-              <li className="hover:text-sky-400 hover:scale-110 " onClick={() => setPopup("A2p")} >
-                A2P SMS
-               </li>
-              <li
-                className="hover:text-sky-400 hover:scale-110" 
-                onClick={() => setPopup("Hlrp")}>
-                HLR
-              </li>
-              <li
-                className="hover:text-sky-400 hover:scale-110 "
-                onClick={() => setPopup("Esimp")}
-              >
-                ESIM
-              </li>
-              <li className="hover:text-sky-400 hover:scale-110 " onClick={() => setPopup("Vnp")}>
-                VN
-              </li>
-             
-             </div>
-          </ul>
-        </div>
-        <div className="content-center pt-7 ">
-          <img src={img} className="h-96 w-auto" alt="" />
-        </div>
-        <div className="flex-col gap-5">
-          <div className="flex-col gap-5">
+        <div className="justify-between lg:pl-32 md:pl-0  md:flex mx-auto gap-6">
+          <div className="flex-col gap-5 ">
             <ul className="list-disc text-red-400 text-lg p-5">
-              <p className="text-sky-700 font-bold text-xl">Operator</p>
-              <div className="pl-9">
+              <p className="text-sky-700 font-bold text-xl">EnterPrise</p>
+              <div className="pl-9 lg:pl-9 md:pl-0 ">
+                {/* className={`dropdown-link hover text-sky-400 hover:${()=>setshowWa(!show)}`} */}
                 <li
-                  className="hover:text-sky-400 hover:scale-110"
+                  className=" hover:text-sky-400 hover:scale-110"
+                  onClick={() => setPopup("Wap")}
+                >
+                  WA for Buisness
+                </li>
+                <li
+                  className="  hover:text-sky-400 hover:scale-110"
                   onClick={() => setPopup("A2p")}
                 >
                   A2P SMS
                 </li>
                 <li
-                  className="hover:text-sky-400 hover:scale-110 "
-                  onClick={() => setPopup("Msp")}>
-                  Managed services for Messaging Hubs
-                </li>
-
-                <li
-                  className="hover:text-sky-400 hover:scale-110 "
-                  onClick={() => setPopup("Mitp")}   >
-                  Managed services For IT & Infra
+                  className="  hover:text-sky-400 hover:scale-110"
+                  onClick={() => setPopup("Voicep")}
+                >
+                  Voice
                 </li>
                 <li
-                  className="hover:text-sky-400 hover:scale-110"
-                  onClick={() => setPopup("Smscp")} >
-                  SMSC Firewall
+                  className=" hover:text-sky-400 hover:scale-110"
+                  onClick={() => setPopup("Cpaasp")}
+                >
+                  CPaas
                 </li>
-                <li
-                  className="hover:text-sky-400 hover:scale-110 "
-                  onClick={() => setPopup("Crp")} >
-                  CR in Existing SMSC
-                </li>
+                {currentPopup}
               </div>
             </ul>
-
             <ul className="list-disc text-red-400 text-lg p-5">
-              <p className="text-sky-700 font-bold text-xl">Technology</p>
+              <p className="text-sky-700 font-bold text-xl">Carrier</p>
               <div className="pl-9">
                 <li
                   className="hover:text-sky-400 hover:scale-110 "
-                  onClick={() => setPopup("Cloudp")} >
-                  
-                  Cloudskool++
+                  onClick={() => setPopup("A2p")}
+                >
+                  A2P SMS
+                </li>
+                <li
+                  className="hover:text-sky-400 hover:scale-110"
+                  onClick={() => setPopup("Hlrp")}
+                >
+                  HLR
                 </li>
                 <li
                   className="hover:text-sky-400 hover:scale-110 "
-                  onClick={() => setPopup("Cpaasp")} >
-                
-                  CPaas
+                  onClick={() => setPopup("Esimp")}
+                >
+                  ESIM
+                </li>
+                <li
+                  className="hover:text-sky-400 hover:scale-110 "
+                  onClick={() => setPopup("Vnp")}
+                >
+                  VN
                 </li>
               </div>
             </ul>
           </div>
+          <div className="content-center pt-7 ">
+            <img src={img} className="h-96 w-auto" alt="" />
+          </div>
+          <div className="flex-col gap-5">
+            <div className="flex-col gap-5">
+              <ul className="list-disc text-red-400 text-lg p-5">
+                <p className="text-sky-700 font-bold text-xl">Operator</p>
+                <div className="pl-9">
+                  <li
+                    className="hover:text-sky-400 hover:scale-110"
+                    onClick={() => setPopup("A2p")}
+                  >
+                    A2P SMS
+                  </li>
+                  <li
+                    className="hover:text-sky-400 hover:scale-110 "
+                    onClick={() => setPopup("Msp")}
+                  >
+                    Managed services for Messaging Hubs
+                  </li>
+
+                  <li
+                    className="hover:text-sky-400 hover:scale-110 "
+                    onClick={() => setPopup("Mitp")}
+                  >
+                    Managed services For IT & Infra
+                  </li>
+                  <li
+                    className="hover:text-sky-400 hover:scale-110"
+                    onClick={() => setPopup("Smscp")}
+                  >
+                    SMSC Firewall
+                  </li>
+                  <li
+                    className="hover:text-sky-400 hover:scale-110 "
+                    onClick={() => setPopup("Crp")}
+                  >
+                    CR in Existing SMSC
+                  </li>
+                </div>
+              </ul>
+
+              <ul className="list-disc text-red-400 text-lg p-5">
+                <p className="text-sky-700 font-bold text-xl">Technology</p>
+                <div className="pl-9">
+                  <li
+                    className="hover:text-sky-400 hover:scale-110 "
+                    onClick={() => setPopup("Cloudp")}
+                  >
+                    Cloudskool++
+                  </li>
+                  <li
+                    className="hover:text-sky-400 hover:scale-110 "
+                    onClick={() => setPopup("Cpaasp")}
+                  >
+                    CPaas
+                  </li>
+                </div>
+              </ul>
+            </div>
+          </div>
         </div>
-      </div>
       </div>
       {/* --------------------------------------------mobile view---------------------------------------- */}
       <div className="w-screen lg:hidden hidden bg-black mb-24 pt-14 overflow-x-hidden">
-   <h1 className="text-white w-screen text-center bg-sky-400 p-5 font-bold text-3xl">
-        Our Services
-      </h1>
+        <h1 className="text-white w-screen text-center bg-sky-400 p-5 font-bold text-3xl">
+          Our Services
+        </h1>
 
-      <div className="justify-between pl-32 lg:pl-32 md:pl-4 md:grid-cols-1 mx-auto flex gap-6">
-        <div className="flex-col gap-5">
-          <ul className="list-disc text-red-400 text-lg p-5">
-            <p className="text-sky-700 font-bold text-xl">EnterPrise</p>
-            <div className="pl-9 ">
-              {/* className={`dropdown-link hover text-sky-400 hover:${()=>setshowWa(!show)}`} */}
-              <li className=" hover:text-sky-400 hover:scale-110" onClick={() => setPopup("Wap")}>
-                WA for Buisness
-              </li>
-              <li className="  hover:text-sky-400 hover:scale-110" onClick={() => setPopup("A2p")}>
-                A2P SMS
-              </li>
-              <li className="  hover:text-sky-400 hover:scale-110" onClick={() => setPopup("Voicep")}>
-                Voice
-              </li>
-              <li className=" hover:text-sky-400 hover:scale-110" onClick={() => setPopup("Cpaasp")}>
-                CPaas
-              </li>
-              {currentPopup}
-            </div>
-          </ul>
-          <ul className="list-disc text-red-400 text-lg p-5">
-            <p className="text-sky-700 font-bold text-xl">Carrier</p>
-            <div className="pl-9">
-              <li className="dropdown-link " onClick={() => setPopup("A2p")} >
-                A2P SMS
-               </li>
-              <li
-                className="dropdown-link "
-                onClick={() => setPopup("Hlrp")}>
-                HLR
-              </li>
-              <li
-                className="dropdown-link "
-                onClick={() => setPopup("Esimp")}
-              >
-                ESIM
-              </li>
-              <li className="dropdown-link " onClick={() => setPopup("Vnp")}>
-                VN
-              </li>
-             
-             </div>
-          </ul>
-        </div>
-        <div className="content-center pt-7">
-          <img src={img} className="h-96 w-auto" alt="" />
-        </div>
-        <div className="">
+        <div className="justify-between pl-32 lg:pl-32 md:pl-4 md:grid-cols-1 mx-auto flex gap-6">
           <div className="flex-col gap-5">
             <ul className="list-disc text-red-400 text-lg p-5">
-              <p className="text-sky-700 font-bold text-xl">Operator</p>
-              <div className="pl-9">
+              <p className="text-sky-700 font-bold text-xl">EnterPrise</p>
+              <div className="pl-9 ">
+                {/* className={`dropdown-link hover text-sky-400 hover:${()=>setshowWa(!show)}`} */}
                 <li
-                  className="dropdown-link "
+                  className=" hover:text-sky-400 hover:scale-110"
+                  onClick={() => setPopup("Wap")}
+                >
+                  WA for Buisness
+                </li>
+                <li
+                  className="  hover:text-sky-400 hover:scale-110"
                   onClick={() => setPopup("A2p")}
                 >
                   A2P SMS
                 </li>
                 <li
-                  className="dropdown-link "
-                  onClick={() => setPopup("Msp")}>
-                  Managed services for Messaging Hubs
-                </li>
-
-                <li
-                  className="dropdown-link "
-                  onClick={() => setPopup("Mitp")}   >
-                  Managed services For IT & Infra
+                  className="  hover:text-sky-400 hover:scale-110"
+                  onClick={() => setPopup("Voicep")}
+                >
+                  Voice
                 </li>
                 <li
-                  className="dropdown-link "
-                  onClick={() => setPopup("Smscp")} >
-                  SMSC Firewall
+                  className=" hover:text-sky-400 hover:scale-110"
+                  onClick={() => setPopup("Cpaasp")}
+                >
+                  CPaas
                 </li>
-                <li
-                  className="dropdown-link "
-                  onClick={() => setPopup("Crp")} >
-                  CR in Existing SMSC
-                </li>
+                {currentPopup}
               </div>
             </ul>
-
             <ul className="list-disc text-red-400 text-lg p-5">
-              <p className="text-sky-700 font-bold text-xl">Technology</p>
+              <p className="text-sky-700 font-bold text-xl">Carrier</p>
               <div className="pl-9">
-                <li
-                  className="dropdown-link "
-                  onClick={() => setPopup("Cloudp")} >
-                  
-                  Cloudskool++
+                <li className="dropdown-link " onClick={() => setPopup("A2p")}>
+                  A2P SMS
+                </li>
+                <li className="dropdown-link " onClick={() => setPopup("Hlrp")}>
+                  HLR
                 </li>
                 <li
                   className="dropdown-link "
-                  onClick={() => setPopup("Cpaasp")} >
-                
-                  CPaas
+                  onClick={() => setPopup("Esimp")}
+                >
+                  ESIM
+                </li>
+                <li className="dropdown-link " onClick={() => setPopup("Vnp")}>
+                  VN
                 </li>
               </div>
             </ul>
           </div>
+          <div className="content-center pt-7">
+            <img src={img} className="h-96 w-auto" alt="" />
+          </div>
+          <div className="">
+            <div className="flex-col gap-5">
+              <ul className="list-disc text-red-400 text-lg p-5">
+                <p className="text-sky-700 font-bold text-xl">Operator</p>
+                <div className="pl-9">
+                  <li
+                    className="dropdown-link "
+                    onClick={() => setPopup("A2p")}
+                  >
+                    A2P SMS
+                  </li>
+                  <li
+                    className="dropdown-link "
+                    onClick={() => setPopup("Msp")}
+                  >
+                    Managed services for Messaging Hubs
+                  </li>
+
+                  <li
+                    className="dropdown-link "
+                    onClick={() => setPopup("Mitp")}
+                  >
+                    Managed services For IT & Infra
+                  </li>
+                  <li
+                    className="dropdown-link "
+                    onClick={() => setPopup("Smscp")}
+                  >
+                    SMSC Firewall
+                  </li>
+                  <li
+                    className="dropdown-link "
+                    onClick={() => setPopup("Crp")}
+                  >
+                    CR in Existing SMSC
+                  </li>
+                </div>
+              </ul>
+
+              <ul className="list-disc text-red-400 text-lg p-5">
+                <p className="text-sky-700 font-bold text-xl">Technology</p>
+                <div className="pl-9">
+                  <li
+                    className="dropdown-link "
+                    onClick={() => setPopup("Cloudp")}
+                  >
+                    Cloudskool++
+                  </li>
+                  <li
+                    className="dropdown-link "
+                    onClick={() => setPopup("Cpaasp")}
+                  >
+                    CPaas
+                  </li>
+                </div>
+              </ul>
+            </div>
+          </div>
         </div>
-      </div>  
-    
-    
+      </div>
     </div>
-    </div>
-   
-    
   );
 }
 

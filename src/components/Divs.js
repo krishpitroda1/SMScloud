@@ -10,21 +10,19 @@ function Divs() {
     return () => clearInterval(timer)
   }, [color])
   return (
-    <div className="mt-7">
+    <div className="pt-16">
     <div>
-    <h1 className={`text-${color}-600 p-5 font-bold transition-colors duration-500 ease-in-out  hover:text-indigo-500 text-3xl  text-center pt-5 `}>Empowering Connectivity
+    <h1 className={`text-${color}-600 p-7 font-bold transition-colors duration-500 ease-in-out  hover:text-indigo-500 text-3xl  text-center`}>Empowering Connectivity
     </h1>
-
-    </div>
-    
-        <p className="text-xl font-serif p-3 pt-0 text-center">Seamless Messaging Across All Touchpoints
-        Experience effortless communication solutions that seamlessly connect you with customers worldwide, powered by our cutting-edge connectivity and tools</p>
-      <div className="text-white relative pt-0 p-8 grid sm:grid-cols-2 lg:grid-cols-5 gap-3 lg:items-center">
+  </div>  
+        <p className="text-xl font-semibold  p-5 pt-1 ml-2 mr-3 text-center">Seamless Messaging <br /> Across All Touchpoints
+        Experience effortless <br /> communication solutions that seamlessly connect you <br /> with customers worldwide, powered by our cutting-edge connectivity and tools</p>
+      <div className="text-white relative p-5 grid sm:grid-cols-2 lg:grid-cols-5 gap-3 lg:items-center">
         <div class="div1 flex flex-col border  text-center rounded-xl p-5 h-full border-gray-700">
           <h4 className=" font-bold font-sans text-3xl border-b p-4  border-white">
             Global Reach
           </h4>
-          <p className="text-xl font-serif p-4">
+          <p className="text-xl p-4">
             Expand your reach across borders and connect with audiences
             globally.
           </p>
@@ -33,7 +31,7 @@ function Divs() {
           <h4 className="font-bold font-sans text-3xl  border-b p-4  border-white">
           Reliability
           </h4>
-          <p className="text-xl font-serif p-5">
+          <p className="text-xl  p-5">
           Rely on our platform's consistent performance for uninterrupted communication.
 
           </p>
@@ -43,7 +41,7 @@ function Divs() {
         <h4 className=" font-bold font-sans text-3xl  border-b p-4  border-white">
           Security
           </h4>
-          <p className="text-xl font-serif p-5">
+          <p className="text-xl  p-5">
           Safeguard sensitive data with advanced encryption and robust security measures.
 
             </p>
@@ -53,7 +51,7 @@ function Divs() {
         <h4 className="font-bold font-sans text-3xl  border-b p-4  border-white">
             Scalability
           </h4>
-          <p className="text-lg font-serif p-4">
+          <p className="text-lg  p-4">
              Scale your messaging operations effortlessly to meet evolving business needs.
            </p>
         </div>
@@ -61,7 +59,7 @@ function Divs() {
         <h4 className="pt-4 font-bold font-sans text-3xl  border-b p-4  border-white">
         Integration with AI Technologies
           </h4>
-          <p className="text-xl font-serif p-4">
+          <p className="text-xl  p-4">
           Harness the power of AI to optimize messaging strategies and enhance customer interactions.
             </p>
         </div>

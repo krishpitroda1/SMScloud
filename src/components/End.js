@@ -26,7 +26,7 @@ function End() {
               </div>
             </div>
 
-            <div className="col-span-1">
+            <div className="lg:pl-8 col-span-1">
               <h4 className="font-semibold text-gray-100 cursor-pointer">
                 Services
               </h4>
@@ -59,7 +59,7 @@ function End() {
               </div>
             </div>
 
-            <div className="col-span-1">
+            <div className="col-span-1 lg:-top-1">
               <h4
                 className="font-semibold text-gray-100 cursor-pointer"
                 onClick={() => {

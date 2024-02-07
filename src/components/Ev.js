@@ -14,7 +14,8 @@ import p8 from '../assets/Events/p8.jpg'
 import p9 from '../assets/Events/p9.jpg'
 import p10 from '../assets/Events/p10.jpg'
 import p11 from '../assets/Events/p11.jpg'
-import p12 from '../assets/Events/p12.png'
+import p12 from '../assets/Events/p14.jpg'
+import p14 from '../assets/Events/p12.png'
 
 function Ev() {
   const[color,setColor]=useState('blue')
@@ -38,10 +39,10 @@ function Ev() {
     const settings = {
     
       infinite: true,
-      slidesToShow: 4,
+      slidesToShow: 3,
       slidesToScroll: 1,
       autoplay: true,
-      speed: 1500,
+      speed: 2500,
       autoplaySpeed: 200,
       cssEase: "linear",
       responsive: [
@@ -72,8 +73,8 @@ function Ev() {
       ]
     };
   return (
-    <div className='relative bg-gray-800 shadow-slate-800 shadow-md p-5  w-screen'>
-  <h1 className={`text-${color}-600 p-5 font-bold transition-colors duration-500 ease-in-out  hover:text-indigo-500 text-3xl  text-center pt-5 `}>Our Event Participations
+    <div className='relative  text-center   bg-gray-800 shadow-slate-800 shadow-md  w-screen'>
+  <h1 className={`text-${color}-600 p-5 font-bold transition-colors duration-500 ease-in-out  hover:text-indigo-700 text-3xl  text-center pt-5 `}>Our Event Participations
     
     </h1>
      {/* <div className='carousel'> */}
@@ -137,6 +138,18 @@ function Ev() {
           <div className='p-3 rounded-xl'>
            <div className=' flex justify-center items-center'>
               <img src={p11} className='h-40 rounded-lg w-full'/>
+            </div>
+          
+          </div>
+          <div className='p-3 rounded-xl'>
+           <div className=' flex justify-center items-center'>
+              <img src={p12} className='h-40 rounded-lg w-full'/>
+            </div>
+          
+          </div>
+          <div className='p-3 rounded-xl'>
+           <div className=' flex justify-center items-center'>
+              <img src={p14} className='h-40 rounded-lg w-full'/>
             </div>
           
           </div>

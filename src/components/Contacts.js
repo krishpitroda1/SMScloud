@@ -5,35 +5,12 @@ import { SiGmail } from "react-icons/si";
 import { Link } from 'react-router-dom';
 import { ToastContainer, toast } from 'react-toastify';
 import emailjs from '@emailjs/browser';
-
+import { useEffect } from 'react';
 function Contacts() {
-  // const notify = () => toast("Wow so easy!");
-
-  // const onSubmit = async (event) => {
-  //   event.preventDefault();
-  //   const formData = new FormData(event.target);
-
-  //   formData.append("access_key", "9f994ad8-f4b7-40ea-aadd-a57423b242cc");
-
-  //   const object = Object.fromEntries(formData);
-  //   const json = JSON.stringify(object);
-
-  //   const res = await fetch("https://api.web3forms.com/submit", {
-  //     method: "POST",
-  //     headers: {
-  //       "Content-Type": "application/json",
-  //       Accept: "application/json"
-  //     },
-  //     body: json
-  //   }).then((res) => res.json());
-
-  //   if (res.success) {
-  //     console.log("Success", res);
-  //   }
-  // };
-  // const alert=()=>{
-  //   alert("mail send successfully")
-  // }
+  
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -49,16 +26,16 @@ function Contacts() {
   };
   return (
   
-    <div className='w-screen pt-7 relative justify-items-center'>
-      <h1 class="align-center text-center text-3xl font-bold text-sky-800 bg-slate-400 sm:text-4xl h-20 p-5 w-screen">
+    <div className='w-screen pt-7 relative justify-items-center p-5 overflow-x-hidden'>
+      <h1 class="pt-10 text-center text-3xl font-bold text-sky-500 sm:text-4xl h-20 p-5">
         Contact us
       </h1>
     <div>
-<div class="sm:px-6">
+<div class="">
   <div class="">
-    <div class="align-cennter w-screen text-center">
+    <div class=" ">
       
-      <p class="mt-5 text-3xl">
+      <p class="text-3xl text-center p-5">
         We'd love to talk about how we can help you.
       </p>
     </div>
@@ -85,7 +62,7 @@ function Contacts() {
 
             <div>
               <label>Phone Number</label>
-              <input type='tel' name="phone_no" id="hs-phone-number-1" class="py-3 px-4 block w-full border-gray-200 rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none " placeholder="Phone Number"  pattern="[0-9]{10}" required/>
+              <input type='tel' name="phone_no" id="hs-phone-number-1" class="py-3 px-4 block w-full border-gray-200 rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none " placeholder="Phone Number"  pattern="^[+]{1}(?:[0-9\-\(\)\/\.]\s?){6, 15}[0-9]{1}$" required/>
             </div> 
 
              <div>
@@ -98,7 +75,7 @@ function Contacts() {
           </div>
 
           <div class="mt-3 text-center">
-            <p class="text-sm text-gray-500">
+            <p class="text-sm text-white">
               We'll get back to you in 1-2 business days.
             </p>
           </div>
@@ -110,11 +87,10 @@ function Contacts() {
          <FaWhatsapp className='flex-shrink-0 w-6 h-6 mt-1.5 text-green-600' />
           <div class="grow">
             <h3 class="font-semibold text-sky-600">Whatsapp</h3>
-            <p class="mt-1 text-sm text-gray-500">Do Whatsapp for answers to anything you might ask.</p>
+            <p class="mt-1 text-sm text-gray-500">Message On Whatsapp for answers to anything you might ask.</p>
             <a class="mt-2 inline-flex items-center gap-x-2 text-sm font-medium text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="#">
-              Visit Our Whatsapp
-           
-            </a>
+              Message On (+91)9913439794 For Whatsapp
+           </a>
           </div>
         </div>
         <div class=" flex gap-x-7 py-6">
@@ -148,10 +124,10 @@ function Contacts() {
 </div>
 <div className=''>
 
-     <h1 className="align-center text-sky-600 w-screen bg-[#EFE2BA] text-center p-5 font-serif font-bold text-3xl border-b">
+     <h1 className="text-sky-600 text-center  font-bold text-4xl ">
           Our Location
         </h1>
-     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d485.30011784394395!2d72.49662934555259!3d22.989018459114877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e9bf4765fe993%3A0xa21cf89753936894!2sSMSCloud%20Hub!5e0!3m2!1sen!2sin!4v1704867816876!5m2!1sen!2sin"height={'600px'} className='b-0 block justify-center items-center rounded-xl w-full' allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" key={"g"}></iframe>
+     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d485.30011784394395!2d72.49662934555259!3d22.989018459114877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e9bf4765fe993%3A0xa21cf89753936894!2sSMSCloud%20Hub!5e0!3m2!1sen!2sin!4v1704867816876!5m2!1sen!2sin "height={'600px'} className=' block justify-center items-center rounded-xl w-full' allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" key={"g"}></iframe>
 </div>
     
     </div>

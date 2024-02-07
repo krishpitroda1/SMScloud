@@ -23,20 +23,7 @@ function Jobs() {
     });
     setJobs(tempJobs)
   }
-  // const fetchJobsCustom=async(jobCriteria)=>{
-  //   const tempJobs=[]
-  //   const q=query(where('type','==',jobCriteria.type),where('title','==',jobCriteria.title),where('location','==',jobCriteria.location),where('experience','==',jobCriteria.experience),collection(db,'jobs'));
-  //   const querySnapshot= await getDocs(q);
-  //   querySnapshot.forEach((job)=>{
-  //     // console.log(doc.id,'=>',doc.data());
-  //     tempJobs.push({
-  //       ...job.data(),
-  //       id:job.id,
-  //       // postedOn:job.data().postedOn.toDate()
-  //     })
-  //   });
-  //   setJobs(tempJobs)
-  // }
+ 
 
   useEffect(()=>{
     fetchJobs()
@@ -44,9 +31,9 @@ function Jobs() {
   return (
 
     <div>
-     <div className=' pb-8 mt-10 relative pt-7 flex flex-col gap-5 items-center justify-center text-sky-500  w-screen'>
-        <h1 className='lg:text-5xl font-bold sm:text-3xl '>Your ideal job awaits, start the search</h1>
-        <p className='text-xl pb-5 text-gray-500 '>Get latest job openings that best suits you!</p>
+     <div className='  relative pt-7 flex flex-col gap-5 items-center justify-center text-sky-500  w-screen'>
+        <h1 className='lg:text-5xl text-3xl text-center font-bold pt-10 '>Your ideal job awaits, start the search</h1>
+        <p className='text-xl p-5 text-center pt-0 text-gray-500 '>Get latest job openings that best suits you!</p>
         {/* <SearchBar fetchJobsCustom={fetchJobsCustom}/> */}
         {jobs.map((job)=>(
           <JobCard key={job.id}{...job}/>
