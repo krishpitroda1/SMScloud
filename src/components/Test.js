@@ -73,13 +73,11 @@ export default function App() {
        <h1 className=" text-sky-600  text-center p-5 -ml-7  font-bold text-3xl">
         Our Client's Feedback
       </h1>
-    <div className="w-screen text-center px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+    {/* <div className="w-screen text-center px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
   <div className="lg:grid lg:grid-cols-12 lg:items-center lg:justify-between">
     <div className="lg:col-span-5 lg:col-start-1">
       <div className="p-5">
-        <h2 className="mb-2 text-3xl text-gray-800 font-bold ">
-          It's all about speed
-        </h2>
+      
         <p className="font-lg">
         I am extremely satisfied with the high quality and satisfactory results provided by SMSCloud Hub. Their overall support has been exceptional, meeting all the requirements outlined in the Service Level Agreement (SLA). The team has consistently delivered excellent service, going above and beyond to ensure our needs are met. With their reliable platform and attentive support, we have experienced smooth operations and effective communication with our customers. I highly recommend SMSCloud Hub for their top-notch quality, remarkable results, and unwavering support.”
 
@@ -110,7 +108,7 @@ export default function App() {
       </blockquote>
     </div>
 
-    <div className="mt-10 lg:mt-0 lg:col-span-6 lg:col-end-13">
+    {/* <div className="mt-10 lg:mt-0 lg:col-span-6 lg:col-end-13">
       <div className="space-y-6 sm:space-y-8">
         <ul className="grid grid-cols-2 divide-y divide-y-2 divide-x divide-x-2 divide-gray-200 overflow-hidden dark:divide-gray-700">
           <li className="flex flex-col -m-0.5 p-4 sm:p-8">
@@ -152,9 +150,9 @@ export default function App() {
           </li>
         </ul>
       </div>
-    </div>
-  </div>
-</div>
+    </div> */}
+  {/* </div> */}
+{/* </div> */} 
 <div className="overflow-hidden bg-slate-800">
   <div className="relative max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
     <div className="max-w-2xl w-3/4 lg:w-1/2 mb-6 sm:mb-10 md:mb-16">
@@ -324,12 +322,12 @@ export default function App() {
       <div>
         <h4 className="text-lg sm:text-xl font-semibold text-white">Customers</h4>
         <p className="mt-2 sm:mt-3 text-4xl sm:text-6xl font-bold text-blue-500">300+</p>
-        <p className="mt-1 text-gray-400">partner with SMSCloud Hub</p>
+        <p className="mt-1 text-gray-400">Carrier and Enterprise</p>
       </div>
       <div>
         <h4 className="text-lg sm:text-xl font-semibold text-white">Happy customer</h4>
         <p className="mt-2 sm:mt-3 text-4xl sm:text-6xl font-bold text-blue-500">85%</p>
-        <p className="mt-1 text-gray-400">this year alone</p>
+        <p className="mt-1 text-gray-400">Overall satisfaction</p>
       </div>
     </div>
     <div className="absolute bottom-0 end-0 transform lg:translate-x-32" aria-hidden="true">

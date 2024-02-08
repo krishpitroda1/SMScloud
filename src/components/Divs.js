@@ -15,8 +15,8 @@ function Divs() {
     <h1 className={`text-${color}-600 p-7 font-bold transition-colors duration-500 ease-in-out  hover:text-indigo-500 text-3xl  text-center`}>Empowering Connectivity
     </h1>
   </div>  
-        <p className="text-xl font-semibold  p-5 pt-1 ml-2 mr-3 text-center">Seamless Messaging <br /> Across All Touchpoints
-        Experience effortless <br /> communication solutions that seamlessly connect you <br /> with customers worldwide, powered by our cutting-edge connectivity and tools</p>
+        <p className="text-xl font-semibold  p-5 pt-1 ml-2 mr-3 text-center">Seamless Messaging Across All Touchpoints
+        <br /> Experience effortless  communication solutions that seamlessly connect you  with customers worldwide <br/> powered by our cutting-edge connectivity , Reliable Routes  and AI Technology</p>
       <div className="text-white relative p-5 grid sm:grid-cols-2 lg:grid-cols-5 gap-3 lg:items-center">
         <div class="div1 flex flex-col border  text-center rounded-xl p-5 h-full border-gray-700">
           <h4 className=" font-bold font-sans text-3xl border-b p-4  border-white">

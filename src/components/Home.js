@@ -28,7 +28,7 @@ function Home() {
           style={{ fontSize: "2em", display: "inline-block" }}
           repeat={Infinity}
         />
-        <p className="md:text-2xl text-xl relative font-bold text-white py-6">Monitor your data to increase revenue  for B2B</p>
+        <p className="md:text-2xl text-xl relative font-bold text-white py-6">Scale your communications and connect with your audience seamlessly with wider messaging reach.</p>
       </div>
       </div>
       {/* <Analytics/> */}
@@ -43,28 +43,28 @@ function Home() {
         <p className="text-center text-gray-500 text-xl">Benifits of SMS Hubbing with SMSCloud Hub</p>
         <div className="grid pt-8  lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-3 p-5">
             <div className="rounded-lg pt-8 h-32 p-5 bg-gray-800 hover:bg-gray-400  text-white">
-            <h1 className="font-bold text-lg">Scalable Platform</h1>
+            <h1 className="font-bold text-xl">Scalable Platform</h1>
             <p>Platform with burstable capacity upto 1000 TPS</p>
             </div>
             <div className="rounded-lg h-32  pt-8 p-5 bg-gray-800 hover:bg-gray-400 text-white">
-            <h1 className="font-bold text-lg">High Quality</h1>
-            <p>Global high quality routes with fall back</p>
+            <h1 className="font-bold text-xl">High Quality</h1>
+            <p>Global routes with AI based Route Selection and Testing</p>
             </div>
             <div className="rounded-lg  h-32 pt-8 p-5 bg-gray-800 hover:bg-gray-400 text-white">
-            <h1 className="font-bold text-lg">Seamless Broadcast</h1>
-            <p>Post-paid billing model for the MNOs/MVNOs and Aggregators</p>
+            <h1 className="font-bold text-xl">Seamless Broadcast</h1>
+            <p>LCR and QBR Based Routing with Fall back</p>
             </div>
             <div className="rounded-lg  h-32 pt-8 p-5 bg-gray-800 hover:bg-gray-400 text-white">
-            <h1 className="font-bold text-lg">Carrier Grade Feature</h1>
-            <p>High availability, 99.95% uptime backed by SLA.</p>
+            <h1 className="font-bold text-xl">Carrier Grade Feature</h1>
+            <p>High availability, 99.95% uptime backed by SLA</p>
             </div>
             <div className="rounded-lg h-32 p-5 pt-8 bg-gray-800 hover:bg-gray-400 text-white">
-            <h1 className="font-bold text-lg">Cloud Based Services</h1>
-            <p>Cloud connectivity with no down time & no CAPEX.</p>
+            <h1 className="font-bold text-xl">Cloud Based Services</h1>
+            <p>Cloud connectivity with no down time & no CAPEX</p>
             </div>
             <div className="rounded-lg h-32 p-5 pt-8 bg-gray-800 hover:bg-gray-400 text-white">
-            <h1 className="font-bold text-lg">World Wide Reach</h1>
-            <p>Flawless termination in more then 180 Countries.</p>
+            <h1 className="font-bold text-xl">World Wide Reach</h1>
+            <p>Flawless termination in more then 195 Countries</p>
             </div> 
         </div>
       </div>
