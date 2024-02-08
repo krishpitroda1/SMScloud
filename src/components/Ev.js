@@ -2,20 +2,26 @@ import React ,{ useState ,useEffect} from 'react'
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import p1 from '../assets/Events/p1.jpg'
-import p2 from '../assets/Events/p2.jpg'
-import p3 from '../assets/Events/p3.jpg'
-import p4 from '../assets/Events/p4.jpg'
-import p5 from '../assets/Events/p5.jpg'
-import p6 from '../assets/Events/p6.jpg'
-// import p7 from '../assets/Events/p7.jpg'
-import p13 from '../assets/Events/p13.png'
-import p8 from '../assets/Events/p8.jpg'
-import p9 from '../assets/Events/p9.jpg'
-import p10 from '../assets/Events/p10.jpg'
-import p11 from '../assets/Events/p11.jpg'
-import p12 from '../assets/Events/p14.jpg'
-import p14 from '../assets/Events/p12.png'
+import p1 from '../assets/Events/e1.jpeg'
+import p2 from '../assets/Events/e2.jpg'
+import p3 from '../assets/Events/e3.jpg'
+import p4 from '../assets/Events/e4.jpg'
+import p5 from '../assets/Events/e5.png'
+import p6 from '../assets/Events/e6.jpg'
+import p7 from '../assets/Events/e7.jpg'
+import p8 from '../assets/Events/e9.jpg'
+import p9 from '../assets/Events/e8.jpeg'
+import p10 from '../assets/Events/e10.jpeg'
+import p11 from '../assets/Events/e11.png'
+import p12 from '../assets/Events/e12.png'
+import p13 from '../assets/Events/e13.png'
+import p14 from '../assets/Events/e14.png'
+import p15 from '../assets/Events/e15.jpg'
+import p16 from '../assets/Events/e16.jpeg'
+import p17 from '../assets/Events/e17.png'
+import p18 from '../assets/Events/e18.jpg'
+
+
 
 function Ev() {
   const[color,setColor]=useState('blue')
@@ -119,6 +125,12 @@ function Ev() {
           </div>
           <div className='p-3 rounded-xl'>
            <div className=' flex justify-center items-center'>
+              <img src={p7} className='h-40 rounded-lg w-full'/>
+            </div>
+          
+          </div>
+          <div className='p-3 rounded-xl'>
+           <div className=' flex justify-center items-center'>
               <img src={p8} className='h-40 rounded-lg w-full'/>
             </div>
           
@@ -149,7 +161,37 @@ function Ev() {
           </div>
           <div className='p-3 rounded-xl'>
            <div className=' flex justify-center items-center'>
+              <img src={p13} className='h-40 rounded-lg w-full'/>
+            </div>
+          
+          </div>
+          <div className='p-3 rounded-xl'>
+           <div className=' flex justify-center items-center'>
               <img src={p14} className='h-40 rounded-lg w-full'/>
+            </div>
+          
+          </div>
+          <div className='p-3 rounded-xl'>
+           <div className=' flex justify-center items-center'>
+              <img src={p15} className='h-40 rounded-lg w-full'/>
+            </div>
+          
+          </div>
+          <div className='p-3 rounded-xl'>
+           <div className=' flex justify-center items-center'>
+              <img src={p16} className='h-40 rounded-lg w-full'/>
+            </div>
+          
+          </div>
+          <div className='p-3 rounded-xl'>
+           <div className=' flex justify-center items-center'>
+              <img src={p17} className='h-40 rounded-lg w-full'/>
+            </div>
+          
+          </div>
+          <div className='p-3 rounded-xl'>
+           <div className=' flex justify-center items-center'>
+              <img src={p18} className='h-40 rounded-lg w-full'/>
             </div>
           
           </div>
