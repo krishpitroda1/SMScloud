@@ -46,11 +46,11 @@ function Home() {
             <h1 className="font-bold text-xl">Scalable Platform</h1>
             <p>Platform with burstable capacity upto 1000 TPS</p>
             </div>
-            <div className="rounded-lg h-32  pt-8 p-5 bg-gray-800 hover:bg-gray-400 text-white">
+            <div className="rounded-lg h-32 pt-8 p-5 bg-gray-800 hover:bg-gray-400 text-white">
             <h1 className="font-bold text-xl">High Quality</h1>
             <p>Global routes with AI based Route Selection and Testing</p>
             </div>
-            <div className="rounded-lg  h-32 pt-8 p-5 bg-gray-800 hover:bg-gray-400 text-white">
+            <div className="rounded-lg  -32 pt-8 p-5 bg-gray-800 hover:bg-gray-400 text-white">
             <h1 className="font-bold text-xl">Seamless Broadcast</h1>
             <p>LCR and QBR Based Routing with Fall back</p>
             </div>
