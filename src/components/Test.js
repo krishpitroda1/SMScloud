@@ -71,7 +71,7 @@ export default function App() {
   };
   return (
     <div className="w-screen">
-      <h1 className=" text-sky-600  text-center p-5 -ml-7  font-bold text-3xl">
+      <h1 className=" text-sky-400  text-center p-5 -ml-7  font-bold  text-3xl">
         Our Client's Feedback
       </h1>
       {/* <div className="w-screen text-center px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">

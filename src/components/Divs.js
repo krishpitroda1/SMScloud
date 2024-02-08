@@ -15,14 +15,15 @@ function Divs() {
           Empowering Connectivity
         </h1>
       </div>
-      <p className="text-xl font-semibold  p-5 pt-1 ml-2 mr-3 text-center">
+      <p className="text-xl font-semibold   p-5 pt-1 ml-2 mr-3 text-center">
         Seamless Messaging Across All Touchpoints
         <br /> Experience effortless communication solutions that seamlessly
         connect you with customers worldwide <br /> powered by our cutting-edge
         connectivity , Reliable Routes  and AI Technology
       </p>
+      
       <div className="text-white relative p-5 grid sm:grid-cols-2 lg:grid-cols-5 gap-3 lg:items-center">
-        <div class=" flex flex-col border text-center rounded-xl p-5 h-full bg-gray-800 border-gray-700">
+        <div class=" flex flex-col border hover:bg-gray-400 text-center rounded-xl p-5 h-full bg-gray-800 border-gray-700">
           <h4 className=" font-bold text-3xl border-b p-5  border-white">
             Global Reach
           </h4>
@@ -31,8 +32,8 @@ function Divs() {
             globally.
           </p>
         </div>
-        <div class=" flex flex-col border text-center h-full rounded-xl  bg-gray-800 p-5 border-gray-700">
-          <h4 className="font-bold text-3xl border-b block p-5  border-white">
+        <div class=" flex flex-col border text-center hover:bg-gray-400 h-full rounded-xl  bg-gray-800 p-5 border-gray-700">
+          <h4 className="font-bold text-3xl  border-b block p-5  border-white">
             Reliability
           </h4>
           <p className="text-xl  p-5">
@@ -40,7 +41,7 @@ function Divs() {
             communication.
           </p>
         </div>
-        <div class=" flex flex-col border h-full  text-center rounded-xl p-5  bg-gray-800 border-gray-700">
+        <div class=" flex flex-col border h-full hover:bg-gray-400  text-center rounded-xl p-5  bg-gray-800 border-gray-700">
           <h4 className=" font-bold  text-3xl border-b  p-5  border-white">
             Security
           </h4>
@@ -50,7 +51,7 @@ function Divs() {
           </p>
         </div>
 
-        <div class=" flex flex-col border  h-full text-center rounded-xl p-5  bg-gray-800 border-gray-700">
+        <div class=" flex flex-col border  h-full text-center hover:bg-gray-400 rounded-xl p-5  bg-gray-800 border-gray-700">
           <h4 className="font-bold text-3xl border-b p-5  border-white">
             Scalability
           </h4>
@@ -59,7 +60,7 @@ function Divs() {
             business needs.
           </p>
         </div>
-        <div class=" flex flex-col border h-full object-contain text-center  bg-gray-800 rounded-xl p-5 border-gray-700">
+        <div class=" flex flex-col border h-full object-contain text-center hover:bg-gray-400 bg-gray-800 rounded-xl p-5 border-gray-700">
           <h4 className="font-bold text-3xl  border-b p-5 border-white">
             AI Integrated
           </h4>

@@ -79,10 +79,10 @@ function Ev() {
       ]
     };
   return (
-    <div className='relative  text-center   bg-gray-800 shadow-slate-800 shadow-md  w-screen'>
-  <h1 className={`text-${color}-600 p-5 font-bold transition-colors duration-500 ease-in-out  hover:text-indigo-700 text-3xl  text-center pt-5 `}>Our Event Participations
-    
-    </h1>
+    <div>
+        <h1 className={`text-${color}-600 p-5 font-bold transition-colors duration-500 ease-in-out  hover:text-indigo-700 text-3xl  text-center pt-5 `}>Our Event Participations  </h1>
+      <div className='p-5 rounded-lg lg:pr-10'>
+    <div className='relative justify-center items-center align-middle text-center  bg-gray-800 shadow-slate-800 shadow-md  w-full'>
      {/* <div className='carousel'> */}
       <div className='w-3/4 m-auto p-5'>
       <div className='p-5 '>
@@ -203,6 +203,9 @@ function Ev() {
     </div>
       {/* </div> */}
     </div>
+    </div>
+    </div>
+   
   )
 }
 

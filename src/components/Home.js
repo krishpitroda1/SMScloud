@@ -68,7 +68,7 @@ function Home() {
             </div> 
         </div>
       </div>
-      <div className="p-9 pl-0 rounded-lg">
+      <div className="rounded-lg">
       <Ev/>
      
      </div>
