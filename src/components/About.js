@@ -18,7 +18,7 @@ function About() {
       <div className="">
         <div className="lg:flex md:grid md:grid-cols-2 lg:pl-3 lg:p-5 md:p-0 sm:p-0">
           <img
-            className="w-[500px] mx-auto my-4 rounded-2xl"
+            className="w-[500px] rounded-2xl"
             src={img}
             alt="/"
           />

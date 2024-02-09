@@ -38,9 +38,9 @@ function Home() {
      </div>
       <div className="pt-16">
         <h1 className="text-sky-400 text-center p-5 pb-1  font-bold text-3xl">
-          Benifitis Of SMS Hubbing
+          Benefits Of SMS Hubbing
         </h1>
-        <p className="text-center text-gray-500 text-xl">Benifits of SMS Hubbing with SMSCloud Hub</p>
+        <p className="text-center text-gray-500 text-xl">Benefits of SMS Hubbing with SMSCloud Hub</p>
         <div className="grid pt-8  lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-3 p-5">
             <div className="rounded-lg pt-8 h-32 p-5 bg-gray-800 hover:bg-gray-400  text-white">
             <h1 className="font-bold text-xl">Scalable Platform</h1>

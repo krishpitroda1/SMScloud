@@ -23,8 +23,9 @@ const A2P = () => {
               <div className="flex ">
                 <img src={img3} className="h-8 w-8 rounded-lg" alt="" />
                 <h1 className="align-center text-sky-600  text-xl ">
-                  A2P messaging is cost-effective, so you can save money on your
-                  marketing budget.
+                With global rise of digitization, Businesses create millions of touchpoints daily 
+                These touchpoints consist of promotional to service messages to transactional messages
+
                 </h1>
               </div>
               <div className="pt-5">
@@ -32,8 +33,8 @@ const A2P = () => {
               <div className="flex">
                 <img src={img3} className="h-8 w-8 rounded-lg" alt="" />
                 <h1 className="align-center text-sky-600  text-xl">
-                  A2P messaging is instant, so you can get your message across
-                  to your audience right away.
+                Application-to-Person (A2P) messaging is a crucial communication medium in the digital age
+
                 </h1>
               </div>
             </div>
@@ -43,17 +44,21 @@ const A2P = () => {
               <div className="flex">
                 <img src={img3} className="h-8 w-8 rounded-lg" alt="" />
                 <h1 className="align-center text-sky-600  text-xl">
-                  If you’re looking for a way to improve your customer
-                  communication, A2P messaging is a great option to consider
+                A2P is mainly used in real-time communication to send OTP, service based messages and Marketing communication
+
                 </h1>
               </div>
               <div className="flex">
                 <img src={img3} className="h-8 w-8 rounded-lg" alt="" />
                 <h1 className="align-center text-sky-600  text-xl">
-                  A2P messaging is a great way to communicate with your
-                  customers and prospects. It offers many benefits over
-                  traditional methods of communication, such as email or phone
-                  calls.
+                Single point connectivity to more than 190 Countries and 1200 Telecom Operators globally 
+                </h1>
+              </div>
+        
+              <div className="flex">
+                <img src={img3} className="h-8 w-8 rounded-lg" alt="" />
+                <h1 className="align-center text-sky-600  text-xl">
+                Reliable Routes with AI based Testing and robust security
                 </h1>
               </div>
         
