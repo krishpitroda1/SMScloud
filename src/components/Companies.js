@@ -50,14 +50,14 @@ function Companies() {
           <MarqueeGroup>
             {row1.map((el) => (
               <ImageGroup> 
-                <Image className="w-4" alt=""  src={el}/>
+                <Image className="w-4" alt="Company Logo"  src={el}/>
               </ImageGroup>
             ))}
           </MarqueeGroup>
           <MarqueeGroup>
             {row1.map((el) => (
               <ImageGroup>
-                <Image src={el} alt=''/>
+                <Image src={el} alt='Company Logo'/>
               </ImageGroup>
             ))}
           </MarqueeGroup>
@@ -66,14 +66,14 @@ function Companies() {
           <MarqueeGroup2>
             {row2.map((el) => (
               <ImageGroup>
-                <Image src={el} alt=''/>
+                <Image src={el} alt='Company Logo'/>
               </ImageGroup>
             ))}
           </MarqueeGroup2>
           <MarqueeGroup2>
             {row2.map((el) => (
               <ImageGroup>
-                <Image src={el} alt=" "/>
+                <Image src={el} alt="Company Logo"/>
               </ImageGroup>
             ))}
           </MarqueeGroup2>
@@ -82,14 +82,14 @@ function Companies() {
           <MarqueeGroup>
             {row3.map((el) => (
               <ImageGroup> 
-                <Image  src={el} alt=" "/>
+                <Image  src={el} alt="Company Logo "/>
               </ImageGroup>
             ))}
           </MarqueeGroup>
           <MarqueeGroup>
             {row3.map((el) => (
               <ImageGroup>
-                <Image src={el} alt=" "/>
+                <Image src={el} alt="Company Logo"/>
               </ImageGroup>
             ))}
           </MarqueeGroup>
@@ -102,15 +102,15 @@ function Companies() {
 
 export default Companies;
 
-const AppContainer = styled.div`
-  width: 100vw;
-  height: 100vh;
-  color: #000000;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-`;
+// const AppContainer = styled.div`
+//   width: 100vw;
+//   height: 100vh;
+//   color: #000000;
+//   position: relative;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+// `;
 
 const Wrapper = styled.div`
   width: 100%;
