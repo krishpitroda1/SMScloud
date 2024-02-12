@@ -14,11 +14,11 @@ function Home() {
   return (
     <div className="w-screen homediv relative overflow-hidden">
       <Navbar/> 
-    <div className="relative">
+    <div className="relative ">
 
       <video src={videobg} className="pt-3 blur-sm top-3 mt-2 absolute rounded-lg " autoPlay  playsInline muted loop ></video>
        <div className="firstdiv relative pt-14 lg:pt-16 my-auto first max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center text-4xl flex flex-col justify-center text-sky-400  overflow-hidden">
-        <h1 className="text-white relative font-bold p-3  text-5xl md:py-6" >
+        <h1 className="text-white relative font-bold p-3   text-5xl md:py-6" >
         Smart, Simple & Effective <br/> <span className="text-3xl pt-0 mt-0">Communication on the GO!</span></h1>
         <TypeAnimation
           className="font-bold"

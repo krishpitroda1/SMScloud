@@ -9,7 +9,7 @@ function Divs() {
     return () => clearInterval(timer);
   }, [color]);
   return (
-    <div className="pt-16">
+    <div className="pt-16 ">
       <div>
         <h1 className={`text-${color}-600 p-7 font-bold transition-colors duration-500 ease-in-out  hover:text-indigo-500 text-3xl  text-center`}>
           Empowering Connectivity
