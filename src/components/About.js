@@ -25,7 +25,7 @@ function About() {
       <div className="">
         <div className="lg:flex md:grid md:grid-cols-2 lg:pl-3 lg:p-5 md:p-0 sm:p-0">
           <img
-            className="w-[500px] rounded-2xl"
+            className="w-[500px] rounded-2xl mx-auto  md:pl-20 "
             src={img}
             alt="/"
           />
@@ -43,7 +43,7 @@ function About() {
               WebPanels & APIs, SMSCloud Hub delivers communication solutions
               that have been used by almost everyone around the world
             </p>
-            <p className="p-5 text-xl">
+            <p className="p-5 pt-0 text-xl">
               When the messaging is the central to the business, we solve
               today’s unique customer challenges by bridging business to the
               world by using complex communication channels. And we thrive with

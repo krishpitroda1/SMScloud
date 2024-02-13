@@ -1,12 +1,14 @@
 import React from "react";
 import img from "../assets/ai.jpg";
+
 function Aiblog() {
   return (
     <div>
-      <div className=" w-screen relative p-10">
+      <div className=" w-screen aib relative p-10">
+        <h1 className="text-5xl pt-10  font-bold text-center">Aiblog</h1>
         <img
           src={img}
-          className="w-[50%] h-96 mx-auto my-4 rounded-2xl flex"
+          className="w-[90%] lg:h-[500px]  mx-auto my-5 rounded-2xl flex"
           alt=""
         />
         <p className="p-4 pb-0 text-lg font-sans">
