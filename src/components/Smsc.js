@@ -19,38 +19,33 @@ function Smsc() {
               SMSC Firewall
             </p>
             <h1 className="text-lg font-semibold sm:text-xl md:text-xl p-3 ">
-              An SMS Firewall is a security solution that helps in filtering and
-              blocking unwanted or malicious SMS traffic from reaching mobile
-              devices or phones.
+            Protect an SMSC from unauthorized access 	and potential attacks, controlling the flow of 	data into and out of the SMSC
+
             </h1>
             <div className="grid grid-flow-row pt-5 ">
               <div className="">
                 <div className="flex">
                   <img src={img3} className="h-8 w-8 rounded-lg" alt="" />
                   <h1 className="align-center text-sky-600  text-xl pb-5">
-                    Prevention of SMS Fraud
+                  Ensure the reliability and security of SMS 	messages and helps prevent potential 	security breaches
+
                   </h1>
                 </div>
                 <div className="flex">
                   <img src={img3} className="h-8 w-8 rounded-lg" alt="" />
                   <h1 className="align-center text-sky-600  text-xl pb-5">
-                    Staying Compliant with the Regulations
-                  </h1>
+                  Traffic Filtering and content inspection
+   </h1>
                 </div>
               </div>
                <div className="">
                 <div className="flex">
                   <img src={img3} className="h-8 w-8 rounded-lg" alt="" />
                   <h1 className="align-center text-sky-600  text-xl ">
-                    Maintaining the Reputation of the Business
-                  </h1>
+                  Authentication and Authorization
+     </h1>
                 </div>
-                <div className="flex pt-5 ">
-                  <img src={img3} className="h-8 w-8 rounded-lg" alt="" />
-                  <h1 className="align-center text-sky-600  text-xl pb-5 pr-5">
-                    Prevents SMS Spamming
-                  </h1>
-                </div>
+              
               </div>
             </div>
           </div>

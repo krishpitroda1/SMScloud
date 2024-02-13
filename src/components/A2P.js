@@ -33,7 +33,7 @@ const A2P = () => {
               <div className="flex">
                 <img src={img3} className="h-8 w-8 rounded-lg" alt="" />
                 <h1 className="align-center text-sky-600  text-xl">
-                Application-to-Person (A2P) messaging is a crucial communication medium in the digital age
+                Globally SMS messages read average under 3 	Minutes
 
                 </h1>
               </div>
@@ -44,24 +44,30 @@ const A2P = () => {
               <div className="flex">
                 <img src={img3} className="h-8 w-8 rounded-lg" alt="" />
                 <h1 className="align-center text-sky-600  text-xl">
-                A2P is mainly used in real-time communication to send OTP, service based messages and Marketing communication
+                SMS offers proficient and personal way to reach 	end-users
 
                 </h1>
               </div>
               <div className="flex">
                 <img src={img3} className="h-8 w-8 rounded-lg" alt="" />
                 <h1 className="align-center text-sky-600  text-xl">
-                Single point connectivity to more than 190 Countries and 1200 Telecom Operators globally 
-                </h1>
+                SMS offers an incredibly high ROI when
+compared with other digital marketing channels
+      </h1>
               </div>
         
               <div className="flex">
                 <img src={img3} className="h-8 w-8 rounded-lg" alt="" />
                 <h1 className="align-center text-sky-600  text-xl">
-                Reliable Routes with AI based Testing and robust security
-                </h1>
+                Special Rates and effective Routes for India and 	189 countries of the world
+ </h1>
               </div>
-        
+              <div className="flex">
+                <img src={img3} className="h-8 w-8 rounded-lg" alt="" />
+                <h1 className="align-center text-sky-600  text-xl">
+                Fastest Termination with Real Time Delivery 	Reports
+</h1>
+              </div>
           </div>
         </div>
       </div>

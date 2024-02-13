@@ -24,25 +24,30 @@ function Cpas() {
         <div className='flex'>
           <img src={img3} className="h-8 w-8 rounded-lg" alt="" />
           <h1 className="align-center text-sky-600  text-xl">
-          Great for customer service and client engagement
+          CPaaS is a cloud-based collaboration platform that 	aims to make communication easier for businesses and It can be Can be integrated to existing CRM
+
+
           </h1>
         </div>
         <div className='flex pt-5'>
           <img src={img3} className="h-8 w-8 rounded-lg" alt="" />
           <h1 className="align-center text-sky-600  text-xl">
-          Easy integration with existing apps.
+          CPaaS combines many useful features into one place 	so businesses can stay in touch with their partners, 	vendors, suppliers and customers on the 	communication channel they like
+
           </h1>
          </div>
         <div className='flex pt-5'>
           <img src={img3} className="h-8 w-8 rounded-lg" alt="" />
           <h1 className="align-center text-sky-600  text-xl pr-5">
-          Customizable and specific to your needs
+          Use of Email, SMS, Voice, Video, Chatbot & Analytics 	from the single platform & single vendor
+
           </h1>
          </div>
         <div className='flex pt-5'>
           <img src={img3} className="h-8 w-8 rounded-lg" alt="" />
           <h1 className="align-center text-sky-600  text-xl">
-            Scalable and cost efficient
+          Expert Consulting to the companies building the 	CPaaS Platform
+
            </h1>
         </div>
     

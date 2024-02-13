@@ -23,13 +23,14 @@ function Hlr() {
         <div className='flex'>
           <img src={img3} className="h-8 w-8 rounded-lg" alt="" />
           <h1 className="align-center text-sky-600  text-xl">
-          HLR includes the international mobile subscriber identity (IMSI) and the mobile station international subscriber directory number (MSISDN) of each subscription. </h1>
-        </div>
+          Home Location Register is the subscribers 	database of a network, contains Customer data, 	including the validity of a phone number, which 	network it is operating on, number has porting, 	the network that originally issued the number, 	and information on whether or not the number 	is roaming.
+</h1>
+ </div>
         <div className='flex pt-5'>
           <img src={img3} className="h-8 w-8 rounded-lg" alt="" />
           <h1 className="align-center text-sky-600  text-xl">
-          HLR includes services requested by or rendered to the corresponding subscriber, the general packet radio service settings of the subscriber, the current location of the subscriber and call divert settings.
-          </h1>
+          Allows businesses to adjust their messaging 	capabilities as needed to meet changing 	business requirements
+ </h1>
          </div>
       </div>
     </div>

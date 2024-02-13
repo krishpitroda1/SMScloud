@@ -27,14 +27,15 @@ const Voice = () => {
         <div className='flex pt-3'>
           <img src={img3} className="h-8 w-8 rounded-lg" alt="" />
           <h1 className="align-center text-sky-600  text-xl">
-          You can also listen to voice messages at your convenience, and reply with another voice message or a text message.
-          </h1>
+          Type of communication service that 	enables users to make and receive voice 	calls using telecommunication networks, 	such as landlines, mobile networks, or 	voice over IP (VoIP) networks.
+  </h1>
          </div>
         <div className='flex pt-3'>
           <img src={img3} className="h-8 w-8 rounded-lg" alt="" />
           <h1 className="align-center text-sky-600  text-xl">
-          They can convey more emotion, tone, and personality than text messages, and can also save time and effort   </h1>
-        </div>
+          Accessible and affordable, making it 	easier for people to stay connected with 	each other regardless of location or 	device.
+</h1>
+</div>
         <div className='flex pt-3'>
           <img src={img3} className="h-8 w-8 rounded-lg" alt="" />
           <h1 className="align-center text-sky-600  text-xl">

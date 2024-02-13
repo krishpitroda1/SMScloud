@@ -40,16 +40,13 @@ function Managehubs() {
                 <div className="flex">
                   <img src={img3} className="h-8 w-8 rounded-lg" alt="" />
                   <h1 className="align-center text-sky-600  text-xl ">
-                    Messages and events can be delivered using various
-                    protocols, such as AMQP, MQTT, HTTP, or WebSockets.{" "}
-                  </h1>
+                  Regular monitoring of messaging hubs to 	ensure optimal performance, detect potential 	issues, and perform necessary maintenance to 	keep the system running smoothly  </h1>
                 </div>
                 <div className="flex ">
                   <img src={img3} className="h-8 w-8 rounded-lg" alt="" />
                   <h1 className="align-center text-sky-600  text-xl">
-                    There are different messaging services available on Azure,
-                    such as Service Bus, Event Grid, Event Hubs, and others
-                  </h1>
+                  Regular software upgrades and security 	patches to ensure that messaging hubs are up- 	to-date and protected against vulnerabilities
+       </h1>
                 </div>
               
             </div>

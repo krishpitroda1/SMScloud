@@ -55,7 +55,7 @@ function App() {
    
   const location = useLocation();
   const [loading, setLoading] = useState(false);
-  const [color, setColor] = useState("#15C5DD");
+  const [color, setColor] = useState("#0ea5f9");
   useEffect(()=>{
     setLoading(true)
     setTimeout(()=>{

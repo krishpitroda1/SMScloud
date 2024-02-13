@@ -2,6 +2,13 @@ import React, { useEffect } from "react";
 import img from "../assets/img1.jpeg";
 import img2 from "../assets/hubs.jpeg";
 import img3 from "../assets/easy.jpeg";
+import image from '../assets/Events/icon1.jpg'
+import image2 from '../assets/Events/i1.png'
+import image3 from '../assets/Events/i3.png'
+import image4 from '../assets/Events/i4.webp'
+import image5 from '../assets/Events/i5.png'
+import image6 from '../assets/Events/i6.png'
+
 import { count } from "firebase/firestore";
 
 function About() {
@@ -69,21 +76,21 @@ function About() {
             <div className="grid grid-flow-row  pl-5 gap-4">
               <div className="grid grid-cols-3 gap-5 pt-5">
                 <div>
-                  <img src={img3} className="h-16 rounded-lg" alt="" />
-                  <h1 className="align-center text-sky-600  text-xl">
+                  <img src={image2} className="h-10 rounded-lg" alt="" />
+                  <h1 className="align-center pt-0 text-sky-600  text-xl">
                     Easy to integrate
                   </h1>
                   <p className="font-semibold">Adaptive platform to connect with your existing clients</p>
                 </div>
                 <div>
-                  <img src={img3} className="h-16 rounded-lg" alt="" />
+                  <img src={image} className="h-10 rounded-lg" alt="" />
                   <h1 className="align-center text-sky-600  text-xl">
                     Global Reach
                   </h1>
                   <p className="font-semibold">World Wide Connectivity</p>
                 </div>
                 <div>
-                  <img src={img3} className="h-16 rounded-lg" alt="" />
+                  <img src={image3} className="h-8 rounded-lg" alt="" />
                   <h1 className="align-center text-sky-600  text-xl">
                     Cloud Scalable
                   </h1>
@@ -94,21 +101,21 @@ function About() {
               </div>
               <div className="grid grid-cols-3 gap-5 pt-5">
                 <div>
-                  <img src={img3} className="h-16 rounded-lg" alt="" />
+                  <img src={image4} className="h-10 rounded-lg" alt="" />
                   <h1 className="align-center text-sky-600  text-xl">
                     Responsive Team
                   </h1>
                   <p className="font-semibold">Friendly and always available business & support team.</p>
                 </div>
                 <div>
-                  <img src={img3} className="h-16 rounded-lg" alt="" />
+                  <img src={image5} className="h-10 rounded-lg" alt="" />
                   <h1 className="align-center text-sky-600  text-xl">
                     Low TCO
                   </h1>
                   <p className="font-semibold">Adaptive platform to connect with your existing clients</p>
                 </div>
                 <div>
-                  <img src={img3} className="h-16 rounded-lg" alt="" />
+                  <img src={image6} className="h-10 ounded-lg" alt="" />
                   <h1 className="align-center text-sky-600  text-xl">
                     Futuristic Solution
                   </h1>

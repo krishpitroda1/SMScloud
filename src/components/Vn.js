@@ -20,14 +20,20 @@ function Vn() {
         <div className='flex'>
           <img src={img3} className="h-8 w-8 rounded-lg" alt="" />
           <h1 className="align-center text-sky-600  text-xl">
-          Virtual numbers are temporary phone numbers that can be used to receive SMS messages and voice mails online without registration.
-          </h1>
+          A virtual number is a telephone number that assigned to an account and then routed through the internet to a physical phone line
+   </h1>
         </div>
         <div className='flex pt-5'>
           <img src={img3} className="h-8 w-8 rounded-lg" alt="" />
           <h1 className="align-center text-sky-600  text-xl">
-          You can also get an international toll-free number in 120+ countries with advanced call management features .
-          </h1>
+          This can be useful for a variety of reasons, such as having multiple lines for a business or managing calls made to different departments or locations without giving out individual phone numbers
+ </h1>
+         </div>
+         <div className='flex pt-5'>
+          <img src={img3} className="h-8 w-8 rounded-lg" alt="" />
+          <h1 className="align-center text-sky-600  text-xl">
+          A toll free number allows your customers to reach you without incurring any long distance charges. This can be a great way to increase customer satisfaction and loyalty
+</h1>
          </div>
       </div>
     </div>

@@ -23,9 +23,7 @@ function Cr() {
                 <h1 className="align-center text-sky-600  text-xl pb-5">
                   A change request in an existing Short Message Service Center
                   (SMSC) refers to a request to modify, update or improve an
-                  existing SMSC system. This can be due to various reasons such
-                  as new business requirements, technological advancements, or
-                  to resolve system issues.
+                  existing SMSC system. 
                 </h1>
               </div>
               <div className="flex">
@@ -34,6 +32,13 @@ function Cr() {
                   We ensures that the system is updated and improved to meet the
                   evolving needs of Your business.
                 </h1>
+              </div>
+              <div className="flex">
+                <img src={img3} className="h-8 w-8 rounded-lg" alt="" />
+                <h1 className="align-center text-sky-600  text-xl pb-5">
+                This can be due to various reasons such
+                  as new business requirements, technological advancements, or
+                  to resolve system issues.</h1>
               </div>
             </div>
           </div>
