@@ -170,7 +170,7 @@ function Navbar() {
               <div className="dropdown top-9 hidden absolute hover:block rounded-lg p-8 w-12 text-md bg-[#afd3e2]">
                 <ul>
                   <li className="hover:text-white py-2  block ">
-                    <Link to="/Carrers">Carrers</Link>
+                    <Link to="/Carrers">Careers</Link>
                   </li>
                   <li className="hover:text-white   py-2 block">
                     <Link to="/Blogs">Blogs</Link>
