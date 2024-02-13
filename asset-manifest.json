@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/SMScloud/static/css/main.f8587eac.css",
-    "main.js": "/SMScloud/static/js/main.228acf7c.js",
+    "main.css": "/SMScloud/static/css/main.177abecb.css",
+    "main.js": "/SMScloud/static/js/main.d7c47149.js",
     "static/js/787.fda24d20.chunk.js": "/SMScloud/static/js/787.fda24d20.chunk.js",
     "static/media/bgvideo.mp4": "/SMScloud/static/media/bgvideo.eaa84a1e7c19d6295351.mp4",
     "static/media/source.png": "/SMScloud/static/media/source.5e39297bfe0575dc5163.png",
@@ -12,6 +12,7 @@
     "static/media/event2.jpg": "/SMScloud/static/media/event2.f4e98f94f7244c7329fa.jpg",
     "static/media/msme.png": "/SMScloud/static/media/msme.6047d74d0e0c64b5aa4f.png",
     "static/media/laptop.jpg": "/SMScloud/static/media/laptop.45ddf500e572fb2f1d35.jpg",
+    "static/media/icon1.jpg": "/SMScloud/static/media/icon1.564fdf4797f780d2f98d.jpg",
     "static/media/background2.jpeg": "/SMScloud/static/media/background2.4e55e66cf1f3fe587910.jpeg",
     "static/media/smsc.jpeg": "/SMScloud/static/media/smsc.b3d7ad2960a94c76e1b1.jpeg",
     "static/media/img1.jpeg": "/SMScloud/static/media/img1.b54bb46ab8bf4092726b.jpeg",
@@ -24,6 +25,7 @@
     "static/media/hubs.jpeg": "/SMScloud/static/media/hubs.2481c1fd99af2bdc8ef3.jpeg",
     "static/media/cpaas.jpeg": "/SMScloud/static/media/cpaas.98b0f8855eab3ed9da82.jpeg",
     "static/media/events4.jpg": "/SMScloud/static/media/events4.0582dd927e0a86c72f78.jpg",
+    "static/media/i6.png": "/SMScloud/static/media/i6.c02c1b1984e96e6fad5c.png",
     "static/media/preview.webp": "/SMScloud/static/media/preview.137a45eea9387316c46b.webp",
     "static/media/security.jpg": "/SMScloud/static/media/security.988b46d0e3faac17f739.jpg",
     "static/media/event6.jpg": "/SMScloud/static/media/event6.6dacb6a406b0638295d8.jpg",
@@ -38,6 +40,7 @@
     "static/media/manageit.png": "/SMScloud/static/media/manageit.41d3c621c4c425bb7f09.png",
     "static/media/reliabilty.jpg": "/SMScloud/static/media/reliabilty.fe17dede1b595283767b.jpg",
     "static/media/voice.jpeg": "/SMScloud/static/media/voice.bc4042e7047ad5fd09bc.jpeg",
+    "static/media/i5.png": "/SMScloud/static/media/i5.cf3040d37722be6812e1.png",
     "static/media/event7.jpg": "/SMScloud/static/media/event7.36ca78b83537651a8ed1.jpg",
     "static/media/circle.png": "/SMScloud/static/media/circle.e89c99f7823bec8a12e0.png",
     "static/media/scale.jpg": "/SMScloud/static/media/scale.62208999c51abbb8359c.jpg",
@@ -47,7 +50,10 @@
     "static/media/vn.jpg": "/SMScloud/static/media/vn.b610c7d8a77832a2eef6.jpg",
     "static/media/cskool.jpeg": "/SMScloud/static/media/cskool.78399c4898da921b060e.jpeg",
     "static/media/SMSCH_Transparent-removebg-preview.png": "/SMScloud/static/media/SMSCH_Transparent-removebg-preview.eac5eee6a7f0adba3063.png",
-    "static/media/e4.jpg": "/SMScloud/static/media/e4.ad0daa425084c526f6b4.jpg",
+    "static/media/i3.png": "/SMScloud/static/media/i3.8ca639341ec8d4f89d55.png",
+    "static/media/i1.png": "/SMScloud/static/media/i1.28ea7e88056070095961.png",
+    "static/media/e4.jpg": "/SMScloud/static/media/e4.0ccce7b015a64b43c54a.jpg",
+    "static/media/i4.webp": "/SMScloud/static/media/i4.2708b9f4550a12ac16a0.webp",
     "static/media/msme.webp": "/SMScloud/static/media/msme.1a21658ab7b6bf8fe422.webp",
     "static/media/e12.png": "/SMScloud/static/media/e12.0ec6961cbb17bba6dca3.png",
     "static/media/e11.png": "/SMScloud/static/media/e11.c4e7951e98fbfaffdae3.png",
@@ -69,12 +75,12 @@
     "static/media/slick.ttf": "/SMScloud/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "index.html": "/SMScloud/index.html",
     "static/media/slick.woff": "/SMScloud/static/media/slick.295183786cd8a1389865.woff",
-    "main.f8587eac.css.map": "/SMScloud/static/css/main.f8587eac.css.map",
-    "main.228acf7c.js.map": "/SMScloud/static/js/main.228acf7c.js.map",
+    "main.177abecb.css.map": "/SMScloud/static/css/main.177abecb.css.map",
+    "main.d7c47149.js.map": "/SMScloud/static/js/main.d7c47149.js.map",
     "787.fda24d20.chunk.js.map": "/SMScloud/static/js/787.fda24d20.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f8587eac.css",
-    "static/js/main.228acf7c.js"
+    "static/css/main.177abecb.css",
+    "static/js/main.d7c47149.js"
   ]
 }
