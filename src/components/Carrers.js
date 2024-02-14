@@ -33,6 +33,10 @@ const RevealOnScroll = ({ children }) => {
   );
 };
 function Carrers() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
+  
   return (
     <div className=' w-screen pt-8 pb-8'>
       <RevealOnScroll>

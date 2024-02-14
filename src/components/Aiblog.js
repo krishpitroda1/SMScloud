@@ -1,16 +1,53 @@
 import React from "react";
 import img from "../assets/ai.jpg";
+import { useEffect, useState,useRef } from "react";
 
+const RevealOnScroll = ({ children }) => {
+  const [isVisible, setIsVisible] = useState(false);
+  const ref = useRef(null);
+
+  useEffect(() => {
+      const scrollObserver = new IntersectionObserver(([entry]) => {
+          if (entry.isIntersecting) {
+              setIsVisible(true);
+              scrollObserver.unobserve(entry.target);
+          }
+      });
+
+      scrollObserver.observe(ref.current);
+
+      return () => {
+          if (ref.current) {
+              scrollObserver.unobserve(ref.current);
+          }
+      };
+  },);
+
+  const classes = `transition-opacity duration-1000
+      ${isVisible ? "opacity-100" : "opacity-0"
+      }`;
+
+  return (
+      <div ref={ref} className={classes}>
+          {children}
+      </div>
+  );
+};
 function Aiblog() {
   return (
     <div>
-      <div className=" w-screen aib relative p-10">
+      
+      <div className=" w-screen aib relative  lg:p-10 md:pt-10">
         <h1 className="text-5xl pt-10  font-bold text-center">Aiblog</h1>
         <img
           src={img}
           className="w-[90%] lg:h-[500px]  mx-auto my-5 rounded-2xl flex"
           alt=""
         />
+        <RevealOnScroll>
+
+        <div>
+
         <p className="p-4 pb-0 text-lg ">
           A2P SMS is plain and simple, yet most widely used due to it
           simplicity. Many a times it is chosen as a compliance guideline or as
@@ -161,6 +198,9 @@ function Aiblog() {
           This has to be most intuitive and user-friendly aspect for better user
           engagement
         </p>
+        </div>
+        </RevealOnScroll>
+       
       </div>
     </div>
   );

@@ -1,16 +1,51 @@
 import React from 'react'
 import img3 from "../assets/circle.png";
 import img1 from '../assets/preview.webp'
+import { useEffect, useState,useRef } from "react";
 
+const RevealOnScroll = ({ children }) => {
+  const [isVisible, setIsVisible] = useState(false);
+  const ref = useRef(null);
+
+  useEffect(() => {
+      const scrollObserver = new IntersectionObserver(([entry]) => {
+          if (entry.isIntersecting) {
+              setIsVisible(true);
+              scrollObserver.unobserve(entry.target);
+          }
+      });
+
+      scrollObserver.observe(ref.current);
+
+      return () => {
+          if (ref.current) {
+              scrollObserver.unobserve(ref.current);
+          }
+      };
+  },);
+
+  const classes = `transition-opacity duration-1000
+      ${isVisible ? "opacity-100" : "opacity-0"
+      }`;
+
+  return (
+      <div ref={ref} className={classes}>
+          {children}
+      </div>
+  );
+};
 function Cpas() {
   return (
     <div className=' w-screen pt-10 relative '>
+   <RevealOnScroll>
+
     <h1 className="align-center text-sky-600 pt-10 text-center p-5  font-bold text-3xl">
     Communications Platform as a Service
     </h1>
+   
     <div className="lg:flex pt-0 p-10 md:grid md:grid-cols-2 ">
     <img src={img1} className="w-[500px] h-96 mx-auto my-4 rounded-2xl" alt="" />
-   
+   <RevealOnScroll>
     <div className="flex flex-col  p-5">
       <p className="pl-5 text-orange-600 font-bold text-3xl">
         CPaas platform
@@ -53,8 +88,9 @@ function Cpas() {
     
       </div>
      </div>
-   
+     </RevealOnScroll>
   </div>
+     </RevealOnScroll>
 </div>
   )
 }

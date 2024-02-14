@@ -3,14 +3,45 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 import { Link } from 'react-router-dom';
-import { ToastContainer, toast } from 'react-toastify';
 import emailjs from '@emailjs/browser';
-import { useEffect } from 'react';
+import { useEffect,useState } from 'react';
+const RevealOnScroll = ({ children }) => {
+  const [isVisible, setIsVisible] = useState(false);
+  const ref = useRef(null);
+
+  useEffect(() => {
+      const scrollObserver = new IntersectionObserver(([entry]) => {
+          if (entry.isIntersecting) {
+              setIsVisible(true);
+              scrollObserver.unobserve(entry.target);
+          }
+      });
+
+      scrollObserver.observe(ref.current);
+
+      return () => {
+          if (ref.current) {
+              scrollObserver.unobserve(ref.current);
+          }
+      };
+  }, []);
+
+  const classes = `transition-opacity duration-1000
+      ${isVisible ? "opacity-100" : "opacity-0"
+      }`;
+
+  return (
+      <div ref={ref} className={classes}>
+          {children}
+      </div>
+  );
+};
+
 function Contacts() {
   
   useEffect(() => {
     window.scrollTo(0, 0);
-  });
+  },[]);
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -31,7 +62,8 @@ function Contacts() {
         Contact us
       </h1>
     <div>
-<div class="">
+      <RevealOnScroll>
+        <div class="">
   <div class="">
     <div class=" ">
       
@@ -82,8 +114,7 @@ function Contacts() {
         </form>
       </div> 
       <div class="divide-y divide-gray-200 dark:divide-gray-800">
-     
-        <div class="flex gap-x-7 py-6">
+        <RevealOnScroll><div class="flex gap-x-7 py-6">
          <FaWhatsapp className='flex-shrink-0 w-6 h-6 mt-1.5 text-green-600' />
           <div class="grow">
             <h3 class="font-semibold text-sky-600">Whatsapp</h3>
@@ -93,7 +124,8 @@ function Contacts() {
            </a>
           </div>
         </div>
-        <div class=" flex gap-x-7 py-6">
+        </RevealOnScroll>
+        <RevealOnScroll>        <div class=" flex gap-x-7 py-6">
         <FaLinkedin className='flex-shrink-0 w-6 h-6 mt-1.5 text-sky-600'/>
           <div class="grow">
             <h3 class="font-semibold text-sky-600">Linkedin</h3>
@@ -105,7 +137,9 @@ function Contacts() {
               </svg>
             </Link>
           </div>
-        </div>
+        </div></RevealOnScroll>
+
+        
         <div class=" flex gap-x-7 py-6">
          <SiGmail className='flex-shrink-0 w-6 h-6 mt-1.5 text-red-600'/>
           <div class="grow">
@@ -120,8 +154,11 @@ function Contacts() {
     </div>
   </div>
 </div>
+</RevealOnScroll>
+
 
 </div>
+<RevealOnScroll>
 <div className=''>
 
      <h1 className="text-sky-600 text-center  font-bold text-4xl ">
@@ -129,7 +166,7 @@ function Contacts() {
         </h1>
      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d485.30011784394395!2d72.49662934555259!3d22.989018459114877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e9bf4765fe993%3A0xa21cf89753936894!2sSMSCloud%20Hub!5e0!3m2!1sen!2sin!4v1704867816876!5m2!1sen!2sin "height={'600px'} className=' block justify-center items-center rounded-xl w-full' allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" key={"g"}></iframe>
 </div>
-    
+</RevealOnScroll>
     </div>
   )
 }

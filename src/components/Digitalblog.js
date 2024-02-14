@@ -3,7 +3,7 @@ import img from '../assets/msme.webp'
 
 function Digitalblog() {
   return (
-    <div className=' relative pt-10 p-4 pb-10 w-screen'>
+    <div className=' relative lg:p-10 md:pt-10 w-screen'>
     <div className=" " >
           <img
             src={img}

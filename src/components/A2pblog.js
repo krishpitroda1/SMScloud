@@ -1,9 +1,47 @@
 import React from "react";
 import img from "../assets/a2p1.png";
+import { useEffect, useState,useRef } from "react";
+
+const RevealOnScroll = ({ children }) => {
+  const [isVisible, setIsVisible] = useState(false);
+  const ref = useRef(null);
+
+  useEffect(() => {
+      const scrollObserver = new IntersectionObserver(([entry]) => {
+          if (entry.isIntersecting) {
+              setIsVisible(true);
+              scrollObserver.unobserve(entry.target);
+          }
+      });
+
+      scrollObserver.observe(ref.current);
+
+      return () => {
+          if (ref.current) {
+              scrollObserver.unobserve(ref.current);
+          }
+      };
+  },);
+
+  const classes = `transition-opacity duration-1000
+      ${isVisible ? "opacity-100" : "opacity-0"
+      }`;
+
+  return (
+      <div ref={ref} className={classes}>
+          {children}
+      </div>
+  );
+};
 function A2pblog() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
+  
   return (
     <div className="">
-      <div className=" w-screen relative pt-5 ">
+      <RevealOnScroll>
+      <div className=" w-screen relative lg:p-10 md:pt-10 ">
         <img
           src={img}
           className="w-full pt-10 h-96  rounded-2xl flex"
@@ -75,6 +113,7 @@ function A2pblog() {
           Marketing Medium
         </p>
       </div>
+      </RevealOnScroll>
     </div>
   );
 }

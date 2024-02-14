@@ -4,13 +4,48 @@ import img1 from "../assets/ai.jpg";
 import img2 from "../assets/msme.png";
 import icon from "../assets/icon.jpg";
 import img3 from "../assets/sms.jpeg";
+import { useEffect, useState,useRef } from "react";const RevealOnScroll = ({ children }) => {
+  const [isVisible, setIsVisible] = useState(false);
+  const ref = useRef(null);
 
+  useEffect(() => {
+      const scrollObserver = new IntersectionObserver(([entry]) => {
+          if (entry.isIntersecting) {
+              setIsVisible(true);
+              scrollObserver.unobserve(entry.target);
+          }
+      });
+
+      scrollObserver.observe(ref.current);
+
+      return () => {
+          if (ref.current) {
+              scrollObserver.unobserve(ref.current);
+          }
+      };
+  },);
+
+  const classes = `transition-opacity duration-1000
+      ${isVisible ? "opacity-100" : "opacity-0"
+      }`;
+
+  return (
+      <div ref={ref} className={classes}>
+          {children}
+      </div>
+  );
+};
 function Blogs() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
+  
   return (
     <div className="relative pt-8">
       <h1 className="align-center text-sky-600  w-screen text-center p-5 pt-14 font-serif font-bold text-3xl">
         Blogs
       </h1>
+      <RevealOnScroll>
       <div class=" w-screen px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto justify-center ">
         <div class="mx-auto md:flex-col gap-6 pt-5 p-5">
           <p class="group sm:flex rounded-xl ">
@@ -23,6 +58,7 @@ function Blogs() {
             </div>
 
             <div class="grow">
+            
               <div class="p-4 flex flex-col h-full sm:p-6">
                 <div class="mb-3">
                   <p class="inline-flex items-center gap-1.5 py-1.5 px-3 rounded-md text-xs font-medium bg-gray-100 text-gray-800 dark:bg-gray-800 dark:text-gray-200">
@@ -59,6 +95,7 @@ function Blogs() {
                   </div>
                 </div>
               </div>
+        
             </div>
           </p>
           <a
@@ -70,7 +107,7 @@ function Blogs() {
                 alt="Image Description"
               />
             </div>
-
+            <RevealOnScroll>
             <div class="grow">
               <div class="p-4 flex flex-col h-full sm:p-6">
                 <div class="mb-3">
@@ -109,6 +146,7 @@ function Blogs() {
                 </div>
               </div>
             </div>
+            </RevealOnScroll>
           </a>
           <a
             class="group sm:flex rounded-xl pt-7"
@@ -120,7 +158,7 @@ function Blogs() {
                 alt="Image Description"
               />
             </div>
-
+            <RevealOnScroll>
             <div class="grow">
               <div class="p-4 flex flex-col h-full sm:p-6">
                 <div class="mb-3">
@@ -159,9 +197,11 @@ function Blogs() {
                 </div>
               </div>
             </div>
+            </RevealOnScroll>
           </a>
         </div>
       </div>
+      </RevealOnScroll>
     </div>
   );
 }

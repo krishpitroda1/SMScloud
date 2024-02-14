@@ -1,12 +1,11 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
-import Navbar from "./Navbar";
-import { Link } from "react-router-dom";
+import Navbar from "./Navbar"
 import Companies from "./Companies";
 import Test from "./Test";
-import img2 from "../assets/hubs.jpeg";
+
 // import ParticlesComponent from "./Particle";
-import img3 from "../assets/easy.jpeg";
+
 import videobg from "../assets/bgvideo.mp4";
 import Divs from "./Divs";
 import { useEffect, useState,useRef } from "react";
@@ -63,7 +62,7 @@ function Home() {
         ></video>
         <div className="firstdiv relative pt-14 lg:pt-16 my-auto first max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center text-4xl flex flex-col justify-center text-sky-400  overflow-hidden">
     
-          <h1 className="text-white  relative font-bold p-3   text-5xl md:py-6">
+          <h1 className="text-white  relative font-bold p-3  mt-10 text-5xl md:py-6">
           
             Smart, Simple & Effective <br />
             <span className="text-3xl pt-0 mt-0">Communication on the GO!</span>

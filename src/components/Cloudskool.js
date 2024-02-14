@@ -1,7 +1,40 @@
-import React,{useRef} from 'react';
+import React from 'react';
 import img3 from "../assets/circle.png";
 import img1 from '../assets/cskool.jpeg'
 import emailjs from '@emailjs/browser';
+import { useEffect, useState,useRef } from "react";
+
+const RevealOnScroll = ({ children }) => {
+  const [isVisible, setIsVisible] = useState(false);
+  const ref = useRef(null);
+
+  useEffect(() => {
+      const scrollObserver = new IntersectionObserver(([entry]) => {
+          if (entry.isIntersecting) {
+              setIsVisible(true);
+              scrollObserver.unobserve(entry.target);
+          }
+      });
+
+      scrollObserver.observe(ref.current);
+
+      return () => {
+          if (ref.current) {
+              scrollObserver.unobserve(ref.current);
+          }
+      };
+  },);
+
+  const classes = `transition-opacity duration-1000
+      ${isVisible ? "opacity-100" : "opacity-0"
+      }`;
+
+  return (
+      <div ref={ref} className={classes}>
+          {children}
+      </div>
+  );
+};
 
 function Cloudskool() {
   const form = useRef();
@@ -22,6 +55,8 @@ function Cloudskool() {
     <h1 className="align-center text-sky-600 pt-10 text-center p-5  font-bold text-3xl">
     CloudSkool++
     </h1>
+    <RevealOnScroll>
+
     <div className="lg:flex md:grid md:grid-cols-2 lg:pl-3 lg:p-5 md:p-0 sm:p-0">
     <img src={img1} className="w-[550px] h-[550px] mx-auto my-4 rounded-2xl" alt="" />
     <div className="flex flex-col justify-center p-5">
@@ -61,6 +96,8 @@ function Cloudskool() {
 
     </div>
   </div>
+  </RevealOnScroll>
+   <RevealOnScroll>
   <div className='mr-10 ml-10 bg-sky-200 '>
     <h1 className='p-5 text-3xl text-center  font-bold'>Contact Us For Demo</h1>
   <form ref={form} onSubmit={sendEmail} className='h-full p-10  bg-gray-600 align-middle '>
@@ -98,6 +135,8 @@ function Cloudskool() {
           </div>
         </form>
   </div>
+  </RevealOnScroll>
+   
     </div>
   )
 }

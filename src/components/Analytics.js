@@ -1,11 +1,5 @@
-import React, { useState } from "react";
-import Laptop from "../assets/laptop.jpg";
+import React from "react";
 import img from "../assets/services.png";
-import { Link } from "react-router-dom";
-import WA from "./WA";
-import img1 from "../assets/wa.jpeg";
-import { AiOutlineClose } from "react-icons/ai";
-import img3 from "../assets/circle.png";
 import Wap from "./Popup/Wap";
 import A2p from "./Popup/A2p";
 import Voicep from "./Popup/Voicep";
@@ -18,6 +12,39 @@ import Vnp from "./Popup/Vnp";
 import Smscp from "./Popup/Smscp";
 import Crp from "./Popup/Crp";
 import Cloudp from "./Popup/Cloudp";
+import { useState,useEffect,useRef } from "react";
+const RevealOnScroll = ({ children }) => {
+  const [isVisible, setIsVisible] = useState(false);
+  const ref = useRef(null);
+
+  useEffect(() => {
+      const scrollObserver = new IntersectionObserver(([entry]) => {
+          if (entry.isIntersecting) {
+              setIsVisible(true);
+              scrollObserver.unobserve(entry.target);
+          }
+      });
+
+      scrollObserver.observe(ref.current);
+
+      return () => {
+          if (ref.current) {
+              scrollObserver.unobserve(ref.current);
+          }
+      };
+  },);
+
+  const classes = `transition-opacity duration-1000
+      ${isVisible ? "opacity-100" : "opacity-0"
+      }`;
+
+  return (
+      <div ref={ref} className={classes}>
+          {children}
+      </div>
+  );
+};
+
 function Analytics() {
   // const [showWa, setshowWa] = useState(false);
   // Current Popup
@@ -101,11 +128,11 @@ function Analytics() {
                   WA for Buisness
                 </li>
                 <li
-                  className="  hover:text-sky-400 hover:scale-110"
+                  className="  hover:text-sky-400 hover:scale-110 "
                   onClick={() => setPopup("A2p")}
                 >
-                  A2P SMS
-                </li>
+                 <p className="">A2P SMS
+</p>                 </li>
                 <li
                   className="  hover:text-sky-400 hover:scale-110"
                   onClick={() => setPopup("Voicep")}

@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import Logo from "../assets/SMSCH_Transparent-removebg-preview.png";
 import NavLinks from "./NavLinks";
-import Buttons from "./Buttons";
+
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { useState } from "react";
 import { RiArrowDropDownLine } from "react-icons/ri";
