@@ -38,21 +38,22 @@ function Aiblog() {
     <div>
       
       <div className=" w-screen aib relative  lg:p-10 md:pt-10">
-        <h1 className="text-5xl pt-10  font-bold text-center">Aiblog</h1>
+        <RevealOnScroll>     <h1 className="text-5xl pt-10  font-bold text-center">Aiblog</h1>
         <img
           src={img}
           className="w-[90%] lg:h-[500px]  mx-auto my-5 rounded-2xl flex"
           alt=""
         />
-        <RevealOnScroll>
 
         <div>
+        <RevealOnScroll>
 
         <p className="p-4 pb-0 text-lg ">
-          A2P SMS is plain and simple, yet most widely used due to it
+               A2P SMS is plain and simple, yet most widely used due to it
           simplicity. Many a times it is chosen as a compliance guideline or as
           a most cost effective and efficient medium. The very important feature
           of A2P SMS is – it is neutral and run under GSMA / ITU guidelines.
+        
         </p>
         <p className="p-4  pb-0 text-lg ">
           With RCS and OTTs influx A2P SMS feels heat as those platforms are
@@ -198,9 +199,10 @@ function Aiblog() {
           This has to be most intuitive and user-friendly aspect for better user
           engagement
         </p>
+        </RevealOnScroll>
         </div>
         </RevealOnScroll>
-       
+   
       </div>
     </div>
   );

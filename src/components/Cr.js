@@ -42,10 +42,10 @@ function Cr() {
       <h1 className="align-center text-sky-600  text-center pt-10 p-5  font-bold text-3xl">
         CR
       </h1>
-        <div className="lg:flex md:grid md:grid-cols-2 p-5">
-      <img src={img1} className="w-[500px] h-96 mx-auto my-4 rounded-2xl" alt="" />
-      <RevealOnScroll> 
+        <div className="lg:flex md:grid md:grid-cols-2 lg:pl-3 p-5">
+      <img src={img1} className="w-[500px]  mx-auto my-4 rounded-2xl" alt="" />
         <div className="flex flex-col justify-center">
+      <RevealOnScroll> 
           <p className="text-orange-600  p-5 font-bold text-3xl pt-10">
             Change Request(CR)
           </p>
@@ -77,8 +77,8 @@ function Cr() {
               </div>
             </div>
           </div>
-        </div>
         </RevealOnScroll>  
+        </div>
       </div>
       </RevealOnScroll>
   

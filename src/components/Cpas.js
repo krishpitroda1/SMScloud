@@ -35,6 +35,10 @@ const RevealOnScroll = ({ children }) => {
   );
 };
 function Cpas() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
+ 
   return (
     <div className=' w-screen pt-10 relative '>
    <RevealOnScroll>

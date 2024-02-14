@@ -43,10 +43,11 @@ function Hlr() {
     <h1 className="align-center text-sky-600  pt-10 text-center p-5  font-bold text-3xl">
       Home Location Register
     </h1>
+    
     <div className="lg:flex md:grid md:grid-cols-2 lg:pl-3 p-5">
     <img src={img1} className="w-[500px] mx-auto my-4 rounded-2xl" alt="" />
-   
     <div className="flex flex-col justify-center">
+   <RevealOnScroll>
       <p className="text-orange-600 p-5 font-bold text-3xl">
      Home Location Register(HLR)
       </p>
@@ -71,6 +72,7 @@ function Hlr() {
       </div>
     </div>
 
+    </RevealOnScroll>
     </div>
   </div>
   </RevealOnScroll>

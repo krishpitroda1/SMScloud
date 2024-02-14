@@ -37,6 +37,10 @@ const RevealOnScroll = ({ children }) => {
 };
 
 function Cloudskool() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
+ 
   const form = useRef();
 
   const sendEmail = (e) => {

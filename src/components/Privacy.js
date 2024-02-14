@@ -1,11 +1,49 @@
-import React from 'react'
+import React ,{useState,useRef,useEffect} from 'react'
+const RevealOnScroll = ({ children }) => {
+  const [isVisible, setIsVisible] = useState(false);
+  const ref = useRef(null);
+
+  useEffect(() => {
+      const scrollObserver = new IntersectionObserver(([entry]) => {
+          if (entry.isIntersecting) {
+              setIsVisible(true);
+              scrollObserver.unobserve(entry.target);
+          }
+      });
+
+      scrollObserver.observe(ref.current);
+
+      return () => {
+          if (ref.current) {
+              scrollObserver.unobserve(ref.current);
+          }
+      };
+  },);
+
+  const classes = `transition-opacity duration-1000
+      ${isVisible ? "opacity-100" : "opacity-0"
+      }`;
+
+  return (
+      <div ref={ref} className={classes}>
+          {children}
+      </div>
+  );
+};
 
 function Privacy() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
+ 
   return (
     <div className='relative pt-7'>
-         <h1 className="align-center text-sky-600  bg-[#EFE2BA] text-center w-screen  p-5 font-serif font-bold text-3xl border-b">
+         
+         <h1 className="align-center text-sky-600  pt-10 text-center w-screen  p-5  font-bold text-3xl ">
             Privacy Policy
          </h1>
+         <RevealOnScroll>
+
          <div className=" w-screen p-10" >
           <p className="p-4 pb-0 text-lg font-sans font-bold">
            Who are we
@@ -67,6 +105,8 @@ function Privacy() {
           Your message has been sent. Our manager will contact you soon! 
           </p>
         </div>
+        </RevealOnScroll>
+        
     </div>
   )
 }

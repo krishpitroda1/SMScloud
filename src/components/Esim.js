@@ -39,10 +39,12 @@ function Esim() {
    <RevealOnScroll>
     <h1 className="align-center text-sky-600  text-center p-5 pt-10  font-bold text-3xl">
       ESIM
+
     </h1>
     <div className="lg:flex md:grid md:grid-cols-2  p-5">
     <img src={img1} className="w-[500px] mx-auto my-4 rounded-2xl" alt="" />
-  <RevealOnScroll>    <div className="flex flex-col justify-center">
+       <div className="flex flex-col justify-center">
+  <RevealOnScroll> 
       <p className="text-orange-600 p-5 font-bold text-3xl">
         ESIM
       </p>
@@ -63,12 +65,12 @@ function Esim() {
       </div>
     </div>
 
-    </div>
     </RevealOnScroll>
-
+    </div>
+   
   </div>
-  </RevealOnScroll>
-</div>
+    </RevealOnScroll>
+ </div>
   )
 }
 

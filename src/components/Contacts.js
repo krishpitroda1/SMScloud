@@ -41,7 +41,7 @@ function Contacts() {
   
   useEffect(() => {
     window.scrollTo(0, 0);
-  },[]);
+  });
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -158,7 +158,6 @@ function Contacts() {
 
 
 </div>
-<RevealOnScroll>
 <div className=''>
 
      <h1 className="text-sky-600 text-center  font-bold text-4xl ">
@@ -166,7 +165,7 @@ function Contacts() {
         </h1>
      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d485.30011784394395!2d72.49662934555259!3d22.989018459114877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e9bf4765fe993%3A0xa21cf89753936894!2sSMSCloud%20Hub!5e0!3m2!1sen!2sin!4v1704867816876!5m2!1sen!2sin "height={'600px'} className=' block justify-center items-center rounded-xl w-full' allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" key={"g"}></iframe>
 </div>
-</RevealOnScroll>
+
     </div>
   )
 }

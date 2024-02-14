@@ -1,9 +1,46 @@
 import React from 'react'
 import img from '../assets/msme.webp'
+import { useState,useEffect,useRef } from 'react';
+const RevealOnScroll = ({ children }) => {
+  const [isVisible, setIsVisible] = useState(false);
+  const ref = useRef(null);
+
+  useEffect(() => {
+      const scrollObserver = new IntersectionObserver(([entry]) => {
+          if (entry.isIntersecting) {
+              setIsVisible(true);
+              scrollObserver.unobserve(entry.target);
+          }
+      });
+
+      scrollObserver.observe(ref.current);
+
+      return () => {
+          if (ref.current) {
+              scrollObserver.unobserve(ref.current);
+          }
+      };
+  },);
+
+  const classes = `transition-opacity duration-1000
+      ${isVisible ? "opacity-100" : "opacity-0"
+      }`;
+
+  return (
+      <div ref={ref} className={classes}>
+          {children}
+      </div>
+  );
+};
 
 function Digitalblog() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
+ 
   return (
     <div className=' relative lg:p-10 md:pt-10 w-screen'>
+      <RevealOnScroll>
     <div className=" " >
           <img
             src={img}
@@ -127,6 +164,7 @@ function Digitalblog() {
           </p>
        
         </div> 
+        </RevealOnScroll>
     </div>
   )
 }
