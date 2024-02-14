@@ -1,4 +1,4 @@
-import React from 'react'
+import React ,{useState,useEffect,useRef} from 'react'
 import img from '../assets/event1.jpg'
 import img1 from '../assets/event2.jpg'
 import img2 from '../assets/event3.jpg'
@@ -8,21 +8,58 @@ import img5 from '../assets/img2.jpg'
 import img6 from '../assets/event7.jpg'
 import img7 from '../assets/events6.jpg'
 import img8 from '../assets/event6.jpg'
+const RevealOnScroll = ({ children }) => {
+  const [isVisible, setIsVisible] = useState(false);
+  const ref = useRef(null);
+
+  useEffect(() => {
+      const scrollObserver = new IntersectionObserver(([entry]) => {
+          if (entry.isIntersecting) {
+              setIsVisible(true);
+              scrollObserver.unobserve(entry.target);
+          }
+      });
+
+      scrollObserver.observe(ref.current);
+
+      return () => {
+          if (ref.current) {
+              scrollObserver.unobserve(ref.current);
+          }
+      };
+  },);
+
+  const classes = `transition-opacity duration-1000
+      ${isVisible ? "opacity-100" : "opacity-0"
+      }`;
+
+  return (
+      <div ref={ref} className={classes}>
+          {children}
+      </div>
+  );
+};
 
 function Life() {
   return (
     <div>
  <div class="w-screen px-4 relative mt-7 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto pb-8">
+ <RevealOnScroll>
   <div class="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
+  <RevealOnScroll>
     <h2 class="text-2xl font-bold md:text-4xl md:leading-tight text-sky-400">Life @ SMSCloud Hub</h2>
     <p class="mt-1 text-gray-600 dark:text-gray-400">Learn How to Celebrate the Most Amazing and Unique Days of the Year with Style and Fun</p>
+    </RevealOnScroll>
   </div>
+  <RevealOnScroll>
   <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    
     <a class="group flex flex-col h-full border border-gray-200 hover:border-transparent hover:shadow-lg transition-all duration-300 rounded-xl p-5 dark:border-gray-700 dark:hover:border-transparent dark:hover:shadow-black/[.4] dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="#">
       <div class="aspect-w-16 aspect-h-11">
         <img class="w-full object-cover rounded-xl" src={img} alt="Image Description"/>
      
       </div>
+
       <div class="my-6">
         <h3 class="text-xl font-semibold text-sky-800 ">
           Amazing celebration of Christmas
@@ -56,7 +93,7 @@ function Life() {
         </h3>
         <p class="mt-5 text-gray-600">
         Celebrating 75 years of freedom and progress with the best people in the industry. Happy Independence Day to my awesome co-workers!
-  </p>
+      </p>
       </div>
     
     </a>
@@ -145,12 +182,8 @@ function Life() {
     
     </a>
   </div>
-  {/* <div class="mt-12 text-center">
-    <a class="py-3 px-4 inline-flex items-center gap-x-1 text-sm font-medium rounded-full border border-gray-200 bg-white text-blue-600 shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-blue-500 dark:hover:bg-gray-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="#">
-      Read more
-      <svg class="flex-shrink-0 w-4 h-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
-    </a>
-  </div> */}
+  </RevealOnScroll>
+</RevealOnScroll>
 </div>
     </div>
   )

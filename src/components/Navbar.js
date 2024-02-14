@@ -57,7 +57,7 @@ function Navbar() {
               <ul className="">
                 <li className="flex gap-10">
                   <div className="horizontalLine relative pe-4">
-                    <h1 className="text-[#146c94] text-xl font-bold hover:text-white">
+                    <h1 className="text-[#146c94] text-xl font-bold ">
                       <p >Enterprise</p>
                     </h1>
                     <ul>
@@ -76,7 +76,7 @@ function Navbar() {
                     </ul>
                   </div>
                   <div className="horizontalLine relative pe-4">
-                    <h1 className="text-[#146c94] text-xl font-bold hover:text-white">
+                    <h1 className="text-[#146c94] text-xl font-bold ">
                       <p>Operator</p>
                     </h1>
                     <ul>
@@ -102,7 +102,7 @@ function Navbar() {
                     </ul>
                   </div>
                   <div className="horizontalLine relative pe-4">
-                    <h1 className="text-[#146c94] text-xl font-bold hover:text-white">
+                    <h1 className="text-[#146c94] text-xl font-bold ">
                       <p>Carrier</p>
                     </h1>
                     <ul>
@@ -121,7 +121,7 @@ function Navbar() {
                     </ul>
                   </div>
                   <div className="relative pe-4">
-                    <h1 className="text-[#146c94] text-xl font-bold hover:text-white">
+                    <h1 className="text-[#146c94] text-xl font-bold ">
                       <p>Technology</p>
                     </h1>
                     <ul>

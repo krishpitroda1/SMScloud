@@ -1,4 +1,4 @@
-import React from "react";
+import React ,{useState,useRef,useEffect} from "react";
 import { Link } from "react-router-dom";
 import img1 from "C:/Users/krish/OneDrive/Desktop/sms3/smsloud/src/assets/managehubs.jpg";
 import { AiOutlineClose } from "react-icons/ai";
@@ -8,6 +8,37 @@ function Msp(props) {
   const handleClose = () => {
     console.log("Clicked");
     props.getClick(true);
+  };
+  const RevealOnScroll = ({ children }) => {
+    const [isVisible, setIsVisible] = useState(false);
+    const ref = useRef(null);
+  
+    useEffect(() => {
+        const scrollObserver = new IntersectionObserver(([entry]) => {
+            if (entry.isIntersecting) {
+                setIsVisible(true);
+                scrollObserver.unobserve(entry.target);
+            }
+        });
+  
+        scrollObserver.observe(ref.current);
+  
+        return () => {
+            if (ref.current) {
+                scrollObserver.unobserve(ref.current);
+            }
+        };
+    },);
+  
+    const classes = `transition-opacity duration-1000
+        ${isVisible ? "opacity-100" : "opacity-0"
+        }`;
+  
+    return (
+        <div ref={ref} className={classes}>
+            {children}
+        </div>
+    );
   };
 
   return (
@@ -29,7 +60,8 @@ function Msp(props) {
             className="w-[500px] mx-auto my-4  rounded-md"
             alt=""
           />
-          <div className="flex flex-col justify-center">
+          <RevealOnScroll>         
+            <div className="flex flex-col justify-center">
             <p className="text-orange-600  p-5 font-bold text-3xl">
               Managed Service For Messaging Hubs
             </p>
@@ -53,6 +85,8 @@ function Msp(props) {
               </Link>
             </div>
           </div>
+          </RevealOnScroll>
+ 
         </div>
       </div>
     </div>
