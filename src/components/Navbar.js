@@ -190,7 +190,7 @@ function Navbar() {
         </button> */}
         <div
           onClick={handlenav}
-          className="block hover:cursor-pointer lg:hidden"
+          className="block hover:cursor-pointer md:hidden"
         >
           {!nav ? <></> : <AiOutlineMenu size={20} />}
         </div>

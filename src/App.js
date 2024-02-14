@@ -89,7 +89,7 @@ function App() {
     <div className="container mt-20">
       <Routes>
         <Route path="/SMScloud" element={<Home />} />
-        <Route path="/About" element={<About />} />
+        <Route path="/SMScloud/About" element={<About />} />
         <Route path="/Contacts" element={<Contacts />} />
         {/* <Route path="/Products" element={<Products/>}></Route> */}
         {/* <Route path="/Resources" element={<Resources />} /> */}
