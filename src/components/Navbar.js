@@ -29,7 +29,7 @@ function Navbar() {
       <div className="navbar shadow-lg w-full px-14 md:px-0 justify-between text-black">
         <div className="hidden md:flex md:justify-around w-full text-black">
           {/* Your content goes here */}
-          <Link className="py-7" to="/About">
+          <Link className="py-7" to="/SMScloud/About">
             <p className="font-semibold text-lg">About Us</p>
           </Link>
 
