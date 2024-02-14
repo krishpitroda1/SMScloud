@@ -1,12 +1,9 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import Logo from "../assets/SMSCH_Transparent-removebg-preview.png";
-import NavLinks from "./NavLinks";
 
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { useState } from "react";
-import { RiArrowDropDownLine } from "react-icons/ri";
-import { BiSolidQuoteSingleLeft } from "react-icons/bi";
 
 function Navbar() {
   const [nav, setNav] = useState(true);
@@ -437,7 +434,7 @@ function Navbar() {
               </li>
               <li className="border-b  border-gray-600">
                 <Link
-                  to="Esim"
+                  to="/Esim"
                   className="py-7  inline-block hover:text-orange-600"
                 >
                   eSIM

@@ -9,7 +9,7 @@ import A2pblog from "./components/A2pblog";
 import Aiblog from "./components/Aiblog";
 import { useLocation } from "react-router-dom";
 import Digitalblog from "./components/Digitalblog";
-import Stories from "./components/Stories";
+
 import Test from "./components/Test";
 import Contacts from "./components/Contacts";
 import Navbar from "./components/Navbar";
@@ -96,7 +96,7 @@ function App() {
         <Route path="/Carrier" element={<Carrier/>} />
         <Route path="/Test" element={<Test/>} />
         {/* <Route path="/Apidoc" element={<Apidoc/>} /> */}
-        <Route path="/Stories" element={<Stories/>} />
+
         <Route path="/Blogs" element={<Blogs/>} />
         <Route path="/Services" element={<Services/>}  />
         <Route path="/Carrers" element={<Carrers/>}/>
