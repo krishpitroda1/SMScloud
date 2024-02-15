@@ -49,7 +49,7 @@ function About() {
   return (
     <div className="w-screen  overflow-x-hidden relative p-8 ">
       <div className="">
-        <h1 className="md:pl-5 sm:pl-5 pl-5 align-center text-sky-600 pt-10 text-center p-5  font-bold text-3xl">
+        <h1 className="lg:l-5 sm:pl-5 pl-5 align-center text-sky-600 pt-10 text-center p-5  font-bold text-3xl">
         <RevealOnScroll>
 
           About Us
@@ -58,7 +58,7 @@ function About() {
       </div>
       <div className="">
         <RevealOnScroll>
-        <div className="lg:flex md:grid md:grid-cols-2 lg:pl-3 lg:p-5 md:p-0 sm:p-0">
+        <div className="lg:flex md:grid lg:grid-cols-2 md:pl-3 md:p-5 lg:p-0 sm:p-0">
           <img
             className="w-[500px] rounded-2xl mx-auto  "
             src={img}
@@ -104,7 +104,7 @@ function About() {
           Why Choose Us
         </h1>
         <RevealOnScroll>
-        <div className="lg:flex md:grid md:grid-cols-2 lg:pl-3 lg:p-5 md:p-0 sm:p-0">
+        <div className="lg:flex md:grid md:grid-cols-2 md:pl-3 md:p-5 lg:p-0 sm:p-0">
          
           <img
             src={img2}

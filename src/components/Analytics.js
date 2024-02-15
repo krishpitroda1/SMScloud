@@ -119,7 +119,7 @@ function Analytics() {
           <div className="flex-col gap-5 ">
             <ul className="list-disc text-red-400 text-lg p-5">
               <p className="text-sky-700 font-bold text-xl">EnterPrise</p>
-              <div className="pl-9 lg:pl-9 md:pl-0 ">
+              <div className="pl-9 ">
                 {/* className={`dropdown-link hover text-sky-400 hover:${()=>setshowWa(!show)}`} */}
                 <li
                   className=" hover:text-sky-400 hover:scale-110"
