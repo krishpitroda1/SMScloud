@@ -42,11 +42,27 @@ const RevealOnScroll = ({ children }) => {
     </div>
   );
 };
+const words = ["SMS",'CPaas','Voice'];
 function Home() {
   // Create a state variable to store the text opacity
+  // useEffect(() => {
+  //   window.scrollTo(0, 0);
+  // });
+  const [index, setIndex] = useState(0);
+
+  // A useEffect hook to set up a timer that updates the index every 2 seconds
   useEffect(() => {
-    window.scrollTo(0, 0);
-  });
+    // A function that increments the index by one, or resets it to zero if it reaches the end of the array
+    const updateIndex = () => {
+      setIndex((prevIndex) => (prevIndex + 1) % words.length);
+    };
+
+    // A variable to store the timer ID
+    const timerId = setInterval(updateIndex, 1000);   // A cleanup function that clears the timer when the component unmounts
+    return () => {
+      clearInterval(timerId);
+    };
+  }, []); 
 
   return (
     <div className="w-screen homediv relative overflow-hidden">
@@ -68,19 +84,20 @@ function Home() {
               <span className="text-3xl pt-0 mt-0">
                 Communication on the GO!
               </span>
-            
+              <h1 className="font-bold text-sky-400 p-0 text-6xl">{words[index]}</h1>
+           
             </h1>
 
-            <TypeAnimation
+            {/* <TypeAnimation
               className="font-bold"
               sequence={["SMS", 1000, "Voice", 1000, "CPaaS", 1000]}
               wrapper="span"
-              speed={50}
+              speed={60}
               style={{ fontSize: "2em", display: "inline-block" }}
               repeat={Infinity}
-            />
-
-            <p className="md:text-2xl  text-xl relative font-bold text-white py-6">
+            /> */}
+            <p className="md:text-2xl  text-xl relative font-bold text-white 
+            ">
               Scale your communications and connect with your audience
               seamlessly with wider messaging reach.
             </p>

@@ -51,7 +51,7 @@ const A2P = () => {
       <div className=" lg:flex md:grid md:grid-cols-2 lg:pl-3 lg:p-5 md:p-0 sm:p-0">
       <img src={img1} className="w-[500px] mx-auto my-4 rounded-2xl" alt="" />
     
-        <div className="flex flex-col justify-center p-5">
+        <div className="flex flex-col justify-center lg:p-5 md:p-0">
           <p className="text-orange-600 pl-1 font-bold text-3xl">
             A2P Messaging
           </p>
