@@ -168,9 +168,7 @@ function End() {
               </RevealOnScroll>
                 <RevealOnScroll>
               <p className="inline-flex p-2  ps-0 gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600 cursor-pointer">
-                6TH FLOOR, B-614, BLOCK-B, WORLD TRADE TOWER, OFF S.G
-                ROAD,Ahmedabad, Gujarat,380058
-              </p>
+              B-614, World Trade Tower, Off S G Highway, Makarba, Ahmedabad, Gujarat,India,380051</p>
               </RevealOnScroll>
               <RevealOnScroll>
 

@@ -6,9 +6,9 @@ function JobCard(props) {
   //   const skills=[
   //    'Communication','MS PowerPoint','MS Excel'
   //   ]
-  const dayjs = require("dayjs");
-  const date1 = dayjs(Date.now());
-  const diffDays = date1.diff(props.postedOn, "day");
+  // const dayjs = require("dayjs");
+  // const date1 = dayjs(Date.now());
+  // const diffDays = date1.diff(props.postedOn, "day");
 
   return (
     <div className="mx-40 mb-4 w-[85%]">

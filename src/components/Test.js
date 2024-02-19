@@ -307,23 +307,7 @@ export default function App() {
               </div>
             </Slider>
           </div>
-          {/* <div className='w-3/4 m-auto'>
-      <div className='mt-20'>
-        {data.map((d)=>(
-          <div className='bg-white h-[450px] text-black rounded-xl'>
-            <div className='rounded-t-xl bg-indigo-500 flex justify-center items-center'>
-
-            <img src={d.img} alt="h-44 w-44 rounded-full"/>
-            </div>
-            <div className='flex flex-col justify-center items-center gap-4 p-4'>
-              <p className='text-xl font-semibold'> {d.name}</p>
-              <p>{d.review}</p>
-            </div>
-          </div>
-           ))}
-      </div> */}
-
-          {/* </div> */}
+ 
 
           <div className="mt-20 grid gap-6 grid-cols-2 sm:gap-12 lg:grid-cols-3 lg:gap-8">
             <div>
