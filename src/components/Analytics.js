@@ -165,15 +165,15 @@ function Analytics() {
                 </li>
                 <li
                   className="hover:text-sky-400 hover:scale-110 "
-                  onClick={() => setPopup("Esimp")}
+                  onClick={() => setPopup("Voicep")}
                 >
-                  ESIM
+                  Voice
                 </li>
                 <li
                   className="hover:text-sky-400 hover:scale-110 "
                   onClick={() => setPopup("Vnp")}
                 >
-                  VN
+                  Virtual Numbers
                 </li>
               </div>
             </ul>
@@ -291,12 +291,12 @@ function Analytics() {
                 </li>
                 <li
                   className="dropdown-link "
-                  onClick={() => setPopup("Esimp")}
+                  onClick={() => setPopup("Voicep")}
                 >
-                  ESIM
+                  Voice
                 </li>
                 <li className="dropdown-link " onClick={() => setPopup("Vnp")}>
-                  VN
+                  Virtual Numbers
                 </li>
               </div>
             </ul>

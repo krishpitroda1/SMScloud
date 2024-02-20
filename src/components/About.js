@@ -66,7 +66,7 @@ function About() {
           />
           <div className="flex flex-col justify-center">
             {/* <p className="text-sky-600 font-bold text-3xl">About Us</p> */}
-            <h1 className="md:text-4xl sm:text-3xl text-red-600 text-2xl font-bold p-5">
+            <h1 className="md:text-4xl sm:text-3xl text-sky-600 text-2xl font-bold p-5">
           <RevealOnScroll>
 
               Messaging is our business!
@@ -75,25 +75,20 @@ function About() {
             <p className="p-5 pt-0 text-xl text-black">
              <RevealOnScroll>
 
-              SMSCloud Hub provides solutions for better customer engagement
-              through a cloud-based platform. We empower businesses to engage
-              with their people through a variety of channels, making their
-              communication conversational, more personalized, fun, meaningful,
-              and with ease. With an innovative suite of Cloud based solutions,
-              WebPanels & APIs, SMSCloud Hub delivers communication solutions
-              that have been used by almost everyone around the world
-             </RevealOnScroll>
+             SMSCloud Hub provides solutions for seamless communication through a cloud-based platforms empowering Carriers, Hubs, Telcos & Enterprise businesses to communicate through a variety of  channels, making communication conversational, more personalized, fun, meaningful and with ease. 
+ </RevealOnScroll>
             </p>
+            <p className="p-5 pt-0 text-xl">SMSCloud Hub is a team of experts having background in A2P SMS with operational excellence & excellent support.  
+</p>
             <p className="p-5 pt-0 text-xl">
              <RevealOnScroll>
 
-              When the messaging is the central to the business, we solve
-              today’s unique customer challenges by bridging business to the
-              world by using complex communication channels. And we thrive with
-              A2P Messaging for India and International Market providing
-              solutions with the right mix of Cloud Technlogy &
-              Telecommunications.
-             </RevealOnScroll>
+             When the messaging is the central to the business, we solve today’s unique customer challenges by bridging business to the world by using complex communication channels. And we thrive with A2P Messaging for India and International Market providing solutions with the right mix of Cloud Technlogy & Telecommunications.
+
+         </RevealOnScroll>
+            </p>
+            <p className="p-5 pt-0 text-xl">
+            Our primary focus is Messaging, CPaaS & Technology.
             </p>
           </div>
         </div>

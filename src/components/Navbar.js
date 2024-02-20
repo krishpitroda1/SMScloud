@@ -57,7 +57,7 @@ function Navbar() {
               <ul className="">
                 <li className="flex gap-10">
                   <div className="horizontalLine relative pe-4">
-                    <h1 className="text-[#146c94] text-xl font-bold ">
+                    <h1 className="text-sky-600 text-xl font-bold ">
                       <p >Enterprise</p>
                     </h1>
                     <ul>
@@ -76,7 +76,7 @@ function Navbar() {
                     </ul>
                   </div>
                   <div className="horizontalLine relative pe-4">
-                    <h1 className="text-[#146c94] text-xl font-bold ">
+                    <h1 className="text-sky-600 text-xl font-bold ">
                       <p>Operator</p>
                     </h1>
                     <ul>
@@ -102,7 +102,7 @@ function Navbar() {
                     </ul>
                   </div>
                   <div className="horizontalLine relative pe-4">
-                    <h1 className="text-[#146c94] text-xl font-bold ">
+                    <h1 className="text-sky-600 text-xl font-bold ">
                       <p>Carrier</p>
                     </h1>
                     <ul>
@@ -113,15 +113,15 @@ function Navbar() {
                         <Link to="/Hlr">HLR</Link>
                       </li>
                       <li className="hover:text-white">
-                        <Link to="Esim">eSIM</Link>
+                        <Link to="/Voice">Voice</Link>
                       </li>
                       <li className="hover:text-white">
-                        <Link to="/Vn">VN</Link>
+                        <Link to="/Vn">Virtual Numbers</Link>
                       </li>
                     </ul>
                   </div>
                   <div className="relative pe-4">
-                    <h1 className="text-[#146c94] text-xl font-bold ">
+                    <h1 className="text-sky-600 text-xl font-bold ">
                       <p>Technology</p>
                     </h1>
                     <ul>
@@ -147,7 +147,7 @@ function Navbar() {
           </Link>
         </div>
         <div className="p-5 text-black justify-around w-full hidden md:flex">
-          <div className="dropdown-link py-7 px-3 hidden md:block hover:text-orange-400">
+          <div className="dropdown-link py-7 px-3 hidden md:block">
             <p className="flex droptext relative cursor-pointer font-semibold text-lg">
               Resources
               <svg
@@ -166,10 +166,10 @@ function Navbar() {
               </svg>
               <div className="dropdown top-9 hidden absolute hover:block rounded-lg p-8 w-12 text-md bg-[#afd3e2]">
                 <ul>
-                  <li className="hover:text-white py-2  block ">
+                  <li className="hover:text-white py-2 text-sky-600 block ">
                     <Link to="/Carrers">Careers</Link>
                   </li>
-                  <li className="hover:text-white   py-2 block">
+                  <li className="hover:text-white text-sky-600  py-2 block">
                     <Link to="/Blogs">Blogs</Link>
                   </li>
                   {/* <li className="hover:text-white">
@@ -434,10 +434,10 @@ function Navbar() {
               </li>
               <li className="border-b  border-gray-600">
                 <Link
-                  to="/Esim"
+                  to="/Voice"
                   className="py-7  inline-block hover:text-orange-600"
                 >
-                  eSIM
+                  Voice
                 </Link>
               </li>
               <li className="border-b  border-gray-600">
@@ -445,7 +445,7 @@ function Navbar() {
                   to="/Vn"
                   className="py-7  inline-block hover:text-orange-600"
                 >
-                  VN
+                  Virtual Numbers
                 </Link>
               </li>
             </div>
