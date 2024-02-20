@@ -120,27 +120,27 @@ function Analytics() {
             <ul className="list-disc text-red-400 text-lg p-5">
               <p className="text-sky-700 font-bold text-xl">EnterPrise</p>
               <div className="pl-9 ">
-                {/* className={`dropdown-link hover text-sky-400 hover:${()=>setshowWa(!show)}`} */}
+                {/* className={`dropdown-link hover text-sky-600 hover:${()=>setshowWa(!show)}`} */}
                 <li
-                  className=" hover:text-sky-400 hover:scale-110"
+                  className=" hover:font-bold hover:scale-110"
                   onClick={() => setPopup("Wap")}
                 >
                   WA for Buisness
                 </li>
                 <li
-                  className="  hover:text-sky-400 hover:scale-110 "
+                  className="  hover:font-bold hover:scale-110 "
                   onClick={() => setPopup("A2p")}
                 >
                  <p className="">A2P SMS
 </p>                 </li>
                 <li
-                  className="  hover:text-sky-400 hover:scale-110"
+                  className="  hover:font-bold hover:scale-110"
                   onClick={() => setPopup("Voicep")}
                 >
                   Voice
                 </li>
                 <li
-                  className=" hover:text-sky-400 hover:scale-110"
+                  className=" hover:font-bold hover:scale-110"
                   onClick={() => setPopup("Cpaasp")}
                 >
                   CPaas
@@ -148,29 +148,29 @@ function Analytics() {
                 {currentPopup}
               </div>
             </ul>
-            <ul className="list-disc text-red-400 text-lg p-5">
+            <ul className="list-disc text-gray-600 text-lg p-5">
               <p className="text-sky-700 font-bold text-xl">Carrier</p>
               <div className="pl-9">
                 <li
-                  className="hover:text-sky-400 hover:scale-110 "
+                  className="hover:font-bold hover:scale-110 "
                   onClick={() => setPopup("A2p")}
                 >
                   A2P SMS
                 </li>
                 <li
-                  className="hover:text-sky-400 hover:scale-110"
+                  className="hover:font-bold hover:scale-110"
                   onClick={() => setPopup("Hlrp")}
                 >
                   HLR
                 </li>
                 <li
-                  className="hover:text-sky-400 hover:scale-110 "
+                  className="hover:font-bold hover:scale-110 "
                   onClick={() => setPopup("Voicep")}
                 >
                   Voice
                 </li>
                 <li
-                  className="hover:text-sky-400 hover:scale-110 "
+                  className="hover:font-bold hover:scale-110 "
                   onClick={() => setPopup("Vnp")}
                 >
                   Virtual Numbers
@@ -183,36 +183,36 @@ function Analytics() {
           </div>
           <div className="flex-col gap-5">
             <div className="flex-col gap-5">
-              <ul className="list-disc text-red-400 text-lg p-5">
+              <ul className="list-disc text-green-600 text-lg p-5">
                 <p className="text-sky-700 font-bold text-xl">Operator</p>
                 <div className="pl-9">
                   <li
-                    className="hover:text-sky-400 hover:scale-110"
+                    className="hover:font-bold hover:scale-110"
                     onClick={() => setPopup("A2p")}
                   >
                     A2P SMS
                   </li>
                   <li
-                    className="hover:text-sky-400 hover:scale-110 "
+                    className="hover:font-bold hover:scale-110 "
                     onClick={() => setPopup("Msp")}
                   >
                     Managed services for Messaging Hubs
                   </li>
 
                   <li
-                    className="hover:text-sky-400 hover:scale-110 "
+                    className="hover:font-bold hover:scale-110 "
                     onClick={() => setPopup("Mitp")}
                   >
                     Managed services For IT & Infra
                   </li>
                   <li
-                    className="hover:text-sky-400 hover:scale-110"
+                    className="hover:font-bold hover:scale-110"
                     onClick={() => setPopup("Smscp")}
                   >
                     SMSC Firewall
                   </li>
                   <li
-                    className="hover:text-sky-400 hover:scale-110 "
+                    className="hover:font-bold hover:scale-110 "
                     onClick={() => setPopup("Crp")}
                   >
                     CR in Existing SMSC
@@ -220,17 +220,17 @@ function Analytics() {
                 </div>
               </ul>
 
-              <ul className="list-disc text-red-400 text-lg p-5">
+              <ul className="list-disc text-blue-600 text-lg p-5">
                 <p className="text-sky-700 font-bold text-xl">Technology</p>
                 <div className="pl-9">
                   <li
-                    className="hover:text-sky-400 hover:scale-110 "
+                    className="hover:font-bold hover:scale-110 "
                     onClick={() => setPopup("Cloudp")}
                   >
                     Cloudskool++
                   </li>
                   <li
-                    className="hover:text-sky-400 hover:scale-110 "
+                    className="hover:font-bold hover:scale-110 "
                     onClick={() => setPopup("Cpaasp")}
                   >
                     CPaas
@@ -252,27 +252,27 @@ function Analytics() {
             <ul className="list-disc text-red-400 text-lg p-5">
               <p className="text-sky-700 font-bold text-xl">EnterPrise</p>
               <div className="pl-9 ">
-                {/* className={`dropdown-link hover text-sky-400 hover:${()=>setshowWa(!show)}`} */}
+                {/* className={`dropdown-link hover text-sky-600 hover:${()=>setshowWa(!show)}`} */}
                 <li
-                  className=" hover:text-sky-400 hover:scale-110"
+                  className=" hover:font-bold hover:scale-110"
                   onClick={() => setPopup("Wap")}
                 >
                   WA for Buisness
                 </li>
                 <li
-                  className="  hover:text-sky-400 hover:scale-110"
+                  className="  hover:font-bold hover:scale-110"
                   onClick={() => setPopup("A2p")}
                 >
                   A2P SMS
                 </li>
                 <li
-                  className="  hover:text-sky-400 hover:scale-110"
+                  className="  hover:font-bold hover:scale-110"
                   onClick={() => setPopup("Voicep")}
                 >
                   Voice
                 </li>
                 <li
-                  className=" hover:text-sky-400 hover:scale-110"
+                  className=" hover:font-bold hover:scale-110"
                   onClick={() => setPopup("Cpaasp")}
                 >
                   CPaas

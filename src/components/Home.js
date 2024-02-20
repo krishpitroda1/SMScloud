@@ -70,7 +70,7 @@ function Home() {
       <div className="relative ">
         <video
           src={videobg}
-          className="pt-3 blur-sm top-3 mt-2 absolute rounded-lg "
+          className=" blur-sm top-3  absolute rounded-lg "
           autoPlay
           playsInline
           muted
@@ -96,7 +96,7 @@ function Home() {
               style={{ fontSize: "2em", display: "inline-block" }}
               repeat={Infinity}
             /> */}
-            <p className="md:text-2xl  text-xl relative font-bold text-white 
+            <p className="md:text-2xl text-xl relative font-bold pt-0 p-5 text-white 
             ">
               Scale your communications and connect with your audience
               seamlessly with wider messaging reach.

@@ -4,7 +4,7 @@ import Logo from "../assets/SMSCH_Transparent-removebg-preview.png";
 
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { useState } from "react";
-
+import { FaMicrophone } from "react-icons/fa6";
 function Navbar() {
   const [nav, setNav] = useState(true);
   const handlenav = () => {
@@ -53,82 +53,88 @@ function Navbar() {
             </Link>
            
             
-            <div className="dropdown hidden absolute mt-4 p-12 pr-3 text-lg bg-[#afd3e2]  rounded-lg">
-              <ul className="">
+            <div className="dropdown hidden absolute mt-4 p-12 pr-3 text-lg bg-white shadow-xl rounded-lg">
+              <ul className="text-black">
                 <li className="flex gap-10">
                   <div className="horizontalLine relative pe-4">
-                    <h1 className="text-sky-600 text-xl font-bold ">
+                    <h1 className="text-sky-600 text-2xl font-bold ">
                       <p >Enterprise</p>
                     </h1>
                     <ul>
-                      <li className="hover:text-white">
+                      <li className="hover:text-sky-600 hover:font-bold">
                         <Link to="/WA">WA for buisness</Link>
                       </li>
-                      <li className="hover:text-white">
+                      <li className="hover:text-sky-600 hover:font-bold">
                         <Link to="/A2P">A2P SMS</Link>
                       </li>
-                      <li className="hover:text-white">
-                        <Link to="/Voice">Voice</Link>
+                      <li className="hover:text-sky-600 hover:font-bold">
+                        <Link to="/Voice" className="flex">
+                        {/* <FaMicrophone className="h-5 "/> */}
+                        <p className="">
+                          
+                           Voice
+                          </p> 
+                        </Link>
                       </li>
-                      <li className="hover:text-white">
+                      <li className="hover:text-sky-600 hover:hover:font-bold">
                         <Link to="/Cpas">CPaaS</Link>
                       </li>
                     </ul>
                   </div>
                   <div className="horizontalLine relative pe-4">
-                    <h1 className="text-sky-600 text-xl font-bold ">
+                    <h1 className="text-sky-600 text-2xl font-bold ">
                       <p>Operator</p>
                     </h1>
                     <ul>
-                      <li className="hover:text-white">
+                      <li className="hover:text-sky-600 hover:font-bold">
                         <Link to="/A2P">A2P SMS</Link>
                       </li>
-                      <li className="hover:text-white">
+                      <li className="hover:text-sky-600 hover:font-bold">
                         <Link to="/Managehubs">
                           Manage Services for messaging Hubs
                         </Link>
                       </li>
-                      <li className="hover:text-white">
+                      <li className="hover:text-sky-600 hover:font-bold">
                         <Link to="/Manageit">
                           Managed Services for IT & Infra
                         </Link>
                       </li>
-                      <li className="hover:text-white">
+                      <li className="hover:text-sky-600 hover:font-bold">
                         <Link to="/Smsc">SMSC Firewall</Link>
                       </li>
-                      <li className="hover:text-white">
+                      <li className="hover:text-sky-600 hover:font-bold">
                         <Link to="/Cr">CR in Existing SMSC</Link>
                       </li>
                     </ul>
                   </div>
                   <div className="horizontalLine relative pe-4">
-                    <h1 className="text-sky-600 text-xl font-bold ">
+                    <h1 className="text-sky-600 text-2xl font-bold ">
                       <p>Carrier</p>
                     </h1>
                     <ul>
-                      <li className="hover:text-white">
+                      <li className="hover:text-sky-600 hover:font-bold">
                         <Link to="/A2P">A2P SMS</Link>
                       </li>
-                      <li className="hover:text-white">
+                      <li className="hover:text-sky-600 hover:font-bold">
                         <Link to="/Hlr">HLR</Link>
                       </li>
-                      <li className="hover:text-white">
+                      <li className="hover:text-sky-600 hover:font-bold">
                         <Link to="/Voice">Voice</Link>
                       </li>
-                      <li className="hover:text-white">
+                      <li className="hover:text-sky-600 hover:font-bold">
                         <Link to="/Vn">Virtual Numbers</Link>
                       </li>
                     </ul>
                   </div>
                   <div className="relative pe-4">
-                    <h1 className="text-sky-600 text-xl font-bold ">
+                    <h1 className="text-sky-600 text-2xl font-bold ">
                       <p>Technology</p>
                     </h1>
                     <ul>
-                      <li className="hover:text-white">
+                      <li className="hover:text-sky-600 hover:font-bold">
                         <Link to="/Cloudskool">CloudSkool++</Link>
                       </li>
-                      <li className="hover:text-white">
+                      <li className="hover:text-sky-600 hover:font-bold">
                         <Link to="/Cpas">CPaaS Platform</Link>
                       </li>
                     </ul>
@@ -164,15 +170,15 @@ function Navbar() {
               >
                 <path d="m6 9 6 6 6-6" />
               </svg>
-              <div className="dropdown top-9 hidden absolute hover:block rounded-lg p-8 w-12 text-md bg-[#afd3e2]">
-                <ul>
-                  <li className="hover:text-white py-2 text-sky-600 block ">
+              <div className="dropdown top-9 hidden absolute hover:block rounded-lg p-8 w-12 text-md shadow-xl bg-white">
+                <ul className="">
+                  <li className="hover:text-sky-600 hover:font-bold py-2 block ">
                     <Link to="/Carrers">Careers</Link>
                   </li>
-                  <li className="hover:text-white text-sky-600  py-2 block">
+                  <li className="hover:text-sky-600 hover:font-bold  py-2 block">
                     <Link to="/Blogs">Blogs</Link>
                   </li>
-                  {/* <li className="hover:text-white">
+                  {/* <li className="hover:text-sky-600 hover:font-bold">
                     <Link to="/Events">Events</Link>
                   </li> */}
                 </ul>
@@ -224,7 +230,7 @@ function Navbar() {
         <ul className="lg:flex pt-24items-center gap-8 p-2 font-[Poppins]">
           <li className="border-b  border-gray-600">
             <Link
-              to="/About"
+              to="/SMScloud/About"
               className="py-7 inline-block hover:text-orange-600"
             >
               About Us

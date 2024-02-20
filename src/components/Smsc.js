@@ -25,7 +25,7 @@ const RevealOnScroll = ({ children }) => {
 
   const classes = `transition-opacity duration-1000
       ${isVisible ? "opacity-100" : "opacity-0"}`;
-
+     
   return (
     <div ref={ref} className={classes}>
       {children}
@@ -34,6 +34,9 @@ const RevealOnScroll = ({ children }) => {
 };
 
 function Smsc() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  },[]);
   return (
     <div>
       <div className=" w-screen relative pt-10 pb-8">

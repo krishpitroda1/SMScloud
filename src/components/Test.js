@@ -130,7 +130,7 @@ export default function App() {
                       "SMSCloud Hub provides one of if not the best school
                       platform that we ever saw being provided with 24/7 support
                       in the Mozambican Market allowing our growth in the school
-                      software segment"
+                      software segment."
                    </RevealOnScroll>
                     </p>
                   </div>
@@ -166,7 +166,7 @@ export default function App() {
                       "We Tubelight Communication working with SMS Cloud Hub for
                       a long time now, the routes, service and support have been
                       constant and we see working with them successfully in the
-                      future as well "{" "}
+                      future as well".
                     </RevealOnScroll>
                     </p>
                   </div>
@@ -203,8 +203,7 @@ export default function App() {
                       year now and the cooperation with their Commercial Team
                       has been extremely successful. They immediately understand
                       our needs and provide in a short time the optimal solution
-                      to our requests both in terms of service quality and
-                      costs."
+                      to our requests both in terms of service quality and costs."
                   </RevealOnScroll>
                     </p>
                   </div>
@@ -274,11 +273,11 @@ export default function App() {
 
                     <p className="text-base italic md:text-lg text-gray-800 dark:text-gray-200">
                   <RevealOnScroll>
-                      The five months we spent working with the SMSCLOUD
+                     "The five months we spent working with the SMSCLOUD
                       organization were a great asset to our company. Even
                       though they are a new firm in the SMS industry, but we
                       have a solid working relationship and the business is
-                      expanding every month.{" "}
+                      expanding every month."  
                   </RevealOnScroll>
                     </p>
                   </div>

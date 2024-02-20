@@ -29,7 +29,7 @@ function Jobs() {
   }, []);
   return (
     <div>
-      <div className="  relative pt-7 flex flex-col gap-5 items-center justify-center text-sky-500  w-screen">
+      <div className="  relative pt-7 flex flex-col gap-5 items-center justify-center text-sky-600  w-screen">
         <h1 className="lg:text-5xl text-3xl text-center font-bold pt-10 ">
           Your ideal job awaits, start the search
         </h1>
