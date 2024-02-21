@@ -125,7 +125,7 @@ export default function App() {
                 <div className="flex flex-col rounded-xl dark:bg-slate-900">
                   <div className="flex-auto h-64 p-4 md:p-6">
 
-                    <p className="text-base italic md:text-lg text-gray-800 dark:text-gray-200">
+                    <p className="text-base italic md:text-lg text-white">
                    <RevealOnScroll>
                       "SMSCloud Hub provides one of if not the best school
                       platform that we ever saw being provided with 24/7 support
@@ -161,7 +161,7 @@ export default function App() {
                 <div className="flex flex-col h-full rounded-xl dark:bg-slate-900">
                   <div className="flex-auto h-64 p-4 md:p-6">
 
-                    <p className="text-base italic md:text-lg text-gray-800 dark:text-gray-200">
+                    <p className="text-base italic md:text-lg text-white">
                     <RevealOnScroll>
                       "We Tubelight Communication working with SMS Cloud Hub for
                       a long time now, the routes, service and support have been
@@ -182,10 +182,10 @@ export default function App() {
                       </div>
 
                       <div className="grow ms-3">
-                        <p className="text-sm sm:text-base font-semibold text-gray-800 dark:text-gray-200">
+                        <p className="text-sm sm:text-base font-semibold text-gray-800">
                           Praveen Singh
                         </p>
-                        <p className="text-xs text-gray-500 dark:text-gray-400">
+                        <p className="text-xs text-gray-500">
                           Tubelight Communication
                         </p>
                       </div>
@@ -197,7 +197,7 @@ export default function App() {
                 <div className="flex flex-col h-full rounded-xl dark:bg-slate-900">
                   <div className="flex-auto h-64 p-4 md:p-6">
 
-                    <p className="text-base italic md:text-lg text-gray-800 dark:text-gray-200">
+                    <p className="text-base italic md:text-lg text-white">
                   <RevealOnScroll>
                       "We have been working with SMSCloud Hub since more than a
                       year now and the cooperation with their Commercial Team
@@ -234,7 +234,7 @@ export default function App() {
                 <div className="flex flex-col rounded-xl dark:bg-slate-900">
                   <div className="flex-auto h-64 p-4 md:p-6">
 
-                    <p className="text-base italic md:text-lg text-gray-800 dark:text-gray-200">
+                    <p className="text-base italic md:text-lg text-white">
                    <RevealOnScroll>
                       "Choosing SMSCloud Hub as our aggregator was the best
                       decision we made for our business. Their platform
@@ -271,7 +271,7 @@ export default function App() {
                 <div className="flex flex-col rounded-xl dark:bg-slate-900">
                   <div className="flex-auto h-64 p-4 md:p-6">
 
-                    <p className="text-base italic md:text-lg text-gray-800 dark:text-gray-200">
+                    <p className="text-base italic md:text-lg text-white">
                   <RevealOnScroll>
                      "The five months we spent working with the SMSCLOUD
                       organization were a great asset to our company. Even
