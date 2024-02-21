@@ -50,14 +50,14 @@ function Cpas() {
     <div className="lg:flex pt-0 p-10 md:grid md:grid-cols-2 ">
     <img src={img1} className="w-[500px] h-96 mx-auto my-4 rounded-2xl" alt="" />
    <RevealOnScroll>
-    <div className="flex flex-col  p-5">
+    <div className="flex flex-col lg:p-5">
       <p className="pl-5 text-orange-600 font-bold text-3xl">
-        CPaas platform
+        CPaaS platform
       </p>
       <h1 className="py-3 text-lg p-4 font-semibold sm:text-xl md:text-xl ">
       Communications Platform as a Service, or CPaaS, is one of the fastest-growing communication industries today
    </h1>
-    <div className="lg:p-5 md:p-0 sm:p-0">
+    <div className="lg:p-5 p-1">
 
     
         <div className='flex'>

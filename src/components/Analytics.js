@@ -143,7 +143,7 @@ function Analytics() {
                   className=" hover:font-bold hover:scale-110"
                   onClick={() => setPopup("Cpaasp")}
                 >
-                  CPaas
+                  CPaaS
                 </li>
                 {currentPopup}
               </div>
@@ -233,7 +233,7 @@ function Analytics() {
                     className="hover:font-bold hover:scale-110 "
                     onClick={() => setPopup("Cpaasp")}
                   >
-                    CPaas
+                    CPaaS
                   </li>
                 </div>
               </ul>
@@ -275,7 +275,7 @@ function Analytics() {
                   className=" hover:font-bold hover:scale-110"
                   onClick={() => setPopup("Cpaasp")}
                 >
-                  CPaas
+                  CPaaS
                 </li>
                 {currentPopup}
               </div>
@@ -356,7 +356,7 @@ function Analytics() {
                     className="dropdown-link "
                     onClick={() => setPopup("Cpaasp")}
                   >
-                    CPaas
+                    CPaaS
                   </li>
                 </div>
               </ul>

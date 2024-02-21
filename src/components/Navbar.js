@@ -53,7 +53,7 @@ function Navbar() {
             </Link>
            
             
-            <div className="dropdown hidden absolute mt-4 p-12 pr-3 text-lg bg-white shadow-xl rounded-lg">
+            <div className="dropdown hidden absolute mt-4 left-[100px] p-12 pr-3 text-lg bg-white shadow-xl rounded-lg">
               <ul className="text-black">
                 <li className="flex gap-10">
                   <div className="horizontalLine relative pe-4">
@@ -91,14 +91,14 @@ function Navbar() {
                       </li>
                       <li className="hover:text-sky-600 hover:font-bold">
                         <Link to="/Managehubs">
-                          Manage Services for messaging Hubs
+                          Managed Services 
                         </Link>
                       </li>
-                      <li className="hover:text-sky-600 hover:font-bold">
+                      {/* <li className="hover:text-sky-600 hover:font-bold">
                         <Link to="/Manageit">
                           Managed Services for IT & Infra
                         </Link>
-                      </li>
+                      </li> */}
                       <li className="hover:text-sky-600 hover:font-bold">
                         <Link to="/Smsc">SMSC Firewall</Link>
                       </li>
@@ -317,10 +317,11 @@ function Navbar() {
               </li>
               <li className="border-b  border-gray-600">
                 <Link
-                  to="/WA"
+
+                  to="/Cpas"
                   className="py-7  inline-block hover:text-orange-600"
                 >
-                  CPaas
+                  CPaaS
                 </Link>
               </li>
             </div>
@@ -365,17 +366,17 @@ function Navbar() {
                   to="/Managehubs"
                   className="py-7 inline-block hover:text-orange-600"
                 >
-                  Manage Services for messaging Hubs
+                  Managed Services
                 </Link>
               </li>
-              <li className="border-b border-gray-600">
+              {/* <li className="border-b border-gray-600">
                 <Link
                   to="/Manageit"
                   className="py-7 inline-block hover:text-orange-600"
                 >
                   Managed Services for IT & Infra
                 </Link>
-              </li>
+              </li> */}
               <li className="border-b border-gray-600">
                 <Link
                   to="/Smsc"

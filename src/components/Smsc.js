@@ -49,7 +49,7 @@ function Smsc() {
             className="w-[900px] h-96 mx-auto my-4 rounded-2xl"
             alt=""
           />
-          <div className="flex flex-col p-5 justify-center">
+          <div className="flex flex-col lg:p-5 justify-center">
             <RevealOnScroll>
             <p className="text-orange-600 p-5 font-bold text-3xl ">
               SMSC Firewall

@@ -64,7 +64,7 @@ function Cpaasp(props) {
          <RevealOnScroll>
                     <div className="flex flex-col justify-center">
             <p className="text-orange-600  p-5 font-bold text-3xl">
-              CPaas platform
+              CPaaS platform
             </p>
             <div className="flex p-5 gap-3 ">
               <div className="">

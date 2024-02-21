@@ -49,7 +49,7 @@ const Voice = () => {
       </p>
       <h1 className="text-lg font-semibold  pl-8 sm:text-xl md:text-xl">
       A voice message is a type of message that you can send or receive using your voice. It is different from a voice call, which is a live conversation between two or more people.   </h1>
-    <div className="flex p-5">
+    <div className="flex lg:p-5">
 
       <div className="">
         <div className='flex pt-3'>

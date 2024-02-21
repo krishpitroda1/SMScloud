@@ -48,9 +48,9 @@ function Vn() {
       <p className="text-orange-600 p-5 font-bold text-3xl">
         Virtual Number(VN)
       </p>
-      <div className="flex p-5">
+      <div className="flex lg:p-5">
 
-      <div className="pr-10">
+      <div className="">
         <div className='flex'>
           <img src={img3} className="h-8 w-8 rounded-lg" alt="" />
           <h1 className="align-center text-sky-600  text-xl">
