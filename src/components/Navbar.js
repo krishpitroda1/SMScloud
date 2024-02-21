@@ -87,7 +87,7 @@ function Navbar() {
                     </h1>
                     <ul>
                       <li className="hover:text-sky-600 hover:font-bold">
-                        <Link to="/A2P">A2P SMS</Link>
+                        <Link to="/A2P">0Hop SMS Connectivity</Link>
                       </li>
                       <li className="hover:text-sky-600 hover:font-bold">
                         <Link to="/Managehubs">
@@ -103,7 +103,7 @@ function Navbar() {
                         <Link to="/Smsc">SMSC Firewall</Link>
                       </li>
                       <li className="hover:text-sky-600 hover:font-bold">
-                        <Link to="/Cr">CR in Existing SMSC</Link>
+                        <Link to="/Cr">VAS</Link>
                       </li>
                     </ul>
                   </div>
@@ -358,7 +358,7 @@ function Navbar() {
                   to="/A2P"
                   className="py-7 inline-block hover:text-orange-600"
                 >
-                  A2P SMS
+                  0Hop SMS Connectivity
                 </Link>
               </li>
               <li className="border-b border-gray-600">
@@ -390,7 +390,7 @@ function Navbar() {
                   to="/Cr"
                   className="py-7 inline-block hover:text-orange-600"
                 >
-                  CR in Existing SMSC
+                  VAS
                 </Link>
               </li>
             </div>
