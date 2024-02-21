@@ -58,13 +58,13 @@ function Divs() {
         </p>
       </RevealOnScroll>
 
-      <div className="text-white relative p-5 grid sm:grid-cols-2 lg:grid-cols-5 gap-3 lg:items-center">
+      <div className="text-white relative p-5 grid md:grid-cols-2 lg:grid-cols-5 gap-3 lg:items-center">
         <div class=" flex flex-col border hover:bg-gray-400 text-center rounded-xl p-5 h-full bg-gray-800 border-gray-700">
           <RevealOnScroll>
-            <h4 className=" font-bold text-3xl border-b p-5  border-white">
+            <h4 className=" font-bold text-xl border-b pt-5 pb-5 border-white">
               Global Reach
             </h4>
-            <p className="text-xl p-4">
+            <p className="text-lg p-4">
               Expand your reach across borders and connect with audiences
               globally.
             </p>
@@ -73,10 +73,10 @@ function Divs() {
 
         <div class=" flex flex-col border text-center hover:bg-gray-400 h-full rounded-xl  bg-gray-800 p-5 border-gray-700">
           <RevealOnScroll>
-            <h4 className="font-bold text-3xl  border-b block p-5  border-white">
+            <h4 className="font-bold text-xl  border-b block p-5  border-white">
               Reliability
             </h4>
-            <p className="text-xl  p-5">
+            <p className="text-lg  p-5">
               Rely on our platform's consistent performance for uninterrupted
               communication.
             </p>
@@ -84,10 +84,10 @@ function Divs() {
         </div>
         <div class=" flex flex-col border h-full hover:bg-gray-400  text-center rounded-xl p-5  bg-gray-800 border-gray-700">
           <RevealOnScroll>
-            <h4 className=" font-bold  text-3xl border-b  p-5  border-white">
+            <h4 className=" font-bold  text-xl border-b  p-5  border-white">
               Security
             </h4>
-            <p className="text-xl  p-5">
+            <p className="text-lg  p-5">
               Safeguard sensitive data with advanced encryption and robust
               security measures.
             </p>
@@ -96,7 +96,7 @@ function Divs() {
 
         <div class=" flex flex-col border  h-full text-center hover:bg-gray-400 rounded-xl p-5  bg-gray-800 border-gray-700">
           <RevealOnScroll>
-            <h4 className="font-bold text-3xl border-b p-5  border-white">
+            <h4 className="font-bold text-xl border-b p-5  border-white">
               Scalability
             </h4>
             <p className="text-lg p-4">
@@ -108,10 +108,10 @@ function Divs() {
 
         <div class=" flex flex-col border h-full object-contain text-center hover:bg-gray-400 bg-gray-800 rounded-xl p-5 border-gray-700">
           <RevealOnScroll>
-            <h4 className="font-bold text-3xl  border-b p-5 border-white">
+            <h4 className="font-bold text-xl  border-b pt-5 pb-5 border-white">
               AI Integrated
             </h4>
-            <p className="text-xl  p-4">
+            <p className="text-lg  p-4">
               Harness the power of AI to optimize messaging strategies and
               enhance customer interactions.
             </p>
