@@ -1,6 +1,6 @@
 import React from 'react'
 import img3 from "../assets/circle.png";
-import img1 from '../assets/hlr.jpeg';
+import img1 from '../assets/hlr.jpg';
 import { useState, useEffect,useRef} from 'react';
 
 const RevealOnScroll = ({ children }) => {

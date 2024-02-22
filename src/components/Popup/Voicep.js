@@ -1,6 +1,6 @@
 import React ,{useState,useEffect,useRef} from "react";
 import { Link } from "react-router-dom";
-import img1 from "C:/Users/krish/OneDrive/Desktop/sms3/smsloud/src/assets/voice.jpeg";
+import img1 from "C:/Users/krish/OneDrive/Desktop/sms3/smsloud/src/assets/voice.png";
 import { AiOutlineClose } from "react-icons/ai";
 import img3 from "C:/Users/krish/OneDrive/Desktop/sms3/smsloud/src/assets/circle.png";
 

@@ -62,7 +62,7 @@ function Cloudskool() {
     <RevealOnScroll>
 
     <div className="lg:flex md:grid md:grid-cols-2 lg:pl-3 lg:p-5 md:p-0 sm:p-0">
-    <img src={img1} className="w-[550px] h-[550px] mx-auto my-4 rounded-2xl" alt="" />
+    <img src={img1} className="w-[550px] h-[450px] mx-auto my-4 rounded-2xl" alt="" />
     <div className="flex flex-col justify-center p-5">
       <p className="p-5 text-orange-600 font-bold text-3xl">
     CloudSkool++
