@@ -111,9 +111,9 @@ function Analytics() {
   return (
     <div>
       <div className="w-screen mb-24 pt-14 overflow-x-hidden grid gap-6 ">
-        <h1 className="w-screen text-center text-sky-500 p-5 font-bold text-3xl">
+        <p className="w-screen text-center text-sky-500 p-5 font-bold text-3xl">
           Our Services
-        </h1>
+        </p>
 
         <div className="justify-between lg:pl-32 md:pl-0  lg:flex mx-auto gap-6">
           <div className="flex-col gap-5 ">
@@ -243,9 +243,9 @@ function Analytics() {
       </div>
       {/* --------------------------------------------mobile view---------------------------------------- */}
       <div className="w-screen lg:hidden hidden bg-black mb-24 pt-14 overflow-x-hidden">
-        <h1 className="text-white w-screen text-center bg-sky-400 p-5 font-bold text-3xl">
+        <p className="text-white w-screen text-center bg-sky-400 p-5 font-bold text-3xl">
           Our Services
-        </h1>
+        </p>
 
         <div className="justify-between pl-32 lg:pl-32 md:pl-4 md:grid-cols-1 mx-auto flex gap-6">
           <div className="flex-col gap-5">

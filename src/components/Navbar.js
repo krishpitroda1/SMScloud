@@ -57,9 +57,9 @@ function Navbar() {
               <ul className="text-black">
                 <li className="flex gap-10">
                   <div className="horizontalLine relative pe-4">
-                    <h1 className="text-sky-600 text-2xl font-bold ">
+                    <p className="text-sky-600 text-2xl font-bold ">
                       <p >Enterprise</p>
-                    </h1>
+                    </p>
                     <ul>
                       <li className="hover:text-sky-600 hover:font-bold">
                         <Link to="/WA">WA for buisness</Link>
@@ -82,9 +82,9 @@ function Navbar() {
                     </ul>
                   </div>
                   <div className="horizontalLine relative pe-4">
-                    <h1 className="text-sky-600 text-2xl font-bold ">
+                    <p className="text-sky-600 text-2xl font-bold ">
                       <p>Operator</p>
-                    </h1>
+                    </p>
                     <ul>
                       <li className="hover:text-sky-600 hover:font-bold">
                         <Link to="/A2P">0Hop SMS Connectivity</Link>
@@ -108,9 +108,9 @@ function Navbar() {
                     </ul>
                   </div>
                   <div className="horizontalLine relative pe-4">
-                    <h1 className="text-sky-600 text-2xl font-bold ">
+                    <p className="text-sky-600 text-2xl font-bold ">
                       <p>Carrier</p>
-                    </h1>
+                    </p>
                     <ul>
                       <li className="hover:text-sky-600 hover:font-bold">
                         <Link to="/A2P">A2P SMS</Link>
@@ -127,9 +127,9 @@ function Navbar() {
                     </ul>
                   </div>
                   <div className="relative pe-4">
-                    <h1 className="text-sky-600 text-2xl font-bold ">
+                    <p className="text-sky-600 text-2xl font-bold ">
                       <p>Technology</p>
-                    </h1>
+                    </p>
                     <ul>
                       <li className="hover:text-sky-600 hover:font-bold">
                         <Link to="/Cloudskool">CloudSkool++</Link>
@@ -149,7 +149,7 @@ function Navbar() {
         <div className="logo p-5">
           {/* Your logo component or image goes here */}
           <Link to="/SMScloud">
-            <img src={Logo} alt="Logo" />
+            <img src={Logo} alt="Logo" height={"50px"}/>
           </Link>
         </div>
         <div className="p-5 text-black justify-around w-full hidden md:flex">
@@ -393,7 +393,7 @@ function Navbar() {
                   VAS
                 </Link>
               </li>
-              
+
             </div>
             <li className="border-b  border-gray-600">
               <Link

@@ -42,7 +42,7 @@ function Companies() {
   return (
     // <AppContainer className="pt-0 mt-0">
       <Wrapper className="pt-5">
-        <h1 className="text-4xl p-5 text-sky-400 text-center font-bold">Our Trusted Partners</h1>
+        <p className="text-4xl p-5 text-sky-400 text-center font-bold">Our Trusted Partners</p>
         {/* <Text className="p-7 text-3xl  w-screen text-center ">Our Partners</Text> */}
         <div className="pt-5">
 
@@ -195,4 +195,5 @@ const Image = styled.img`
   aspect-ratio: 21/9;
   padding: 5px 20px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  alt:image;
 `;

@@ -49,19 +49,19 @@ export default function App() {
   const data = [
     {
       name: "abc",
-      img: "https://media.licdn.com/dms/image/D4D03AQFm0iO0GGhXbA/profile-displayphoto-shrink_800_800/0/1689083752439?e=1712188800&v=beta&t=ajLcqon4GmavLbNk-0ZmPcjeh1DeutV1zUYaaqFGv4w",
+      img: "https://media.licdn.com/dms/image/D4D03AQFm0iO0GGhXbA/profile-displayphoto-shrink_800_800/0/1689083752439?e=1712188800&v=beta&t=ajLcqon4GmavLbNk-0ZmPcjepDeutV1zUYaaqFGv4w",
       review:
         "SMSCloud Hub provides one of if not the best school platform that we ever saw being provided with 24/7 support in the Mozambican Market allowing our growth in the school software segment",
     },
     {
       name: "abc",
-      img: "https://media.licdn.com/dms/image/D4D03AQFm0iO0GGhXbA/profile-displayphoto-shrink_800_800/0/1689083752439?e=1712188800&v=beta&t=ajLcqon4GmavLbNk-0ZmPcjeh1DeutV1zUYaaqFGv4w",
+      img: "https://media.licdn.com/dms/image/D4D03AQFm0iO0GGhXbA/profile-displayphoto-shrink_800_800/0/1689083752439?e=1712188800&v=beta&t=ajLcqon4GmavLbNk-0ZmPcjepDeutV1zUYaaqFGv4w",
       review:
         "SMSCloud Hub provides one of if not the best school platform that we ever saw being provided with 24/7 support in the Mozambican Market allowing our growth in the school software segment",
     },
     {
       name: "abc",
-      img: "https://media.licdn.com/dms/image/D4D03AQFm0iO0GGhXbA/profile-displayphoto-shrink_800_800/0/1689083752439?e=1712188800&v=beta&t=ajLcqon4GmavLbNk-0ZmPcjeh1DeutV1zUYaaqFGv4w",
+      img: "https://media.licdn.com/dms/image/D4D03AQFm0iO0GGhXbA/profile-displayphoto-shrink_800_800/0/1689083752439?e=1712188800&v=beta&t=ajLcqon4GmavLbNk-0ZmPcjepDeutV1zUYaaqFGv4w",
       review:
         "SMSCloud Hub provides one of if not the best school platform that we ever saw being provided with 24/7 support in the Mozambican Market allowing our growth in the school software segment",
     },
@@ -104,18 +104,18 @@ export default function App() {
     <div className="w-screen">
       <RevealOnScroll>
 
-      <h1 className=" text-sky-400  text-center p-5 -ml-7  font-bold  text-3xl">
+      <p className=" text-sky-400  text-center p-5 -ml-7  font-bold  text-3xl">
          Clients' Feedback
-      </h1>
+      </p>
       </RevealOnScroll>
       <div className="overflow-hidden bg-slate-800">
         <div className="relative max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
           <div className="max-w-2xl w-3/4 lg:w-1/2 mb-6 sm:mb-10 md:mb-16">
             <RevealOnScroll>
 
-            <h2 className="text-2xl sm:text-3xl lg:text-4xl text-white font-semibold">
+            <p className="text-2xl sm:text-3xl lg:text-4xl text-white font-semibold">
               Loved by business and individuals across the globe
-            </h2>
+            </p>
             </RevealOnScroll>
           </div>
 
@@ -147,9 +147,9 @@ export default function App() {
 
                       <div className="grow ms-3">
                         <p className="text-sm sm:text-base font-semibold text-gray-800 dark:text-gray-200">
-                          Hugo Rebeiro{" "}
+                          Hugo Rebeiro
                         </p>
-                        <p className="text-xs text-gray-500 dark:text-gray-400">
+                        <p className="text-xs text-gray-400">
                           Click Mobile
                         </p>
                       </div>
@@ -158,7 +158,7 @@ export default function App() {
                 </div>
               </div>
               <div className="flex p-3">
-                <div className="flex flex-col h-full rounded-xl dark:bg-slate-900">
+                <div className="flex flex-col h-full rounded-b-xl dark:bg-slate-900">
                   <div className="flex-auto h-64 p-4 md:p-6">
 
                     <p className="text-base italic md:text-lg text-white">
@@ -171,21 +171,21 @@ export default function App() {
                     </p>
                   </div>
 
-                  <div className="p-4 bg-gray-100 rounded-b-xl md:px-7 dark:bg-slate-700">
+                  <div className="p-4  bg-slate-700 rounded-b-xl md:px-7 ">
                     <div className="flex items-center">
                       <div className="flex-shrink-0">
                         <img
                           className="h-8 w-8 rounded-full sm:h-[2.875rem] sm:w-[2.875rem]"
-                          src="https://media.licdn.com/dms/image/D4D03AQFm0iO0GGhXbA/profile-displayphoto-shrink_800_800/0/1689083752439?e=1712188800&v=beta&t=ajLcqon4GmavLbNk-0ZmPcjeh1DeutV1zUYaaqFGv4w"
+                          src="https://media.licdn.com/dms/image/D4D03AQFm0iO0GGhXbA/profile-displayphoto-shrink_800_800/0/1689083752439?e=1714003200&v=beta&t=lF6NcokYFwkXWdTM5TU2_w-t5Hr8WcHvdtYqd-o7bTw"
                           alt="Image Description"
                         />
                       </div>
 
                       <div className="grow ms-3">
-                        <p className="text-sm sm:text-base font-semibold text-gray-800">
+                        <p className="text-sm sm:text-base font-semibold text-white">
                           Praveen Singh
                         </p>
-                        <p className="text-xs text-gray-500">
+                        <p className="text-xs text-gray-400">
                           Tubelight Communication
                         </p>
                       </div>
@@ -222,7 +222,7 @@ export default function App() {
                         <p className="text-sm sm:text-base font-semibold text-gray-800 dark:text-gray-200">
                           Antonio Catanzariti
                         </p>
-                        <p className="text-xs text-gray-500 dark:text-gray-400">
+                        <p className="text-xs text-gray-400">
                           Imerald (FZE)
                         </p>
                       </div>
@@ -259,7 +259,7 @@ export default function App() {
                         <p className="text-sm sm:text-base font-semibold text-gray-800 dark:text-gray-200">
                           Erasmus Okrut
                         </p>
-                        <p className="text-xs text-gray-500 dark:text-gray-400">
+                        <p className="text-xs text-gray-400">
                           Intervas Limited
                         </p>
                       </div>
@@ -296,7 +296,7 @@ export default function App() {
                         <p className="text-sm sm:text-base font-semibold text-gray-800 dark:text-gray-200">
                           Maryana Nasr
                         </p>
-                        <p className="text-xs text-gray-500 dark:text-gray-400">
+                        <p className="text-xs text-gray-400">
                           Callync
                         </p>
                       </div>
@@ -310,9 +310,9 @@ export default function App() {
 
           <div className="mt-20 grid gap-6 grid-cols-2 sm:gap-12 lg:grid-cols-3 lg:gap-8">
             <div>
-              <h4 className="text-lg sm:text-xl font-semibold text-white">
+              <p className="text-lg sm:text-xl font-semibold text-white">
                 Accuracy rate
-              </h4>
+              </p>
               <p className="mt-2 sm:mt-3 text-4xl sm:text-6xl font-bold text-blue-500">
                 <RevealOnScroll>
                  99%
@@ -321,10 +321,10 @@ export default function App() {
               <p className="mt-1 text-gray-400">DLR</p>
             </div>
             <div>
-              <h4 className="text-lg sm:text-xl font-semibold text-white">
+              <p className="text-lg sm:text-xl font-semibold text-white">
              
                 Customers
-            </h4>
+            </p>
               <p className="mt-2 sm:mt-3 text-4xl sm:text-6xl font-bold text-blue-500">
                <RevealOnScroll>
 
@@ -334,9 +334,9 @@ export default function App() {
               <p className="mt-1 text-gray-400">Carrier and Enterprise</p>
             </div>
             <div>
-              <h4 className="text-lg sm:text-xl font-semibold text-white">
+              <p className="text-lg sm:text-xl font-semibold text-white">
                 Happy customer
-              </h4>
+              </p>
               <p className="mt-2 sm:mt-3 text-4xl sm:text-6xl font-bold text-blue-500">
               <RevealOnScroll>
 

@@ -80,7 +80,7 @@ function Ev() {
     };
   return (
     <div>
-        <h1 className={`text-${color}-600 p-5 font-bold transition-colors duration-500 ease-in-out  hover:text-indigo-700 text-3xl  text-center pt-5 `}> Events Participation  </h1>
+        <p className={`text-${color}-600 p-5 font-bold transition-colors duration-500 ease-in-out  hover:text-indigo-700 text-3xl  text-center pt-5 `}> Events Participation  </p>
       <div className='p-5 rounded-lg lg:pr-10'>
     <div className='relative justify-center items-center align-middle text-center  bg-gray-800 shadow-slate-800 shadow-md  w-full'>
      {/* <div className='carousel'> */}
@@ -89,109 +89,109 @@ function Ev() {
        <Slider {...settings}>
           <div className='p-3  rounded-xl'>
            <div className=' flex justify-center items-center'>
-              <img src={p1} className='h-40 rounded-lg w-full'/>
+              <img alt="event image" src={p1} className='h-40 rounded-lg w-full'/>
             </div>
           
           </div>
           <div className='p-3  rounded-xl'>
            <div className='flex justify-center items-center'>
-              <img src={p2} className='h-40 rounded-lg w-full'/>
+              <img alt="event image" src={p2} className='h-40 rounded-lg w-full'/>
             </div>
           
           </div>
           <div className='p-3  rounded-xl'>
            <div className=' flex justify-center items-center'>
-              <img src={p3} className='h-40 rounded-lg w-full'/>
+              <img alt="event image" src={p3} className='h-40 rounded-lg w-full'/>
             </div>
           
           </div>
           <div className='p-3 rounded-xl'>
            <div className=' flex justify-center items-center'>
-              <img src={p4} className='h-40 rounded-lg w-full'/>
+              <img alt="event image" src={p4} className='h-40 rounded-lg w-full'/>
             </div>
           
           </div>
           <div className='p-3  rounded-xl'>
            <div className=' flex justify-center items-center'>
-              <img src={p5} className='h-40 rounded-lg w-full'/>
+              <img alt="event image" src={p5} className='h-40 rounded-lg w-full'/>
             </div>
           
           </div>
           <div className='p-3 rounded-xl'>
            <div className=' flex justify-center items-center'>
-              <img src={p6} className='h-40 rounded-lg w-full'/>
+              <img alt="event image" src={p6} className='h-40 rounded-lg w-full'/>
             </div>
           
           </div>
           <div className='p-3 rounded-xl'>
            <div className=' flex justify-center items-center'>
-              <img src={p7} className='h-40 rounded-lg w-full'/>
+              <img alt="event image" src={p7} className='h-40 rounded-lg w-full'/>
             </div>
           
           </div>
           <div className='p-3 rounded-xl'>
            <div className=' flex justify-center items-center'>
-              <img src={p8} className='h-40 rounded-lg w-full'/>
+              <img alt="event image" src={p8} className='h-40 rounded-lg w-full'/>
             </div>
           
           </div>
           <div className='p-3 rounded-xl'>
            <div className=' flex justify-center items-center'>
-              <img src={p9} className='h-40 rounded-lg w-full'/>
+              <img alt="event image" src={p9} className='h-40 rounded-lg w-full'/>
             </div>
           
           </div>
           <div className='p-3 rounded-xl'>
            <div className=' flex justify-center items-center'>
-              <img src={p10} className='h-40 rounded-lg w-full'/>
+              <img alt="event image" src={p10} className='h-40 rounded-lg w-full'/>
             </div>
           
           </div>
           <div className='p-3 rounded-xl'>
            <div className=' flex justify-center items-center'>
-              <img src={p11} className='h-40 rounded-lg w-full'/>
+              <img alt="event image" src={p11} className='h-40 rounded-lg w-full'/>
             </div>
           
           </div>
           <div className='p-3 rounded-xl'>
            <div className=' flex justify-center items-center'>
-              <img src={p12} className='h-40 rounded-lg w-full'/>
+              <img alt="event image" src={p12} className='h-40 rounded-lg w-full'/>
             </div>
           
           </div>
           <div className='p-3 rounded-xl'>
            <div className=' flex justify-center items-center'>
-              <img src={p13} className='h-40 rounded-lg w-full'/>
+              <img alt="event image" src={p13} className='h-40 rounded-lg w-full'/>
             </div>
           
           </div>
           <div className='p-3 rounded-xl'>
            <div className=' flex justify-center items-center'>
-              <img src={p14} className='h-40 rounded-lg w-full'/>
+              <img alt="event image" src={p14} className='h-40 rounded-lg w-full'/>
             </div>
           
           </div>
           <div className='p-3 rounded-xl'>
            <div className=' flex justify-center items-center'>
-              <img src={p15} className='h-40 rounded-lg w-full'/>
+              <img alt="event image" src={p15} className='h-40 rounded-lg w-full'/>
             </div>
           
           </div>
           <div className='p-3 rounded-xl'>
            <div className=' flex justify-center items-center'>
-              <img src={p16} className='h-40 rounded-lg w-full'/>
+              <img alt="event image" src={p16} className='h-40 rounded-lg w-full'/>
             </div>
           
           </div>
           <div className='p-3 rounded-xl'>
            <div className=' flex justify-center items-center'>
-              <img src={p17} className='h-40 rounded-lg w-full'/>
+              <img alt="event image" src={p17} className='h-40 rounded-lg w-full'/>
             </div>
           
           </div>
           <div className='p-3 rounded-xl'>
            <div className=' flex justify-center items-center'>
-              <img src={p18} className='h-40 rounded-lg w-full'/>
+              <img alt="event image" src={p18} className='h-40 rounded-lg w-full'/>
             </div>
           
           </div>

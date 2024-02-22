@@ -42,7 +42,7 @@ const RevealOnScroll = ({ children }) => {
     </div>
   );
 };
-const words = ["SMS",'CPaas','Voice'];
+const words = ["SMS",'CPaaS','Voice'];
 function Home() {
   // Create a state variable to store the text opacity
   // useEffect(() => {
@@ -84,7 +84,7 @@ function Home() {
               <span className="text-3xl pt-0 mt-0">
                 Communication on the GO!
               </span>
-              <h1 className="font-bold text-sky-400 p-0 text-6xl">{words[index]}</h1>
+              <p className="font-bold text-sky-400 p-0 text-6xl">{words[index]}</p>
            
             </h1>
 
@@ -114,9 +114,9 @@ function Home() {
       </div>
       <div className="pt-16">
         <RevealOnScroll>
-          <h1 className="text-sky-400 text-center p-5 pb-1  font-bold text-3xl">
+          <p className="text-sky-400 text-center p-5 pb-1  font-bold text-3xl">
             Benefits Of SMS Hubbing
-          </h1>
+          </p>
         </RevealOnScroll>
         <RevealOnScroll>
           <p className="text-center text-gray-500 text-xl">
@@ -127,37 +127,37 @@ function Home() {
         <div className="grid pt-8  lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-3 p-5">
           <div className="rounded-lg pt-8 h-32 p-5 bg-gray-800 hover:bg-gray-400  text-white">
             <RevealOnScroll>
-              <h1 className="font-bold text-xl">Scalable Platform</h1>
+              <p className="font-bold text-xl">Scalable Platform</p>
               <p>Platform with burstable capacity upto 1000 TPS</p>
             </RevealOnScroll>
           </div>
           <div className="rounded-lg h-32 pt-8 p-5 bg-gray-800 hover:bg-gray-400 text-white">
             <RevealOnScroll>
-              <h1 className="font-bold text-xl">High Quality</h1>
+              <p className="font-bold text-xl">High Quality</p>
               <p>Global routes with AI based Route Selection and Testing</p>
             </RevealOnScroll>
           </div>
           <div className="rounded-lg  -32 pt-8 p-5 bg-gray-800 hover:bg-gray-400 text-white">
             <RevealOnScroll>
-              <h1 className="font-bold text-xl">Seamless Broadcast</h1>
+              <p className="font-bold text-xl">Seamless Broadcast</p>
               <p>LCR and QBR Based Routing with Fall back</p>
             </RevealOnScroll>
           </div>
           <div className="rounded-lg  h-32 pt-8 p-5 bg-gray-800 hover:bg-gray-400 text-white">
             <RevealOnScroll>
-              <h1 className="font-bold text-xl">Carrier Grade Feature</h1>
+              <p className="font-bold text-xl">Carrier Grade Feature</p>
               <p>High availability, 99.95% uptime backed by SLA</p>
             </RevealOnScroll>
           </div>
           <div className="rounded-lg h-32 p-5 pt-8 bg-gray-800 hover:bg-gray-400 text-white">
             <RevealOnScroll>
-              <h1 className="font-bold text-xl">Cloud Based Services</h1>
+              <p className="font-bold text-xl">Cloud Based Services</p>
               <p>Cloud connectivity with no down time & no CAPEX</p>
             </RevealOnScroll>
           </div>
           <div className="rounded-lg h-32 p-5 pt-8 bg-gray-800 hover:bg-gray-400 text-white">
             <RevealOnScroll>
-              <h1 className="font-bold text-xl">World Wide Reach</h1>
+              <p className="font-bold text-xl">World Wide Reach</p>
               <p>Flawless termination in more then 195 Countries</p>
             </RevealOnScroll>
           </div>

@@ -63,9 +63,9 @@ function End() {
 
             <div className="lg:pl-8 col-span-1">
               <RevealOnScroll>
-              <h4 className="font-semibold text-gray-100 cursor-pointer">
+              <p className="font-semibold text-gray-100 cursor-pointer">
                 Services
-              </h4>
+              </p>
               </RevealOnScroll>
                 <RevealOnScroll>
               <div className="mt-3 grid space-y-3 ">
@@ -98,14 +98,14 @@ function End() {
             </div>
               <RevealOnScroll>
             <div className="col-span-1 lg:-top-1">
-              <h4
+              <p
                 className="font-semibold text-gray-100 cursor-pointer"
                 onClick={() => {
                   window.scrollTo(0, 0);
                 }}
               >
                 Company
-              </h4>
+              </p>
 
               <div className="mt-3 grid space-y-3">
                 <p>
@@ -164,7 +164,7 @@ function End() {
             </div>
             </RevealOnScroll>
             <div className="col-span-2">
-              <RevealOnScroll>              <h1 className="text-xl text-white cursor-pointer">Address</h1>
+              <RevealOnScroll>              <p className="text-xl text-white cursor-pointer">Address</p>
               </RevealOnScroll>
                 <RevealOnScroll>
               <p className="inline-flex p-2  ps-0 gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600 cursor-pointer">
