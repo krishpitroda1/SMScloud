@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/SMScloud/static/css/main.b8bf0be8.css",
-    "main.js": "/SMScloud/static/js/main.58cfc27e.js",
+    "main.css": "/SMScloud/static/css/main.bfbd8ee8.css",
+    "main.js": "/SMScloud/static/js/main.e299b260.js",
     "static/js/787.fda24d20.chunk.js": "/SMScloud/static/js/787.fda24d20.chunk.js",
     "static/media/bgvideo.mp4": "/SMScloud/static/media/bgvideo.eaa84a1e7c19d6295351.mp4",
     "static/media/source.png": "/SMScloud/static/media/source.5e39297bfe0575dc5163.png",
@@ -10,11 +10,12 @@
     "static/media/managehubs.jpg": "/SMScloud/static/media/managehubs.258f2dfdc5ef3d832bdb.jpg",
     "static/media/sacleai.jpg": "/SMScloud/static/media/sacleai.a2e3342a9fe47f4c74f6.jpg",
     "static/media/event2.jpg": "/SMScloud/static/media/event2.f4e98f94f7244c7329fa.jpg",
+    "static/media/smsc.jpeg": "/SMScloud/static/media/smsc.616713e103ce74eab316.jpeg",
     "static/media/cpaas.webp": "/SMScloud/static/media/cpaas.afbbfe1bc2509eb2e756.webp",
     "static/media/msme.png": "/SMScloud/static/media/msme.6047d74d0e0c64b5aa4f.png",
     "static/media/icon1.jpg": "/SMScloud/static/media/icon1.564fdf4797f780d2f98d.jpg",
     "static/media/background2.jpeg": "/SMScloud/static/media/background2.4e55e66cf1f3fe587910.jpeg",
-    "static/media/smsc.jpeg": "/SMScloud/static/media/smsc.b3d7ad2960a94c76e1b1.jpeg",
+    "static/media/a2p.png": "/SMScloud/static/media/a2p.89d343d99269d8424fa1.png",
     "static/media/img1.jpeg": "/SMScloud/static/media/img1.b54bb46ab8bf4092726b.jpeg",
     "static/media/e5.png": "/SMScloud/static/media/e5.aadaae6cef6d8c16ab04.png",
     "static/media/smsc2.jpeg": "/SMScloud/static/media/smsc2.dda996b7d25c13a4c955.jpeg",
@@ -31,7 +32,6 @@
     "static/media/gl.jpg": "/SMScloud/static/media/gl.97e542e89534dc2afba9.jpg",
     "static/media/event4.jpg": "/SMScloud/static/media/event4.8aea8ddb0a5736a5e10b.jpg",
     "static/media/event1.jpg": "/SMScloud/static/media/event1.51efe5dcd5a6257c8c69.jpg",
-    "static/media/a2p.png": "/SMScloud/static/media/a2p.d0a76278c0e2c0faf490.png",
     "static/media/events6.jpg": "/SMScloud/static/media/events6.1a74919959c9d4d3d2c7.jpg",
     "static/media/event3.jpg": "/SMScloud/static/media/event3.fd1403b7807b7c2876ce.jpg",
     "static/media/manageit.png": "/SMScloud/static/media/manageit.41d3c621c4c425bb7f09.png",
@@ -42,7 +42,6 @@
     "static/media/scale.jpg": "/SMScloud/static/media/scale.62208999c51abbb8359c.jpg",
     "static/media/e9.jpg": "/SMScloud/static/media/e9.a980b2057c8ca5bbd879.jpg",
     "static/media/e17.png": "/SMScloud/static/media/e17.c4ab65d011d4dc62fdda.png",
-    "static/media/voice.png": "/SMScloud/static/media/voice.26d259ad3f5bdb9265a8.png",
     "static/media/services.png": "/SMScloud/static/media/services.541f4738842a0262c2af.png",
     "static/media/vn.jpg": "/SMScloud/static/media/vn.b610c7d8a77832a2eef6.jpg",
     "static/media/cskool.jpeg": "/SMScloud/static/media/cskool.78399c4898da921b060e.jpeg",
@@ -51,6 +50,7 @@
     "static/media/i1.png": "/SMScloud/static/media/i1.28ea7e88056070095961.png",
     "static/media/e4.jpg": "/SMScloud/static/media/e4.0ccce7b015a64b43c54a.jpg",
     "static/media/i4.webp": "/SMScloud/static/media/i4.2708b9f4550a12ac16a0.webp",
+    "static/media/voice.jpg": "/SMScloud/static/media/voice.09045f3da94482da0180.jpg",
     "static/media/msme.webp": "/SMScloud/static/media/msme.1a21658ab7b6bf8fe422.webp",
     "static/media/e12.png": "/SMScloud/static/media/e12.0ec6961cbb17bba6dca3.png",
     "static/media/e11.png": "/SMScloud/static/media/e11.c4e7951e98fbfaffdae3.png",
@@ -73,12 +73,12 @@
     "static/media/slick.ttf": "/SMScloud/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "index.html": "/SMScloud/index.html",
     "static/media/slick.woff": "/SMScloud/static/media/slick.295183786cd8a1389865.woff",
-    "main.b8bf0be8.css.map": "/SMScloud/static/css/main.b8bf0be8.css.map",
-    "main.58cfc27e.js.map": "/SMScloud/static/js/main.58cfc27e.js.map",
+    "main.bfbd8ee8.css.map": "/SMScloud/static/css/main.bfbd8ee8.css.map",
+    "main.e299b260.js.map": "/SMScloud/static/js/main.e299b260.js.map",
     "787.fda24d20.chunk.js.map": "/SMScloud/static/js/787.fda24d20.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8bf0be8.css",
-    "static/js/main.58cfc27e.js"
+    "static/css/main.bfbd8ee8.css",
+    "static/js/main.e299b260.js"
   ]
 }
