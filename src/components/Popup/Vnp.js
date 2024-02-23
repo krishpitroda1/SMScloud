@@ -44,7 +44,7 @@ function Vnp(props) {
   return (
     <div>
       <div className="lg:w-[50%] md:w-[70%]  lg:top-[30%] mr-10 lg:left-[30%]  z-10 absolute border border-black">
-        <h1 className=" text-sky-600 rounded-lg text-center p-5 font-serif font-bold  bg-red-200 border-b ">
+        <h1 className=" text-sky-600  text-center p-5 font-serif font-bold  bg-red-200 border-b ">
           Virtual Number
           <span
             id="close"

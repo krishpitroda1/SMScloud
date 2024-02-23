@@ -1,6 +1,6 @@
 import React,{useState,useEffect,useRef} from 'react'
 import img3 from "../assets/circle.png";
-import img1 from '../assets/voice.png';
+import img1 from '../assets/voice.jpg';
 
 const RevealOnScroll = ({ children }) => {
   const [isVisible, setIsVisible] = useState(false);

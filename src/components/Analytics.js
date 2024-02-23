@@ -115,7 +115,7 @@ function Analytics() {
           Our Services
         </p>
 
-        <div className="justify-between lg:pl-32 md:pl-0  lg:flex mx-auto gap-6">
+        <div className="justify-between md:pl-0  lg:flex mx-auto gap-6">
           <div className="flex-col gap-5 ">
             <ul className="list-disc text-red-400 text-lg p-5">
               <p className="text-sky-700 font-bold text-xl">EnterPrise</p>
@@ -190,32 +190,33 @@ function Analytics() {
                     className="hover:font-bold hover:scale-110"
                     onClick={() => setPopup("A2p")}
                   >
-                    A2P SMS
+                      0Hop SMS Connectivity
                   </li>
                   <li
                     className="hover:font-bold hover:scale-110 "
                     onClick={() => setPopup("Msp")}
                   >
-                    Managed services for Messaging Hubs
+                    Managed service
                   </li>
 
-                  <li
-                    className="hover:font-bold hover:scale-110 "
-                    onClick={() => setPopup("Mitp")}
-                  >
-                    Managed services For IT & Infra
-                  </li>
+                
                   <li
                     className="hover:font-bold hover:scale-110"
                     onClick={() => setPopup("Smscp")}
                   >
                     SMSC Firewall
                   </li>
-                  <li
+                  {/* <li
                     className="hover:font-bold hover:scale-110 "
                     onClick={() => setPopup("Crp")}
                   >
                     CR in Existing SMSC
+                  </li> */}
+                    <li
+                    className="hover:font-bold hover:scale-110 "
+                    onClick={() => setPopup("Mitp")}
+                  >
+                  VAS
                   </li>
                 </div>
               </ul>

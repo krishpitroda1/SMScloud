@@ -48,9 +48,9 @@ function Cpas() {
     </h1>
    
     <div className="lg:flex pt-0 p-10 md:grid md:grid-cols-2 ">
-    <img src={img1} className="w-[500px] h-96 mx-auto my-4 rounded-2xl" alt="" />
+    <img src={img1} className="w-[500px] h-[480px] mx-auto my-4 rounded-2xl" alt="" />
    <RevealOnScroll>
-    <div className="flex flex-col lg:p-5">
+    <div className="flex flex-col lg:pt-10 lg:p-5">
       <p className="pl-5 text-orange-600 font-bold text-3xl">
         CPaaS platform
       </p>
