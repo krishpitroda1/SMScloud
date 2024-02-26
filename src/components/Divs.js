@@ -43,77 +43,70 @@ function Divs() {
       <RevealOnScroll>
         <div>
           <p
-            className={`text-${color}-600 p-7 font-bold transition-colors duration-500 ease-in-out  hover:text-indigo-500 text-3xl  text-center`}
+            className={`text-gray-500 p-7 font-bold  text-3xl  text-center`}
           >
             Empowering Connectivity
           </p>
         </div>
       </RevealOnScroll>
       <RevealOnScroll>
-        <p className="text-xl font-semibold   p-5 pt-1 ml-2 mr-3 text-center">
-          Seamless Messaging Across All Touchpoints
-          <br /> Experience effortless communication solutions that seamlessly
-          connect you with customers worldwide <br /> powered by our
-          cutting-edge connectivity , Reliable Routes  and AI Technology
+        <p className="text-xl font-bold text-gray-500 p-5 pt-1 ml-2 mr-3 text-center">
+        Simple A2P SMS delivery options <br /> that uses AI technology, Dependable Routes, and State-of-the-art platform <br /> to connect you with clients across the globe
         </p>
       </RevealOnScroll>
 
       <div className="text-white relative p-5 grid md:grid-cols-2 lg:grid-cols-5 gap-3 lg:items-center">
-        <div class=" flex flex-col border hover:bg-gray-400 text-center rounded-xl p-5 h-full bg-gray-800 border-gray-700">
+        <div class="divs flex flex-col border hover:bg-gray-400 text-center rounded-xl p-5 h-full bg-sky-900 border-gray-700">
           <RevealOnScroll>
             <p className=" font-bold text-xl border-b pt-5 pb-5 border-white">
               Global Reach
             </p>
             <p className="text-lg p-4">
-              Expand your reach across borders and connect with audiences
-              globally.
-            </p>
+            Industry best HA platform and LCR + QBR based routes for improved reliable communication  </p>
           </RevealOnScroll>
         </div>
 
-        <div class=" flex flex-col border text-center hover:bg-gray-400 h-full rounded-xl  bg-gray-800 p-5 border-gray-700">
+        <div class=" divs flex flex-col border text-center hover:bg-gray-400 h-full rounded-xl  bg-sky-900 p-5 border-gray-700">
           <RevealOnScroll>
             <p className="font-bold text-xl  border-b block p-5  border-white">
               Reliability
             </p>
             <p className="text-lg  p-5">
               Rely on our platform's consistent performance for uninterrupted
-              communication.
+              communication
             </p>
           </RevealOnScroll>
         </div>
-        <div class=" flex flex-col border h-full hover:bg-gray-400  text-center rounded-xl p-5  bg-gray-800 border-gray-700">
+        <div class="divs flex flex-col border h-full hover:bg-gray-400  text-center rounded-xl p-5  bg-sky-900 border-gray-700">
           <RevealOnScroll>
             <p className=" font-bold  text-xl border-b  p-5  border-white">
               Security
             </p>
             <p className="text-lg  p-5">
               Safeguard sensitive data with advanced encryption and robust
-              security measures.
+              security measures
             </p>
           </RevealOnScroll>
         </div>
 
-        <div class=" flex flex-col border  h-full text-center hover:bg-gray-400 rounded-xl p-5  bg-gray-800 border-gray-700">
+        <div class="divs flex flex-col border  h-full text-center hover:bg-gray-400 rounded-xl p-5  bg-sky-900 border-gray-700">
           <RevealOnScroll>
             <p className="font-bold text-xl border-b p-5  border-white">
               Scalability
             </p>
             <p className="text-lg p-4">
-              Scale your messaging operations effortlessly to meet evolving
-              business needs.
-            </p>
+            Scale your messaging operation on the go using our cloud based solutions for uninterrupted traffic flow   </p>
           </RevealOnScroll>
         </div>
 
-        <div class=" flex flex-col border h-full object-contain text-center hover:bg-gray-400 bg-gray-800 rounded-xl p-5 border-gray-700">
+        <div class="divs flex flex-col border h-full object-contain text-center hover:bg-gray-400 bg-sky-900 rounded-xl p-5 border-gray-700">
           <RevealOnScroll>
             <p className="font-bold text-xl  border-b pt-5 pb-5 border-white">
               AI Integrated
             </p>
             <p className="text-lg  p-4">
               Harness the power of AI to optimize messaging strategies and
-              enhance customer interactions.
+              enhance customer interactions
             </p>
           </RevealOnScroll>
         </div>

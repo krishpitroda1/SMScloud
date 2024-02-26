@@ -54,7 +54,7 @@ function Life() {
   <RevealOnScroll>
   <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
     
-    <a class="group flex flex-col h-full border border-gray-200 hover:border-transparent hover:shadow-lg transition-all duration-300 rounded-xl p-5 dark:border-gray-700 dark:hover:border-transparent dark:hover:shadow-black/[.4] dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="#">
+    <a class="group flex flex-col h-full border border-gray-400 hover:border-transparent hover:shadow-lg hover:bg-gray-300 transition-all duration-300 rounded-xl p-5 " href="#">
       <div class="aspect-w-16 aspect-h-11">
         <img class="w-full object-cover rounded-xl" src={img} alt="Image Description"/>
      
@@ -70,7 +70,7 @@ function Life() {
       </div>
     
     </a>
-    <a class="group flex flex-col h-full border border-gray-200 hover:border-transparent hover:shadow-lg transition-all duration-300 rounded-xl p-5 dark:border-gray-700 dark:hover:border-transparent dark:hover:shadow-black/[.4] dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="#">
+    <a class="group flex flex-col h-full border border-gray-400 hover:border-transparent hover:shadow-lg transition-all duration-300 rounded-xl p-5  hover:bg-gray-300" href="#">
       <div class="aspect-w-16 aspect-h-11">
         <img class="w-full object-cover rounded-xl" src={img1} alt="Image Description"/>
       </div>
@@ -83,7 +83,7 @@ function Life() {
       </div>
      
     </a>
-    <a class="group flex flex-col h-full border border-gray-200 hover:border-transparent hover:shadow-lg transition-all duration-300 rounded-xl p-5 dark:border-gray-700 dark:hover:border-transparent dark:hover:shadow-black/[.4] dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="#">
+    <a class="group flex flex-col h-full border border-gray-400 hover:border-transparent hover:shadow-lg transition-all duration-300 rounded-xl p-5  hover:bg-gray-300" href="#">
       <div class="aspect-w-16 aspect-h-11">
         <img class="w-full object-cover rounded-xl h-[320px]" src={img5} alt="Image Description"/>
       </div>
@@ -98,7 +98,7 @@ function Life() {
     
     </a>
   
-       <a class="group flex flex-col h-full border border-gray-200 hover:border-transparent hover:shadow-lg transition-all duration-300 rounded-xl p-5 dark:border-gray-700 dark:hover:border-transparent dark:hover:shadow-black/[.4] dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="#">
+       <a class="group flex flex-col h-full border border-gray-400 hover:border-transparent hover:shadow-lg transition-all duration-300 rounded-xl p-5 hover:bg-gray-300" href="#">
       <div class="aspect-w-16 aspect-h-11">
         <img class="w-full object-cover rounded-xl" src={img4} alt="Image Description"/>
       </div>
@@ -112,7 +112,7 @@ function Life() {
       </div>
     
     </a>
-    <a class="group flex flex-col h-full border border-gray-200 hover:border-transparent hover:shadow-lg transition-all duration-300 rounded-xl p-5 dark:border-gray-700 dark:hover:border-transparent dark:hover:shadow-black/[.4] dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="#">
+    <a class="group flex flex-col h-full border border-gray-400 hover:border-transparent hover:shadow-lg transition-all duration-300 rounded-xl p-5  hover:bg-gray-300" href="#">
       <div class="aspect-w-16 aspect-h-11">
         <img class="w-full object-cover rounded-xl h-[320px]" src={img2} alt="Image Description"/>
       </div>
@@ -124,7 +124,7 @@ function Life() {
       </div>
        </a>
    
-    <a class="group flex flex-col h-full border border-gray-200 hover:border-transparent hover:shadow-lg transition-all duration-300 rounded-xl p-5 dark:border-gray-700 dark:hover:border-transparent dark:hover:shadow-black/[.4] dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="#">
+    <a class="group flex flex-col h-full border border-gray-400 hover:border-transparent hover:shadow-lg transition-all duration-300 rounded-xl p-5  hover:bg-gray-300" href="#">
       <div class="aspect-w-16 aspect-h-11">
         <img class="w-full object-cover rounded-xl" src={img3} alt="Image Description"/>
       </div>
@@ -137,7 +137,7 @@ function Life() {
       </div>
     
     </a>
-    <a class="group flex flex-col h-full border border-gray-200 hover:border-transparent hover:shadow-lg transition-all duration-300 rounded-xl p-5 dark:border-gray-700 dark:hover:border-transparent dark:hover:shadow-black/[.4] dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="#">
+    <a class="group flex flex-col h-full border border-gray-400 hover:border-transparent hover:shadow-lg transition-all duration-300 rounded-xl p-5  hover:bg-gray-300" href="#">
       <div class="aspect-w-16 aspect-h-11">
         <img class="w-full object-cover rounded-xl" src={img8} alt="Image Description"/>
      
@@ -152,7 +152,7 @@ function Life() {
       </div>
     
     </a>
-    <a class="group flex flex-col h-full border border-gray-200 hover:border-transparent hover:shadow-lg transition-all duration-300 rounded-xl p-5 dark:border-gray-700 dark:hover:border-transparent dark:hover:shadow-black/[.4] dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="#">
+    <a class="group flex flex-col h-full border border-gray-400 hover:border-transparent hover:shadow-lg transition-all duration-300 rounded-xl p-5  hover:bg-gray-300" href="#">
       <div class="aspect-w-16 aspect-h-11">
         <img class="w-full object-cover rounded-xl" src={img7} alt="Image Description"/>
      
@@ -167,7 +167,7 @@ function Life() {
       </div>
     
     </a>
-    <a class="group flex flex-col h-full border border-gray-200 hover:border-transparent hover:shadow-lg transition-all duration-300 rounded-xl p-5 dark:border-gray-700 dark:hover:border-transparent dark:hover:shadow-black/[.4] dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="#">
+    <a class="group flex flex-col h-full border border-gray-400 hover:border-transparent hover:shadow-lg transition-all duration-300 rounded-xl p-5  hover:bg-gray-300" href="#">
       <div class="aspect-w-16 aspect-h-11">
         <img class="w-full object-cover rounded-xl h-[320px]" src={img6} alt="Image Description"/>
      

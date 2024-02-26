@@ -48,6 +48,14 @@
         /* font-family: 'Source Code Pro', monospace;  */
   }
 }
+.benefits{
+  background: linear-gradient(to right, rgb(56, 189, 248), rgb(59, 130, 246))
+}
+.divs{
+  /* background:linear-gradient(to right, rgb(59, 130, 246), rgb(37, 99, 235)); */
+  background: linear-gradient(to right, rgb(56, 189, 248), rgb(59, 130, 246))
+
+}
 .div1{
   background-image: url("./assets/gl.jpg");
 

@@ -3,7 +3,7 @@ import { TypeAnimation } from "react-type-animation";
 import Navbar from "./Navbar";
 import Companies from "./Companies";
 import Test from "./Test";
-
+import CountUp from 'react-countup';
 // import ParticlesComponent from "./Particle";
 
 import videobg from "../assets/bgvideo.mp4";
@@ -99,7 +99,7 @@ function Home() {
             <p className="md:text-2xl text-xl relative font-bold pt-0 p-5 text-white 
             ">
               Scale your communications and connect with your audience
-              seamlessly with wider messaging reach.
+              seamlessly with wider messaging reach
             </p>
           </div>
       </div>
@@ -107,55 +107,45 @@ function Home() {
       <div>
         <Divs />
       </div>
-      <div className="">
-        <RevealOnScroll>
-          <Companies />
-        </RevealOnScroll>
-      </div>
       <div className="pt-16">
         <RevealOnScroll>
-          <p className="text-sky-400 text-center p-5 pb-1  font-bold text-3xl">
-            Benefits Of SMS Hubbing
+          <p className="text-gray-500 text-center p-5 pb-1  font-bold text-3xl">
+            Benefits Of SMS Hubbing with SMSCloud Hub
           </p>
         </RevealOnScroll>
-        <RevealOnScroll>
-          <p className="text-center text-gray-500 text-xl">
-            Benefits of SMS Hubbing with SMSCloud Hub
-          </p>
-        </RevealOnScroll>
-
+    
         <div className="grid pt-8  lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-3 p-5">
-          <div className="rounded-lg pt-8 h-32 p-5 bg-gray-800 hover:bg-gray-400  text-white">
+          <div className="benefits rounded-lg pt-8 h-32 p-5 bg-sky-900 hover:bg-gray-400  text-white">
             <RevealOnScroll>
               <p className="font-bold text-xl">Scalable Platform</p>
               <p>Platform with burstable capacity upto 1000 TPS</p>
             </RevealOnScroll>
           </div>
-          <div className="rounded-lg h-32 pt-8 p-5 bg-gray-800 hover:bg-gray-400 text-white">
+          <div className="benefits rounded-lg h-32 pt-8 p-5 bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
               <p className="font-bold text-xl">High Quality</p>
               <p>Global routes with AI based Route Selection and Testing</p>
             </RevealOnScroll>
           </div>
-          <div className="rounded-lg  -32 pt-8 p-5 bg-gray-800 hover:bg-gray-400 text-white">
+          <div className="benefits rounded-lg  -32 pt-8 p-5 bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
               <p className="font-bold text-xl">Seamless Broadcast</p>
               <p>LCR and QBR Based Routing with Fall back</p>
             </RevealOnScroll>
           </div>
-          <div className="rounded-lg  h-32 pt-8 p-5 bg-gray-800 hover:bg-gray-400 text-white">
+          <div className="benefits rounded-lg  h-32 pt-8 p-5 bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
               <p className="font-bold text-xl">Carrier Grade Feature</p>
               <p>High availability, 99.95% uptime backed by SLA</p>
             </RevealOnScroll>
           </div>
-          <div className="rounded-lg h-32 p-5 pt-8 bg-gray-800 hover:bg-gray-400 text-white">
+          <div className="benefits rounded-lg h-32 p-5 pt-8 bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
               <p className="font-bold text-xl">Cloud Based Services</p>
               <p>Cloud connectivity with no down time & no CAPEX</p>
             </RevealOnScroll>
           </div>
-          <div className="rounded-lg h-32 p-5 pt-8 bg-gray-800 hover:bg-gray-400 text-white">
+          <div className=" benefits rounded-lg h-32 p-5 pt-8 bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
               <p className="font-bold text-xl">World Wide Reach</p>
               <p>Flawless termination in more then 195 Countries</p>
@@ -163,12 +153,69 @@ function Home() {
           </div>
         </div>
       </div>
+      <div className=" lg:pl-20 p-10 grid gap-6 grid-cols-2 sm:gap-12 lg:grid-cols-4 lg:gap-8">
+            <div>
+              <p className="text-lg sm:text-xl font-bold text-gray-500">
+                Accuracy rate
+              </p>
+              <p className="mt-2 sm:mt-3 text-4xl sm:text-6xl font-bold text-blue-500">
+                <RevealOnScroll>
+                
+                <CountUp start={0.00} end={99.96}  duration={10} decimals={2} suffix="%"/>
+                </RevealOnScroll>
+              </p>
+              <p className="mt-1 text-gray-500">DLR</p>
+            </div>
+            <div>
+              <p className="text-lg sm:text-xl font-bold text-gray-500">
+             
+                Customers
+            </p>
+              <p className="mt-2 sm:mt-3 text-4xl sm:text-6xl font-bold text-blue-500">
+               <RevealOnScroll>
+
+               <CountUp start={0} end={500}  duration={10} decimals={0} suffix="+"/>
+                 </RevealOnScroll>
+              </p>
+              <p className="mt-1 text-gray-500">Telcos, Carriers & Enterprises</p>
+            </div>
+            <div>
+              <p className="text-lg sm:text-xl font-bold text-gray-500">
+                Happy customer
+              </p>
+              <p className="mt-2 sm:mt-3 text-4xl sm:text-6xl font-bold text-blue-500">
+              <RevealOnScroll>
+
+               <CountUp start={0.000} end={96.90}  duration={10} decimals={2} suffix="%"/>
+               </RevealOnScroll>
+              </p>
+              <p className="mt-1 text-gray-500">Overall satisfaction</p>
+            </div>
+            <div>
+              <p className="text-lg sm:text-xl font-semibold text-gray-500">
+                Coverage
+              </p>
+              <p className="mt-2 sm:mt-3 text-4xl sm:text-6xl font-bold text-blue-500">
+              <RevealOnScroll>
+
+              <CountUp start={0} end={195}  duration={10} decimals={0} suffix="+"/>
+              </RevealOnScroll>
+              </p>
+              <p className="mt-1 text-gray-500">Countries</p>
+            </div>
+          </div>
+      <div className="">
+        <RevealOnScroll>
+          <Companies />
+        </RevealOnScroll>
+      </div>
+      <Test />
       <div className="rounded-lg">
         <RevealOnScroll>
           <Ev />
         </RevealOnScroll>
       </div>
-      <Test />
+     
       {/* <Cards/> */}
       {/* <End/> */}
     </div>

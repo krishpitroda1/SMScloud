@@ -42,7 +42,7 @@ function Companies() {
   return (
     // <AppContainer className="pt-0 mt-0">
       <Wrapper className="pt-5">
-        <p className="text-4xl p-5 text-sky-400 text-center font-bold">Our Trusted Partners</p>
+        <p className="text-4xl p-5 text-gray-500 text-center font-bold">Those who love to work with us...</p>
         {/* <Text className="p-7 text-3xl  w-screen text-center ">Our Partners</Text> */}
         <div className="pt-5">
 

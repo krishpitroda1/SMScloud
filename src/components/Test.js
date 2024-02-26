@@ -104,20 +104,20 @@ export default function App() {
     <div className="w-screen">
       <RevealOnScroll>
 
-      <p className=" text-sky-400  text-center p-5 -ml-7  font-bold  text-3xl">
+      <p className=" text-gray-500 pt-10 text-center p-5 -ml-7  font-bold  text-3xl">
          Clients' Feedback
       </p>
       </RevealOnScroll>
-      <div className="overflow-hidden bg-slate-800">
+      <div className="divs overflow-hidden bg-sky-900">
         <div className="relative max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-          <div className="max-w-2xl w-3/4 lg:w-1/2 mb-6 sm:mb-10 md:mb-16">
+          {/* <div className="max-w-2xl w-3/4 lg:w-1/2 mb-6 sm:mb-10 md:mb-16">
             <RevealOnScroll>
 
-            <p className="text-2xl sm:text-3xl lg:text-4xl text-white font-semibold">
+             <p className="text-2xl sm:text-3xl lg:text-4xl text-white font-semibold">
               Loved by business and individuals across the globe
-            </p>
+            </p> 
             </RevealOnScroll>
-          </div>
+          </div> */}
 
           <div className="m-5 p-5">
             <Slider {...settings}>
@@ -307,15 +307,15 @@ export default function App() {
             </Slider>
           </div>
  
-
-          <div className="mt-20 grid gap-6 grid-cols-2 sm:gap-12 lg:grid-cols-3 lg:gap-8">
+            
+          {/* <div className="mt-20 grid gap-6 grid-cols-2 sm:gap-12 lg:grid-cols-4 lg:gap-8">
             <div>
               <p className="text-lg sm:text-xl font-semibold text-white">
                 Accuracy rate
               </p>
               <p className="mt-2 sm:mt-3 text-4xl sm:text-6xl font-bold text-blue-500">
                 <RevealOnScroll>
-                 99%
+                 99.95%
                 </RevealOnScroll>
               </p>
               <p className="mt-1 text-gray-400">DLR</p>
@@ -328,10 +328,10 @@ export default function App() {
               <p className="mt-2 sm:mt-3 text-4xl sm:text-6xl font-bold text-blue-500">
                <RevealOnScroll>
 
-                300+
+                500+
                </RevealOnScroll>
               </p>
-              <p className="mt-1 text-gray-400">Carrier and Enterprise</p>
+              <p className="mt-1 text-gray-400">Telcos, Carriers & Enterprises</p>
             </div>
             <div>
               <p className="text-lg sm:text-xl font-semibold text-white">
@@ -340,10 +340,22 @@ export default function App() {
               <p className="mt-2 sm:mt-3 text-4xl sm:text-6xl font-bold text-blue-500">
               <RevealOnScroll>
 
-                85%
+                96%
               </RevealOnScroll>
               </p>
               <p className="mt-1 text-gray-400">Overall satisfaction</p>
+            </div>
+            <div>
+              <p className="text-lg sm:text-xl font-semibold text-white">
+                Coverage
+              </p>
+              <p className="mt-2 sm:mt-3 text-4xl sm:text-6xl font-bold text-blue-500">
+              <RevealOnScroll>
+
+                195+
+              </RevealOnScroll>
+              </p>
+              <p className="mt-1 text-gray-400">Countries</p>
             </div>
           </div>
           <div
@@ -374,7 +386,7 @@ export default function App() {
                 className="fill-white"
               />
             </svg>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

@@ -149,7 +149,7 @@ function Navbar() {
         <div className="logo p-5">
           {/* Your logo component or image goes here */}
           <Link to="/SMScloud">
-            <img src={Logo} alt="Logo" height={"50px"}/>
+            <img src={Logo} alt="Logo"  />
           </Link>
         </div>
         <div className="p-5 text-black justify-around w-full hidden md:flex">

@@ -80,9 +80,9 @@ function Ev() {
     };
   return (
     <div>
-        <p className={`text-${color}-600 p-5 font-bold transition-colors duration-500 ease-in-out  hover:text-indigo-700 text-3xl  text-center pt-5 `}> Events Participation  </p>
-      <div className='p-5 rounded-lg lg:pr-10'>
-    <div className='relative justify-center items-center align-middle text-center  bg-gray-800 shadow-slate-800 shadow-md  w-full'>
+        <p className={`text-gray-500 p-5  pt-10 font-bold  text-3xl  text-center  `}> Events Participation  </p>
+      <div className='rounded-lg lg:pr-10'>
+    <div className='relative justify-center items-center align-middle text-center   w-full'>
      {/* <div className='carousel'> */}
       <div className='w-3/4 m-auto p-5'>
       <div className='p-5 '>

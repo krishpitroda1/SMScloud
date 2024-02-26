@@ -164,7 +164,8 @@ function End() {
             </div>
             </RevealOnScroll>
             <div className="col-span-2">
-              <RevealOnScroll>              <p className="text-xl text-white cursor-pointer">Address</p>
+              <RevealOnScroll>      
+                <p className="text-xl text-white cursor-pointer">Address</p>
               </RevealOnScroll>
                 <RevealOnScroll>
               <p className="inline-flex p-2  ps-0 gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600 cursor-pointer">

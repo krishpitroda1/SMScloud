@@ -111,7 +111,7 @@ function Analytics() {
   return (
     <div>
       <div className="w-screen mb-24 pt-14 overflow-x-hidden grid gap-6 ">
-        <p className="w-screen text-center text-sky-500 p-5 font-bold text-3xl">
+        <p className="w-screen text-center text-gray-500 p-5 font-bold text-3xl">
           Our Services
         </p>
 

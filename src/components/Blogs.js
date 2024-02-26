@@ -42,7 +42,7 @@ function Blogs() {
   
   return (
     <div className="relative pt-8">
-      <h1 className="align-center text-sky-600  w-screen text-center p-5 pt-14 font-serif font-bold text-3xl">
+      <h1 className="align-center text-gray-500  w-screen text-center p-5 pt-14  font-bold text-3xl">
         Blogs
       </h1>
       <RevealOnScroll>
