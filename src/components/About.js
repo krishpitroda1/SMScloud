@@ -127,8 +127,7 @@ function About() {
                   <h1 className="align-center  text-sky-600  text-xl">
                   <RevealOnScroll>
 
-                    Easy to integrate
-                  </RevealOnScroll>
+                  Using SMPP, HTTP or SS7 connectivity</RevealOnScroll>
                   </h1>
                   <p className="font-semibold"><RevealOnScroll>Adaptive platform to connect with your existing clients</RevealOnScroll></p>
                 </div>
@@ -152,7 +151,7 @@ function About() {
                   <p className="font-semibold">
                  <RevealOnScroll>
 
-                    Burstable capacity in the cloud to support your business.
+                    Burstable capacity in the cloud to support your business
                  </RevealOnScroll>
                   </p>
                 </div>
@@ -167,7 +166,7 @@ function About() {
                   </RevealOnScroll>
                   </h1>
                   <p className="font-semibold">
-                    <RevealOnScroll>Friendly and always available business & support team.</RevealOnScroll></p>
+                    <RevealOnScroll>Friendly and always available business & support team</RevealOnScroll></p>
                 </div>
                 <div>
                   <img src={image5} className="h-10 rounded-lg" alt="" />
@@ -187,7 +186,7 @@ function About() {
                   <p className="font-semibold">
                   <RevealOnScroll>
 
-                    Using new-age technologies we bring 360-degree Digital.
+                    Using new-age technologies we bring 360-degree Digital
                   </RevealOnScroll>
                   </p>
                 </div>

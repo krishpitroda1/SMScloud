@@ -196,7 +196,7 @@ function Analytics() {
                     className="hover:font-bold hover:scale-110 "
                     onClick={() => setPopup("Msp")}
                   >
-                    Managed service
+                    Managed services
                   </li>
 
                 
@@ -320,15 +320,9 @@ function Analytics() {
                     className="dropdown-link "
                     onClick={() => setPopup("Msp")}
                   >
-                    Managed services for Messaging Hubs
+                    Managed services 
                   </li>
 
-                  <li
-                    className="dropdown-link "
-                    onClick={() => setPopup("Mitp")}
-                  >
-                    Managed services For IT & Infra
-                  </li>
                   <li
                     className="dropdown-link "
                     onClick={() => setPopup("Smscp")}

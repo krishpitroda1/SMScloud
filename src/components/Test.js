@@ -121,8 +121,8 @@ export default function App() {
 
           <div className="m-5 p-5">
             <Slider {...settings}>
-              <div className="flex p-3">
-                <div className="flex flex-col rounded-xl dark:bg-slate-900">
+              <div className="flex  p-3">
+                <div className="flex flex-col border border-black rounded-xl">
                   <div className="flex-auto h-64 p-4 md:p-6">
 
                     <p className="text-base italic md:text-lg text-white">
@@ -135,7 +135,7 @@ export default function App() {
                     </p>
                   </div>
 
-                  <div className="p-4 bg-gray-100 rounded-b-xl md:px-7 dark:bg-slate-700">
+                  <div className="p-4 bg-gray-100 rounded-b-xl md:px-7">
                     <div className="flex items-center">
                       <div className="flex-shrink-0">
                         <img
@@ -146,7 +146,7 @@ export default function App() {
                       </div>
 
                       <div className="grow ms-3">
-                        <p className="text-sm sm:text-base font-semibold text-gray-800 dark:text-gray-200">
+                        <p className="text-sm sm:text-base font-semibold text-gray-800 ">
                           Hugo Rebeiro
                         </p>
                         <p className="text-xs text-gray-400">
@@ -158,7 +158,7 @@ export default function App() {
                 </div>
               </div>
               <div className="flex p-3">
-                <div className="flex flex-col h-full rounded-b-xl dark:bg-slate-900">
+                <div className="flex flex-col border border-black h-full rounded-xl">
                   <div className="flex-auto h-64 p-4 md:p-6">
 
                     <p className="text-base italic md:text-lg text-white">
@@ -171,7 +171,7 @@ export default function App() {
                     </p>
                   </div>
 
-                  <div className="p-4  bg-slate-700 rounded-b-xl md:px-7 ">
+                  <div className="p-4 bg-gray-100  rounded-b-xl md:px-7 ">
                     <div className="flex items-center">
                       <div className="flex-shrink-0">
                         <img
@@ -182,7 +182,7 @@ export default function App() {
                       </div>
 
                       <div className="grow ms-3">
-                        <p className="text-sm sm:text-base font-semibold text-white">
+                        <p className="text-sm sm:text-base font-semibold text-gray-800">
                           Praveen Singh
                         </p>
                         <p className="text-xs text-gray-400">
@@ -194,7 +194,7 @@ export default function App() {
                 </div>
               </div>
               <div className="flex p-3">
-                <div className="flex flex-col h-full rounded-xl dark:bg-slate-900">
+                <div className="flex flex-col border border-black h-full rounded-xl ">
                   <div className="flex-auto h-64 p-4 md:p-6">
 
                     <p className="text-base italic md:text-lg text-white">
@@ -208,7 +208,7 @@ export default function App() {
                     </p>
                   </div>
 
-                  <div className="p-4 bg-gray-100 rounded-b-xl md:px-7 dark:bg-slate-700">
+                  <div className="p-4 bg-gray-100 rounded-b-xl md:px-7 ">
                     <div className="flex items-center">
                       <div className="flex-shrink-0">
                         <img
@@ -219,7 +219,7 @@ export default function App() {
                       </div>
 
                       <div className="grow ms-3">
-                        <p className="text-sm sm:text-base font-semibold text-gray-800 dark:text-gray-200">
+                        <p className="text-sm sm:text-base font-semibold text-gray-800">
                           Antonio Catanzariti
                         </p>
                         <p className="text-xs text-gray-400">
@@ -231,7 +231,7 @@ export default function App() {
                 </div>
               </div>
               <div className="flex p-3">
-                <div className="flex flex-col rounded-xl dark:bg-slate-900">
+                <div className="flex border border-black flex-col rounded-xl ">
                   <div className="flex-auto h-64 p-4 md:p-6">
 
                     <p className="text-base italic md:text-lg text-white">
@@ -245,7 +245,7 @@ export default function App() {
                     </p>
                   </div>
 
-                  <div className="p-4 bg-gray-100 rounded-b-xl md:px-7 dark:bg-slate-700">
+                  <div className="p-4 bg-gray-100 rounded-b-xl md:px-7">
                     <div className="flex items-center">
                       <div className="flex-shrink-0">
                         <img
@@ -256,7 +256,7 @@ export default function App() {
                       </div>
 
                       <div className="grow ms-3">
-                        <p className="text-sm sm:text-base font-semibold text-gray-800 dark:text-gray-200">
+                        <p className="text-sm sm:text-base font-semibold text-gray-800 ">
                           Erasmus Okrut
                         </p>
                         <p className="text-xs text-gray-400">
@@ -268,7 +268,7 @@ export default function App() {
                 </div>
               </div>
               <div className="flex p-3">
-                <div className="flex flex-col rounded-xl dark:bg-slate-900">
+                <div className="flex border border-black flex-col rounded-xl">
                   <div className="flex-auto h-64 p-4 md:p-6">
 
                     <p className="text-base italic md:text-lg text-white">
@@ -282,7 +282,7 @@ export default function App() {
                     </p>
                   </div>
 
-                  <div className="p-4 bg-gray-100 rounded-b-xl md:px-7 dark:bg-slate-700">
+                  <div className="p-4 bg-gray-100 rounded-b-xl md:px-7">
                     <div className="flex items-center">
                       <div className="flex-shrink-0">
                         <img
@@ -293,7 +293,7 @@ export default function App() {
                       </div>
 
                       <div className="grow ms-3">
-                        <p className="text-sm sm:text-base font-semibold text-gray-800 dark:text-gray-200">
+                        <p className="text-sm sm:text-base font-semibold text-gray-800 ">
                           Maryana Nasr
                         </p>
                         <p className="text-xs text-gray-400">
