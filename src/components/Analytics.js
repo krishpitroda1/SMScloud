@@ -157,12 +157,12 @@ function Analytics() {
                 >
                   A2P SMS
                 </li>
-                <li
+                {/* <li
                   className="hover:font-bold hover:scale-110"
                   onClick={() => setPopup("Hlrp")}
                 >
                   HLR
-                </li>
+                </li> */}
                 <li
                   className="hover:font-bold hover:scale-110 "
                   onClick={() => setPopup("Voicep")}
@@ -287,9 +287,9 @@ function Analytics() {
                 <li className="dropdown-link " onClick={() => setPopup("A2p")}>
                   A2P SMS
                 </li>
-                <li className="dropdown-link " onClick={() => setPopup("Hlrp")}>
+                {/* <li className="dropdown-link " onClick={() => setPopup("Hlrp")}>
                   HLR
-                </li>
+                </li> */}
                 <li
                   className="dropdown-link "
                   onClick={() => setPopup("Voicep")}

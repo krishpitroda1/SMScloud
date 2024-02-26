@@ -115,9 +115,9 @@ function Navbar() {
                       <li className="hover:text-sky-600 hover:font-bold">
                         <Link to="/A2P">A2P SMS</Link>
                       </li>
-                      <li className="hover:text-sky-600 hover:font-bold">
+                      {/* <li className="hover:text-sky-600 hover:font-bold">
                         <Link to="/Hlr">HLR</Link>
-                      </li>
+                      </li> */}
                       <li className="hover:text-sky-600 hover:font-bold">
                         <Link to="/Voice">Voice</Link>
                       </li>
@@ -432,14 +432,14 @@ function Navbar() {
                   A2P SMS
                 </Link>
               </li>
-              <li className="border-b  border-gray-600">
+              {/* <li className="border-b  border-gray-600">
                 <Link
                   to="/Hlr"
                   className="py-7  inline-block hover:text-orange-600"
                 >
                   HLR
                 </Link>
-              </li>
+              </li> */}
               <li className="border-b  border-gray-600">
                 <Link
                   to="/Voice"

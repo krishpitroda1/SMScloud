@@ -64,7 +64,7 @@ function About() {
             src={img}
             alt="/"
           />
-          <div className="flex flex-col justify-center">
+          <div className="flex flex-col lg:pl-5 justify-center">
             {/* <p className="text-sky-600 font-bold text-3xl">About Us</p> */}
             <h1 className="md:text-4xl sm:text-3xl text-sky-600 text-2xl font-bold p-5">
           <RevealOnScroll>
