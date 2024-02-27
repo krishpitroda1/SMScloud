@@ -153,7 +153,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className=" lg:pl-20 p-10 grid gap-6 grid-cols-2 sm:gap-12 lg:grid-cols-4 lg:gap-8">
+      <div className="  justify-items-center p-10 grid gap-6 grid-cols-2 sm:gap-12 lg:grid-cols-4 lg:gap-8">
             <div>
               <p className="text-lg sm:text-xl font-bold text-gray-500">
                 Accuracy rate

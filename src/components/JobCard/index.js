@@ -28,7 +28,7 @@ function JobCard(props) {
         </div>
         <div className="flex items-center gap-4">
           {/* <p className='text-gray-500'>Posted {diffDays} days ago</p> */}
-          <Link to="https://forms.gle/neHpY68zE2Za69328">
+          <Link to="https://forms.gle/752DDE4bXjKqwPoq9">
             <button className="text-blue-500 border border-blue-500 px-10 py-2 rounded-md">
               Apply
             </button>

@@ -158,7 +158,7 @@ export default function App() {
                 </div>
               </div>
               <div className="flex p-3">
-                <div className="flex flex-col border border-black h-full rounded-xl">
+                <div className="flex flex-col border border-black h-full rounded-bcdk-xl">
                   <div className="flex-auto h-64 p-4 md:p-6">
 
                     <p className="text-base italic md:text-lg text-white">

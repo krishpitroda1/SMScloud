@@ -1,3 +1,64 @@
+    WhatsApp
+     {/* <p className="text-orange-600  p-5 font-bold text-3xl">
+                Features:
+              </p> */}
+              {/* <div className="grid grid-flow-row p-5 gap-3 ">
+                <div className="flex">
+                  <img src={img3} className="h-8 w-8 rounded-lg" alt="" />
+                  <h1 className="align-center text-sky-600  text-xl">
+                    Unlock Revenue Growth: Tap into WhatsApp's potential to
+                    increase earnings by 60%. High Open Rates: Enjoy 90%+ open
+                    rates with our broadcast feature. Recover Lost Sales:
+                    Re-engage customers effectively, bidding goodbye to
+                    abandoned carts.
+                  </h1>
+                </div>
+                <div className="flex">
+                  <img src={img3} className="h-8 w-8 rounded-lg" alt="" />
+                  <h1 className="align-center text-sky-600  text-xl">
+                    Click to WhatsApp Ads: Run Meta platform ads directing users
+                    straight to WhatsApp. Automate Everything: Streamline
+                    marketing, sales, and support tasks effortlessly. Broadcast
+                    Communication: Easily push out campaigns and achieve high
+                    response rates with WhatsApp messages.
+                  </h1>
+                </div>
+                <div className="flex">
+                  <img src={img3} className="h-8 w-8 rounded-lg" alt="" />
+                  <h1 className="align-center text-sky-600  text-xl">
+                    Automatic Greeting Message
+                  </h1>
+                </div>
+                <div className="flex">
+                  <img src={img3} className="h-8 w-8 rounded-lg" alt="" />
+                  <h1 className="align-center text-sky-600 text-xl">
+                    Contacts can be labelled
+                  </h1>
+                </div>
+
+                <div className="flex">
+                  <img src={img3} className="h-8 w-8 rounded-lg" alt="" />
+                  <h1 className="align-center text-sky-600  text-xl">
+                    Create Catalogs and Collection of your products
+                  </h1>
+                </div>
+                <div className="flex">
+                  <img src={img3} className="h-8 w-8 rounded-lg" alt="" />
+                  <h1 className="align-center text-sky-600  text-xl">
+                    WhatsApp Message API
+                  </h1>
+                </div>
+              </div> */}
+         
+
+
+
+
+
+
+
+
+
 text-${color}-600 p-5  pt-10 font-bold transition-colors duration-500 ease-in-out  hover:text-indigo-700 text-3xl  text-center
 -------------------------------------appp------------------
 import "./App.css";

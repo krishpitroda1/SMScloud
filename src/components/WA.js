@@ -38,7 +38,7 @@ const WA = () => {
   return (
     <div className="w-screen relative pt-8 pb-8">
       <RevealOnScroll>
-        <h1 className=" text-gray-500 pt-10 text-center p-5  font-bold text-3xl ">
+        <h1 className=" text-gray-500 pt-16 text-center p-5  font-bold text-4xl ">
           SMSCloud Hub's WhatsApp Suite: Boost Engagement & Efficiency!{" "}
         </h1>
         <div className=" lg:flex md:grid md:grid-cols-2 lg:pl-3 lg:p-5 md:p-0 sm:p-0">
@@ -49,56 +49,6 @@ const WA = () => {
           />
           <div className="flex flex-col justify-center text-center mx-auto ">
             <RevealOnScroll>
-              {/* <p className="text-orange-600  p-5 font-bold text-3xl">
-                Features:
-              </p> */}
-              {/* <div className="grid grid-flow-row p-5 gap-3 ">
-                <div className="flex">
-                  <img src={img3} className="h-8 w-8 rounded-lg" alt="" />
-                  <h1 className="align-center text-sky-600  text-xl">
-                    Unlock Revenue Growth: Tap into WhatsApp's potential to
-                    increase earnings by 60%. High Open Rates: Enjoy 90%+ open
-                    rates with our broadcast feature. Recover Lost Sales:
-                    Re-engage customers effectively, bidding goodbye to
-                    abandoned carts.
-                  </h1>
-                </div>
-                <div className="flex">
-                  <img src={img3} className="h-8 w-8 rounded-lg" alt="" />
-                  <h1 className="align-center text-sky-600  text-xl">
-                    Click to WhatsApp Ads: Run Meta platform ads directing users
-                    straight to WhatsApp. Automate Everything: Streamline
-                    marketing, sales, and support tasks effortlessly. Broadcast
-                    Communication: Easily push out campaigns and achieve high
-                    response rates with WhatsApp messages.
-                  </h1>
-                </div>
-                <div className="flex">
-                  <img src={img3} className="h-8 w-8 rounded-lg" alt="" />
-                  <h1 className="align-center text-sky-600  text-xl">
-                    Automatic Greeting Message
-                  </h1>
-                </div>
-                <div className="flex">
-                  <img src={img3} className="h-8 w-8 rounded-lg" alt="" />
-                  <h1 className="align-center text-sky-600 text-xl">
-                    Contacts can be labelled
-                  </h1>
-                </div>
-
-                <div className="flex">
-                  <img src={img3} className="h-8 w-8 rounded-lg" alt="" />
-                  <h1 className="align-center text-sky-600  text-xl">
-                    Create Catalogs and Collection of your products
-                  </h1>
-                </div>
-                <div className="flex">
-                  <img src={img3} className="h-8 w-8 rounded-lg" alt="" />
-                  <h1 className="align-center text-sky-600  text-xl">
-                    WhatsApp Message API
-                  </h1>
-                </div>
-              </div> */}
               <p className="font-bold lg:text-4xl text-3xl text-center  text-sky-600 ">Unlock more ROI with  <br /> <span className="text-gray-400"> WhatsApp Marketing </span></p>
              <p className="text-center p-5 text-gray-400 lg:text-3xl text-2xl ">
 
@@ -115,20 +65,20 @@ const WA = () => {
                 2.5x
                 </RevealOnScroll>
               </p>
-              <p className="text-lg sm:text-xl font-bold text-gray-500">
+              <p className="text-lg md:text-xl font-bold text-gray-500">
               Conversions vs email
               </p>
             
               <p className="mt-1 text-gray-500">WhatsApp  outperforms email in terms of conversions by 2.5x</p>
             </div>
             <div>
-              <p className="mt-2 sm:mt-3 text-4xl sm:text-6xl font-bold text-sky-600">
+              <p className="mt-2 md:mt-3 text-4xl md:text-6xl font-bold text-sky-600">
                <RevealOnScroll>
 
               75%
                  </RevealOnScroll>
               </p>
-              <p className="text-lg sm:text-xl font-bold text-gray-500">
+              <p className="text-lg md:text-xl font-bold text-gray-500">
              
               Average open rate
             </p>
@@ -136,7 +86,7 @@ const WA = () => {
               <p className="mt-1 text-gray-500">On average, WhatsApps achieve a 75% open rate</p>
             </div>
             <div>
-              <p className="mt-2 sm:mt-3 text-4xl sm:text-6xl font-bold text-sky-600">
+              <p className="mt-2 md:mt-3 text-4xl md:text-6xl font-bold text-sky-600">
               <RevealOnScroll>
 
               2 Billion
@@ -148,7 +98,7 @@ const WA = () => {
               <p className="mt-1 text-gray-500">Reach 2B people on the world's most used chat app</p>
             </div>
           </div>
-          <div className="pt-16">
+          <div className="">
         <RevealOnScroll>
           <p className="text-gray-500 text-center p-5 pb-1  font-bold text-3xl">
             Benefits Of WhatsApp Service with SMSCloud Hub
