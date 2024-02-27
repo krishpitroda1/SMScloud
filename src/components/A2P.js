@@ -43,7 +43,7 @@ const A2P = () => {
 
   return (
     <div className=" w-screen relative  p-8">
-      <h1 className="md:pl-5 sm:pl-5 pl-5 align-center text-sky-600 pt-10 text-center p-5  font-bold text-3xl ">
+      <h1 className="md:pl-5 sm:pl-5 pl-5 align-center text-gray-500 pt-10 text-center p-5  font-bold text-4xl ">
         Application to Person Messaging
       </h1>
       <RevealOnScroll>
@@ -115,21 +115,21 @@ compared with other digital marketing channels
             <div className="flex flex-col justify-center text-center mx-auto ">
               <RevealOnScroll>
                 <p className="font-bold lg:text-4xl text-3xl text-center  text-sky-600 ">
-                  Power of <br />{" "}
-                  <span className="text-gray-400"> Customer Engagement</span>
+                  Power of  Customer Engagement <br />
+                  <span className="text-gray-400">  Engage with your customers <br /> instantly and in real time
+              </span>
                 </p>
-                <p className="text-center p-5 text-gray-400 lg:text-3xl text-2xl ">
-                  API, SMPP, Reseller
-                  <br /> Marketing companies & CTR <br /> Through One Platform
+                <p className="text-center mx-aut0 lg:p-20 pt-3 pb-3 lg:pt-3  text-gray-400 lg:text-2xl text-2xl ">
+                Tap into the highest engagement rates with SMS, where 9 out of 10 people read their texts, by seamlessly integrating SMS into your campaigns and workflow for maximum impact
                 </p>
               </RevealOnScroll>
             </div>
           </div>
         </div>
       </RevealOnScroll>
-      <div className=" lg:pl-20 p-10 grid gap-6 grid-cols-2 md:gap-12 lg:grid-cols-3 lg:gap-8">
+      <div className="justify-between lg:pl-20 lg:p-10 p-5 grid grid-cols-2  lg:grid-cols-3 ">
         <div>
-          <p className="mt-2 md:mt-3 text-4xl md:text-6xl font-bold text-sky-600">
+          <p className="mt-2 md:mt-3 lg:text-5xl text-4xl font-bold text-sky-600">
             <RevealOnScroll>98%</RevealOnScroll>
           </p>
           <p className="text-lg md:text-xl font-bold text-gray-500">
@@ -137,15 +137,19 @@ compared with other digital marketing channels
           </p>
         </div>
         <div>
-          <p className="mt-2 md:mt-3 text-4xl  font-bold text-sky-600">
-            <RevealOnScroll>Highly effective</RevealOnScroll>
+          <p className="mt-2 md:mt-3 lg:text-5xl font-bold text-sky-600">
+            <RevealOnScroll>3 Minutes</RevealOnScroll>
           </p>
+        <p className="text-lg md:text-xl font-bold text-gray-500">
+            Avg read time
+          </p>
+        
         </div>
         <div>
-          <p className="mt-2 md:mt-3 text-4xl md:text-6xl font-bold text-sky-600">
-            <RevealOnScroll>6 Billion</RevealOnScroll>
+          <p className="mt-2 md:mt-3 text-4xl md:text-6xl lg:text-5xl font-bold text-sky-600">
+            <RevealOnScroll>8.9 Billion</RevealOnScroll>
           </p>
-          <p className="text-xl font-bold text-gray-500">Customers </p>
+          <p className="text-xl font-bold text-gray-500">Global subscribers </p>
         </div>
       </div>
       <div className="">
@@ -155,7 +159,7 @@ compared with other digital marketing channels
           </p>
         </RevealOnScroll>
     
-        <div className="grid pt-8  lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-3  p-5 lg:pr-8">
+        <div className="grid pt-8  lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-3  lg:p-5 lg:pr-8">
           <div className="benefits rounded-lg pt-8 h-32 p-5 bg-sky-900 hover:bg-gray-400  text-white">
             <RevealOnScroll>
               <p className="font-bold text-xl">  With global rise of digitization, Businesses create millions of touchpoints daily</p>

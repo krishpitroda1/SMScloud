@@ -55,54 +55,71 @@ function Cloudskool() {
       });
   };
   return (
-     <div className=' w-screen relative pt-7 pb-8'>
-    <h1 className="align-center text-sky-600 pt-10 text-center p-5  font-bold text-3xl">
+     <div className=' w-screen relative pt-8 pb-8'>
+    <h1 className="align-center text-gray-500 pt-16 text-center p-5  font-bold text-4xl">
     CloudSkool++
     </h1>
     <RevealOnScroll>
+    <div className=" lg:flex md:grid md:grid-cols-2 lg:pl-3 lg:p-5 md:p-0 sm:p-0">
+          <img
+            src={img1}
+            className="w-[500px] mx-auto lg:pl-10  my-4 rounded-2xl"
+            alt=""
+          />
+          <div className="flex flex-col justify-center text-center mx-auto ">
+            <RevealOnScroll>
+              <p className="font-bold lg:text-4xl text-3xl text-center  text-sky-600 ">Cloudskool++ <br /> <span className="text-gray-400"> The education platform </span></p>
+             <p className="text-center p-5 lg:p-44 lg:pt-3 lg:pb-0 text-gray-400 lg:text-2xl text-2xl ">
+             CloudSkool++ is a cloud based ED-Tech solution and This simple, safe and smart solution has enormous facilities for any school,college, university and any student. 
 
-    <div className="lg:flex md:grid md:grid-cols-2 lg:pl-3 lg:p-5 md:p-0 sm:p-0">
-    <img src={img1} className="w-[550px] h-[450px] mx-auto my-4 rounded-2xl" alt="" />
-    <div className="flex flex-col justify-center p-5">
-      <p className="p-5 text-orange-600 font-bold text-3xl">
-    CloudSkool++
-      </p>
-      <div className="flex">
+          </p>
+            </RevealOnScroll>
+          </div>
+        </div>
 
-      <div className="pr-10 p-5">
-        <div className='flex'>
-          <img src={img3} className="h-8 w-8 rounded-lg" alt="" />
-          <h1 className="align-center text-sky-600  text-xl">
-          CloudSkool++ is a cloud based ED-Tech solution. From Managing student records to HR and Payroll, Income and Expense, Transport, SMS and Notification, Academics and Examination, Absence, Discipline all can be managed from one platform.
-          </h1>
+        <div className="pb-10">
+        <RevealOnScroll>
+          <p className="text-gray-500 text-center p-5 pb-1  font-bold text-3xl">
+            Features Of Cloudskool++
+          </p>
+        </RevealOnScroll>
+    
+        <div className="grid pt-8  lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-3  p-5 lg:pr-8">
+          <div className="benefits rounded-lg pt-8 h-32 p-5 bg-sky-900 hover:bg-gray-400  text-white">
+            <RevealOnScroll>
+              <p className="font-bold text-xl">It Mangaes Students Records</p>
+             </RevealOnScroll>
+          </div>
+          <div className="benefits rounded-lg h-32 pt-8 p-5 bg-sky-900 hover:bg-gray-400 text-white">
+            <RevealOnScroll>
+              <p className="font-bold text-xl">It manages payroll and income and expense </p>
+            </RevealOnScroll>
+          </div>
+          <div className="benefits rounded-lg  -32 pt-8 p-5 bg-sky-900 hover:bg-gray-400 text-white">
+            <RevealOnScroll>
+              <p className="font-bold text-xl">It manages Transporrt service </p>
+            </RevealOnScroll>
+          </div>
+          <div className="benefits rounded-lg  h-32 pt-8 p-5 bg-sky-900 hover:bg-gray-400 text-white">
+            <RevealOnScroll>
+              <p className="font-bold text-xl">It manages Academics and Examination</p>
+            </RevealOnScroll>
+          </div>
+          <div className="benefits rounded-lg h-32 p-5 pt-8 bg-sky-900 hover:bg-gray-400 text-white">
+            <RevealOnScroll>
+              <p className="font-bold text-xl">It manages all attendance record for student and staff</p>
+            </RevealOnScroll>
+          </div>
+          <div className=" benefits rounded-lg h-32 p-5 pt-8 bg-sky-900 hover:bg-gray-400 text-white">
+            <RevealOnScroll>
+              <p className="font-bold text-xl">It also show live tracking of Transportation</p>
+            </RevealOnScroll>
+          </div>
         </div>
-        <div className='flex pt-5'>
-          <img src={img3} className="h-8 w-8 rounded-lg" alt="" />
-          <h1 className="align-center text-sky-600  text-xl">
-          It can help you scale your communications and connect with your audience seamlessly with wider messaging reach.
-          </h1>
-        </div>
-        <div className='flex pt-5'>
-          <img src={img3} className="h-8 w-8 rounded-lg" alt="" />
-          <h1 className="align-center text-sky-600  text-xl">
-          It can provide you with futuristic solutions using new-age technologies and cloud connectivity.
-          </h1>
-        </div>
-        <div className='flex pt-5'>
-          <img src={img3} className="h-8 w-8 rounded-lg" alt="" />
-          <h1 className="align-center text-sky-600  text-xl">
-          It can offer you low total cost of ownership with competitive pricing and no CAPEX.
-          </h1>
-        </div>
-       
-    </div>
-    </div>
-
-    </div>
-  </div>
-  </RevealOnScroll>
+      </div>
+    </RevealOnScroll>
    <RevealOnScroll>
-  <div className='mr-10 ml-10 bg-sky-200 '>
+  <div className='mr-10 ml-10  bg-sky-200 '>
     <h1 className='p-5 text-3xl text-center  font-bold'>Contact Us For Demo</h1>
   <form ref={form} onSubmit={sendEmail} className='h-full p-10  bg-gray-600 align-middle '>
           <div class="">

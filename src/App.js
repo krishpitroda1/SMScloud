@@ -9,7 +9,7 @@ import A2pblog from "./components/A2pblog";
 import Aiblog from "./components/Aiblog";
 import { useLocation } from "react-router-dom";
 import Digitalblog from "./components/Digitalblog";
-
+import Hop from "./components/0Hop";
 import Test from "./components/Test";
 import Contacts from "./components/Contacts";
 import Navbar from "./components/Navbar";
@@ -37,6 +37,7 @@ import Cloudskool from "./components/Cloudskool";
 import Managehubs from "./components/Managehubs";
 import { Route, Routes } from "react-router-dom";
 import Carrier from "./components/Carrier";
+import Vas from "./components/Vas";
 import Events from "./components/Events";
 import Enterprise from "./components/Enterprise";
 import ParticleBackground from "./components/ParticlesBackground";
@@ -96,7 +97,8 @@ function App() {
         <Route path="/Carrier" element={<Carrier/>} />
         <Route path="/Test" element={<Test/>} />
         {/* <Route path="/Apidoc" element={<Apidoc/>} /> */}
-
+        <Route path="/0Hop" element={<Hop/>} />
+        <Route path="/Vas" element={<Vas/>}/>
         <Route path="/Blogs" element={<Blogs/>} />
         <Route path="/Services" element={<Services/>}  />
         <Route path="/Carrers" element={<Carrers/>}/>

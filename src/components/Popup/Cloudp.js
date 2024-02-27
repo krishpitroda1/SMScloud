@@ -46,7 +46,7 @@ function Cloudp(props) {
       <div className="lg:w-[50%] md:w-[70%]  lg:top-[30%] mr-10 lg:left-[30%]  z-10 absolute border border-black ">
   
         <h1 className=" text-sky-600  text-center p-5  font-bold text-3xl  bg-red-200 border-b ">
-          CloudSkool++
+          Cloudskool++
           <span
             id="close"
             className=" text-red-600 float-end bg-sky-200 hover:cursor-pointer p-1 rounded-md"
@@ -63,7 +63,7 @@ function Cloudp(props) {
           />
           <RevealOnScroll>        <div className="flex flex-col justify-center">
             <p className="text-orange-600  p-5 font-bold text-3xl">
-              CloudSkool++
+              Cloudskool++
             </p>
             <div className="flex p-5 gap-3 ">
               <div className="">
@@ -77,7 +77,7 @@ function Cloudp(props) {
               </div>
             </div>
             <div className="pl-5">
-              <Link to="/Managehubs">
+              <Link to="/Cloudskool">
                 <button className="bg-red-400 text-white rounded-lg p-3">
                   read more
                 </button>

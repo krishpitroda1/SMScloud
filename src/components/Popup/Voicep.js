@@ -1,6 +1,6 @@
 import React ,{useState,useEffect,useRef} from "react";
 import { Link } from "react-router-dom";
-import img1 from "C:/Users/krish/OneDrive/Desktop/sms3/smsloud/src/assets/voice.jpg";
+import img1 from "C:/Users/krish/OneDrive/Desktop/sms3/smsloud/src/assets/voice.png";
 import { AiOutlineClose } from "react-icons/ai";
 import img3 from "C:/Users/krish/OneDrive/Desktop/sms3/smsloud/src/assets/circle.png";
 
@@ -56,7 +56,7 @@ function Voicep(props) {
         <div className="grid md:grid-cols-2  bg-orange-200">
           <img
             src={img1}
-            className="w-[500px] mx-auto my-4 rounded-md"
+            className="w-[500px] mx-auto  rounded-md"
             alt=""
           />
          <RevealOnScroll>

@@ -44,7 +44,7 @@ function Wap(props) {
   return (
     <div className="">
       <div className="lg:w-[50%] md:w-[70%]  lg:top-[30%] mr-10 lg:left-[30%]   z-10 absolute border border-black   ">
-        <h1 className=" text-sky-600  text-center p-5 font-serif font-bold   bg-red-200 border-b ">
+        <h1 className=" text-sky-600  text-center p-5  font-bold   bg-red-200 border-b ">
           Whatsapp for Business
           <span
             id="close"
@@ -63,7 +63,7 @@ function Wap(props) {
           <RevealOnScroll> 
           <div className="flex flex-col justify-center">
             <p className="text-orange-600  p-5 font-bold text-3xl">
-              WA For Business
+            Simple. Secure. Reliable Messaging
             </p>
             <div className="flex p-5 gap-3 ">
               <div className="">

@@ -19,7 +19,7 @@ function Companies() {
      "https://th.bing.com/th/id/OIP.cdjdH02NeaqaDSbenQo5LAAAAA?rs=1&pid=ImgDetMain",
      "https://th.bing.com/th/id/OIP.PXgLeawbUW0_rDG8eYAzTQHaCC?rs=1&pid=ImgDetMain",
      "https://th.bing.com/th/id/OIP.8Y-1Y_Z5HHC9zrOmNs-YfAHaFj?w=235&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
-     "https://www.tubelightcommunications.com/static/media/tubelightLogo.719a8cd1a76eb3892b99.png",
+     "https://tubelightcommunications.com/static/media/tubelightLogo.719a8cd1a76eb3892b99.png",
      "https://i.vimeocdn.com/portrait/20170818_640x640",
      "https://media.licdn.com/dms/image/C510BAQGJz4lO--fDMw/company-logo_200_200/0/1545648884048?e=2147483647&v=beta&t=WCv3lA_ga7K1zYAjyUupaCdyMB-nbJYuubcv8BM6Bag",
      "https://virtuosonetsoft.com/assets/images/logos/logo.png"

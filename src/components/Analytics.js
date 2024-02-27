@@ -10,8 +10,10 @@ import Esimp from "./Popup/Esimp";
 import Hlrp from "./Popup/Hlrp";
 import Vnp from "./Popup/Vnp";
 import Smscp from "./Popup/Smscp";
+import Vasp from "./Popup/Vasp";
 import Crp from "./Popup/Crp";
 import Cloudp from "./Popup/Cloudp";
+import Hopp from "./Popup/0Hopp";
 import { useState,useEffect,useRef } from "react";
 const RevealOnScroll = ({ children }) => {
   const [isVisible, setIsVisible] = useState(false);
@@ -75,6 +77,10 @@ function Analytics() {
       case "Smscp":
         setCurrentPopup(<Smscp getClick={getCloseClick} />);
         break;
+      case "0Hopp":
+         setCurrentPopup(<Hopp getClick={getCloseClick} />);
+        break;
+          
       case "Vnp":
         setCurrentPopup(<Vnp getClick={getCloseClick} />);
         break;
@@ -96,7 +102,11 @@ function Analytics() {
       case "Cloudp":
         setCurrentPopup(<Cloudp getClick={getCloseClick} />);
         break;
-      default:
+        case "Vasp":
+          setCurrentPopup(<Vasp getClick={getCloseClick} />);
+          break;
+      
+        default:
       // code block
     }
   };
@@ -188,7 +198,7 @@ function Analytics() {
                 <div className="pl-9">
                   <li
                     className="hover:font-bold hover:scale-110"
-                    onClick={() => setPopup("A2p")}
+                    onClick={() => setPopup("0Hopp")}
                   >
                       0Hop SMS Connectivity
                   </li>
@@ -214,7 +224,7 @@ function Analytics() {
                   </li> */}
                     <li
                     className="hover:font-bold hover:scale-110 "
-                    onClick={() => setPopup("Mitp")}
+                    onClick={() => setPopup("Vasp")}
                   >
                   VAS
                   </li>

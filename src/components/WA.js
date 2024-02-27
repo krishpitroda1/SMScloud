@@ -101,45 +101,45 @@ const WA = () => {
           <div className="">
         <RevealOnScroll>
           <p className="text-gray-500 text-center p-5 pb-1  font-bold text-3xl">
-            Benefits Of WhatsApp Service with SMSCloud Hub
+            Features Of WhatsApp Service with SMSCloud Hub
           </p>
         </RevealOnScroll>
     
         <div className="grid pt-8  lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-3  p-5 lg:pr-8">
           <div className="benefits rounded-lg pt-8 h-32 p-5 bg-sky-900 hover:bg-gray-400  text-white">
             <RevealOnScroll>
-              <p className="font-bold text-xl">Welcome new subscribers</p>
-              <p>Share a promotion with new subscribers to incentivize marketing opt-ins</p>
+              <p className="font-bold text-xl">High Open Rates</p>
+              <p>Enjoy 90%+ open rates with our broadcast feature</p>
             </RevealOnScroll>
           </div>
           <div className="benefits rounded-lg h-32 pt-8 p-5 bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
-              <p className="font-bold text-xl">Cart abandonment </p>
-              <p>Nudge customers to complete checkout with the pre-built abandoned cart flow</p>
+              <p className="font-bold text-xl">Recover Lost Sales </p>
+              <p>Re-engage customers effectively, bidding goodbye to abandoned carts</p>
             </RevealOnScroll>
           </div>
           <div className="benefits rounded-lg  -32 pt-8 p-5 bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
-              <p className="font-bold text-xl">Delivery notifications</p>
-              <p>Keep customers informed of the status of their orders with realtime notifications</p>
+              <p className="font-bold text-xl">Automate Everything</p>
+              <p>Streamline marketing, sales, and support tasks effortlessly</p>
             </RevealOnScroll>
           </div>
           <div className="benefits rounded-lg  h-32 pt-8 p-5 bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
-              <p className="font-bold text-xl">Conversational Commerce</p>
-              <p>Let customers discover and purchase products without leaving the chat conversation</p>
+              <p className="font-bold text-xl">Multiple Agents</p>
+              <p>Share the Wati inbox among your team with unlimited agent suppor</p>
             </RevealOnScroll>
           </div>
           <div className="benefits rounded-lg h-32 p-5 pt-8 bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
-              <p className="font-bold text-xl">Upsell and cross-sell</p>
-              <p>Push product recommendations directly to your customers from your Shopify store</p>
+              <p className="font-bold text-xl">Low-Code Automations</p>
+              <p> Simplify mass communication and personalize responses effortlessly</p>
             </RevealOnScroll>
           </div>
           <div className=" benefits rounded-lg h-32 p-5 pt-8 bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
-              <p className="font-bold text-xl">Convert on the spot</p>
-              <p>Enable customers to checkout without having to leave the conversation</p>
+              <p className="font-bold text-xl">One-to-One Communication</p>
+              <p>Tag, categorize, and target contacts in personalized groups</p>
             </RevealOnScroll>
           </div>
         </div>
