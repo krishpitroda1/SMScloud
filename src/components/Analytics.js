@@ -322,9 +322,9 @@ function Analytics() {
                 <div className="pl-9">
                   <li
                     className="dropdown-link "
-                    onClick={() => setPopup("A2p")}
+                    onClick={() => setPopup("0Hopp")}
                   >
-                    A2P SMS
+                        OHop SMS Connectivity
                   </li>
                   <li
                     className="dropdown-link "

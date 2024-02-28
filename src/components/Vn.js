@@ -1,6 +1,6 @@
 import React,{useState,useEffect,useRef} from 'react'
 import img3 from "../assets/circle.png";
-import img1 from '../assets/vn.jpg';
+import img1 from '../assets/vn.png';
 const RevealOnScroll = ({ children }) => {
   const [isVisible, setIsVisible] = useState(false);
   const ref = useRef(null);
@@ -38,45 +38,74 @@ function Vn() {
     <div>
       <div className=' w-screen relative pt-7 pb-8'>
     <RevealOnScroll>
-    <h1 className="align-center text-sky-600   text-center p-5  font-bold text-3xl ">
+    <h1 className="align-center text-gray-500 pt-16  text-center p-5  font-bold text-4xl ">
       Virtual Number
     </h1>
-    <div className="lg:flex md:grid md:grid-cols-2 lg:pl-3 lg:p-5 md:p-0 sm:p-0">
-    <img src={img1} className="w-[500px] mx-auto my-4 rounded-2xl" alt="" />
-    <div className="flex flex-col justify-center p-5">
-     <RevealOnScroll>
-      <p className="text-orange-600 p-5 font-bold text-3xl">
-        Virtual Number(VN)
-      </p>
-      <div className="flex lg:p-5">
-
-      <div className="">
-        <div className='flex'>
-          <img src={img3} className="h-8 w-8 rounded-lg" alt="" />
-          <h1 className="align-center text-sky-600  text-xl">
-          A virtual number is a telephone number that assigned to an account and then routed through the internet to a physical phone line
-   </h1>
+    <div className=" lg:flex md:grid md:grid-cols-2 lg:pl-3 lg:p-5 md:p-0 sm:p-0">
+          <img
+            src={img1}
+            className="w-[500px] mx-auto lg:pl-10  my-4 rounded-2xl"
+            alt=""
+          />
+          <div className="flex flex-col justify-center text-center mx-auto ">
+            <RevealOnScroll>
+              <p className="font-bold lg:text-4xl text-3xl text-center  text-sky-600 ">Have your own virtual phone number   <br /> <span className="text-gray-400"> in any city or country worldwide </span></p>
+             <p className="text-center p-5 lg:p-36 lg:pt-2 lg:pb-0 text-gray-400 lg:text-2xl text-2xl ">
+             Virtual number is Showing a local number to visitors at your web site increases trust and sales with SMSCloud Hub
+             </p>
+            </RevealOnScroll>
+          </div>
         </div>
-        <div className='flex pt-5'>
-          <img src={img3} className="h-8 w-8 rounded-lg" alt="" />
-          <h1 className="align-center text-sky-600  text-xl">
-          This can be useful for a variety of reasons, such as having multiple lines for a business or managing calls made to different departments or locations without giving out individual phone numbers
- </h1>
-         </div>
-         <div className='flex pt-5'>
-          <img src={img3} className="h-8 w-8 rounded-lg" alt="" />
-          <h1 className="align-center text-sky-600  text-xl">
-          A toll free number allows your customers to reach you without incurring any long distance charges. This can be a great way to increase customer satisfaction and loyalty
-</h1>
-         </div>
-      </div>
-    </div>
-    </RevealOnScroll>
-    </div>
-  </div>
 </RevealOnScroll>
+<div className="">
+        <RevealOnScroll>
+          <p className="text-gray-500 text-center p-5 pb-1  font-bold text-3xl">
+            Benifits Of Virtual Number
+            </p>
+        </RevealOnScroll>
+    
+        <div className="grid pt-8  lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-3  p-5 lg:pr-8">
+          <div className="benefits rounded-lg pt-8 h-32 p-5 bg-sky-900 hover:bg-gray-400  text-white">
+            <RevealOnScroll>
+              <p className="font-bold text-xl">Higher Conversion Rate</p>
+              <p>Track every inbound and outbound call which engage proactively to drive more conversion</p>
+            </RevealOnScroll>
+          </div>
+          <div className="benefits rounded-lg h-32 pt-8 p-5 bg-sky-900 hover:bg-gray-400 text-white">
+            <RevealOnScroll>
+              <p className="font-bold text-xl">Identify Quality Leades </p>
+              <p>Virtual Number is the solution allows you yo mask numbers of both the agent and customer</p>
+            </RevealOnScroll>
+          </div>
+          <div className="benefits rounded-lg  -32 pt-8 p-5 bg-sky-900 hover:bg-gray-400 text-white">
+            <RevealOnScroll>
+              <p className="font-bold text-xl">Be Omnipresent</p>
+              <p>Forward all customerds call to agents to manage business call from anywhere</p>
+            </RevealOnScroll>
+          </div>
+          <div className="benefits rounded-lg  h-32 pt-8 p-5 bg-sky-900 hover:bg-gray-400 text-white">
+            <RevealOnScroll>
+              <p className="font-bold text-xl">Optimize Operational Effeciency</p>
+              <p>Route the customer calls to specific agents based on their availability</p>
+            </RevealOnScroll>
+          </div>
+          <div className="benefits rounded-lg h-32 p-5 pt-8 bg-sky-900 hover:bg-gray-400 text-white">
+            <RevealOnScroll>
+              <p className="font-bold text-xl">Real-time Data Insights</p>
+              <p>Receive actionable data insights on call performace</p>
+            </RevealOnScroll>
+          </div>
+          <div className=" benefits rounded-lg h-32 p-5 pt-8 bg-sky-900 hover:bg-gray-400 text-white">
+            <RevealOnScroll>
+              <p className="font-bold text-xl">Number Masking</p>
+              <p>Ensure customer privacy and zero lead leakage with number masking solution</p>
+            </RevealOnScroll>
+          </div>
+        </div>
+      </div>
+
 </div>
-    </div>
+            </div>
   )
 }
 

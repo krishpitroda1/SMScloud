@@ -68,7 +68,7 @@ function Cloudskool() {
           />
           <div className="flex flex-col justify-center text-center mx-auto ">
             <RevealOnScroll>
-              <p className="font-bold lg:text-4xl text-3xl text-center  text-sky-600 ">Cloudskool++ <br /> <span className="text-gray-400"> The education platform </span></p>
+              <p className="font-bold lg:text-4xl text-3xl text-center  text-sky-600 ">CloudSkool++ <br /> <span className="text-gray-400"> The education platform </span></p>
              <p className="text-center p-5 lg:p-44 lg:pt-3 lg:pb-0 text-gray-400 lg:text-2xl text-2xl ">
              CloudSkool++ is a cloud based ED-Tech solution and This simple, safe and smart solution has enormous facilities for any school,college, university and any student. 
 
@@ -84,7 +84,7 @@ function Cloudskool() {
           </p>
         </RevealOnScroll>
     
-        <div className="grid pt-8  lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-3  p-5 lg:pr-8">
+        <div className="grid pt-8  lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-3 p-5 lg:p-10 lg:pb-0 lg:pr-8">
           <div className="benefits rounded-lg pt-8 h-32 p-5 bg-sky-900 hover:bg-gray-400  text-white">
             <RevealOnScroll>
               <p className="font-bold text-xl">It Mangaes Students Records</p>
@@ -119,34 +119,34 @@ function Cloudskool() {
       </div>
     </RevealOnScroll>
    <RevealOnScroll>
-  <div className='mr-10 ml-10  bg-sky-200 '>
-    <h1 className='p-5 text-3xl text-center  font-bold'>Contact Us For Demo</h1>
-  <form ref={form} onSubmit={sendEmail} className='h-full p-10  bg-gray-600 align-middle '>
+  <div className='mr-10 ml-10 rounded-lg divs '>
+    <h1 className='p-5 text-3xl text-center text-white  font-bold'>Contact Us For Demo</h1>
+  <form ref={form} onSubmit={sendEmail} className='h-full p-10 pt-0  align-middle '>
           <div class="">
              <div class="p-3">
               <div>
-                <p className='pl-1 pb-1 text-lg'>Name</p>
-                <input type="text" name="user_name" className="py-3 px-4 block w-full border-gray-200 rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none " placeholder=" Name" required/>
+                <p className='pl-1 pb-1 text-white text-lg'>Name</p>
+                <input type="text" name="user_name" className="py-3 px-4 block w-full border-gray-200 rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none= " placeholder=" Name" required/>
               </div> 
              </div>
 
              <div className='p-3'>
-              <p className='pl-1 pb-1 text-lg'>Email</p>
+              <p className='pl-1 pb-1 text-white text-lg'>Email</p>
               <input type="email" name="user_email" autocomplete="email" className="py-3 px-4 p-3 block w-full border-gray-200 rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none" placeholder="Email" required/>
             </div> 
 
             <div className='p-3'>
-              <label className='pl-1 pb-1 text-lg'>Phone Number</label>
+              <label className='pl-1 pb-1 text-white text-lg'>Phone Number</label>
               <input type='tel' name="phone_no" id="hs-phone-number-1" class="py-3 px-4 p-3 block w-full border-gray-200 rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none " placeholder="Phone Number"  pattern="[0-9]{10}" required/>
             </div> 
 
              <div className='p-3'> 
-              <label className='pl-1 pb-1 text-lg'>Details</label>
+              <label className='pl-1 pb-1 text-white text-lg'>Details</label>
               <textarea  name="details" rows="4" class="py-3 px-4 block w-full border-gray-200 rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none" placeholder="Details" required></textarea>
             </div>
           </div>
           <div class="mt-4  p-3">
-            <input type="submit" value='Send Inquiry' class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none" />
+            <input type="submit" value='Send Inquiry' class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2  font-semibold rounded-lg border border-transparent bg-gray-400 text-xl text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none" />
           </div>
 
           <div class="mt-3 text-center">

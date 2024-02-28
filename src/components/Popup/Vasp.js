@@ -1,6 +1,6 @@
 import React,{useState,useEffect,useRef} from "react";
 import { Link } from "react-router-dom";
-import img1 from "C:/Users/krish/OneDrive/Desktop/sms3/smsloud/src/assets/wa.png";
+import img1 from "C:/Users/krish/OneDrive/Desktop/sms3/smsloud/src/assets/vas.jpg";
 import { AiOutlineClose } from "react-icons/ai";
 import img3 from "C:/Users/krish/OneDrive/Desktop/sms3/smsloud/src/assets/circle.png";
 
@@ -44,7 +44,7 @@ function Vasp(props) {
   return (
     <div className="">
     <div className="lg:w-[50%] md:w-[70%]  lg:top-[30%] mr-10 lg:left-[30%]   z-10 absolute border border-black   ">
-      <h1 className=" text-sky-600  text-center p-5 text-3xl font-bold   bg-red-200 border-b ">
+      <h1 className="  text-center p-5 text-2xl font-bold  divs text-white border-b ">
         Vas
         <span
           id="close"
@@ -54,7 +54,7 @@ function Vasp(props) {
           <AiOutlineClose />
         </span>
       </h1>
-      <div className="grid md:grid-cols-2  bg-orange-200">
+      <div className="grid md:grid-cols-2  bg-white">
         <img
           src={img1}
           className="w-[500px] mx-auto my-4 rounded-md"
@@ -62,22 +62,14 @@ function Vasp(props) {
         />
         <RevealOnScroll> 
         <div className="flex flex-col justify-center">
-          <p className="text-orange-600  p-5 font-bold text-3xl">
-          Simple. Secure. Reliable Messaging
+          <p className="text-sky-600  p-5 font-bold text-2xl">
+          Value added Service
           </p>
           <div className="flex p-5 gap-3 ">
             <div className="">
               <div className="flex">
-                <img src={img3} className="h-8 w-8 " alt="" />
-                <h1 className="align-center text-sky-600 font-serif text-xl">
-                  Genrate quick replies
-                </h1>
-              </div>
-              <div className="flex">
-                <img src={img3} className="h-8 w-8 rounded-lg" alt="" />
-                <h1 className="align-center text-sky-600 font-serif text-xl">
-                  Most Accepted Channel
-                </h1>
+                <h1 className="align-center text-gray-500 text-xl">
+                VAS, or non-core services, are  no longer just OTTs or ringtones and ...   </h1>
               </div>
             </div>
           </div>

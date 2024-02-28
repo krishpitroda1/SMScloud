@@ -48,7 +48,7 @@ function A2p(props) {
   return (
     <div>
       <RevealOnScroll>     <div className="lg:w-[50%] md:w-[70%]  lg:top-[30%] mr-10 lg:left-[30%]  z-10 absolute border border-black">
-        <h1 className=" text-sky-600  text-center p-5  font-bold text-xl  bg-red-200 border-b ">
+        <h1 className=" text-white  text-center p-5  font-bold text-2xl divs border-b ">
           Application to Person Messaging
           <span
             id="close"
@@ -58,7 +58,7 @@ function A2p(props) {
             <AiOutlineClose />
           </span>
         </h1>
-        <div className="grid md:grid-cols-2  bg-orange-200">
+        <div className="lg:grid lg:grid-cols-2  bg-white">
           <img
             src={img1}
             className="w-[500px] mx-auto my-4 rounded-md"
@@ -66,16 +66,15 @@ function A2p(props) {
           />
           <RevealOnScroll>
           <div className="flex flex-col justify-center">
-            <p className="text-orange-600  p-5 font-bold text-3xl">
-              A2P Messaging
+            <p className="text-sky-600  p-5 font-bold text-2xl">
+              A2P Messaging with SMSCloud Hub
             </p>
-            <div className="flex p-5 gap-3 ">
+            <div className="flex p-5 pt-0  ">
               <div className="">
                 <div className="flex">
-                  <img src={img3} className="h-8 w-8 rounded-lg" alt="" />
-                  <h1 className="align-center text-sky-600 font-serif text-xl">
+                  <h1 className="align-center text-gray-600  text-xl">
                     A2P messaging is cost-effective, so you can save money on
-                    your marketing budget.
+                    your marketing budget and...
                   </h1>
                 </div>
               </div>
@@ -83,7 +82,7 @@ function A2p(props) {
             <div className="pl-5">
               <Link to="/A2P">
                 <button className="bg-red-400 text-white rounded-lg p-3">
-                  read more
+                  Read more
                 </button>
               </Link>
             </div>

@@ -1,6 +1,6 @@
 import React ,{useState,useRef,useEffect} from "react";
 import { Link } from "react-router-dom";
-import img1 from "C:/Users/krish/OneDrive/Desktop/sms3/smsloud/src/assets/managehubs.jpg";
+import img1 from "C:/Users/krish/OneDrive/Desktop/sms3/smsloud/src/assets/manage.png";
 import { AiOutlineClose } from "react-icons/ai";
 import img3 from "C:/Users/krish/OneDrive/Desktop/sms3/smsloud/src/assets/circle.png";
 
@@ -44,8 +44,8 @@ function Msp(props) {
   return (
     <div>
       <div className="lg:w-[50%] md:w-[70%]  lg:top-[30%] mr-10 lg:left-[30%]  z-10 absolute border border-black">
-        <h1 className=" text-sky-600  text-center p-5 font-serif font-bold   bg-red-200 border-b ">
-          Managed Service For Messaging Hubs
+        <h1 className=" text-white divs text-2xl  text-center p-5  font-bold   bg-red-200 border-b ">
+          Managed Service 
           <span
             id="close"
             className=" text-red-600 float-end rounded-md bg-sky-200 hover:cursor-pointer p-1"
@@ -54,25 +54,23 @@ function Msp(props) {
             <AiOutlineClose />
           </span>
         </h1>
-        <div className="grid md:grid-cols-2 bg-orange-200">
+        <div className="grid md:grid-cols-2 bg-white">
           <img
             src={img1}
-            className="w-[500px] mx-auto my-4  rounded-md"
+            className=" mx-auto rounded-md"
             alt=""
           />
           <RevealOnScroll>         
             <div className="flex flex-col justify-center">
-            <p className="text-orange-600  p-5 font-bold text-3xl">
-              Managed Service For Messaging Hubs
+            <p className="text-sky-600  p-5   font-bold text-2xl">
+              Managed Service with SMSCloud Hub
             </p>
-            <div className="flex p-5 gap-3 ">
+            <div className="flex p-5 pt-0 gap-3 ">
               <div className="">
                 <div className="flex">
-                  <img src={img3} className="h-8 w-8 rounded-lg" alt="" />
-                  <h1 className="align-center text-sky-600 font-serif text-xl">
-                    Messaging hubs are platforms or services that enable
-                    communication between different applications, devices, or
-                    systems using messages or events.
+                  <h1 className="align-center text-gray-500   text-xl">
+                  SMSCloud Hub is the first choice  to mangae the SMS Hubs for Telecom Operators...
+
                   </h1>
                 </div>
               </div>
@@ -80,7 +78,7 @@ function Msp(props) {
             <div className="pl-5">
               <Link to="/Managehubs">
                 <button className="bg-red-400 text-white rounded-lg p-3">
-                  read more
+                  Read more
                 </button>
               </Link>
             </div>

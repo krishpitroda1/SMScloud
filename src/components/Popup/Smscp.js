@@ -1,6 +1,6 @@
 import React ,{useState,useEffect,useRef}from "react";
 import { Link } from "react-router-dom";
-import img1 from "C:/Users/krish/OneDrive/Desktop/sms3/smsloud/src/assets/smsc.jpeg";
+import img1 from "C:/Users/krish/OneDrive/Desktop/sms3/smsloud/src/assets/firewall.png";
 import { AiOutlineClose } from "react-icons/ai";
 import img3 from "C:/Users/krish/OneDrive/Desktop/sms3/smsloud/src/assets/circle.png";
 
@@ -43,8 +43,8 @@ function Smscp(props) {
   return (
     <div>
       <div className="lg:w-[50%] md:w-[70%]  lg:top-[30%] mr-10 lg:left-[30%]  z-10 absolute border border-black">
-        <h1 className=" text-sky-600 text-center p-5 font-serif font-bold   bg-red-200 border-b ">
-          SMSC FireWall
+        <h1 className=" text-white text-center p-5  divs  text-2xl font-boldborder-b ">
+          SMSC Firewall
           <span
             id="close"
             className=" text-red-600 float-end bg-sky-200 hover:cursor-pointer p-1 rounded-md"
@@ -53,39 +53,29 @@ function Smscp(props) {
             <AiOutlineClose />
           </span>
         </h1>
-        <div className="grid md:grid-cols-2 bg-orange-200">
+        <div className="grid md:grid-cols-2 bg-white">
           <img
             src={img1}
-            className="w-[500px] mx-auto my-4 rounded-md"
+            className="w-[500px] mx-auto my-4 ml-3 rounded-md"
             alt=""
           />
           <RevealOnScroll>
-          <div className="flex flex-col justify-center">
-            <p className="text-orange-600  p-5 font-bold text-3xl">
+          <div className="flex flex-col p-3 justify-center">
+            <p className="text-sky-600  p-5  font-bold text-2xl">
               SMSC Firewall
             </p>
-            <div className="flex p-5 gap-3 ">
+            <div className="flex p-5 pt-2  gap-3 ">
               <div className="">
                 <div className="flex">
-                  <img src={img3} className="h-8 w-8 rounded-lg" alt="" />
-                  <h1 className="align-center text-sky-600 font-serif text-xl">
-                    An SMS Firewall is a security solution that helps in
-                    filtering and blocking unwanted or malicious SMS traffic
-                    from reaching mobile devices or phones.
-                  </h1>
-                </div>
-                <div className="flex">
-                  <img src={img3} className="h-8 w-8 rounded-lg" alt="" />
-                  <h1 className="align-center text-sky-600 font-serif text-xl">
-                    Prevention of SMS Fraud
-                  </h1>
+                  <h1 className="align-center text-gray-500  text-xl">
+                  Operate, Protect and Monetize  Protect an SMSC from unauthorized access and potential attacks and...</h1>
                 </div>
               </div>
             </div>
             <div className="pl-5">
               <Link to="/Smsc">
                 <button className="bg-red-400 text-white rounded-lg p-3">
-                  read more
+                  Read more
                 </button>
               </Link>
             </div>

@@ -129,7 +129,7 @@ compared with other digital marketing channels
       </RevealOnScroll>
       <div className="justify-between lg:pl-20 lg:p-10 p-5 grid grid-cols-2  lg:grid-cols-3 ">
         <div>
-          <p className="mt-2 md:mt-3 lg:text-5xl text-4xl font-bold text-sky-600">
+          <p className="mt-2 md:mt-3 lg:text-5xl text-3xl font-bold text-sky-600">
             <RevealOnScroll>98%</RevealOnScroll>
           </p>
           <p className="text-lg md:text-xl font-bold text-gray-500">
@@ -137,7 +137,7 @@ compared with other digital marketing channels
           </p>
         </div>
         <div>
-          <p className="mt-2 md:mt-3 lg:text-5xl font-bold text-sky-600">
+          <p className="mt-2 md:mt-3 lg:text-5xl text-2xl font-bold text-sky-600">
             <RevealOnScroll>3 Minutes</RevealOnScroll>
           </p>
         <p className="text-lg md:text-xl font-bold text-gray-500">
@@ -146,7 +146,7 @@ compared with other digital marketing channels
         
         </div>
         <div>
-          <p className="mt-2 md:mt-3 text-4xl md:text-6xl lg:text-5xl font-bold text-sky-600">
+          <p className="mt-2 md:mt-3  text-3xl lg:text-5xl font-bold text-sky-600">
             <RevealOnScroll>8.9 Billion</RevealOnScroll>
           </p>
           <p className="text-xl font-bold text-gray-500">Global subscribers </p>

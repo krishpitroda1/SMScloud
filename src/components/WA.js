@@ -50,9 +50,9 @@ const WA = () => {
           <div className="flex flex-col justify-center text-center mx-auto ">
             <RevealOnScroll>
               <p className="font-bold lg:text-4xl text-3xl text-center  text-sky-600 ">Unlock more ROI with  <br /> <span className="text-gray-400"> WhatsApp Marketing </span></p>
-             <p className="text-center p-5 text-gray-400 lg:text-3xl text-2xl ">
+             <p className="text-center p-5 lg:p-36 lg:pt-3 lg:pb-0 text-gray-400 lg:text-2xl text-2xl ">
 
-              Run automated, personalized marketing <br /> campaigns, on the world’s most popular <br /> messaging platform
+              Run automated, personalized marketing campaigns, on the world’s most populr messaging platform
              </p>
             </RevealOnScroll>
           </div>
@@ -127,7 +127,7 @@ const WA = () => {
           <div className="benefits rounded-lg  h-32 pt-8 p-5 bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
               <p className="font-bold text-xl">Multiple Agents</p>
-              <p>Share the Wati inbox among your team with unlimited agent suppor</p>
+              <p>Share the Wati inbox among your team with unlimited agent support</p>
             </RevealOnScroll>
           </div>
           <div className="benefits rounded-lg h-32 p-5 pt-8 bg-sky-900 hover:bg-gray-400 text-white">
