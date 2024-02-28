@@ -137,6 +137,10 @@ function Navbar() {
                       <li className="hover:text-sky-600 hover:font-bold">
                         <Link to="/Cpas">CPaaS Platform</Link>
                       </li>
+                      <li className="hover:text-sky-600 hover:font-bold">
+                        <Link to="/Ccc">CCC</Link>
+                      </li>
+                   
                     </ul>
                   </div>
                 </li>
@@ -499,6 +503,15 @@ function Navbar() {
                   CPaaS Platform
                 </Link>
               </li>
+              <li className="border-b  border-gray-600">
+                <Link
+                  to="/Ccc"
+                  className="py-7  inline-block hover:text-orange-600"
+                >
+                  CCC
+                </Link>
+              </li>
+           
             </div>
           </div>
           <li className="border-b  border-gray-600">

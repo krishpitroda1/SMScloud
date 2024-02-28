@@ -9,6 +9,7 @@ import Mitp from "./Popup/Mitp";
 import Esimp from "./Popup/Esimp";
 import Hlrp from "./Popup/Hlrp";
 import Vnp from "./Popup/Vnp";
+import Cccp from "./Popup/Cccp";
 import Smscp from "./Popup/Smscp";
 import Vasp from "./Popup/Vasp";
 import Crp from "./Popup/Crp";
@@ -72,7 +73,11 @@ function Analytics() {
         setCurrentPopup(<Crp getClick={getCloseClick} />);
         break;
       case "Hlrp":
+
         setCurrentPopup(<Hlrp getClick={getCloseClick} />);
+        break;
+      case "Cccp":
+        setCurrentPopup(<Cccp getClick={getCloseClick}/>);
         break;
       case "Smscp":
         setCurrentPopup(<Smscp getClick={getCloseClick} />);
@@ -246,6 +251,13 @@ function Analytics() {
                   >
                     CPaaS
                   </li>
+                  <li
+                    className="hover:font-bold hover:scale-110 "
+                    onClick={() => setPopup("Cccp")}
+                  >
+                    CCC
+                  </li>
+                
                 </div>
               </ul>
             </div>
@@ -362,6 +374,12 @@ function Analytics() {
                     onClick={() => setPopup("Cpaasp")}
                   >
                     CPaaS
+                  </li>
+                  <li
+                    className="dropdown-link "
+                    onClick={() => setPopup("Cccp")}
+                  >
+                    Ccc
                   </li>
                 </div>
               </ul>

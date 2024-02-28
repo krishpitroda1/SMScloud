@@ -59,7 +59,7 @@ function Contacts() {
   return (
   
     <div className='w-screen pt-7 relative justify-items-center  overflow-x-hidden'>
-      <h1 class="pt-10 text-center text-3xl font-bold text-sky-600 sm:text-4xl h-20 p-5">
+      <h1 class="pt-10 text-center text-3xl font-bold text-gray-500 sm:text-4xl h-20 p-5">
         Contact us
       </h1>
     <div>
@@ -68,7 +68,7 @@ function Contacts() {
   <div class="p-5">
     <div class=" ">
       
-      <p class="text-3xl text-center pt-0 p-5">
+      <p class="text-3xl text-sky-600 text-center pt-0 p-5">
         We'd love to talk about how we can help you.
       </p>
     </div>

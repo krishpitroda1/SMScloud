@@ -56,13 +56,13 @@ function Life() {
     
     <a class="group flex flex-col h-full border border-gray-400 hover:border-transparent hover:shadow-lg hover:bg-gray-300 transition-all duration-300 rounded-xl p-5 " href="#">
       <div class="aspect-w-16 aspect-h-11">
-        <img class="w-full object-cover rounded-xl" src={img} alt="Image Description"/>
+        <img class="w-full  rounded-xl" src={img} alt="Image Description"/>
      
       </div>
 
       <div class="my-6">
         <h3 class="text-xl font-semibold text-sky-800 ">
-          Amazing celebration of Christmas
+           Christmas Party
         </h3>
         <p class="mt-5 text-gray-800">
         Our office Christmas party was a success! We had a great time celebrating our accomplishments, exchanging gifts, and enjoying some delicious food and drinks. #OfficeFun
@@ -84,8 +84,8 @@ function Life() {
      
     </a>
     <a class="group flex flex-col h-full border border-gray-400 hover:border-transparent hover:shadow-lg transition-all duration-300 rounded-xl p-5  hover:bg-gray-300" href="#">
-      <div class="aspect-w-16 aspect-h-11">
-        <img class="w-full object-cover rounded-xl h-[320px]" src={img5} alt="Image Description"/>
+      <div class=" rounded-xl">
+        <img class="w-full h-[320px] rounded-xl" src={img5} alt="Image Description"/>
       </div>
       <div class="my-6">
         <h3 class="text-xl font-semibold text-sky-800">
@@ -114,7 +114,7 @@ function Life() {
     </a>
     <a class="group flex flex-col h-full border border-gray-400 hover:border-transparent hover:shadow-lg transition-all duration-300 rounded-xl p-5  hover:bg-gray-300" href="#">
       <div class="aspect-w-16 aspect-h-11">
-        <img class="w-full object-cover rounded-xl h-[320px]" src={img2} alt="Image Description"/>
+        <img class="w-full  rounded-xl h-[320px]" src={img2} alt="Image Description"/>
       </div>
       <div class="my-6">
         <h3 class="text-xl font-semibold text-sky-800">
@@ -154,7 +154,7 @@ function Life() {
     </a>
     <a class="group flex flex-col h-full border border-gray-400 hover:border-transparent hover:shadow-lg transition-all duration-300 rounded-xl p-5  hover:bg-gray-300" href="#">
       <div class="aspect-w-16 aspect-h-11">
-        <img class="w-full object-cover rounded-xl" src={img7} alt="Image Description"/>
+        <img class="  rounded-xl" src={img7} alt="Image Description"/>
      
       </div>
       <div class="my-6">

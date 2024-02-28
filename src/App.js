@@ -13,6 +13,7 @@ import Hop from "./components/0Hop";
 import Test from "./components/Test";
 import Contacts from "./components/Contacts";
 import Navbar from "./components/Navbar";
+import Ccc from "./components/Ccc";
 import Smsc from "./components/Smsc";
 import Privacy from "./components/Privacy";
 import Services from "./components/Services";
@@ -119,6 +120,7 @@ function App() {
         <Route path="/Smsc" element={<Smsc/>} />
         <Route path="/Esim" element={<Esim/>} />
         <Route path="/Cpas" element={<Cpas/>}/>
+        <Route path="/Ccc" element={<Ccc/>}/>
         <Route path="/Cr" element={<Cr/>}></Route>
         <Route path="/Vn" element={<Vn/>}/>
         <Route path="/Enterprise" element={<Enterprise/>}/>
