@@ -55,11 +55,14 @@ function Vasp(props) {
         </span>
       </h1>
       <div className="grid md:grid-cols-2  bg-white">
+     <div className="p-3">
+
         <img
           src={img1}
-          className="w-[500px] mx-auto my-4 rounded-md"
+          className="w-[500px] mx-auto rounded-md"
           alt=""
-        />
+          />
+          </div>
         <RevealOnScroll> 
         <div className="flex flex-col justify-center">
           <p className="text-sky-600  p-5 font-bold text-2xl">

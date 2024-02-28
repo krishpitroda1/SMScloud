@@ -54,11 +54,14 @@ function Smscp(props) {
           </span>
         </h1>
         <div className="grid md:grid-cols-2 bg-white">
+          <div className="p-3">
+
           <img
             src={img1}
-            className="w-[500px] mx-auto my-4 ml-3 rounded-md"
+            className="w-[500px] mx-auto  rounded-md "
             alt=""
-          />
+            />
+            </div>
           <RevealOnScroll>
           <div className="flex flex-col p-3 justify-center">
             <p className="text-sky-600  p-5  font-bold text-2xl">

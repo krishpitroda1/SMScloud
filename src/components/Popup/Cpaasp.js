@@ -46,7 +46,7 @@ function Cpaasp(props) {
       
       <div className="lg:w-[50%] md:w-[70%]  lg:top-[30%] mr-10 lg:left-[30%]  z-10 absolute border border-black ">
         <h1 className=" text-white  text-center p-5  font-bold divs text-2xl border-b ">
-          Communications Platform as a Service
+        CPaaS platform
           <span
             id="close"
             className=" text-red-600 float-end bg-sky-200 hover:cursor-pointer p-1 rounded-md"
@@ -56,15 +56,18 @@ function Cpaasp(props) {
           </span>
         </h1>
         <div className="grid md:grid-cols-2  bg-white">
+         <div className="p-3">
+
           <img
             src={img1}
-            className="w-[500px] mx-auto my-4 rounded-md"
+            className="w-[500px] mx-auto  rounded-md"
             alt=""
-          />
+            />
+            </div>
          <RevealOnScroll>
                     <div className="flex flex-col justify-center">
             <p className="text-sky-600  p-5 font-bold text-2xl">
-              CPaaS platform
+             Communications Platform as a Service
             </p>
             <div className="flex p-5 pt-2 gap-3 ">
               <div className="">

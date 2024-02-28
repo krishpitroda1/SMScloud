@@ -44,7 +44,7 @@ function Hopp(props) {
         
     return (
     <div>
-             <RevealOnScroll>     
+              
        <div className="lg:w-[50%] md:w-[70%]  lg:top-[30%] mr-10 lg:left-[30%]  z-10 absolute border border-black">
          <h1 className=" text-white divs text-3xl  text-center p-5  font-bold   border-b ">
         0Hop Connectivity
@@ -86,7 +86,7 @@ function Hopp(props) {
           </RevealOnScroll>
         </div>
       </div>
-      </RevealOnScroll>
+      
 
     </div>
   )
