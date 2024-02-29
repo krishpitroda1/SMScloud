@@ -7,12 +7,10 @@ import Cpaasp from "./Popup/Cpaasp";
 import Msp from "./Popup/Msp";
 import Mitp from "./Popup/Mitp";
 import Esimp from "./Popup/Esimp";
-import Hlrp from "./Popup/Hlrp";
 import Vnp from "./Popup/Vnp";
 import Cccp from "./Popup/Cccp";
 import Smscp from "./Popup/Smscp";
 import Vasp from "./Popup/Vasp";
-import Crp from "./Popup/Crp";
 import Cloudp from "./Popup/Cloudp";
 import Hopp from "./Popup/0Hopp";
 import { useState,useEffect,useRef } from "react";
@@ -69,13 +67,6 @@ function Analytics() {
       case "Cpaasp":
         setCurrentPopup(<Cpaasp getClick={getCloseClick} />);
         break;
-      case "Crp":
-        setCurrentPopup(<Crp getClick={getCloseClick} />);
-        break;
-      case "Hlrp":
-
-        setCurrentPopup(<Hlrp getClick={getCloseClick} />);
-        break;
       case "Cccp":
         setCurrentPopup(<Cccp getClick={getCloseClick}/>);
         break;
@@ -94,9 +85,6 @@ function Analytics() {
         break;
       case "Msp":
         setCurrentPopup(<Msp getClick={getCloseClick} />);
-        break;
-      case "Crp":
-        setCurrentPopup(<Crp getClick={getCloseClick} />);
         break;
       case "Esimp":
         setCurrentPopup(<Esimp getClick={getCloseClick} />);
@@ -350,12 +338,6 @@ function Analytics() {
                     onClick={() => setPopup("Smscp")}
                   >
                     SMSC Firewall
-                  </li>
-                  <li
-                    className="dropdown-link "
-                    onClick={() => setPopup("Crp")}
-                  >
-                    CR in Existing SMSC
                   </li>
                 </div>
               </ul>

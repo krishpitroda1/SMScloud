@@ -192,7 +192,7 @@ function Home() {
               <p className="mt-1 text-gray-500">Overall satisfaction</p>
             </div>
             <div>
-              <p className="text-lg sm:text-xl font-semibold text-gray-500">
+              <p className="text-lg sm:text-xl font-bold text-gray-500">
                 Coverage
               </p>
               <p className="mt-2 sm:mt-3 text-4xl sm:text-6xl font-bold text-blue-500">

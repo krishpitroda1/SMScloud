@@ -1,5 +1,5 @@
 import React from 'react';
-import img3 from "../assets/circle.png";
+import img3 from "../assets/ck.png";
 import img1 from '../assets/cskool.jpeg'
 import emailjs from '@emailjs/browser';
 import { useEffect, useState,useRef } from "react";
@@ -70,52 +70,26 @@ function Cloudskool() {
             <RevealOnScroll>
               <p className="font-bold lg:text-4xl text-3xl text-center  text-sky-600 ">CloudSkool++ <br /> <span className="text-gray-400"> The education platform </span></p>
              <p className="text-center p-5 lg:p-44 lg:pt-3 lg:pb-0 text-gray-400 lg:text-2xl text-2xl ">
-             CloudSkool++ is a cloud based ED-Tech solution and This simple, safe and smart solution has enormous facilities for any school,college, university and any student. 
+             CloudSkool++ is a cloud based ED-Tech solution and is simple, safe and smart solution has enormous facilities for any school,college, university and any student. 
 
           </p>
             </RevealOnScroll>
           </div>
         </div>
 
-        <div className="pb-10">
+        <div className="pb-10  ">
         <RevealOnScroll>
           <p className="text-gray-500 text-center p-5 pb-1  font-bold text-3xl">
             Features Of Cloudskool++
           </p>
         </RevealOnScroll>
-    
-        <div className="grid pt-8  lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-3 p-5 lg:p-10 lg:pb-0 lg:pr-8">
-          <div className="benefits rounded-lg pt-8 h-32 p-5 bg-sky-900 hover:bg-gray-400  text-white">
-            <RevealOnScroll>
-              <p className="font-bold text-xl">It Mangaes Students Records</p>
-             </RevealOnScroll>
-          </div>
-          <div className="benefits rounded-lg h-32 pt-8 p-5 bg-sky-900 hover:bg-gray-400 text-white">
-            <RevealOnScroll>
-              <p className="font-bold text-xl">It manages payroll and income and expense </p>
-            </RevealOnScroll>
-          </div>
-          <div className="benefits rounded-lg  -32 pt-8 p-5 bg-sky-900 hover:bg-gray-400 text-white">
-            <RevealOnScroll>
-              <p className="font-bold text-xl">It manages Transporrt service </p>
-            </RevealOnScroll>
-          </div>
-          <div className="benefits rounded-lg  h-32 pt-8 p-5 bg-sky-900 hover:bg-gray-400 text-white">
-            <RevealOnScroll>
-              <p className="font-bold text-xl">It manages Academics and Examination</p>
-            </RevealOnScroll>
-          </div>
-          <div className="benefits rounded-lg h-32 p-5 pt-8 bg-sky-900 hover:bg-gray-400 text-white">
-            <RevealOnScroll>
-              <p className="font-bold text-xl">It manages all attendance record for student and staff</p>
-            </RevealOnScroll>
-          </div>
-          <div className=" benefits rounded-lg h-32 p-5 pt-8 bg-sky-900 hover:bg-gray-400 text-white">
-            <RevealOnScroll>
-              <p className="font-bold text-xl">It also show live tracking of Transportation</p>
-            </RevealOnScroll>
-          </div>
+        <div className='flex justify-center items-center p-5'>
+      <img src={img3} className=' object-center ' alt="" />
+
         </div>
+    
+        
+        
       </div>
     </RevealOnScroll>
    <RevealOnScroll>

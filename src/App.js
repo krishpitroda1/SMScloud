@@ -2,10 +2,8 @@ import "./App.css";
 import Home from "./components/Home";
 import About from "./components/About";
 import { useEffect } from "react";
-// import Resources from "./components/Resources";
 import Blogs from "./components/Blogs";
 import A2pblog from "./components/A2pblog";
-// import Particles from "./components/Particle";
 import Aiblog from "./components/Aiblog";
 import { useLocation } from "react-router-dom";
 import Digitalblog from "./components/Digitalblog";
@@ -22,25 +20,19 @@ import End from './components/End';
 import WA from "./components/WA";
 import A2P from "./components/A2P";
 import Esim from "./components/Esim";
-import Technology from "./components/Technology";
-import Hlr from "./components/Hlr";
 import Error from "./components/Error";
 import Cpas from "./components/Cpas";
-import Cr from "./components/Cr";
 import Jobs from "./components/Jobs";
 import Life from "./components/Life";
 import Voice from "./components/Voice";
 import Manageit from "./components/Manageit";
-import Operator from "./components/Operator";
 import Vn from "./components/Vn";
 // import Particles from "./components/Particle";
 import Cloudskool from "./components/Cloudskool";
 import Managehubs from "./components/Managehubs";
 import { Route, Routes } from "react-router-dom";
-import Carrier from "./components/Carrier";
 import Vas from "./components/Vas";
 import Events from "./components/Events";
-import Enterprise from "./components/Enterprise";
 import ParticleBackground from "./components/ParticlesBackground";
 import HashLoader from "react-spinners/HashLoader";
  import { useState} from "react";
@@ -55,6 +47,8 @@ function App() {
     height:"100vh",
     }
    
+
+
   const location = useLocation();
   const [loading, setLoading] = useState(false);
   const [color, setColor] = useState("#0ea5f9");
@@ -93,11 +87,7 @@ function App() {
         <Route path="/SMScloud" element={<Home />} />
         <Route path="/SMScloud/About" element={<About />} />
         <Route path="/Contacts" element={<Contacts />} />
-        {/* <Route path="/Products" element={<Products/>}></Route> */}
-        {/* <Route path="/Resources" element={<Resources />} /> */}
-        <Route path="/Carrier" element={<Carrier/>} />
         <Route path="/Test" element={<Test/>} />
-        {/* <Route path="/Apidoc" element={<Apidoc/>} /> */}
         <Route path="/0Hop" element={<Hop/>} />
         <Route path="/Vas" element={<Vas/>}/>
         <Route path="/Blogs" element={<Blogs/>} />
@@ -109,10 +99,8 @@ function App() {
         <Route path="/Life" element={<Life/>} />
         <Route path="/Events" element={<Events/>}/>
         <Route path="/Managehubs" element={<Managehubs/>}/>
-        <Route path="/Manageit" element={<Manageit/>} />
+        {/* <Route path="/Manageit" element={<Manageit/>} /> */}
         <Route path="/Voice" element={<Voice/>} />
-        <Route path="/Hlr" element={<Hlr/>} />
-        <Route path="/Technology" element={<Technology/>} />
         <Route path="/Aiblog" element={<Aiblog/>} />
         <Route path="/A2pblog" element={<A2pblog/>} />
         <Route path="/Digitalblog" element={<Digitalblog/>} />
@@ -121,11 +109,7 @@ function App() {
         <Route path="/Esim" element={<Esim/>} />
         <Route path="/Cpas" element={<Cpas/>}/>
         <Route path="/Ccc" element={<Ccc/>}/>
-        <Route path="/Cr" element={<Cr/>}></Route>
         <Route path="/Vn" element={<Vn/>}/>
-        <Route path="/Enterprise" element={<Enterprise/>}/>
-        <Route path="/Operator" element={<Operator/>}/>
-        <Route path="/Carrier" element={<Carrier/>}/>
         <Route path="/Cloudskool" element={<Cloudskool/>}/>
         <Route path="*" element={<Error/>} />
          </Routes>
