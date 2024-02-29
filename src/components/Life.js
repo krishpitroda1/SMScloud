@@ -45,10 +45,10 @@ function Life() {
     <div>
  <div class="w-screen px-4 relative mt-7 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto pb-8">
  <RevealOnScroll>
-  <div class="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
+  <div class=" mx-auto text-center mb-10 lg:mb-14">
   <RevealOnScroll>
-    <h2 class="text-2xl font-bold md:text-4xl md:leading-tight text-sky-600">Life @ SMSCloud Hub</h2>
-    <p class="mt-1 text-gray-600 dark:text-gray-400">Learn How to Celebrate the Most Amazing and Unique Days of the Year with Style and Fun</p>
+    <h2 class="text-2xl font-bold md:text-4xl md:leading-tight text-gray-500">Life @ SMSCloud Hub</h2>
+    <p class="p-5  text-sky-600 text-lg">SMSCloud Hub Celebrates the Most Amazing and Unique Days of the Year with Style and Fun</p>
     </RevealOnScroll>
   </div>
   <RevealOnScroll>

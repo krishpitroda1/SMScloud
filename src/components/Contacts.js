@@ -65,11 +65,11 @@ function Contacts() {
     <div>
       <RevealOnScroll>
         <div class="">
-  <div class="p-5">
+  <div class="p-5 pt-2">
     <div class=" ">
       
-      <p class="text-3xl text-sky-600 text-center pt-0 p-5">
-        We'd love to talk about how we can help you.
+      <p class="text-xl text-sky-600 text-center pt-0 p-5">
+        We'd love to talk about how we can help you
       </p>
     </div>
 

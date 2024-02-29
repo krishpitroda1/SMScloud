@@ -212,11 +212,11 @@ function Navbar() {
       <div
         className={
           !nav
-            ? "fixed left-0 top-0 w-[90%] z-10 border-r h-full  overflow-y-scroll border-r-gray-900 bg-white ease-in-out duration-500 "
+            ? "fixed left-0 top-0 w-[80%] z-10 border-r h-full  overflow-y-scroll border-r-gray-900 bg-white ease-in-out duration-500 "
             : "fixed left-[-150%]"
         }
       >
-        <div className="flex flex-row justify-between items-center pe-5">
+        <div className="flex flex-row justify-between items-center pe-5  border border-b-0 border-r border-black">
           <Link to="/SMScloud" onClick={() => setNav(true)}>
             <img
               src={Logo}
@@ -231,7 +231,7 @@ function Navbar() {
             <AiOutlineClose size={20} />
           </div>
         </div>
-        <ul className="lg:flex pt-24items-center gap-8 p-2 font-[Poppins]">
+        <ul className="lg:flex pt-24items-center gap-8 p-2 font-[Poppins] border border-r border-black">
           <li className="border-b  border-gray-600">
             <Link
               to="/SMScloud/About"
