@@ -19,13 +19,11 @@ import Carrers from "./components/Carrers";
 import End from './components/End';
 import WA from "./components/WA";
 import A2P from "./components/A2P";
-import Esim from "./components/Esim";
 import Error from "./components/Error";
 import Cpas from "./components/Cpas";
 import Jobs from "./components/Jobs";
 import Life from "./components/Life";
 import Voice from "./components/Voice";
-import Manageit from "./components/Manageit";
 import Vn from "./components/Vn";
 // import Particles from "./components/Particle";
 import Cloudskool from "./components/Cloudskool";
@@ -106,7 +104,6 @@ function App() {
         <Route path="/Digitalblog" element={<Digitalblog/>} />
         <Route path="/Privacy" element={<Privacy/>} />
         <Route path="/Smsc" element={<Smsc/>} />
-        <Route path="/Esim" element={<Esim/>} />
         <Route path="/Cpas" element={<Cpas/>}/>
         <Route path="/Ccc" element={<Ccc/>}/>
         <Route path="/Vn" element={<Vn/>}/>

@@ -56,22 +56,6 @@
   background: linear-gradient(to right, rgb(56, 189, 248), rgb(59, 130, 246))
 
 }
-.div1{
-  background-image: url("./assets/gl.jpg");
-
-}
-.div2{
-  background-image: url("./assets/reliabilty.jpg");
-}
-.div3{
-  background-image: url("./assets/security.jpg");
-}
-.div4{
-  background-image: url("./assets/scale.jpg");
-}
-.div5{
-  background-image: url('./assets/sacleai.jpg');
-}
 video{
   object-fit: cover;
   height: 100%;

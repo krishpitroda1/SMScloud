@@ -1,7 +1,6 @@
 import React, { useEffect ,useState,useRef} from "react";
 import img from "../assets/img1.jpeg";
 import img2 from "../assets/hubs.jpeg";
-import img3 from "../assets/easy.jpeg";
 import image from '../assets/Events/icon1.jpg'
 import image2 from '../assets/Events/i1.png'
 import image3 from '../assets/Events/i3.png'

@@ -1,7 +1,6 @@
 import React, { useRef, useState,useEffect } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-import Logo from "../assets/background2.jpeg";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
@@ -9,11 +8,6 @@ import "swiper/css/navigation";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import required modules
-import { Autoplay, Pagination, Navigation } from "swiper/modules";
-import { BiSolidQuoteSingleLeft } from "react-icons/bi";
-import { RiDoubleQuotesL, RiDoubleQuotesR } from "react-icons/ri";
 const RevealOnScroll = ({ children }) => {
   const [isVisible, setIsVisible] = useState(false);
   const ref = useRef(null);

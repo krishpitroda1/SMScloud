@@ -5,8 +5,6 @@ import A2p from "./Popup/A2p";
 import Voicep from "./Popup/Voicep";
 import Cpaasp from "./Popup/Cpaasp";
 import Msp from "./Popup/Msp";
-import Mitp from "./Popup/Mitp";
-import Esimp from "./Popup/Esimp";
 import Vnp from "./Popup/Vnp";
 import Cccp from "./Popup/Cccp";
 import Smscp from "./Popup/Smscp";
@@ -80,14 +78,8 @@ function Analytics() {
       case "Vnp":
         setCurrentPopup(<Vnp getClick={getCloseClick} />);
         break;
-      case "Mitp":
-        setCurrentPopup(<Mitp getClick={getCloseClick} />);
-        break;
       case "Msp":
         setCurrentPopup(<Msp getClick={getCloseClick} />);
-        break;
-      case "Esimp":
-        setCurrentPopup(<Esimp getClick={getCloseClick} />);
         break;
       case "Smscp":
         setCurrentPopup(<Smscp getClick={getCloseClick} />);
