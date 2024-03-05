@@ -3,13 +3,7 @@ import { Link } from "react-router-dom";
 // import JobDummyData from '../../JobDummyData';
 
 function JobCard(props) {
-  //   const skills=[
-  //    'Communication','MS PowerPoint','MS Excel'
-  //   ]
-  // const dayjs = require("dayjs");
-  // const date1 = dayjs(Date.now());
-  // const diffDays = date1.diff(props.postedOn, "day");
-
+ 
   return (
     <div className="mx-40 mb-4 w-[85%]">
       <div className="flex justify-between items-center px-6 py-7 bg-white text-black hover:bg-gray-300 rounded-md   border-black  border-2 shadow-lg hover:border-blue-500 hover:border-2 hover:translate-y-1 hover:scale-103 hover:cursor-pointer">

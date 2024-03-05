@@ -71,25 +71,25 @@ function End() {
               <div className="mt-3 grid space-y-3 ">
                 <Link
                   className="inline-flex gap-x-2 text-gray-400 cursor-pointer hover:text-gray-200"
-                  to="/Enterprise"
+                  to="/Services"
                 >
                   Enterprise
                 </Link>
                 <Link
                   className="inline-flex gap-x-2 text-gray-400 cursor-pointer hover:text-gray-200"
-                  to="/Operator"
+                  to="/Services"
                 >
                   Operator
                 </Link>
                 <Link
                   className="inline-flex gap-x-2 text-gray-400 cursor-pointer hover:text-gray-200"
-                  to="/Carrier"
+                  to="/Services"
                 >
                   Carrier
                 </Link>
                 <Link
                   className="inline-flex gap-x-2 text-gray-400 cursor-pointer hover:text-gray-200"
-                  to="/Technology"
+                  to="/Services"
                 >
                   Technology
                 </Link>
@@ -111,7 +111,7 @@ function End() {
                 <p>
                   <Link
                     className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 "
-                    to="/"
+                    to="/SMScloud"
                   >
                     Home
                   </Link>
@@ -120,7 +120,7 @@ function End() {
                 <p>
                   <Link
                     className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 "
-                    to="/About"
+                    to="/SMScloud/About"
                   >
                     About us
                   </Link>
