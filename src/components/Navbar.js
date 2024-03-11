@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
-import Logo from "../assets/SMSCH_Transparent-removebg-preview.png";
+import Logo from "../assets/logo.png";
 
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { useState } from "react";
