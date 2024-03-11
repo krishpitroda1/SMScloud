@@ -71,25 +71,25 @@ function End() {
               <div className="mt-3 grid space-y-3 ">
                 <Link
                   className="inline-flex gap-x-2 text-gray-400 cursor-pointer hover:text-gray-200"
-                  to="/Services"
+                  to="/Enterprise"
                 >
                   Enterprise
                 </Link>
                 <Link
                   className="inline-flex gap-x-2 text-gray-400 cursor-pointer hover:text-gray-200"
-                  to="/Services"
+                  to="/Operator"
                 >
                   Operator
                 </Link>
                 <Link
                   className="inline-flex gap-x-2 text-gray-400 cursor-pointer hover:text-gray-200"
-                  to="/Services"
+                  to="/Carrier"
                 >
                   Carrier
                 </Link>
                 <Link
                   className="inline-flex gap-x-2 text-gray-400 cursor-pointer hover:text-gray-200"
-                  to="/Services"
+                  to="/Technology"
                 >
                   Technology
                 </Link>

@@ -12,6 +12,10 @@ import Test from "./components/Test";
 import Contacts from "./components/Contacts";
 import Navbar from "./components/Navbar";
 import Ccc from "./components/Ccc";
+import Enterprise from "./components/Enterprise";
+import Operator from "./components/Operator";
+import Technology from "./components/Technology";
+import Carrier from "./components/Carrier";
 import Smsc from "./components/Smsc";
 import Privacy from "./components/Privacy";
 import Services from "./components/Services";
@@ -92,6 +96,10 @@ function App() {
         <Route path="/Services" element={<Services/>}  />
         <Route path="/Carrers" element={<Carrers/>}/>
         <Route path="/A2P" element={<A2P/>}/> 
+        <Route path="/Enterprise" element={<Enterprise/>}/>
+        <Route path="/Operator" element={<Operator/>} />
+        <Route path="/Technology" element={<Technology/>}/>
+        <Route path="/Carrier" element={<Carrier/>}/>
         <Route path="/WA" element={<WA/>} />
         <Route path="/Jobs" element={<Jobs/>} />
         <Route path="/Life" element={<Life/>} />
