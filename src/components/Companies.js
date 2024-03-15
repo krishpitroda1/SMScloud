@@ -22,7 +22,7 @@ function Companies() {
      "https://tubelightcommunications.com/static/media/tubelightLogo.719a8cd1a76eb3892b99.png",
      "https://i.vimeocdn.com/portrait/20170818_640x640",
      "https://media.licdn.com/dms/image/C510BAQGJz4lO--fDMw/company-logo_200_200/0/1545648884048?e=2147483647&v=beta&t=WCv3lA_ga7K1zYAjyUupaCdyMB-nbJYuubcv8BM6Bag",
-     "https://virtuosonetsoft.com/assets/images/logos/logo.png"
+     "https://media.licdn.com/dms/image/D4D0BAQF2sBBbr3WMxw/company-logo_200_200/0/1684838898057/virtuoso_netsoft_pvt_ltd_logo?e=2147483647&v=beta&t=Jw4jPiyQrZNPbu4H8wydwXBUhu45YHU-NsHPEfyDtpA"
   
     
   ];

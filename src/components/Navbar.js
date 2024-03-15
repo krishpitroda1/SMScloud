@@ -29,7 +29,7 @@ function Navbar() {
       <div className="navbar shadow-lg w-full px-14 md:px-0 justify-between text-black">
         <div className="hidden md:flex md:justify-around w-full text-black">
           {/* Your content goes here */}
-          <Link className="py-7" to="/SMScloud/About">
+          <Link className="py-7" to="/About">
             <p className="font-semibold text-lg">About Us</p>
           </Link>
 
@@ -152,7 +152,7 @@ function Navbar() {
         </div>
         <div className="logo p-5">
           {/* Your logo component or image goes here */}
-          <Link to="/SMScloud">
+          <Link to="/">
             <img src={Logo} alt="Logo"  />
           </Link>
         </div>
@@ -217,7 +217,7 @@ function Navbar() {
         }
       >
         <div className="flex flex-row justify-between items-center pe-5  ">
-          <Link to="/SMScloud" onClick={() => setNav(true)}>
+          <Link to="/" onClick={() => setNav(true)}>
             <img
               src={Logo}
               alt="SMSCloud Hub"
@@ -234,7 +234,7 @@ function Navbar() {
         <ul className="lg:flex pt-24items-center gap-8 p-2 font-[Poppins] ">
           <li className="border-b  border-gray-600">
             <Link
-              to="/SMScloud/About"
+              to="/About"
               className="py-7 inline-block hover:text-orange-600"
             >
               About Us

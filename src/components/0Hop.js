@@ -68,7 +68,7 @@ There are minimal intermediaries, <br /> resulting in  higher reliability and de
           <div className="benefits rounded-lg pt-8 h-32 p-5 bg-sky-900 hover:bg-gray-400  text-white">
             <RevealOnScroll>
               <p className="font-bold text-xl">Security</p>
-              <p>A secure connection with minimal intervention</p>
+              <p>Secure connection with minimal intervention</p>
             </RevealOnScroll>
           </div>
           <div className="benefits rounded-lg h-32 pt-8 p-5 bg-sky-900 hover:bg-gray-400 text-white">

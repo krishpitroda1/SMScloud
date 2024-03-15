@@ -54,7 +54,7 @@ function Managehubs() {
               <p className="font-bold lg:text-4xl text-3xl text-center  text-sky-600 ">Focus to your core Business Operations  <br /> <span className="text-gray-400">and leaving the technical and operational <br /> aspects to SMSCloud Hub  </span></p>
              <p className="text-center p-5 text-gray-400 lg:text-3xl text-2xl ">
 
-             SMSCloud Hub is the first choice  to mangae <br /> the SMS Hubs for Telecom Operators
+             SMSCloud Hub is the first choice  to manage <br /> the SMS Hubs for Telecom Operators
              </p>
             </RevealOnScroll>
           </div>
@@ -75,7 +75,7 @@ function Managehubs() {
           </div>
           <div className="benefits rounded-lg h-32 pt-8 p-5 bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
-              <p className="font-bold text-xl">We can provide security,optimization,procurment </p>
+              <p className="font-bold text-xl">We can provide security,optimization,procurement</p>
             </RevealOnScroll>
           </div>
           <div className="benefits rounded-lg  -32 pt-8 p-5 bg-sky-900 hover:bg-gray-400 text-white">

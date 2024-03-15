@@ -39,7 +39,7 @@ const WA = () => {
     <div className="w-screen relative pt-8 pb-8">
       <RevealOnScroll>
         <h1 className=" text-gray-500 pt-16 text-center p-5  font-bold text-4xl ">
-          SMSCloud Hub's WhatsApp Suite: Boost Engagement & Efficiency!{" "}
+          SMSCloud Hub's WhatsApp Suite: Boost Engagement & Efficiency!
         </h1>
         <div className=" lg:flex md:grid md:grid-cols-2 lg:pl-3 lg:p-5 md:p-0 sm:p-0">
           <img
@@ -49,30 +49,36 @@ const WA = () => {
           />
           <div className="flex flex-col justify-center text-center mx-auto ">
             <RevealOnScroll>
-              <p className="font-bold lg:text-4xl text-3xl text-center  text-sky-600 ">Unlock more ROI with  <br /> <span className="text-gray-400"> WhatsApp Marketing </span></p>
-             <p className="text-center p-5 lg:p-36 lg:pt-3 lg:pb-0 text-gray-400 lg:text-2xl text-2xl ">
+              <p className="font-bold lg:text-4xl text-3xl text-center  text-sky-600 "> Maximize your ROI through  WhatsApp  by  <br /> <span className="text-gray-400"> executing tailored, automated campaigns <br /> on the globally acclaimed messaging platform</span></p>
+             {/* <p className="text-center p-5 lg:p-36 lg:pt-3 lg:pb-0 text-gray-400 lg:text-2xl text-2xl ">
 
-              Run automated, personalized marketing campaigns, on the world’s most populr messaging platform
-             </p>
+              Run automated, personalized marketing campaigns, on the world’s most popular messaging platform
+             </p> */}
             </RevealOnScroll>
           </div>
         </div>
       </RevealOnScroll>
       <div className=" lg:pl-20 p-10 grid gap-6 grid-cols-2 sm:gap-12 lg:grid-cols-3 lg:gap-8">
             <div>
-              <p className="mt-2 sm:mt-3 text-4xl sm:text-6xl font-bold text-sky-600">
+              <p className="mt-2 sm:mt-3 text-4xl lg:text-6xl  font-bold text-sky-600">
                 <RevealOnScroll>
                 2.5x
                 </RevealOnScroll>
               </p>
               <p className="text-lg md:text-xl font-bold text-gray-500">
-              Conversions vs email
+              Conversions compared to email
               </p>
             
-              <p className="mt-1 text-gray-500">WhatsApp  outperforms email in terms of conversions by 2.5x</p>
+              <p className="mt-1 text-gray-500">
+WhatsApp surpasses email in conversion rates by a factor of 2.5.
+
+
+
+
+</p>
             </div>
             <div>
-              <p className="mt-2 md:mt-3 text-4xl md:text-6xl font-bold text-sky-600">
+              <p className="mt-2 md:mt-3 text-4xl lg:text-6xl md:text-4xl font-bold text-sky-600">
                <RevealOnScroll>
 
               75%
@@ -80,10 +86,10 @@ const WA = () => {
               </p>
               <p className="text-lg md:text-xl font-bold text-gray-500">
              
-              Average open rate
+              Impressive open rate
             </p>
        
-              <p className="mt-1 text-gray-500">On average, WhatsApps achieve a 75% open rate</p>
+              <p className="mt-1 text-gray-500">Attain an impressive 75% open rate on your WhatsApp messages</p>
             </div>
             <div>
               <p className="mt-2 md:mt-3 text-4xl md:text-6xl font-bold text-sky-600">
@@ -95,7 +101,7 @@ const WA = () => {
               <p className="text-lg sm:text-xl font-bold text-gray-500">
               Monthly active users  </p>
              
-              <p className="mt-1 text-gray-500">Reach 2B people on the world's most used chat app</p>
+              <p className="mt-1 text-gray-500">Engage with a vast audience of 2 billion monthly active users on the most widely utilized chat application</p>
             </div>
           </div>
           <div className="">
@@ -127,7 +133,7 @@ const WA = () => {
           <div className="benefits rounded-lg  h-32 pt-8 p-5 bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
               <p className="font-bold text-xl">Multiple Agents</p>
-              <p>Share the Wati inbox among your team with unlimited agent support</p>
+              <p>Share the inbox among your team with unlimited agent support</p>
             </RevealOnScroll>
           </div>
           <div className="benefits rounded-lg h-32 p-5 pt-8 bg-sky-900 hover:bg-gray-400 text-white">

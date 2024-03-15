@@ -118,7 +118,7 @@ function Home() {
           <div className="benefits rounded-lg pt-8 h-32 p-5 bg-sky-900 hover:bg-gray-400  text-white">
             <RevealOnScroll>
               <p className="font-bold text-xl">Scalable Platform</p>
-              <p>Platform with burstable capacity upto 1000 TPS</p>
+              <p>Platform with burstable capacity up to 1000 TPS</p>
             </RevealOnScroll>
           </div>
           <div className="benefits rounded-lg h-32 pt-8 p-5 bg-sky-900 hover:bg-gray-400 text-white">

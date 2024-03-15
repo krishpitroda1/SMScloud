@@ -55,63 +55,7 @@ const A2P = () => {
           />
 
           <div className="flex flex-col justify-center lg:p-5 md:p-0 mx-auto">
-            {/* <p className="text-orange-600 pl-1 font-bold text-3xl">
-            A2P Messaging
-          </p> */}
-            {/* <h1 className="py-3 text-lg sm:text-xl md:text-xl">
-          A2P messaging stands for Application-to-Person messaging. It is a type of SMS text messaging used to send messages from an application or software program to a mobile device or phone and it is...
-           </h1> */}
-            {/* <div className="grid grid-flow-row pt-10  gap-4">
-            <div className="">
-              <div className="flex ">
-                <img src={img3} className="h-8 w-8 rounded-lg" alt="" />
-                <h1 className="align-center text-sky-600  text-xl ">
-                With global rise of digitization, Businesses create millions of touchpoints daily 
-                These touchpoints consist of promotional to service messages to transactional messages
-
-                </h1>
-              </div>
-              <div className="pt-5">
-
-              <div className="flex">
-                <img src={img3} className="h-8 w-8 rounded-lg" alt="" />
-                <h1 className="align-center text-sky-600  text-xl">
-                Globally SMS messages read average under 3 	Minutes
-
-                </h1>
-              </div>
-            </div>
-              </div>
-
-        
-              <div className="flex">
-                <img src={img3} className="h-8 w-8 rounded-lg" alt="" />
-                <h1 className="align-center text-sky-600  text-xl">
-                SMS offers proficient and personal way to reach 	end-users
-
-                </h1>
-              </div>
-              <div className="flex">
-                <img src={img3} className="h-8 w-8 rounded-lg" alt="" />
-                <h1 className="align-center text-sky-600  text-xl">
-                SMS offers an incredibly high ROI when
-compared with other digital marketing channels
-      </h1>
-              </div>
-        
-              <div className="flex">
-                <img src={img3} className="h-8 w-8 rounded-lg" alt="" />
-                <h1 className="align-center text-sky-600  text-xl">
-                Special Rates and effective Routes for India and 	189 countries of the world
- </h1>
-              </div>
-              <div className="flex">
-                <img src={img3} className="h-8 w-8 rounded-lg" alt="" />
-                <h1 className="align-center text-sky-600  text-xl">
-                Fastest Termination with Real Time Delivery 	Reports
-</h1>
-              </div>
-          </div> */}
+      
             <div className="flex flex-col justify-center text-center mx-auto ">
               <RevealOnScroll>
                 <p className="font-bold lg:text-4xl text-3xl text-center  text-sky-600 ">
@@ -185,7 +129,7 @@ compared with other digital marketing channels
           </div>
           <div className="benefits rounded-lg h-32 p-5 pt-8 bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
-              <p className="font-bold text-xl">Get a diffrent links for marketing campaigns</p>
+              <p className="font-bold text-xl">Get a different links for marketing campaigns</p>
             </RevealOnScroll>
           </div>
           <div className=" benefits rounded-lg h-32 p-5 pt-8 bg-sky-900 hover:bg-gray-400 text-white">

@@ -111,7 +111,7 @@ function End() {
                 <p>
                   <Link
                     className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 "
-                    to="/SMScloud"
+                    to="/"
                   >
                     Home
                   </Link>
@@ -120,7 +120,7 @@ function End() {
                 <p>
                   <Link
                     className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 "
-                    to="/SMScloud/About"
+                    to="/About"
                   >
                     About us
                   </Link>

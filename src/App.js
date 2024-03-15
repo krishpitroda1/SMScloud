@@ -86,8 +86,8 @@ function App() {
    <ParticleBackground/>
     <div className="container mt-20">
       <Routes>
-        <Route path="/SMScloud" element={<Home />} />
-        <Route path="/SMScloud/About" element={<About />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/About" element={<About />} />
         <Route path="/Contacts" element={<Contacts />} />
         <Route path="/Test" element={<Test/>} />
         <Route path="/0Hop" element={<Hop/>} />

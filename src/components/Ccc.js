@@ -49,11 +49,10 @@ function Ccc() {
         />
         <div className="flex flex-col justify-center text-center mx-auto ">
           <RevealOnScroll>
-            <p className="font-bold lg:text-4xl text-3xl text-center p-5  text-sky-600 ">Make Your Commmunication Conversational <br />  <span className="text-gray-400">personalized,fun and with ease</span></p>
+            <p className="font-bold lg:text-4xl text-3xl text-center p-5  text-sky-600 ">Make Your Communication Conversational <br />  <span className="text-gray-400">personalized,fun and with ease</span></p>
            <p className="text-center p-5 lg:p-36 lg:pt-3 lg:pb-0 text-gray-400 lg:text-2xl text-2xl ">
 
-           We thrive with Platform & Managed Services in India and International Market providing 
-solutions with the right mix of Cloud Technology & Telecommunications.  </p>
+           We are in Platform & Managed Services across both the Indian and International markets, offering solutions tailored with the perfect blend of Cloud Technology and Telecommunications  </p>
           </RevealOnScroll>
         </div>
       </div>

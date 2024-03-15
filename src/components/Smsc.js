@@ -52,7 +52,7 @@ function Smsc() {
           />
           <div className="flex flex-col justify-center text-center mx-auto ">
             <RevealOnScroll>
-              <p className="font-bold lg:text-4xl text-3xl text-center  text-sky-600 "> Operate, Protect and Monetize <br />  <span className="text-gray-400"> Protect an SMSC from unauthorized <br /> access and potential attacks</span></p>
+              <p className="font-bold lg:text-4xl text-3xl text-center  text-sky-600 "> Operate, Protect and Monetize <br />  <span className="text-gray-400"> Protect a SMSC from unauthorized <br /> access and potential attacks</span></p>
              <p className="text-center p-5 text-gray-400 lg:text-2xl text-2xl ">
              SMSCloud Hub being the key player in the industry fulfills 
               the  <br />requirement of protection, management of SMS traffic

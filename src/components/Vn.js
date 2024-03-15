@@ -60,7 +60,7 @@ function Vn() {
 <div className="">
         <RevealOnScroll>
           <p className="text-gray-500 text-center p-5 pb-1  font-bold text-3xl">
-            Benifits Of Virtual Number
+            Benefits Of Virtual Number
             </p>
         </RevealOnScroll>
     
@@ -73,32 +73,32 @@ function Vn() {
           </div>
           <div className="benefits rounded-lg h-32 pt-8 p-5 bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
-              <p className="font-bold text-xl">Identify Quality Leades </p>
-              <p>Virtual Number is the solution allows you yo mask numbers of both the agent and customer</p>
+              <p className="font-bold text-xl">Identify Quality Leads </p>
+              <p>Virtual Number is the solution allows you to mask numbers of both the agent and a customer</p>
             </RevealOnScroll>
           </div>
           <div className="benefits rounded-lg  -32 pt-8 p-5 bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
               <p className="font-bold text-xl">Be Omnipresent</p>
-              <p>Forward all customerds call to agents to manage business call from anywhere</p>
+              <p>Forward all customers call to agents to manage business call from anywhere</p>
             </RevealOnScroll>
           </div>
           <div className="benefits rounded-lg  h-32 pt-8 p-5 bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
-              <p className="font-bold text-xl">Optimize Operational Effeciency</p>
+              <p className="font-bold text-xl">Optimize Operational  Efficiency</p>
               <p>Route the customer calls to specific agents based on their availability</p>
             </RevealOnScroll>
           </div>
           <div className="benefits rounded-lg h-32 p-5 pt-8 bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
               <p className="font-bold text-xl">Real-time Data Insights</p>
-              <p>Receive actionable data insights on call performace</p>
+              <p>Receive actionable data insights on call performance</p>
             </RevealOnScroll>
           </div>
           <div className=" benefits rounded-lg h-32 p-5 pt-8 bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
               <p className="font-bold text-xl">Number Masking</p>
-              <p>Ensure customer privacy and zero lead leakage with number masking solution</p>
+              <p>Ensure customer privacyGuarantee customer confidentiality and prevent any lead exposure with a number masking solution</p>
             </RevealOnScroll>
           </div>
         </div>
