@@ -6,7 +6,7 @@ import Test from "./Test";
 import CountUp from 'react-countup';
 // import ParticlesComponent from "./Particle";
 
-import videobg from "../assets/bgvideo.mp4";
+import videobg from "../assets/new.mp4";
 import Divs from "./Divs";
 import { useEffect, useState, useRef } from "react";
 
@@ -158,50 +158,50 @@ function Home() {
               <p className="lg:text-lg md:text-3xl text-3xl font-bold text-gray-500">
                 Accuracy rate
               </p>
-              <p className="mt-2 sm:mt-3 text-4xl sm:text-6xl font-bold text-blue-500">
+              <p className="mt-2 sm:mt-3 md:text-4xl text-6xl lg:text-6xl font-bold text-blue-500">
                 <RevealOnScroll>
                 
                 <CountUp start={0.00} end={99.96}  duration={10} decimals={2} suffix="%"/>
                 </RevealOnScroll>
               </p>
-              <p className="mt-1 text-gray-500">DLR</p>
+              <p className="lg:text-lg  text-2xl text-gray-500">DLR</p>
             </div>
             <div>
               <p className="lg:text-lg md:text-3xl text-3xl  font-bold text-gray-500">
              
                 Customers
             </p>
-              <p className="mt-2 sm:mt-3 text-4xl sm:text-6xl font-bold text-blue-500">
+              <p className="mt-2 sm:mt-3 md:text-4xl text-6xl lg:text-6xl font-bold text-blue-500">
                <RevealOnScroll>
 
                <CountUp start={0} end={500}  duration={10} decimals={0} suffix="+"/>
                  </RevealOnScroll>
               </p>
-              <p className="mt-1 text-gray-500">Telcos, Carriers & Enterprises</p>
+              <p className="lg:text-lg  text-2xl text-gray-500">Telcos, Carriers & Enterprises</p>
             </div>
             <div>
               <p className="lg:text-lg md:text-3xl text-3xl font-bold text-gray-500">
                 Happy customer
               </p>
-              <p className=" lg:text-4xl md:text-4xl text-4xl mt-2 font-bold text-blue-500">
+              <p className=" md:text-4xl text-6xl lg:text-6xl mt-2 font-bold text-blue-500">
               <RevealOnScroll>
 
                <CountUp start={0.000} end={96.90}  duration={10} decimals={2}  suffix="%"/>
                </RevealOnScroll>
               </p>
-              <p className="mt-1 text-gray-500">Overall satisfaction</p>
+              <p className="lg:text-lg  text-2xl text-gray-500">Overall satisfaction</p>
             </div>
             <div>
               <p className="lg:text-lg md:text-3xl text-3xl font-bold text-gray-500">
                 Coverage
               </p>
-              <p className="mt-2 sm:mt-3 text-4xl sm:text-6xl font-bold text-blue-500">
+              <p className="mt-2  md:text-4xl text-6xl lg:text-6xl font-bold text-blue-500">
               <RevealOnScroll>
 
               <CountUp start={0} end={195}  duration={10} decimals={0} suffix="+"/>
               </RevealOnScroll>
               </p>
-              <p className="mt-1 text-gray-500">Countries</p>
+              <p className="lg:text-lg  text-2xl  text-gray-500">Countries</p>
             </div>
           </div>
       <div className="">
