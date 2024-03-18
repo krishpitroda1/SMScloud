@@ -59,7 +59,7 @@ function About() {
         <RevealOnScroll>
         <div className="lg:flex md:grid lg:grid-cols-2 md:pl-3 md:p-5 lg:p-0 sm:p-0">
           <img
-            className="w-[500px] rounded-2xl mx-auto  "
+            className="w-full rounded-2xl mx-auto  "
             src={img}
             alt="/"
           />
