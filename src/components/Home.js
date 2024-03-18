@@ -153,9 +153,9 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="  justify-items-center p-10 grid gap-6 grid-cols-2 sm:gap-12 lg:grid-cols-4 lg:gap-8">
+      <div className="lg:justify-items-center p-10 grid gap-6 md:grid-cols-1 sm:grid-cols-1 lg:grid-cols-4 lg:gap-8">
             <div>
-              <p className="text-lg sm:text-xl font-bold text-gray-500">
+              <p className="lg:text-lg md:text-3xl text-3xl font-bold text-gray-500">
                 Accuracy rate
               </p>
               <p className="mt-2 sm:mt-3 text-4xl sm:text-6xl font-bold text-blue-500">
@@ -167,7 +167,7 @@ function Home() {
               <p className="mt-1 text-gray-500">DLR</p>
             </div>
             <div>
-              <p className="text-lg sm:text-xl font-bold text-gray-500">
+              <p className="lg:text-lg md:text-3xl text-3xl  font-bold text-gray-500">
              
                 Customers
             </p>
@@ -180,19 +180,19 @@ function Home() {
               <p className="mt-1 text-gray-500">Telcos, Carriers & Enterprises</p>
             </div>
             <div>
-              <p className="text-lg sm:text-xl font-bold text-gray-500">
+              <p className="lg:text-lg md:text-3xl text-3xl font-bold text-gray-500">
                 Happy customer
               </p>
-              <p className="mt-2 sm:mt-3 text-4xl sm:text-6xl font-bold text-blue-500">
+              <p className=" lg:text-4xl md:text-4xl text-4xl mt-2 font-bold text-blue-500">
               <RevealOnScroll>
 
-               <CountUp start={0.000} end={96.90}  duration={10} decimals={2} suffix="%"/>
+               <CountUp start={0.000} end={96.90}  duration={10} decimals={2}  suffix="%"/>
                </RevealOnScroll>
               </p>
               <p className="mt-1 text-gray-500">Overall satisfaction</p>
             </div>
             <div>
-              <p className="text-lg sm:text-xl font-bold text-gray-500">
+              <p className="lg:text-lg md:text-3xl text-3xl font-bold text-gray-500">
                 Coverage
               </p>
               <p className="mt-2 sm:mt-3 text-4xl sm:text-6xl font-bold text-blue-500">
