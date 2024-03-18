@@ -62,7 +62,9 @@ function Divs() {
               Global Reach
             </p>
             <p className="text-lg p-4">
-            Industry best HA platform and LCR + QBR based routes for improved reliable communication  </p>
+            {/* Industry best HA platform and LCR + QBR based routes for improved reliable communication   */}
+            Expand your reach across borders and connect with audiences globally
+            </p>
           </RevealOnScroll>
         </div>
 
@@ -72,8 +74,7 @@ function Divs() {
               Reliability
             </p>
             <p className="text-lg  p-5">
-              Rely on our platform's consistent performance for uninterrupted
-              communication
+            Rely on our sms routes consistent performance for uninterrupted communication
             </p>
           </RevealOnScroll>
         </div>
@@ -95,7 +96,9 @@ function Divs() {
               Scalability
             </p>
             <p className="text-lg p-4">
-            Scale your messaging operation on the go using our cloud based solutions for uninterrupted traffic flow   </p>
+            {/* Scale your messaging operation on the go using our cloud based solutions for uninterrupted traffic flow   */}
+            Scale your messaging operations effortlessly to meet evolving business needs
+             </p>
           </RevealOnScroll>
         </div>
 

@@ -1,5 +1,5 @@
 import React, { useEffect ,useState,useRef} from "react";
-import img from "../assets/img1.jpeg";
+import img from "../assets/dnd3.jpeg";
 import img2 from "../assets/hubs.jpeg";
 import image from '../assets/Events/icon1.jpg'
 import image2 from '../assets/Events/i1.png'
@@ -102,7 +102,7 @@ function About() {
          
           <img
             src={img2}
-            className="w-[500px] mx-auto my-4 rounded-2xl"
+            className="w-[470px] mx-auto my-4 rounded-2xl"
             alt=""
           />
           <div className="flex flex-col justify-center md:p-0 lg:p-5">
@@ -185,7 +185,7 @@ function About() {
                   <p className="font-semibold">
                   <RevealOnScroll>
 
-                    Using new-age technologies we bring 360-degree Digital
+                    Using new-age technologies we bring 360-degree Digital Transformation for companies of all sizes
                   </RevealOnScroll>
                   </p>
                 </div>
