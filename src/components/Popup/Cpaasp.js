@@ -73,7 +73,7 @@ function Cpaasp(props) {
               <div className="">
                 <div className="flex">
                   <h1 className="align-center text-gray-500  text-xl">
-                  Transform Your Communication with Omni-Channel Platform as a Service  and ...
+                  Transform Your Communication with Multi-Channel Platform as a Service  and ...
        </h1>
                 </div>
               </div>

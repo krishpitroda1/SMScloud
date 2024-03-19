@@ -39,7 +39,7 @@ function Ccc() {
     <div className="w-screen relative pt-8 pb-8">
     <RevealOnScroll>
       <h1 className=" text-gray-500 pt-16 text-center p-5  font-bold text-4xl ">
-        Cloud Contact Center
+        CloudContactCenter
       </h1>
       <div className=" lg:flex md:grid md:grid-cols-2 lg:pl-3 lg:p-5 md:p-0 sm:p-0">
         <img
@@ -61,7 +61,7 @@ function Ccc() {
         <div className="">
       <RevealOnScroll>
         <p className="text-gray-500 text-center p-5 pb-1  font-bold text-3xl">
-          Working Of Cloud Contact Center
+          Working Of CloudContactCenter
         </p>
       </RevealOnScroll>
   

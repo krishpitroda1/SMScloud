@@ -68,38 +68,38 @@ const Voice = () => {
         <div className="grid pt-8  lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-3  p-5 lg:pr-8">
           <div className="benefits rounded-lg pt-8 h-32 p-5 bg-sky-900 hover:bg-gray-400  text-white">
             <RevealOnScroll>
-              <p className="font-bold text-xl">Industry-leading rates</p>
-              <p>SMSCloud Hub 's strength to offer you the best possible rates</p>
+              <p className="font-bold text-xl">Competitive rates</p>
+              <p>SMSCloud Hub's strength to offer the best possible rates without compromise on quality</p>
             </RevealOnScroll>
           </div>
           <div className="benefits rounded-lg h-32 pt-8 p-5 bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
-              <p className="font-bold text-xl">Autonomous portal </p>
-              <p>Versatile self-service portal with advance reporting</p>
+              <p className="font-bold text-xl">SIP Integration </p>
+              <p>Industry accepted SIP connectivity</p>
             </RevealOnScroll>
           </div>
           <div className="benefits rounded-lg  -32 pt-8 p-5 bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
               <p className="font-bold text-xl">Expandable capability</p>
-              <p>Advance communication platform with endless channels and robust cps capabilities</p>
+              <p>Advance Expandable capacity with endless channels and robust cps capabilities</p>
             </RevealOnScroll>
           </div>
           <div className="benefits rounded-lg  h-32 pt-8 p-5 bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
-              <p className="font-bold text-xl">Global-scale DIDs covrage</p>
+              <p className="font-bold text-xl">Global DID coverage</p>
               <p>For hassle-free access and explore our convenient access numbers</p>
             </RevealOnScroll>
           </div>
           <div className="benefits rounded-lg h-32 p-5 pt-8 bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
-              <p className="font-bold text-xl">SMS Platform & API's</p>
-              <p>Rich-featured SMS platform  for intensifying engagement</p>
+              <p className="font-bold text-xl"> CloudContactCenter Platform & API's</p>
+              <p>Rich-featured CCC (CloudContactCenter) platform for agent management and intensifying engagement</p>
             </RevealOnScroll>
           </div>
           <div className=" benefits rounded-lg h-32 p-5 pt-8 bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
-              <p className="font-bold text-xl">Support</p>
-              <p>Around-the-clock support service that is available worldwide</p>
+              <p className="font-bold text-xl"> Friendly Support</p>
+              <p>Round-the-clock support with friendly nature for quick and effective services </p>
             </RevealOnScroll>
           </div>
         </div>

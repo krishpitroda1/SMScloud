@@ -56,6 +56,8 @@ function Vas() {
               <p className="font-bold lg:text-4xl text-3xl text-center  text-sky-600 "> VAS, or non-core services, are  <br />  <span className="text-gray-400"> no longer just OTTs or ringtones</span></p>
              <p className="text-center p-5 text-gray-400 lg:text-2xl text-2xl ">
           Numerous value-added services, such as telemedicine,  smart meters, <br /> BNPL, eSports, online gaming, infrastructure-as-a-service IaaS, smart <br />homes / smart cities, and many more, are made possible by 5G.         </p> 
+          <p className="font-bold lg:text-4xl text-3xl text-center  text-sky-600 ">Let's Discuss .... </p>
+            
             </RevealOnScroll>
           
           </div>

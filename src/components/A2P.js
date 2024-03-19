@@ -44,7 +44,7 @@ const A2P = () => {
   return (
     <div className=" w-screen relative  p-8">
       <h1 className="md:pl-5 sm:pl-5 pl-5 align-center text-gray-500 pt-10 text-center p-5  font-bold text-4xl ">
-        Application to Person Messaging
+        Application to Person (A2P) Messaging
       </h1>
       <RevealOnScroll>
         <div className=" lg:flex md:grid md:grid-cols-2 lg:pl-3 lg:p-5 md:p-0 sm:p-0">
@@ -59,12 +59,12 @@ const A2P = () => {
             <div className="flex flex-col justify-center text-center mx-auto ">
               <RevealOnScroll>
                 <p className="font-bold lg:text-4xl text-3xl text-center  text-sky-600 ">
-                  Power of  Customer Engagement <br />
+                  Power of Customer Connect <br />
                   <span className="text-gray-400">  Engage with your customers <br /> instantly and in real time
               </span>
                 </p>
                 <p className="text-center mx-aut0 lg:p-20 pt-3 pb-3 lg:pt-3  text-gray-400 lg:text-2xl text-2xl ">
-                Tap into the highest engagement rates with SMS, where 9 out of 10 people read their texts, by seamlessly integrating SMS into your campaigns and workflow for maximum impact
+                Tap into the highest engagement rates with A2P SMS, where 9 out of 10 people read their texts within 3 mins of Global Average, by seamlessly integrating SMS into your Transaction API or Campaign Manager to deliver OTP Message or any promotion.
                 </p>
               </RevealOnScroll>
             </div>
@@ -103,38 +103,63 @@ const A2P = () => {
           </p>
         </RevealOnScroll>
     
-        <div className="grid pt-8  lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-3  lg:p-5 lg:pr-8">
-          <div className="benefits rounded-lg pt-8 h-32 p-5 bg-sky-900 hover:bg-gray-400  text-white">
+        <div className="grid   lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-3  lg:p-5 lg:pr-8">
+          <div className="benefits rounded-lg  h-32 p-5 bg-sky-900 hover:bg-gray-400  text-white">
             <RevealOnScroll>
-              <p className="font-bold text-xl">  With global rise of digitization, Businesses create millions of touchpoints daily</p>
+            <p className="text-xl font-bold">
+            Reach 
+
+</p>
+              <p>Deliver messages in more than 195 countries with single click </p>
              </RevealOnScroll>
           </div>
-          <div className="benefits rounded-lg h-32 pt-8 p-5 bg-sky-900 hover:bg-gray-400 text-white">
+          <div className="benefits rounded-lg h-32  p-5 bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
-              <p className="font-bold text-xl">  Globally SMS messages read average under 3 	Minutes
+            <p className="text-xl font-bold">
+Routes
+</p>
+              <p>  Use our 0Hop or 1Hop routes for secured delivery 
+ 
  </p>
             </RevealOnScroll>
           </div>
-          <div className="benefits rounded-lg  -32 pt-8 p-5 bg-sky-900 hover:bg-gray-400 text-white">
+          <div className="benefits rounded-lg  -32  p-5 bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
-              <p className="font-bold text-xl">  SMS offers proficient and personal way to reach end-users
+            <p className="text-xl font-bold">
+      Support
+</p>
+              <p> 24X7 Support and AM team 
+
 </p>
             </RevealOnScroll>
           </div>
-          <div className="benefits rounded-lg  h-32 pt-8 p-5 bg-sky-900 hover:bg-gray-400 text-white">
+          <div className="benefits rounded-lg  h-32  p-5 bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
-              <p className="font-bold text-xl"> Special Rates and effective Routes for India and 	189 countries of the world
- </p>
+              <p className="text-xl font-bold">
+              Data Security 
+
+              </p>
+              <p> Robust Platform with complete authentication and 99.99% Uptime 
+</p>
             </RevealOnScroll>
           </div>
-          <div className="benefits rounded-lg h-32 p-5 pt-8 bg-sky-900 hover:bg-gray-400 text-white">
+          <div className="benefits rounded-lg h-32 p-5  bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
-              <p className="font-bold text-xl">Get a different links for marketing campaigns</p>
+            <p className="text-xl font-bold">
+            Scalable 
+
+</p>
+              <p>On Demand Cloud based expandable TPS of 1000 from 700 Regular TPS 
+</p>
             </RevealOnScroll>
           </div>
-          <div className=" benefits rounded-lg h-32 p-5 pt-8 bg-sky-900 hover:bg-gray-400 text-white">
+          <div className=" benefits rounded-lg h-32 p-5  bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
-              <p className="font-bold text-xl">Fastest Termination with Real Time Delivery Reports</p>
+            <p className="text-xl font-bold">
+            Countrywise Compliance 
+
+</p>
+              <p>Manage rapidly changing countrywise compliance with our experts' team</p>
             </RevealOnScroll>
           </div>
         </div>

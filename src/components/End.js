@@ -169,12 +169,12 @@ function End() {
               </RevealOnScroll>
                 <RevealOnScroll>
               <p className="inline-flex p-2  ps-0 gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600 cursor-pointer">
-              B-614, World Trade Tower, Off S G Highway, Makarba, Ahmedabad, Gujarat,India,380051</p>
+              B-614, World Trade Tower, Off S G Highway, Makarba, Ahmedabad - 380051, Gujarat, India</p>
               </RevealOnScroll>
               <RevealOnScroll>
 
               <p className="inline-flex p-2 ps-0 gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600 cursor-pointer">
-                (+91) 9924494266
+                (+91)-9924494266
               </p>
               </RevealOnScroll>
             

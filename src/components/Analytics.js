@@ -110,7 +110,7 @@ function Analytics() {
           Our Services
         </p>
 
-        <div className="justify-between md:pl-0  lg:flex mx-auto gap-6">
+        <div className="justify-between md:pl-0  lg:border-sky-600 lg:border-8 pb-5 lg:flex mx-auto gap-6">
           <div className="flex-col gap-5 ">
             <ul className="list-disc text-red-400 text-lg p-5">
               <p className="text-sky-700 font-bold text-xl">EnterPrise</p>

@@ -70,36 +70,59 @@ function Managehubs() {
         <div className="grid pt-8  lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-3  p-5 lg:pr-8">
           <div className="benefits rounded-lg pt-8 h-32 p-5 bg-sky-900 hover:bg-gray-400  text-white">
             <RevealOnScroll>
-              <p className="font-bold text-xl">We can provide network monitoring and network monitoring</p>
+            <p className="font-bold text-xl">
+            Support 
+              </p>
+
+              <p >We Manage your L1 and L2 Support working on your own platform 
+</p>
+           
             </RevealOnScroll>
           </div>
           <div className="benefits rounded-lg h-32 pt-8 p-5 bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
-              <p className="font-bold text-xl">We can provide security,optimization,procurement</p>
+            <p className="font-bold text-xl">
+              Rates & Routing
+              </p>
+              <p>Our team does all RnR activities on immediate basis</p>
             </RevealOnScroll>
           </div>
           <div className="benefits rounded-lg  -32 pt-8 p-5 bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
-              <p className="font-bold text-xl">We can provide wholsale platform and SMSC management</p>
+            <p className="font-bold text-xl">
+              Procurement
+              </p>
+              <p>Our procurement team manages all procurement for maximum benefit of operator 
+</p>
             </RevealOnScroll>
           </div>
           <div className="benefits rounded-lg  h-32 pt-8 p-5 bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
-              <p className="font-bold text-xl">Our Team is deployed remotely to manage the complete backend for Telcos</p>
+            <p className="font-bold text-xl">
+              Platform
+              </p>
+              <p >And all these can be clubbed with our wholesale Messaging Platform </p>
             </RevealOnScroll>
           </div>
           <div className="benefits rounded-lg h-32 p-5 pt-8 bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
-              <p className="font-bold text-xl">Telco can  use SMSCloud Hub's services</p>
+            <p className="font-bold text-xl">
+              On Demand
+              </p>
+           <p>Our team can be available as per requirement viz. 5 X 8, 5 X 12 or 7 X 24 to manage the platform 
+</p>
             </RevealOnScroll>
           </div>
           <div className=" benefits rounded-lg h-32 p-5 pt-8 bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
-              <p className="font-bold text-xl">SMSCloud Hub 's expertise to maximize both cost and efficacy</p>
+            <p className="font-bold text-xl">
+              Cost Effective
+              </p>
+              <p >We ensure managed services provided by us the benefits the operators in terms of Operational cost reduction</p>
             </RevealOnScroll>
           </div>
-        </div>
       </div>
+        </div>
       </div>
     </div>
   );

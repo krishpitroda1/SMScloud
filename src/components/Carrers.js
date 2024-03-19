@@ -44,10 +44,6 @@ function Carrers() {
       <Jobs/>
       </RevealOnScroll>
     
-      <RevealOnScroll>
-
-      <Life/>
-      </RevealOnScroll>
     </div>
   )
 }

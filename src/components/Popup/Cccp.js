@@ -64,7 +64,7 @@ function Cccp(props) {
        <RevealOnScroll>
        <div className="flex flex-col justify-center">
          <p className="text-sky-600  p-5 font-bold text-2xl">
-         Cloud Contact Center
+         CloudContactCenter
          </p>
          <div className="flex ">
            <div className="">

@@ -178,6 +178,9 @@ function Navbar() {
                 <ul className="">
                   <li className="hover:text-sky-600 hover:font-bold py-2 block ">
                     <Link to="/Carrers">Careers</Link>
+                  </li> 
+                  <li className="hover:text-sky-600 hover:font-bold py-2 block ">
+                    <Link to="/Life">Life @ SMSCloud Hub</Link>
                   </li>
                   <li className="hover:text-sky-600 hover:font-bold  py-2 block">
                     <Link to="/Blogs">Blogs</Link>
@@ -545,6 +548,14 @@ function Navbar() {
                 className="py-7  inline-block hover:text-orange-600"
               >
                 Carrers
+              </Link>
+            </li>
+            <li className="border-b  border-gray-600">
+              <Link
+                to="/Life"
+                className="py-7  inline-block hover:text-orange-600"
+              >
+                Life @ SMSCloud Hub
               </Link>
             </li>
      

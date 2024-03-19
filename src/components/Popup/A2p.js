@@ -73,8 +73,7 @@ function A2p(props) {
               <div className="">
                 <div className="flex">
                   <h1 className="align-center text-gray-600  text-xl">
-                    A2P messaging is cost-effective, so you can save money on
-                    your marketing budget and...
+                    A2P messaging is fastest and personal way to engage with your audiance...
                   </h1>
                 </div>
               </div>

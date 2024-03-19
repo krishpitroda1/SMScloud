@@ -44,7 +44,7 @@ function Cpas() {
    <RevealOnScroll>
 
     <h1 className="align-center text-gray-500 pt-16 text-center p-5  font-bold text-4xl">
-    Transform Your Communication with Omni-Channel Platform as a Service
+    Transform Your Communication with Multi-Channel Platform as a Service
     </h1>
    
        <div className=" lg:flex md:grid md:grid-cols-2 lg:pl-3 lg:p-5 p-5 md:p-0 sm:p-0">
@@ -57,11 +57,11 @@ function Cpas() {
             <RevealOnScroll>
               <p className="font-bold lg:text-4xl text-3xl text-center  text-sky-600 ">Empower Engagement
 
- <br /> <span className="text-gray-400"> SMSCloud Hub's CPaaS for <br />Exceptional Customer Experiences</span></p>
+ <br /> <span className="text-gray-400"> SMSCloud Hub's CPaaS for <br />Exceptional Customer Experiences</span></p>
              <p className="text-center lg:p-16 lg:pb-0 lg:pt-3 pt-3 text-gray-400 lg:text-xl text-2xl ">
 
              {/* SMSCloud Hub empowers enterprises and partners to seamlessly connect <br /> with their end customers via a secure, dependable, and scalable cloud <br /> communication platform. Supported by Best business operations Suport, <br /> our platform facilitates both one-way and two-way communication across <br /> diverse messaging interfaces and protocols. This versatility enables effortless <br />integration of enterprise applications through programmable APIs. */}    
-             SMSCloud Hub empowers enterprises and partners to seamlessly connect  with their end customers via a secure, dependable, and scalable cloud communication platform. Supported by Best business operations Support,  our platform facilitates both one-way and two-way communication across diverse messaging interfaces and protocols. This versatility enables effortless integration of enterprise applications through programmable APIs.     </p>
+             SMSCloud Hub empowers enterprises  to seamlessly connect  with their end customers via a secure, dependable, and scalable cloud communication platform. Supported by Multiple Communication Channels, facilitating both one-way and two-way communication.This versatility enables effortless integration of enterprise applications through programmable APIs.     </p>
             
             </RevealOnScroll>
           </div>
@@ -79,37 +79,37 @@ function Cpas() {
           <div className="benefits rounded-lg pt-8 h-32 p-5 bg-sky-900 hover:bg-gray-400  text-white">
             <RevealOnScroll>
               <p className="font-bold text-xl">Secure</p>
-              <p>Enhance the security of business applications with a two-factor authentication approach</p>
+              <p>Hosted in Global Data Centers with authentication for enhanced security</p>
             </RevealOnScroll>
           </div>
           <div className="benefits rounded-lg h-32 pt-8 p-5 bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
               <p className="font-bold text-xl">Reliable</p>
-              <p>Deliver messages via appropriate channels</p>
+              <p>0Hop dependable routes from operators for realible delivery</p>
             </RevealOnScroll>
           </div>
           <div className="benefits rounded-lg  -32 pt-8 p-5 bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
-              <p className="font-bold text-xl">Available</p>
-              <p>Ensuring agreed levels of performance and reliance</p>
+              <p className="font-bold text-xl">Multi Channel</p>
+              <p>Communicate via SMS,Voice,Video,Email,OTT and Analytics</p>
             </RevealOnScroll>
           </div>
           <div className="benefits rounded-lg  h-32 pt-8 p-5 bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
               <p className="font-bold text-xl">Scalable</p>
-              <p>Expand business reach by adding new service over flexible hosting options</p>
+              <p>Scale your number of users with cloud platform,on the GO!</p>
             </RevealOnScroll>
           </div>
           <div className="benefits rounded-lg h-32 p-5 pt-8 bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
               <p className="font-bold text-xl">ROI</p>
-              <p>Track and measure key business and operational KPI's</p>
+              <p>Track and measure key business and operational KPIs to enhance ROI</p>
             </RevealOnScroll>
           </div>
           <div className=" benefits rounded-lg h-32 p-5 pt-8 bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
               <p className="font-bold text-xl">Cost Effective</p>
-              <p>Utilize intelligent least-cost routing to maximize delivery cost efficiency</p>
+              <p>Intelligent least-cost routing to maximize delivery and cost efficiency</p>
             </RevealOnScroll>
           </div>
         </div>

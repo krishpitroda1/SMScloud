@@ -114,41 +114,61 @@ function Home() {
           </p>
         </RevealOnScroll>
     
-        <div className="grid pt-8  lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-3 p-5">
-          <div className="benefits rounded-lg pt-8 h-32 p-5 bg-sky-900 hover:bg-gray-400  text-white">
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-3 p-5">
+          <div className="benefits rounded-lg  h-32 p-5 bg-sky-900 hover:bg-gray-400  text-white">
             <RevealOnScroll>
-              <p className="font-bold text-xl">Scalable Platform</p>
+              
+              <div className="p-2">
+
+              <p className="font-bold text-xl ">Scalable Platform</p>
               <p>Platform with burstable capacity up to 1000 TPS</p>
+              </div>
+          
             </RevealOnScroll>
           </div>
-          <div className="benefits rounded-lg h-32 pt-8 p-5 bg-sky-900 hover:bg-gray-400 text-white">
+          <div className="benefits rounded-lg h-32  p-5 bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
+                <div className="p-2">
+                  
               <p className="font-bold text-xl">High Quality</p>
               <p>Global routes with AI based Route Selection and Testing</p>
+                  </div>            
             </RevealOnScroll>
           </div>
-          <div className="benefits rounded-lg  -32 pt-8 p-5 bg-sky-900 hover:bg-gray-400 text-white">
+          <div className="benefits rounded-lg  h-32 p-5 bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
+            <div className="p-2">
+
               <p className="font-bold text-xl">Seamless Broadcast</p>
               <p>LCR and QBR Based Routing with Fall back</p>
+            </div>
             </RevealOnScroll>
           </div>
-          <div className="benefits rounded-lg  h-32 pt-8 p-5 bg-sky-900 hover:bg-gray-400 text-white">
+          <div className="benefits rounded-lg  h-32 p-5 bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
+           <div className="p-2">
+
               <p className="font-bold text-xl">Carrier Grade Feature</p>
               <p>High availability, 99.95% uptime backed by SLA</p>
+           </div>
             </RevealOnScroll>
           </div>
-          <div className="benefits rounded-lg h-32 p-5 pt-8 bg-sky-900 hover:bg-gray-400 text-white">
+          <div className="benefits rounded-lg h-32 p-5  bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
+             <div className="p-2">
+
               <p className="font-bold text-xl">Cloud Based Services</p>
               <p>Cloud connectivity with no down time & no CAPEX</p>
+             </div>
             </RevealOnScroll>
           </div>
-          <div className=" benefits rounded-lg h-32 p-5 pt-8 bg-sky-900 hover:bg-gray-400 text-white">
+          <div className=" benefits rounded-lg h-32 p-5  bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
+           <div className="p-2">
+
               <p className="font-bold text-xl">World Wide Reach</p>
               <p>Flawless termination in more then 195 Countries</p>
+           </div>
             </RevealOnScroll>
           </div>
         </div>

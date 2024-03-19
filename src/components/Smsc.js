@@ -67,37 +67,65 @@ function Smsc() {
           Advantages of SMSC Firewall   </p>
         </RevealOnScroll>
     
-        <div className="grid pt-8  lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-3  p-5 lg:pr-8">
-          <div className="benefits rounded-lg pt-8 h-32 p-5 bg-sky-900 hover:bg-gray-400  text-white">
+        <div className="grid   lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-3  p-5 lg:pr-8">
+          <div className="benefits rounded-lg  h-32 p-5 bg-sky-900 hover:bg-gray-400  text-white">
             <RevealOnScroll>
-              <p className="font-bold text-xl">Helps prevent potential security breaches
+              <p className="text-xl font-bold">AI Based
+</p>
+              <p >A robust platform with Artificial Intelligence & Self Learning
+
                </p>
             </RevealOnScroll>
           </div>
-          <div className="benefits rounded-lg h-32 pt-8 p-5 bg-sky-900 hover:bg-gray-400 text-white">
+          <div className="benefits rounded-lg h-32  p-5 bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
-              <p className="font-bold text-xl">Traffic Filtering and content inspection
-                  </p>
+              <p className="text-xl font-bold">
+              Prevention of Fraud 
+
+              </p>
+              <p >
+              Prevent fraud rather than simple Detecting by customizable definition of SPAM content per MNO & language
+  </p>
             </RevealOnScroll>
           </div>
-          <div className="benefits rounded-lg  -32 pt-8 p-5 bg-sky-900 hover:bg-gray-400 text-white">
+          <div className="benefits rounded-lg  -32  p-5 bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
-              <p className="font-bold text-xl">Its subscribers as well as manage and monitor SMS traffic</p>
+            <p className="text-xl font-bold">
+            Grey Route Protection
+</p>
+
+              <p >Protection against Grey Routes in Real Time  (fake SMSC / open SMSC /SIMM Box etc )
+
+</p>
             </RevealOnScroll>
           </div>
-          <div className="benefits rounded-lg  h-32 pt-8 p-5 bg-sky-900 hover:bg-gray-400 text-white">
+          <div className="benefits rounded-lg  h-32  p-5 bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
-              <p className="font-bold text-xl">The increasingly complex messaging ecosystem</p>
+            <p className="text-xl font-bold">
+Support
+</p>
+
+              <p >Our team will manage L3 supporting your L1 and L2
+</p>
             </RevealOnScroll>
           </div>
-          <div className="benefits rounded-lg h-32 p-5 pt-8 bg-sky-900 hover:bg-gray-400 text-white">
+          <div className="benefits rounded-lg h-32 p-5  bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
-              <p className="font-bold text-xl"> Monetization of the traffic with complete Revenue Model for Telecom Operator</p>
+            <p className="text-xl font-bold">
+            Monetization 
+
+</p>
+
+              <p > Various monetization models can be implemented to avoid revenue loss </p>
             </RevealOnScroll>
           </div>
-          <div className=" benefits rounded-lg h-32 p-5 pt-8 bg-sky-900 hover:bg-gray-400 text-white">
+          <div className=" benefits rounded-lg h-32 p-5  bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
-              <p className="font-bold text-xl">  Ensure the reliability and security of SMS messages</p>
+            <p className="text-xl font-bold">
+            Partnership Management
+</p>
+
+              <p > Roaming Partner,Interconnection and A2P Partnership Management</p>
             </RevealOnScroll>
           </div>
         </div>

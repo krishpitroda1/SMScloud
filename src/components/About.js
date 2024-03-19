@@ -1,5 +1,5 @@
 import React, { useEffect ,useState,useRef} from "react";
-import img from "../assets/dnd3.jpeg";
+import img from "../assets/ab2.jpg";
 import img2 from "../assets/hubs.jpeg";
 import image from '../assets/Events/icon1.jpg'
 import image2 from '../assets/Events/i1.png'
@@ -59,7 +59,7 @@ function About() {
         <RevealOnScroll>
         <div className="lg:flex md:grid lg:grid-cols-2 md:pl-3 md:p-5 lg:p-0 sm:p-0">
           <img
-            className="w-full rounded-2xl mx-auto  "
+            className="w-[500px] rounded-2xl mx-auto  "
             src={img}
             alt="/"
           />
@@ -77,7 +77,7 @@ function About() {
              SMSCloud Hub provides solutions for seamless communication through a cloud-based platforms empowering Carriers, Hubs, Telcos & Enterprise businesses to communicate through a variety of  channels, making communication conversational, more personalized, fun, meaningful and with ease. 
  </RevealOnScroll>
             </p>
-            <p className="p-5 pt-0 text-xl">SMSCloud Hub is a team of experts having background in A2P SMS with operational excellence & excellent support.  
+            <p className="p-5 pt-0 text-xl">SMSCloud Hub is a team of experts having background in A2P SMS with operational excellence & effective support.  
 </p>
             <p className="p-5 pt-0 text-xl">
              <RevealOnScroll>
@@ -102,21 +102,21 @@ function About() {
          
           <img
             src={img2}
-            className="w-[470px] mx-auto my-4 rounded-2xl"
+            className="w-[500px] mx-auto my-4 rounded-2xl"
             alt=""
           />
           <div className="flex flex-col justify-center md:p-0 lg:p-5">
             <p className="text-sky-600  font-bold text-3xl lg:p-5 md:pl-0 md:pr-0">
           <RevealOnScroll>
 
-              Advantages for Choosing Us
+              Advantages of Choosing Us
           </RevealOnScroll>
             </p>
             <h1 className="pt-0 font-semibold lg:p-5 md:pl-0 md:pr-0 md:pt-4  text-lg sm:text-xl md:text-xl">
               <RevealOnScroll>
 
-              Even in the age of digital advertising, tapping into SMS, or
-              simply texting, is considered as the personalized, fastest, and…
+              Even in the age of digital lifestyle, tapping into SMS or simply texting, 
+               <br />is considered as the personalized, fastest and most effective; and obviously non-disturbing.
               </RevealOnScroll>
             </h1>
             <div className="grid grid-flow-row lg:pl-5 md:pl-0 gap-4">
@@ -128,7 +128,7 @@ function About() {
 
                   Using SMPP, HTTP or SS7 connectivity</RevealOnScroll>
                   </h1>
-                  <p className="font-semibold"><RevealOnScroll>Adaptive platform to connect with your existing clients</RevealOnScroll></p>
+                  <p className="font-semibold"><RevealOnScroll>Adaptive platform to connect with all types of protocols </RevealOnScroll></p>
                 </div>
                 <div>
                   <img src={image} className="h-10 rounded-lg" alt="" />
@@ -138,7 +138,7 @@ function About() {
                     Global Reach
                   </RevealOnScroll>
                   </h1>
-                  <p className="font-semibold"><RevealOnScroll> World Wide Connectivity</RevealOnScroll></p>
+                  <p className="font-semibold"><RevealOnScroll> World Wide Connectivity to terminate SMS in 195+ countries with single click </RevealOnScroll></p>
                 </div>
                 <div>
                   <img src={image3} className="h-10 rounded-lg" alt="" />
@@ -150,8 +150,8 @@ function About() {
                   <p className="font-semibold">
                  <RevealOnScroll>
 
-                    Burstable capacity in the cloud to support your business
-                 </RevealOnScroll>
+                    Burstable capacity in the cloud to support heavy traffic on the go  
+                                   </RevealOnScroll>
                   </p>
                 </div>
               </div>
@@ -172,7 +172,7 @@ function About() {
                   <h1 className="align-center text-sky-600  text-xl">
                     <RevealOnScroll>Low TCO</RevealOnScroll>
                   </h1>
-                  <p className="font-semibold"><RevealOnScroll>Adaptive platform to connect with your existing clients</RevealOnScroll></p>
+                  <p className="font-semibold"><RevealOnScroll>Start on the fly without any CAPEX and low OPEX</RevealOnScroll></p>
                 </div>
                 <div>
                   <img src={image6} className="h-10 ounded-lg" alt="" />

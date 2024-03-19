@@ -69,7 +69,7 @@ function Vnp(props) {
               <div className="">
                 <div className="flex">
                   <h1 className="align-center text-gray-500  text-xl">
-                    You can also get an international toll-free number
+                    Use an international toll-free number
                    with advanced call management features and ...
                   </h1>
                 </div>

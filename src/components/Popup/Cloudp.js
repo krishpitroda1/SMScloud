@@ -63,15 +63,14 @@ function Cloudp(props) {
           />
           <RevealOnScroll>        <div className="flex flex-col justify-center">
             <p className="text-sky-600  p-5 font-bold text-2xl">
-              CloudSkool++
+              Run the School in cloud
             </p>
             <div className="flex p-5 pt-0 gap-3 ">
               <div className="">
                 <div className="flex">
                   <h1 className="align-center text-gray-500  text-xl">
-                    It can help you scale your communications and connect with
-                    your audience seamlessly with wider messaging reach and..
-                  </h1>
+                  CloudSkool++ is a cloud based ED-Tech solution and is simple, safe and smart solution has enormous facilities and ...
+                 </h1>
                 </div>
               </div>
             </div>
