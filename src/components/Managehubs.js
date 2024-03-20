@@ -51,7 +51,7 @@ function Managehubs() {
           />
           <div className="flex flex-col justify-center text-center mx-auto ">
             <RevealOnScroll>
-              <p className="font-bold lg:text-4xl text-3xl text-center  text-sky-600 ">Focus to your core Business Operations  <br /> <span className="text-gray-400">and leaving the technical and operational <br /> aspects to SMSCloud Hub  </span></p>
+              <p className="font-bold lg:text-4xl text-3xl text-center  text-sky-600 ">Focus on your core Business Operations  <br /> <span className="text-gray-400">and leaving the technical and operational <br /> aspects to SMSCloud Hub  </span></p>
              <p className="text-center p-5 text-gray-400 lg:text-3xl text-2xl ">
 
              SMSCloud Hub is the first choice  to manage <br /> the SMS Hubs for Telecom Operators
@@ -74,7 +74,7 @@ function Managehubs() {
             Support 
               </p>
 
-              <p >We Manage your L1 and L2 Support working on your own platform 
+              <p >We manage your L1 and L2 Support working on your own platform 
 </p>
            
             </RevealOnScroll>
@@ -84,7 +84,7 @@ function Managehubs() {
             <p className="font-bold text-xl">
               Rates & Routing
               </p>
-              <p>Our team does all RnR activities on immediate basis</p>
+              <p>Our team does all RnR activities on an immediate basis</p>
             </RevealOnScroll>
           </div>
           <div className="benefits rounded-lg  -32 pt-8 p-5 bg-sky-900 hover:bg-gray-400 text-white">
@@ -92,7 +92,7 @@ function Managehubs() {
             <p className="font-bold text-xl">
               Procurement
               </p>
-              <p>Our procurement team manages all procurement for maximum benefit of operator 
+              <p>Our procurement team manages all procurement for the maximum benefit of operator 
 </p>
             </RevealOnScroll>
           </div>
@@ -101,7 +101,7 @@ function Managehubs() {
             <p className="font-bold text-xl">
               Platform
               </p>
-              <p >And all these can be clubbed with our wholesale Messaging Platform </p>
+              <p >And all these can be clubbed with our wholesale messaging platform </p>
             </RevealOnScroll>
           </div>
           <div className="benefits rounded-lg h-32 p-5 pt-8 bg-sky-900 hover:bg-gray-400 text-white">
@@ -109,7 +109,7 @@ function Managehubs() {
             <p className="font-bold text-xl">
               On Demand
               </p>
-           <p>Our team can be available as per requirement viz. 5 X 8, 5 X 12 or 7 X 24 to manage the platform 
+           <p>Our team can be available as per requirement viz. 5 X 8, 5 X 12 ,or 7 X 24 to manage the platform 
 </p>
             </RevealOnScroll>
           </div>
@@ -118,7 +118,7 @@ function Managehubs() {
             <p className="font-bold text-xl">
               Cost Effective
               </p>
-              <p >We ensure managed services provided by us the benefits the operators in terms of Operational cost reduction</p>
+              <p >We ensure the managed services provided by us benefits the operators in terms of Operational cost reduction</p>
             </RevealOnScroll>
           </div>
       </div>

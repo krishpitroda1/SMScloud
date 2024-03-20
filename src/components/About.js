@@ -73,16 +73,15 @@ function About() {
             </h1>
             <p className="p-5 pt-0 text-xl text-black">
              <RevealOnScroll>
-
-             SMSCloud Hub provides solutions for seamless communication through a cloud-based platforms empowering Carriers, Hubs, Telcos & Enterprise businesses to communicate through a variety of  channels, making communication conversational, more personalized, fun, meaningful and with ease. 
- </RevealOnScroll>
+             SMSCloud Hub provides solutions for seamless communication through cloud-based platforms, empowering carriers, hubs, telcos, & enterprise businesses to communicate through a variety of channels, making communication conversational, more personalised, fun, meaningful, and with ease.
+</RevealOnScroll>
             </p>
-            <p className="p-5 pt-0 text-xl">SMSCloud Hub is a team of experts having background in A2P SMS with operational excellence & effective support.  
+            <p className="p-5 pt-0 text-xl">SMSCloud Hub is a team of experts with a background in A2P SMS with operational excellence & effective support.
 </p>
             <p className="p-5 pt-0 text-xl">
              <RevealOnScroll>
 
-             When the messaging is the central to the business, we solve today’s unique customer challenges by bridging business to the world by using complex communication channels. And we thrive with A2P Messaging for India and International Market providing solutions with the right mix of Cloud Technlogy & Telecommunications.
+             When messaging is the central to the business, we solve today’s unique customer challenges by bridging business to the world by using complex communication channels. And we thrive with A2P messaging for Indian and International market providing solutions with the right mix of Cloud Technlogy & Telecommunications.
 
          </RevealOnScroll>
             </p>
@@ -116,7 +115,7 @@ function About() {
               <RevealOnScroll>
 
               Even in the age of digital lifestyle, tapping into SMS or simply texting, 
-               <br />is considered as the personalized, fastest and most effective; and obviously non-disturbing.
+               <br />is considered as the personalized, fastest and most effective, and obviously non-disturbing.
               </RevealOnScroll>
             </h1>
             <div className="grid grid-flow-row lg:pl-5 md:pl-0 gap-4">

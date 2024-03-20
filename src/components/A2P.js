@@ -60,11 +60,11 @@ const A2P = () => {
               <RevealOnScroll>
                 <p className="font-bold lg:text-4xl text-3xl text-center  text-sky-600 ">
                   Power of Customer Connect <br />
-                  <span className="text-gray-400">  Engage with your customers <br /> instantly and in real time
+                  <span className="text-gray-400"> Engage with your customers <br /> instantly and in real time
               </span>
                 </p>
                 <p className="text-center mx-aut0 lg:p-20 pt-3 pb-3 lg:pt-3  text-gray-400 lg:text-2xl text-2xl ">
-                Tap into the highest engagement rates with A2P SMS, where 9 out of 10 people read their texts within 3 mins of Global Average, by seamlessly integrating SMS into your Transaction API or Campaign Manager to deliver OTP Message or any promotion.
+                Tap into the highest engagement rates with A2P SMS, where 9 out of 10 people read their texts within 3 minutes of Global Average, by seamlessly integrating SMS into your Transaction API or Campaign Manager to deliver OTP Message or any promotion.
                 </p>
               </RevealOnScroll>
             </div>
@@ -99,7 +99,7 @@ const A2P = () => {
       <div className="">
         <RevealOnScroll>
           <p className="text-gray-500 text-center p-5 pb-1  font-bold text-3xl">
-            Benefits Of A2P with SMSCloud Hub
+            Benefits of A2P with SMSCloud Hub
           </p>
         </RevealOnScroll>
     
@@ -110,7 +110,7 @@ const A2P = () => {
             Reach 
 
 </p>
-              <p>Deliver messages in more than 195 countries with single click </p>
+              <p>Deliver messages in more than 195 countries with a single click </p>
              </RevealOnScroll>
           </div>
           <div className="benefits rounded-lg h-32  p-5 bg-sky-900 hover:bg-gray-400 text-white">
@@ -139,7 +139,7 @@ Routes
               Data Security 
 
               </p>
-              <p> Robust Platform with complete authentication and 99.99% Uptime 
+              <p> Robust platform with complete authentication and 99.99% uptime 
 </p>
             </RevealOnScroll>
           </div>
@@ -149,7 +149,7 @@ Routes
             Scalable 
 
 </p>
-              <p>On Demand Cloud based expandable TPS of 1000 from 700 Regular TPS 
+              <p>On Demand Cloud based expandable TPS of 1000 from 700 regular TPS 
 </p>
             </RevealOnScroll>
           </div>

@@ -53,7 +53,7 @@ const Hop = () => {
              <p className="text-center p-5 text-gray-400 lg:text-2xl text-2xl ">
 
              These routes connect directly with mobile operators in the <br /> destination country. 
-There are minimal intermediaries, <br /> resulting in  higher reliability and delivery rates</p>
+There are minimal intermediaries, <br /> resulting in  higher reliability and delivery rates.</p>
             </RevealOnScroll>
           </div>
         </div>

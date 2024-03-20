@@ -61,7 +61,7 @@ function Cpas() {
              <p className="text-center lg:p-16 lg:pb-0 lg:pt-3 pt-3 text-gray-400 lg:text-xl text-2xl ">
 
              {/* SMSCloud Hub empowers enterprises and partners to seamlessly connect <br /> with their end customers via a secure, dependable, and scalable cloud <br /> communication platform. Supported by Best business operations Suport, <br /> our platform facilitates both one-way and two-way communication across <br /> diverse messaging interfaces and protocols. This versatility enables effortless <br />integration of enterprise applications through programmable APIs. */}    
-             SMSCloud Hub empowers enterprises  to seamlessly connect  with their end customers via a secure, dependable, and scalable cloud communication platform. Supported by Multiple Communication Channels, facilitating both one-way and two-way communication.This versatility enables effortless integration of enterprise applications through programmable APIs.     </p>
+             SMSCloud Hub empowers enterprises  to seamlessly connect  with their end customers via a secure, dependable, and scalable cloud communication platform. Supported by multiple communication channels, facilitating both one-way and two-way communication.This versatility enables effortless integration of enterprise applications through programmable APIs.     </p>
             
             </RevealOnScroll>
           </div>
@@ -71,7 +71,7 @@ function Cpas() {
      <div className="">
         <RevealOnScroll>
           <p className="text-gray-500 text-center p-5 pb-1  font-bold text-3xl">
-            Benefits Of CPaaS Service with SMSCloud Hub
+            Benefits of CPaaS Service with SMSCloud Hub
           </p>
         </RevealOnScroll>
     

@@ -107,7 +107,7 @@ WhatsApp surpasses email in conversion rates by a factor of 2.5.
           <div className="">
         <RevealOnScroll>
           <p className="text-gray-500 text-center p-5 pb-1  font-bold text-3xl">
-            Features Of WhatsApp Service with SMSCloud Hub
+            Features of WhatsApp Service with SMSCloud Hub
           </p>
         </RevealOnScroll>
     

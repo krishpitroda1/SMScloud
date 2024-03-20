@@ -53,7 +53,7 @@ const Voice = () => {
  <br /> <span className="text-gray-400"> Routing and Top-tier Service  </span></p>
              <p className="text-center lg:p-32 p-5 lg:pt-3 lg:pb-0 text-gray-400 lg:text-2xl text-2xl ">
 
-             At SMSCloud Hub, we excel in VoIP termination, enabling businesses to seamlessly connect with their customers. Leveraging our vast network of carriers and tier 1 operators, we ensure reliable and efficient routing of voice traffic.      </p>
+             At SMSCloud Hub, we excel in VoIP termination, enabling businesses to seamlessly connect with their customers. Leveraging our vast network of carriers and Tier 1 operators, we ensure reliable and efficient routing of voice traffic.      </p>
             </RevealOnScroll>
           </div>
         </div>
@@ -61,7 +61,7 @@ const Voice = () => {
   <div className="">
         <RevealOnScroll>
           <p className="text-gray-500 text-center p-5 pb-1  font-bold text-3xl">
-            Benefits Of Voice Service with SMSCloud Hub
+            Benefits of Voice Service with SMSCloud Hub
           </p>
         </RevealOnScroll>
     
@@ -69,7 +69,7 @@ const Voice = () => {
           <div className="benefits rounded-lg pt-8 h-32 p-5 bg-sky-900 hover:bg-gray-400  text-white">
             <RevealOnScroll>
               <p className="font-bold text-xl">Competitive rates</p>
-              <p>SMSCloud Hub's strength to offer the best possible rates without compromise on quality</p>
+              <p>SMSCloud Hub's strength is to offer the best possible rates without compromising on quality</p>
             </RevealOnScroll>
           </div>
           <div className="benefits rounded-lg h-32 pt-8 p-5 bg-sky-900 hover:bg-gray-400 text-white">
@@ -99,7 +99,7 @@ const Voice = () => {
           <div className=" benefits rounded-lg h-32 p-5 pt-8 bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
               <p className="font-bold text-xl"> Friendly Support</p>
-              <p>Round-the-clock support with friendly nature for quick and effective services </p>
+              <p>Round-the-clock support with a friendly nature for quick and effective services </p>
             </RevealOnScroll>
           </div>
         </div>

@@ -51,7 +51,7 @@ function Vn() {
             <RevealOnScroll>
               <p className="font-bold lg:text-4xl text-3xl text-center  text-sky-600 ">Have your own virtual phone number   <br /> <span className="text-gray-400"> in any city or country worldwide </span></p>
              <p className="text-center p-5 lg:p-36 lg:pt-2 lg:pb-0 text-gray-400 lg:text-2xl text-2xl ">
-             Virtual number is Showing a local number to visitors at your web site increases trust and sales with SMSCloud Hub
+             A Virtual number is Showing a local number to visitors at your web site increases trust and sales with SMSCloud Hub
              </p>
             </RevealOnScroll>
           </div>
@@ -60,7 +60,7 @@ function Vn() {
 <div className="">
         <RevealOnScroll>
           <p className="text-gray-500 text-center p-5 pb-1  font-bold text-3xl">
-            Benefits Of Virtual Number
+            Benefits of a Virtual Number
             </p>
         </RevealOnScroll>
     
@@ -68,19 +68,19 @@ function Vn() {
           <div className="benefits rounded-lg pt-8 h-32 p-5 bg-sky-900 hover:bg-gray-400  text-white">
             <RevealOnScroll>
               <p className="font-bold text-xl">Higher Conversion Rate</p>
-              <p>Track every inbound and outbound call which engage proactively to drive more conversion</p>
+              <p>Track every inbound and outbound call that engage proactively to drive more conversions</p>
             </RevealOnScroll>
           </div>
           <div className="benefits rounded-lg h-32 pt-8 p-5 bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
               <p className="font-bold text-xl">Identify Quality Leads </p>
-              <p>Virtual Number is the solution allows you to mask numbers of both the agent and a customer</p>
+              <p>A Virtual Number is the solution that allows you to mask numbers of both the agent and a customer</p>
             </RevealOnScroll>
           </div>
           <div className="benefits rounded-lg  -32 pt-8 p-5 bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
               <p className="font-bold text-xl">Be Omnipresent</p>
-              <p>Forward all customers call to agents to manage business call from anywhere</p>
+              <p>Forward all the customer calls to agents to manage business call from anywhere</p>
             </RevealOnScroll>
           </div>
           <div className="benefits rounded-lg  h-32 pt-8 p-5 bg-sky-900 hover:bg-gray-400 text-white">

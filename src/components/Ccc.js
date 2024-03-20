@@ -61,7 +61,7 @@ function Ccc() {
         <div className="">
       <RevealOnScroll>
         <p className="text-gray-500 text-center p-5 pb-1  font-bold text-3xl">
-          Working Of CloudContactCenter
+          Working of the CloudContactCenter
         </p>
       </RevealOnScroll>
   

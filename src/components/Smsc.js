@@ -125,7 +125,7 @@ Support
             Partnership Management
 </p>
 
-              <p > Roaming Partner,Interconnection and A2P Partnership Management</p>
+              <p > Roaming Partner,Interconnection, and A2P Partnership Management</p>
             </RevealOnScroll>
           </div>
         </div>
