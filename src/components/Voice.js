@@ -66,40 +66,58 @@ const Voice = () => {
         </RevealOnScroll>
     
         <div className="grid pt-8  lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-3  p-5 lg:pr-8">
-          <div className="benefits rounded-lg pt-8 h-32 p-5 bg-sky-900 hover:bg-gray-400  text-white">
+          <div className="benefits rounded-lg  p-5 bg-sky-900 hover:bg-gray-400  text-white">
             <RevealOnScroll>
+           <div className='p-2'>
+
               <p className="font-bold text-xl">Competitive rates</p>
               <p>SMSCloud Hub's strength is to offer the best possible rates without compromising on quality</p>
+           </div>
             </RevealOnScroll>
           </div>
-          <div className="benefits rounded-lg h-32 pt-8 p-5 bg-sky-900 hover:bg-gray-400 text-white">
+          <div className="benefits rounded-lg h-32 p-5 bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
+            <div className='p-2'>
+
               <p className="font-bold text-xl">SIP Integration </p>
               <p>Industry accepted SIP connectivity</p>
+            </div>
             </RevealOnScroll>
           </div>
-          <div className="benefits rounded-lg  -32 pt-8 p-5 bg-sky-900 hover:bg-gray-400 text-white">
+          <div className="benefits rounded-lg   p-5 bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
+              <div className='p-2'>
+
               <p className="font-bold text-xl">Expandable capability</p>
               <p>Advance Expandable capacity with endless channels and robust cps capabilities</p>
+              </div>
             </RevealOnScroll>
           </div>
-          <div className="benefits rounded-lg  h-32 pt-8 p-5 bg-sky-900 hover:bg-gray-400 text-white">
+          <div className="benefits rounded-lg  h-32  p-5 bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
+             <div className='p-2'>
+
               <p className="font-bold text-xl">Global DID coverage</p>
               <p>For hassle-free access and explore our convenient access numbers</p>
+             </div>
             </RevealOnScroll>
           </div>
-          <div className="benefits rounded-lg h-32 p-5 pt-8 bg-sky-900 hover:bg-gray-400 text-white">
+          <div className="benefits rounded-lg  p-5  bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
+            <div className='p-2'>
+
               <p className="font-bold text-xl"> CloudContactCenter Platform & API's</p>
               <p>Rich-featured CCC (CloudContactCenter) platform for agent management and intensifying engagement</p>
+            </div>
             </RevealOnScroll>
           </div>
-          <div className=" benefits rounded-lg h-32 p-5 pt-8 bg-sky-900 hover:bg-gray-400 text-white">
+          <div className=" benefits rounded-lg  p-5  bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
+              <div className='p-2'>
+
               <p className="font-bold text-xl"> Friendly Support</p>
               <p>Round-the-clock support with a friendly nature for quick and effective services </p>
+              </div>
             </RevealOnScroll>
           </div>
         </div>

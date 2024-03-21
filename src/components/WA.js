@@ -36,7 +36,7 @@ const RevealOnScroll = ({ children }) => {
 
 const WA = () => {
   return (
-    <div className="w-screen relative pt-8 pb-8">
+    <div className="w-screen relative  pb-8">
       <RevealOnScroll>
         <h1 className=" text-gray-500 pt-16 text-center p-5  font-bold text-4xl ">
           SMSCloud Hub's WhatsApp Suite: Boost Engagement & Efficiency!
@@ -111,38 +111,38 @@ WhatsApp surpasses email in conversion rates by a factor of 2.5.
           </p>
         </RevealOnScroll>
     
-        <div className="grid pt-8  lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-3  p-5 lg:pr-8">
-          <div className="benefits rounded-lg pt-8 h-32 p-5 bg-sky-900 hover:bg-gray-400  text-white">
+        <div className="grid   lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-3  p-5 lg:pr-8">
+          <div className="benefits rounded-lg   p-5 bg-sky-900 hover:bg-gray-400  text-white">
             <RevealOnScroll>
               <p className="font-bold text-xl">High Open Rates</p>
               <p>Enjoy 90%+ open rates with our broadcast feature</p>
             </RevealOnScroll>
           </div>
-          <div className="benefits rounded-lg h-32 pt-8 p-5 bg-sky-900 hover:bg-gray-400 text-white">
+          <div className="benefits rounded-lg   p-5 bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
               <p className="font-bold text-xl">Recover Lost Sales </p>
               <p>Re-engage customers effectively, bidding goodbye to abandoned carts</p>
             </RevealOnScroll>
           </div>
-          <div className="benefits rounded-lg  -32 pt-8 p-5 bg-sky-900 hover:bg-gray-400 text-white">
+          <div className="benefits rounded-lg  -32  p-5 bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
               <p className="font-bold text-xl">Automate Everything</p>
               <p>Streamline marketing, sales, and support tasks effortlessly</p>
             </RevealOnScroll>
           </div>
-          <div className="benefits rounded-lg  h-32 pt-8 p-5 bg-sky-900 hover:bg-gray-400 text-white">
+          <div className="benefits rounded-lg    p-5 bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
               <p className="font-bold text-xl">Multiple Agents</p>
               <p>Share the inbox among your team with unlimited agent support</p>
             </RevealOnScroll>
           </div>
-          <div className="benefits rounded-lg h-32 p-5 pt-8 bg-sky-900 hover:bg-gray-400 text-white">
+          <div className="benefits rounded-lg  p-5  bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
               <p className="font-bold text-xl">Low-Code Automations</p>
               <p> Simplify mass communication and personalize responses effortlessly</p>
             </RevealOnScroll>
           </div>
-          <div className=" benefits rounded-lg h-32 p-5 pt-8 bg-sky-900 hover:bg-gray-400 text-white">
+          <div className=" benefits rounded-lg  p-5  bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
               <p className="font-bold text-xl">One-to-One Communication</p>
               <p>Tag, categorize, and target contacts in personalized groups</p>
