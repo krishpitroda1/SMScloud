@@ -5,8 +5,8 @@ import Companies from "./Companies";
 import Test from "./Test";
 import CountUp from 'react-countup';
 // import ParticlesComponent from "./Particle";
-
-import videobg from "../assets/new.mp4";
+import posture from '../assets/posture.png'
+import videobg from "../assets/bgvideo.mp4";
 import Divs from "./Divs";
 import { useEffect, useState, useRef } from "react";
 
@@ -69,13 +69,13 @@ function Home() {
       <Navbar />
       <div className="relative ">
         <video
-          src={videobg}
+         poster={posture}
           className=" blur-sm top-3  absolute rounded-lg "
           autoPlay
           playsInline
           muted
           loop
-        ></video>
+        ><source src={videobg} type="video/mp4"></source> </video>
     
           <div className="firstdiv relative pt-14 lg:pt-16 my-auto first max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center text-4xl flex flex-col justify-center text-sky-400  overflow-hidden">
             <h1 className="text-white  relative font-bold p-3  mt-10 text-5xl md:py-6">
@@ -224,13 +224,13 @@ function Home() {
               <p className="lg:text-lg  text-2xl  text-gray-500">Countries</p>
             </div>
           </div>
-      <div className="">
+      {/* <div className="">
         <RevealOnScroll>
           <Companies />
         </RevealOnScroll>
-      </div>
+      </div> */}
       <Test />
-      <div className="rounded-lg">
+      <div className="roundd-lg">
         <RevealOnScroll>
           <Ev />
         </RevealOnScroll>
