@@ -38,7 +38,7 @@ function Ccc() {
   return (
     <div className="w-screen relative  pb-8">
       <RevealOnScroll>
-        <h1 className=" text-gray-500 pt-16 text-center p-5  font-bold text-4xl ">
+        <h1 className=" text-gray-500 pt-16 text-center p-5  font-bold lg:text-4xl text-2xl ">
           CloudContactCenter
         </h1>
         <div className=" lg:flex md:grid md:grid-cols-2 lg:pl-3 lg:p-5 md:p-0 sm:p-0">

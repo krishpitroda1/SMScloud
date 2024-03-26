@@ -77,7 +77,7 @@ function Vasp(props) {
             </div>
           </div>
           <div className="pl-5">
-            <Link to="/WA">
+            <Link to="/Vas">
               <button className="bg-red-400 text-white rounded-lg p-3">
                 read more
               </button>

@@ -41,7 +41,7 @@ function Cpas() {
   return (
     <div className=" w-screen p-5 relative">
       <RevealOnScroll>
-        <h1 className="align-center text-gray-500 pt-16 text-center p-5 font-bold text-4xl">
+        <h1 className="align-center text-gray-500 pt-16 text-center font-bold text-3xl">
           Transform Your communication with Multi-Channel Platform as a Service
         </h1>
 
@@ -78,12 +78,12 @@ function Cpas() {
       <div className="">
         <RevealOnScroll>
           <p className="text-gray-500 text-center 
-           pb-1  font-bold text-3xl">
+           pb-1 pt-5 font-bold text-3xl">
             Benefits of CPaaS Service with SMSCloud Hub
           </p>
         </RevealOnScroll>
 
-        <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-3 ">
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-3 pt-5 ">
           <div className="benefits rounded-lg p-5 bg-sky-900 hover:bg-gray-400  text-white">
             <RevealOnScroll>
               <p className="font-bold text-xl">Secure</p>

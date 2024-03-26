@@ -68,7 +68,7 @@ function Cloudp(props) {
             <div className="flex p-5 pt-0 gap-3 ">
               <div className="">
                 <div className="flex">
-                  <h1 className="align-center text-gray-500  text-xl">
+                  <h1 className="align-center text-gray-500 text-sm lg:text-xl">
                   CloudSkool++ is a cloud based ED-Tech solution and is simple, safe and smart solution has enormous facilities and ...
                  </h1>
                 </div>

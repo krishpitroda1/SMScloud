@@ -63,7 +63,7 @@ function Cccp(props) {
        />
        <RevealOnScroll>
        <div className="flex flex-col justify-center">
-         <p className="text-sky-600  p-5 font-bold text-2xl">
+         <p className="text-sky-600  p-5 font-bold text-sm lg:text-2xl">
          CloudContactCenter
          </p>
          <div className="flex ">
@@ -75,7 +75,7 @@ based platform and ...</h1> </div>
            </div>
          </div>
          <div className="pl-5 pt-6">
-           <Link to="/0Hop">
+           <Link to="/Ccc">
              <button className="bg-red-400 text-white rounded-lg p-3">
                Read more
              </button>

@@ -48,7 +48,7 @@ function A2p(props) {
   return (
     <div>
       <RevealOnScroll>     <div className="lg:w-[50%] md:w-[70%]  lg:top-[30%] mr-10 lg:left-[30%]  z-10 absolute border border-black">
-        <h1 className=" text-white  text-center p-5  font-bold text-2xl divs border-b ">
+        <h1 className=" text-white  text-center p-5  font-bold text-lg lg:text-2xl divs border-b ">
           Application to Person Messaging
           <span
             id="close"
