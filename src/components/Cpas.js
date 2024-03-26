@@ -42,7 +42,7 @@ function Cpas() {
     <div className=" w-screen p-5 relative">
       <RevealOnScroll>
         <h1 className="align-center text-gray-500 pt-16 text-center p-5 font-bold text-4xl">
-          Transform Your with Multi-Channel Platform as a Service
+          Transform Your communication with Multi-Channel Platform as a Service
         </h1>
 
         <div className=" lg:flex md:grid md:grid-cols-2 lg:pl-3 lg:p-5 ">
