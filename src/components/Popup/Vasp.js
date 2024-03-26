@@ -44,7 +44,7 @@ function Vasp(props) {
   return (
     <div className="">
     <div className="lg:w-[50%] md:w-[70%]  lg:top-[30%] mr-10 lg:left-[30%]   z-10 absolute border border-black   ">
-      <h1 className="  text-center p-5 text-2xl font-bold  divs text-white border-b ">
+      <h1 className="  text-center p-5 text-lg lg:text-2xl font-bold  divs text-white border-b ">
         Vas
         <span
           id="close"

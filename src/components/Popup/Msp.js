@@ -62,7 +62,7 @@ function Msp(props) {
           />
           <RevealOnScroll>         
             <div className="flex flex-col justify-center">
-            <p className="text-sky-600  p-5   font-bold text-2xl">
+            <p className="text-sky-600  p-5   font-bold text-lg lg:text-2xl">
               Managed Service with SMSCloud Hub
             </p>
             <div className="flex p-5 pt-0 gap-3 ">

@@ -44,7 +44,7 @@ function Wap(props) {
   return (
     <div className="">
       <div className="lg:w-[50%] md:w-[70%]  lg:top-[30%] mr-10 lg:left-[30%]   z-10 absolute border border-black   ">
-        <h1 className=" text-white  text-center p-5 divs  font-bold  text-xl border-b ">
+        <h1 className=" text-white  text-center p-5 divs  font-bold   text-lg lg:text-2xl  border-b ">
           Whatsapp for Business
           <span
             id="close"

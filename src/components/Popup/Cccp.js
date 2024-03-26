@@ -45,7 +45,7 @@ function Cccp(props) {
     <div>
               
     <div className="lg:w-[50%] md:w-[70%]  lg:top-[30%] mr-10 lg:left-[30%]  z-10 absolute border border-black">
-      <h1 className=" text-white divs text-3xl  text-center p-5  font-bold   border-b ">
+      <h1 className=" text-white divs  text-lg lg:text-2xl   text-center p-5  font-bold   border-b ">
      CCC
        <span
          id="close"
