@@ -133,16 +133,19 @@ function End() {
                     Blogs
                   </Link>
                 </p>
+               
                 <p>
+                  
                   <Link
                     className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 "
                     to="/Carrers"
                   >
                     Careers
-                  </Link>{" "}
-                  <span className="inline ms-1 text-xs bg-blue-700 text-white py-1 px-2 rounded-lg">
+                  <p className=" ms-1 text-xs bg-blue-700 text-white py-1 px-2 rounded-lg">
                     We're hiring
-                  </span>
+                  </p>
+                  </Link>
+
                 </p>
                 <p>
                   <Link

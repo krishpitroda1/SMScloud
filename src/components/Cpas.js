@@ -39,27 +39,27 @@ function Cpas() {
   });
 
   return (
-    <div className=" w-screen pt-10 relative ">
+    <div className=" w-screen p-5 relative">
       <RevealOnScroll>
-        <h1 className="align-center text-gray-500 pt-16 text-center p-5  font-bold text-4xl">
-          Transform Your Communication with Multi-Channel Platform as a Service
+        <h1 className="align-center text-gray-500 pt-16 text-center p-5 font-bold text-4xl">
+          Transform Your with Multi-Channel Platform as a Service
         </h1>
 
-        <div className=" lg:flex md:grid md:grid-cols-2 lg:pl-3 lg:p-5 p-5 md:p-0 sm:p-0">
+        <div className=" lg:flex md:grid md:grid-cols-2 lg:pl-3 lg:p-5 ">
           <img
             src={img1}
-            className="w-[500px] mx-auto   my-4 rounded-2xl"
+            className="w-[500px]   my-4 rounded-2xl"
             alt=""
           />
-          <div className="flex flex-col justify-center text-center mx-auto ">
+          <div className="flex flex-col justify-center md:p-0 text-center  ">
             <RevealOnScroll>
               <p className="font-bold lg:text-4xl text-3xl text-center  text-sky-600 ">
                 Empower Engagement
                 <br />
                 <span className="text-gray-400">
                   
-                  SMSCloud Hub's CPaaS for <br />
-                  Exceptional Customer Experiences
+                  SMSCloud Hub's CPaaS for 
+                  Exceptional <br/> Customer Experiences
                 </span>
               </p>
               <p className="text-center lg:p-16 lg:pb-0 lg:pt-3 pt-3 text-gray-400 lg:text-xl text-2xl ">
@@ -77,13 +77,14 @@ function Cpas() {
       </RevealOnScroll>
       <div className="">
         <RevealOnScroll>
-          <p className="text-gray-500 text-center p-5 pb-1  font-bold text-3xl">
+          <p className="text-gray-500 text-center 
+           pb-1  font-bold text-3xl">
             Benefits of CPaaS Service with SMSCloud Hub
           </p>
         </RevealOnScroll>
 
-        <div className="grid   lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-3  p-5 lg:pr-8">
-          <div className="benefits rounded-lg   p-5 bg-sky-900 hover:bg-gray-400  text-white">
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-3 ">
+          <div className="benefits rounded-lg p-5 bg-sky-900 hover:bg-gray-400  text-white">
             <RevealOnScroll>
               <p className="font-bold text-xl">Secure</p>
               <p>
@@ -92,19 +93,19 @@ function Cpas() {
               </p>
             </RevealOnScroll>
           </div>
-          <div className="benefits rounded-lg   p-5 bg-sky-900 hover:bg-gray-400 text-white">
+          <div className="benefits rounded-lg p-5 bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
               <p className="font-bold text-xl">Reliable</p>
               <p>0Hop dependable routes from operators for realible delivery</p>
             </RevealOnScroll>
           </div>
-          <div className="benefits rounded-lg  -32  p-5 bg-sky-900 hover:bg-gray-400 text-white">
+          <div className="benefits rounded-lg p-5 bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
               <p className="font-bold text-xl">Multi Channel</p>
               <p>Communicate via SMS,Voice,Video,Email,OTT and Analytics</p>
             </RevealOnScroll>
           </div>
-          <div className="benefits rounded-lg    p-5 bg-sky-900 hover:bg-gray-400 text-white">
+          <div className="benefits rounded-lg p-5 bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
               <p className="font-bold text-xl">Scalable</p>
               <p>Scale your number of users with cloud platform,on the GO!</p>
@@ -119,7 +120,7 @@ function Cpas() {
               </p>
             </RevealOnScroll>
           </div>
-          <div className=" benefits rounded-lg  p-5  bg-sky-900 hover:bg-gray-400 text-white">
+          <div className=" benefits rounded-lg p-5 bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
               <p className="font-bold text-xl">Cost Effective</p>
               <p>

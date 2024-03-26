@@ -115,7 +115,7 @@ function Home() {
         </RevealOnScroll>
     
         <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-3 p-5">
-          <div className="benefits rounded-lg  h-32 p-5 bg-sky-900 hover:bg-gray-400  text-white">
+          <div className="benefits rounded-lg   p-5 bg-sky-900 hover:bg-gray-400  text-white">
             <RevealOnScroll>
               
               <div className="p-2">
@@ -126,7 +126,7 @@ function Home() {
           
             </RevealOnScroll>
           </div>
-          <div className="benefits rounded-lg h-32  p-5 bg-sky-900 hover:bg-gray-400 text-white">
+          <div className="benefits rounded-lg   p-5 bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
                 <div className="p-2">
                   
@@ -135,7 +135,7 @@ function Home() {
                   </div>            
             </RevealOnScroll>
           </div>
-          <div className="benefits rounded-lg  h-32 p-5 bg-sky-900 hover:bg-gray-400 text-white">
+          <div className="benefits rounded-lg   p-5 bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
             <div className="p-2">
 
@@ -144,7 +144,7 @@ function Home() {
             </div>
             </RevealOnScroll>
           </div>
-          <div className="benefits rounded-lg  h-32 p-5 bg-sky-900 hover:bg-gray-400 text-white">
+          <div className="benefits rounded-lg   p-5 bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
            <div className="p-2">
 
@@ -153,7 +153,7 @@ function Home() {
            </div>
             </RevealOnScroll>
           </div>
-          <div className="benefits rounded-lg h-32 p-5  bg-sky-900 hover:bg-gray-400 text-white">
+          <div className="benefits rounded-lg  p-5  bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
              <div className="p-2">
 
@@ -162,7 +162,7 @@ function Home() {
              </div>
             </RevealOnScroll>
           </div>
-          <div className=" benefits rounded-lg h-32 p-5  bg-sky-900 hover:bg-gray-400 text-white">
+          <div className=" benefits rounded-lg  p-5  bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
            <div className="p-2">
 
@@ -178,7 +178,7 @@ function Home() {
               <p className="lg:text-lg md:text-3xl text-3xl font-bold text-gray-500">
                 Accuracy rate
               </p>
-              <p className="mt-2 sm:mt-3 md:text-4xl text-6xl lg:text-6xl font-bold text-blue-500">
+              <p className="mt-2 sm:mt-3 md:text-4xl text-4xl lg:text-6xl font-bold text-blue-500">
                 <RevealOnScroll>
                 
                 <CountUp start={0.00} end={99.96}  duration={10} decimals={2} suffix="%"/>
@@ -191,7 +191,7 @@ function Home() {
              
                 Customers
             </p>
-              <p className="mt-2 sm:mt-3 md:text-4xl text-6xl lg:text-6xl font-bold text-blue-500">
+              <p className="mt-2 sm:mt-3 md:text-4xl text-4xl lg:text-6xl font-bold text-blue-500">
                <RevealOnScroll>
 
                <CountUp start={0} end={500}  duration={10} decimals={0} suffix="+"/>
@@ -203,7 +203,7 @@ function Home() {
               <p className="lg:text-lg md:text-3xl text-3xl font-bold text-gray-500">
                 Happy customer
               </p>
-              <p className=" md:text-4xl text-6xl lg:text-6xl mt-2 font-bold text-blue-500">
+              <p className=" md:text-4xl text-4xl lg:text-6xl mt-2 font-bold text-blue-500">
               <RevealOnScroll>
 
                <CountUp start={0.000} end={96.90}  duration={10} decimals={2}  suffix="%"/>
@@ -215,7 +215,7 @@ function Home() {
               <p className="lg:text-lg md:text-3xl text-3xl font-bold text-gray-500">
                 Coverage
               </p>
-              <p className="mt-2  md:text-4xl text-6xl lg:text-6xl font-bold text-blue-500">
+              <p className="mt-2  md:text-4xl text-4xl lg:text-6xl font-bold text-blue-500">
               <RevealOnScroll>
 
               <CountUp start={0} end={195}  duration={10} decimals={0} suffix="+"/>

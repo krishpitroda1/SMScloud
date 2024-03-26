@@ -42,8 +42,8 @@ const A2P = () => {
   });
 
   return (
-    <div className=" w-screen relative  p-8">
-      <h1 className="md:pl-5 sm:pl-5 pl-5 align-center text-gray-500 pt-10 text-center p-5  font-bold text-4xl ">
+    <div className=" w-screen relative p-5">
+      <h1 className="md:pl-5 sm:pl-5 pl-5 align-center text-gray-500 pt-10 text-center p-5 font-bold text-4xl ">
         Application to Person (A2P) Messaging
       </h1>
       <RevealOnScroll>
@@ -86,7 +86,7 @@ const A2P = () => {
           </p>
         </div>
         <div>
-          <p className="mt-2 md:mt-3 lg:text-5xl text-2xl font-bold text-sky-600">
+          <p className="mt-2 md:mt-3 lg:text-5xl text-3xl font-bold text-sky-600">
             <RevealOnScroll>3 Minutes</RevealOnScroll>
           </p>
           <p className="text-lg md:text-xl font-bold text-gray-500">
@@ -94,7 +94,7 @@ const A2P = () => {
           </p>
         </div>
         <div>
-          <p className="mt-2 md:mt-3  text-3xl lg:text-5xl font-bold text-sky-600">
+          <p className="mt-2 md:mt-3 text-3xl lg:text-5xl font-bold text-sky-600">
             <RevealOnScroll>8.9 Billion</RevealOnScroll>
           </p>
           <p className="text-xl font-bold text-gray-500">Global subscribers </p>
@@ -107,8 +107,8 @@ const A2P = () => {
           </p>
         </RevealOnScroll>
 
-        <div className="grid   lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-3  lg:p-5 lg:pr-8">
-          <div className="benefits rounded-lg  h-32 p-5 bg-sky-900 hover:bg-gray-400  text-white">
+        <div className="grid pt-5 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-3  lg:p-5 lg:pr-8">
+          <div className="benefits rounded-lg  p-5 bg-sky-900 hover:bg-gray-400  text-white">
             <RevealOnScroll>
               <p className="text-xl font-bold">Reach</p>
               <p>
@@ -116,19 +116,19 @@ const A2P = () => {
               </p>
             </RevealOnScroll>
           </div>
-          <div className="benefits rounded-lg h-32  p-5 bg-sky-900 hover:bg-gray-400 text-white">
+          <div className="benefits rounded-lg  p-5 bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
               <p className="text-xl font-bold">Routes</p>
               <p> Use our 0Hop or 1Hop routes for secured delivery</p>
             </RevealOnScroll>
           </div>
-          <div className="benefits rounded-lg  -32  p-5 bg-sky-900 hover:bg-gray-400 text-white">
+          <div className="benefits rounded-lg  p-5 bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
               <p className="text-xl font-bold">Support</p>
               <p> 24X7 Support and AM team</p>
             </RevealOnScroll>
           </div>
-          <div className="benefits rounded-lg  h-32  p-5 bg-sky-900 hover:bg-gray-400 text-white">
+          <div className="benefits rounded-lg    p-5 bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
               <p className="text-xl font-bold">Data Security</p>
               <p>
@@ -137,7 +137,7 @@ const A2P = () => {
               </p>
             </RevealOnScroll>
           </div>
-          <div className="benefits rounded-lg h-32 p-5  bg-sky-900 hover:bg-gray-400 text-white">
+          <div className="benefits rounded-lg  p-5  bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
               <p className="text-xl font-bold">Scalable</p>
               <p>
@@ -146,7 +146,7 @@ const A2P = () => {
               </p>
             </RevealOnScroll>
           </div>
-          <div className=" benefits rounded-lg h-32 p-5  bg-sky-900 hover:bg-gray-400 text-white">
+          <div className=" benefits rounded-lg  p-5  bg-sky-900 hover:bg-gray-400 text-white">
             <RevealOnScroll>
               <p className="text-xl font-bold">Countrywise Compliance</p>
               <p>

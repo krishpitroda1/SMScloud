@@ -7,7 +7,7 @@ import image3 from '../assets/Events/i3.png'
 import image4 from '../assets/Events/i4.webp'
 import image5 from '../assets/Events/i5.png'
 import image6 from '../assets/Events/i6.png'
-
+import helmet from 'helmet'
 import { count } from "firebase/firestore";
 const RevealOnScroll = ({ children }) => {
   const [isVisible, setIsVisible] = useState(false);
@@ -47,6 +47,9 @@ function About() {
   },[]);
   return (
     <div className="w-screen  overflow-x-hidden relative p-8 ">
+   <helmet>
+    
+   </helmet>
       <div className="">
         <h1 className="lg:l-5 sm:pl-5 pl-5 align-center text-gray-500 pt-10 text-center p-5  font-bold text-3xl">
         <RevealOnScroll>

@@ -65,7 +65,7 @@ const Voice = () => {
           </p>
         </RevealOnScroll>
     
-        <div className="grid pt-8  lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-3  p-5 lg:pr-8">
+        <div className="grid pt-8  lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-3  p-5 lg:pr-8">
           <div className="benefits rounded-lg  p-5 bg-sky-900 hover:bg-gray-400  text-white">
             <RevealOnScroll>
            <div className='p-2'>

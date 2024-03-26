@@ -6,7 +6,7 @@ function JobCard(props) {
  
   return (
     <div className="mx-40 mb-4 w-[85%]">
-      <div className="flex justify-between items-center px-6 py-7 bg-white text-black hover:bg-gray-300 rounded-md   border-black  border-2 shadow-lg hover:border-blue-500 hover:border-2 hover:translate-y-1 hover:scale-103 hover:cursor-pointer">
+      <div className="lg:flex md:grid md:pt-5 justify-between items-center px-6 py-7 bg-white text-black hover:bg-gray-300 rounded-md   border-black  border-2 shadow-lg hover:border-blue-500 hover:border-2 hover:translate-y-1 hover:scale-103 hover:cursor-pointer">
         <div className=" flex-col lg:flex-col flex md:flex-row  items-start gap-3">
           <h1 className="font-lg font-semibold">{props.title}</h1>
           <p>
@@ -20,7 +20,7 @@ function JobCard(props) {
             ))}
           </div>
         </div>
-        <div className="flex items-center gap-4">
+        <div className="items-center gap-4 pt-5">
           {/* <p className='text-gray-500'>Posted {diffDays} days ago</p> */}
           <Link to="https://forms.gle/752DDE4bXjKqwPoq9">
             <button className="text-blue-500 border border-blue-500 px-10 py-2 rounded-md">
