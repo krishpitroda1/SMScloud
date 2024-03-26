@@ -44,7 +44,7 @@ function Msp(props) {
   return (
     <div>
       <div className="lg:w-[50%] md:w-[70%]  lg:top-[30%] mr-10 lg:left-[30%]  z-10 absolute border border-black">
-        <h1 className=" text-white divs text-2xl  text-center p-5  font-bold   bg-red-200 border-b ">
+        <h1 className=" text-white divs text-lg lg:text-2xl  text-center p-5  font-bold   bg-red-200 border-b ">
           Managed Service 
           <span
             id="close"
