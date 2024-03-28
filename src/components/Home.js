@@ -6,7 +6,7 @@ import Test from "./Test";
 import CountUp from 'react-countup';
 // import ParticlesComponent from "./Particle";
 import posture from '../assets/posture.png'
-import videobg from "../assets/bgvideo.mp4";
+import videobg from "../assets/bg1.mp4";
 import Divs from "./Divs";
 import { useEffect, useState, useRef } from "react";
 
